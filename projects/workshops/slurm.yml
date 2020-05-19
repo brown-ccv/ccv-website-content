@@ -1,0 +1,13 @@
+repo: https://github.com/brown-ccv/slurm
+name: Advanced Slurm
+slug: slurm
+category: High-performance computing
+authors:
+  - name: Helen Kershaw
+    github_user: hkershaw-brown
+description: |
+  This workshop is for people who are already familiar with SLURM, but would
+  like to use SLURM's more powerful features. It covers dependent jobs, job
+  arrays and scripting.
+type: workshop
+group: CCV

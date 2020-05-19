@@ -1,0 +1,14 @@
+repo: https://github.com/dscov-tutorials/intro-to-jupyter-and-conda
+name: Introduction to Jupyter and Conda
+slug: jupyter_conda
+category: Data Science
+authors:
+  - name: Andrew Leith
+    github_user: andrew-leith
+description: |
+  This repository contains various tutorials for installing and configuring
+  Jupyter and Conda, the tools used in the Computational Biology Core's
+  workshops.
+docs: https://compbiocore.github.io/intro-to-jupyter-and-conda
+type: tutorial
+group: CBC

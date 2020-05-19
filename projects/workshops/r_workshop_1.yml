@@ -1,0 +1,13 @@
+repo: https://github.com/compbiocore/r-workshop-1
+name: Fundamentals of R Workshop
+slug: r_lang
+category: Data Science
+authors:
+  - name: Joselynn Wallace
+    github_user: jrwallace
+description: |
+  This workshop serves as an introduction to the R programming language for
+  those with little to no experience in its use.
+docs: https://compbiocore.github.io/r-workshop-1
+type: workshop
+group: CBC

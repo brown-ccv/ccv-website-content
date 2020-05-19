@@ -1,0 +1,15 @@
+repo: https://github.com/dscov-tutorials/vega
+name: Basics of Data Exploration and Visualization with Vega
+slug: vega
+category: Data Visualization
+authors:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+description: |
+  Vega is an interactive grammar of graphics for creating, saving, and sharing
+  visualizations.  In this workshop, we’ll explore a dataset with DataVoyager,
+  create an interactive flight map with Vega, and show how to use Vega with
+  JavaScript, Julia, Python, and R.
+docs: https://bit.ly/2ItYMfd
+type: workshop
+group: DSCOV

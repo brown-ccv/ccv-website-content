@@ -1,0 +1,15 @@
+repo: VR_Getting_Started
+name: Getting Started with Virtual Reality
+slug: vr_getting_started
+category: Data Visualization
+authors:
+  - name: Ben Knörlein
+    github_user: BenKnorlein
+description: |
+  This workshop will provide an introduction to Virtual Reality and how it can
+  easily be applied to research. We will demonstrate 3 programs that can be used
+  to visualize and interact with data in VR: Paraview
+  (scientific  visualization), A-Frame (web visualization), and Unity3D (game
+  development platform)
+type: workshop
+group: DSCOV

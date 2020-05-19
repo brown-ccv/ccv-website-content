@@ -1,0 +1,34 @@
+repo: "https://github.com/brown-ccv/ccv-con"
+name: "CCV-Con Slide Archive"
+slug: ccvcon
+group: CCV
+category: Conference
+image: https://raw.githubusercontent.com/brown-ccv/ccvcon-website/develop/themes/brown-simple/static/images/og-image.png
+authors:
+  - name: "Fernando Gelin"
+    github_user: fernandogelin
+  - name: "Mary McGrath"
+    github_user: mcmcgrath13
+  - name: "Paul Stey"
+    github_user: paulstey
+description: "This repo houses links to the publically available slides from presentations at the CCV-Con Conference at Brown University."
+details: |
+  # CCV-Con 2019
+
+  1. Reproducible Research
+  	- Bradford Roarr [_Enhancing Reproducibility with Containers_](https://5db6de79de85e000083a776a--compassionate-kowalevski-1ac5e1.netlify.com/)
+  	- Ashok Ragavendran, Ph.D. [_Reproducible Bioinformatics with BioFlows_](https://drive.google.com/a/brown.edu/file/d/1cWXkMnmde4QUVfB4JgMTXuj3Z6ogIwOg/view?usp=sharing)
+  	- Joselynn Wallace, Ph.D. [_RefChef - Reference Management Tool_](https://drive.google.com/a/brown.edu/file/d/12p42qlyA7l209weChdhwuPXKKfxd31J6/view?usp=sharing)
+  	- Mary McGrath & Maura Driscoll [_Introduction to Visualization on the Web_](https://drive.google.com/a/brown.edu/file/d/12nlTfhQJych7rNNfUmAjT3zGLEm653vV/view?usp=sharing)
+  2. [Research Infrastructure](https://docs.google.com/presentation/d/1OgVdsf8OHWLMj9G1pBlwynaNGBs4pBaNhh3vNq1pcoM/edit?usp=sharing)
+  3. Machine Learning
+  	- Pinar Demetci et al. [_Biologically Annotated Neural Networks for Multi-Scale Genomic Association Discovery_](https://drive.google.com/a/brown.edu/file/d/1eYY37sQfi93rOO1536k0LFxNJ4fbJQb_/view?usp=sharing)
+  	- August Guang, Ph.D. [_Is this a Tipping Point, or am I Just Biased_](https://drive.google.com/a/brown.edu/file/d/1WxSOIJxLB0IYF6nJL6wsoSXh7Z5ev6rG/view?usp=sharing)
+  	- Dan Spade, Ph.D., Sam Bell, Ph.D., Andras Zsom, Ph.D. [_Identifying a Rare Cell Type in Histological Sections Using Neural Networks_](https://drive.google.com/a/brown.edu/file/d/1nb1xAESPQjD6Y5-oErq2PeeZM7VfD5Pm/view?usp=sharing)
+  4. High-Performance Computing
+  	- Will Taylor [_Data Processing in the LUX Experiment_](https://drive.google.com/a/brown.edu/file/d/1dmrK2JlEQNYnmdTohgWtm8nlbwQLNRVc/view?usp=sharing)
+  	- Swathi Penumutchu [_Demystifying Gut Microbiome with Metagenomics_](https://drive.google.com/a/brown.edu/file/d/1eh3VOEnY8OIskLAsOVRy9L50iJj7o5oj/view?usp=sharing)
+  	- Raj Shukla, Ph.D., George E. Karniadakis, Ph.D., Helen Kershaw, Ph.D. [Physics-Informed Neural Networks (PINN) and a Data Parallel GPU Based Approach](https://drive.google.com/a/brown.edu/file/d/1oxlnuvF1FRReKOVyhiPt-dCivstgOIfQ/view?usp=sharing)
+  5. Research Infrastructure & Keynote
+  	- Sam Fulcomer [_Oscar Systems_](https://drive.google.com/a/brown.edu/file/d/1nayrGujZymJju_sVkR06gg_54Nwh9OW1/view?usp=sharing)
+  	- David Rand, Ph.D., et al. [_Computing and Visualizing Genes as Environments: An Experimental Approach Using Drosophila_](https://drive.google.com/a/brown.edu/file/d/1wLdqsnGvBc6AzfuYOsjS0vlDjZXrVlI2/view?usp=sharing)

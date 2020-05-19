@@ -1,0 +1,12 @@
+repo: https://github.com/compbiocore/qckitfastq
+name: qckitfastq
+slug: qckitfastq
+category: Computational Biology
+authors:
+  - name: August Guang
+    github_user: aguang
+description: A comprehensive quality control R package for Next Generation Sequencing FASTQ
+  data.
+docs: https://compbiocore.github.io/qckitfastq
+type: software
+group: CBC

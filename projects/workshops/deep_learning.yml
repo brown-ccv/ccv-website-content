@@ -1,0 +1,10 @@
+repo: https://github.com/dscov-tutorials/deep_learning
+name: Keras Tutorial
+slug: keras
+category: Data Science
+authors:
+  - name: Drew Linsley
+    github_user: drewlinsley
+description: Deep learning with Keras/Tensorflow
+type: workshop
+group: DSCOV

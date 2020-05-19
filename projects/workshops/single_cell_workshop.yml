@@ -1,0 +1,14 @@
+repo: https://github.com/compbiocore/single-cell-workshop
+name: Single-Cell RNA-seq Workshop
+slug: single_cell_rna
+category: Computational Biology
+authors:
+  - name: Andrew Leith
+    github_user: andrew-leith
+description: This workshop serves as an introduction to the tools associated with 10x-based
+  single-cell analysis in R; it is an intermediate-level lecture that
+  presupposes some knowledge of R like that found in our 'Fundamentals of R'
+  workshop.
+docs: https://compbiocore.github.io/single-cell-workshop
+type: workshop
+group: CBC

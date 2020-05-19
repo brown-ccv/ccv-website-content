@@ -1,0 +1,15 @@
+repo: https://github.com/compbiocore/bioconductor-workshop-2
+name: Analyses of RNA-seq and ChiP-seq with R/Bioconductor
+slug: bioconductor2
+category: Computational Biology
+authors:
+  - name: Andrew Leith
+    github_user: andrew-leith
+description: |
+  This workshop is designed to expand upon the Bioconductor training provided in
+  the first Bioconductor workshop; it is an intermediate-level lecture that
+  presupposes some knowledge of R like that found in our 'Fundamentals of R'
+  workshop.
+docs: https://compbiocore.github.io/bioconductor-workshop-2
+type: workshop
+group: CBC

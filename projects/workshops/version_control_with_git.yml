@@ -1,0 +1,10 @@
+repo: https://github.com/brown-ccv/version-control-with-git
+name: Version Control with Git
+slug: vc_git
+category: Software Engineering
+authors:
+  - name: Helen Kershaw
+    github_user: hkershaw-brown
+description: A practical introduction to version control using Git
+type: workshop
+group: CCV

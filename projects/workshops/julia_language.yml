@@ -1,0 +1,15 @@
+repo: https://github.com/dscov-tutorials/julia_language
+name: Solving the Two-Language Problem with Julia
+slug: julia_language
+category: Data Science
+authors:
+  - name: Paul Stey
+    github_user: paulstey
+description: The Julia language aims to give its users the rare combination of exceptional
+  performance and expressiveness. Its syntax is similar to MATLAB or Python, but
+  its performance is on the order of C, Fortran, or C++. This tutorial provides
+  an introduction to Julia, explores its many features, and demonstrates its
+  advantages for data science and technical computing more broadly. No prior
+  experience with Julia is required.
+type: workshop
+group: DSCOV

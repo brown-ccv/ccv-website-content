@@ -1,0 +1,13 @@
+repo: https://github.com/brown-ccv/react-aframe-volume-renderer
+name: Volume Renderer
+slug: volume_renderer
+category: Data Visualization
+authors:
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+  - name: Ben Knorlein
+    github_user: BenKnorlein
+description: This project is an effort to integrate data visualization on VR and web
+  browser technologies. It was developed using React-JS and AFrame.
+type: software
+group: CCV

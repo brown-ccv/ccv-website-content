@@ -1,0 +1,15 @@
+repo: https://github.com/brown-ccv/nlp_workshop_material
+name: Introduction to python, natural language processing, and machine learning
+slug: nlp
+category: Data Science
+authors:
+  - name: Andras Zsom
+    github_user: azsom
+  - name: Ashley Lee
+    github_user: alee35
+description: |
+  A two week summer workshop with the goal to introduce the participants to
+  python and the most important aspects of natural language processing and
+  machine learning.
+type: workshop
+group: CCV

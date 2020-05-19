@@ -1,0 +1,13 @@
+repo: https://github.com/compbiocore/deseq-workshop-1
+name: RNA-seq QC and Exploratory Data Analysis Using Bioconductor Workshop
+slug: rnaseq_eda
+category: Computational Biology
+authors:
+  - name: Andrew Leith
+  - name: Levi Waldron
+description: This workshop is designed to introduce the process of conducting exploratory
+  data analysis in an RNA-seq analysis workflow.  It is the first part of a
+  series of two workshops that combine to form the full analysis workflow.
+docs: https://compbiocore.github.io/deseq-workshop-1
+type: workshop
+group: CBC

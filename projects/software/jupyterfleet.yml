@@ -1,0 +1,11 @@
+repo: https://github.com/compbiocore/jupyterfleet
+name: JupyterFleet
+slug: jupyterfleet
+category: Software Engineering
+authors:
+  - name: Andrew Leith
+    github_user: andrew-leith
+description: Software for Automating Jupyter Deployment on AWS.
+docs: https://compbiocore.github.io/jupyterfleet
+type: software
+group: CBC

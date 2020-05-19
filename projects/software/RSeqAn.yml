@@ -1,0 +1,12 @@
+repo: https://github.com/compbiocore/RSeqAn
+name: RSeqAn
+slug: rseqan
+category: Computational Biology
+authors:
+  - name: August Guang
+    github_user: aguang
+description: Wrappers for the SeqAn library for use in R with Rcpp.
+docs: https://compbiocore.github.io/RSeqAn
+doi: 10.21105/joss.01160
+type: software
+group: CBC

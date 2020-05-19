@@ -1,0 +1,12 @@
+repo: https://github.com/compbiocore/cbc-linux-tutorial
+name: Command-Line Bioinformatics Primer
+slug: command_line_bio
+category: Computational Biology
+authors:
+  - name: Andrew Leith
+    github_user: andrew-leith
+description: Introduction to command line tools that are used in bioinformatics and
+  computational biology.
+docs: https://compbiocore.github.io/cbc-linux-tutorial
+type: tutorial
+group: CBC

@@ -1,0 +1,12 @@
+repo: https://github.com/compbiocore/tidyverse
+name: Tidying, transforming and visualizing data with tidyverse in R
+slug: tideverse2
+category: Data Science
+authors:
+  - name: August Guang
+    github_user: aguang
+description: |
+  This workshop is designed to introduce ggplot2 and the tidyverse paradigm for
+  transforming and visualization data in R.
+type: workshop
+group: DSCOV

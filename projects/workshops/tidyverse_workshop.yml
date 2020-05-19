@@ -1,0 +1,13 @@
+repo: https://github.com/compbiocore/tidyverse-workshop
+name: Visualization in R with tidyverse
+slug: tidyverse
+category: Data Science
+authors:
+  - name: August Guang
+    github_user: aguang
+description: |
+  This workshop is designed to introduce ggplot2 and the tidyverse paradigm for
+  transforming and visualization data in R.
+docs: https://compbiocore.github.io/tidyverse-workshop
+type: workshop
+group: CBC
