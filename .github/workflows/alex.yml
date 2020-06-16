@@ -16,3 +16,4 @@ jobs:
       uses: brown-ccv/alex-recommends@v1.0.0
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        pr_only: false
