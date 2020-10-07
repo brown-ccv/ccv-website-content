@@ -1,5 +1,5 @@
 repo: https://github.com/compbiocore/deseq-workshop-1
-name: RNA-seq QC and Exploratory Data Analysis Using Bioconductor Workshop
+title: RNA-seq QC and Exploratory Data Analysis Using Bioconductor Workshop
 slug: rnaseq_eda
 category: Computational Biology
 authors:

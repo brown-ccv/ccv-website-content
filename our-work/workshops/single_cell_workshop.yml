@@ -1,5 +1,5 @@
 repo: https://github.com/compbiocore/single-cell-workshop
-name: Single-Cell RNA-seq Workshop
+title: Single-Cell RNA-seq Workshop
 slug: single_cell_rna
 category: Computational Biology
 authors:

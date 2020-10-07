@@ -15,7 +15,6 @@ weight: 0
 
 Available to all Brown faculty, staff, and their colleagues, CCV's BrownBox service lets you share files that are up to 2GB in size.
 
-{{%  button text="Login to Brown Box" href="https://brownbox.brown.edu" %}}
 
 ### Restrictions
 - File retention: <b>30 days</b>  

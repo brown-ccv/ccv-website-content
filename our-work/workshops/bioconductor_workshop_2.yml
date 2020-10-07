@@ -1,5 +1,5 @@
 repo: https://github.com/compbiocore/bioconductor-workshop-2
-name: Analyses of RNA-seq and ChiP-seq with R/Bioconductor
+title: Analyses of RNA-seq and ChiP-seq with R/Bioconductor
 slug: bioconductor2
 category: Computational Biology
 authors:

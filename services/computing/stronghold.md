@@ -38,4 +38,4 @@ Each Principal Investigator (PI) is given a dedicated environment for their proj
 security group membership, user login times, and user file transfer activity
 Dual Firewall -  Provides added layer of security for traffic coming in and out of your system
 
-{{< button text="Request an Environment" href="https://brown.edu/go/stronghold">}}
+<a href="https://brown.edu/go/stronghold">Request an Environment</a>

@@ -12,13 +12,9 @@ lead: Research computing cluster featuring more than 300 multi-core nodes, GPU n
 haas: true
 docs_link: oscar
 ---
-{{% lead %}}
 The high-performance computing (HPC) resources at CCV equip the Brown research community with the tools they need to perform complex numerical simulations, modeling, and data analysis. Oscar, CCV's primary research computing cluster, consists of more than 300 multi-core nodes sharing a high-performance interconnect and file system.
 
-{{% /lead %}}
 
-
- {{% table c="striped"  hover="true" head="dark"%}}
  Oscar Technical Specifications    |   
  ---------------  |  ------
    Compute Notes    |  334
@@ -30,7 +26,6 @@ The high-performance computing (HPC) resources at CCV equip the Brown research c
    Total Storage (GPFS Filesystem) | 1.7 PB
    OS | RedHat EL 7.3 (Linux)
    Job Scheduler | Slurm Workload Manager
- {{% /table %}}
 
 A large collection of software is available on Oscar, and CCV staff can help acquire and install most applications upon request.
 
@@ -47,4 +42,4 @@ A large collection of software is available on Oscar, and CCV staff can help acq
 * Paraview
 
 <!-- {{< account_form >}} -->
-{{< button text="Request an Account" href="https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B">}}
+<a href="https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B">Request an Account</a>

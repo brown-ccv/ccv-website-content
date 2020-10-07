@@ -1,5 +1,5 @@
 repo: https://github.com/compbiocore/tidyverse
-name: Tidying, transforming and visualizing data with tidyverse in R
+title: Tidying, transforming and visualizing data with tidyverse in R
 slug: tideverse2
 category: Data Science
 authors:

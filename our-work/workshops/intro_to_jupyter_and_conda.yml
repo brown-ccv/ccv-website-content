@@ -1,5 +1,5 @@
 repo: https://github.com/dscov-tutorials/intro-to-jupyter-and-conda
-name: Introduction to Jupyter and Conda
+title: Introduction to Jupyter and Conda
 slug: jupyter_conda
 category: Data Science
 authors:

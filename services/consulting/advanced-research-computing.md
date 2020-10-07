@@ -44,7 +44,7 @@ The Computational Biology Core provides assistance in experimental design and da
 - Technology Assessment
 - Software Engineering
 
-{{< button text="Computational Biology Core Website" href="https://cbc.brown.edu">}}
+<a href="https://cbc.brown.edu">Computational Biology Core Website</a>
 
 
 ----
@@ -61,30 +61,31 @@ We also have long-running collaborations with researchers in Neuroscience, Socio
 
 ------
 ## Our Teams
-{{< flexrow >}}
-{{< tile name="Computational Biology Core" lead="Ashok Ragavendran" color="blue">}}
+
+> Computational Biology Core
+> Ashok Ragavendran
 The COBRE-CBHD Computational Biology Core (CBC) integrates across multiple research focused Centers supporting data-intensive research using high-throughput DNA/RNA sequencing datasets. CBC provides help for experimental design and data processing pipelines for high-throughput datasets generated in individual projects, particularly for DNA/RNA sequencing data.
-{{< button text="CBC Website" href="https://cbc.brown.edu">}}
-{{< /tile >}}
-{{< tile name="Data & Visualization" lead="Isabel Restrepo" color="yellow">}}
+
+> Data & Visualization
+> Isabel Restrepo
 We partner with Brown’s researchers and academic community to bring modern software engineering, visualization, and data science practices to their work. We are software engineers and data scientists with expertise in a broad range of fields, including: visualization techniques, computer vision, computer graphics, web technologies, data management, and data science. We can program in almost any language, and enjoy learning new technologies, documenting, striving for best practices, and especially brewing coffee. Additionally, our group is responsible for supporting and developing applications for the YURT, Brown's state of the art virtual reality theater.
-{{< /tile >}}
-{{< tile name="High-Performance Computing" lead="Helen Kershaw" color="green">}}
+
+> High-Performance Computing
+> Helen Kershaw
 Our software engineers help researchers to get the most out of high-performance computing (HPC) resources. To achieve this, we partner with users to design, debug, and optimize their code to run in an HPC environment. We also collaborate with new and non-traditional HPC users to help them to scale up and accelerate their science.
-{{< /tile >}}
-{{< tile name="Institutional Data Group" lead="Andras Zsom" color="brown">}}
+
+> Institutional Data Group
+> Andras Zsom
 We collaborate and support academic administrators to make better data-driven decisions, and we also collaborate with faculty members on data-intensive projects. We perform exploratory data analysis to better understand datasets, prepare visualizations and dashboards, perform classical statistical analyses, and develop machine learning models.
-{{< /tile >}}
-{{< /flexrow >}}
+
 
 ------
 ##### Outreach
 
 In addition to directly working with researchers, our group also works to to advance best practices in software engineering and promote robust and reproducible research across the university. To that end, we frequently hold workshops that aim to disseminate the current state-of-the-art tools and best practices for data analysis that is both sound and reproducible.
-{{% button text="Check our upcoming events here" href="https://datasci.brown.edu/#section-3"%}}
 
 -------
 ### Check out our code, containers, and applications!
 -------
 
-[GitHub {{% fab github %}}](https://github.com/brown-ccv), [Docker {{% fab docker %}}](https://hub.docker.com/u/browndatasci), [CBC GitHub {{% fab github %}}](https://github.com/compbiocore)
+[GitHub](https://github.com/brown-ccv), [Docker](https://hub.docker.com/u/browndatasci), [CBC GitHub](https://github.com/compbiocore)

@@ -1,5 +1,5 @@
 repo: https://github.com/compbiocore/bioconductor-workshop-1
-name: R/Bioconductor Workshop for Genomic Data Analysis
+title: R/Bioconductor Workshop for Genomic Data Analysis
 slug: bioconductor1
 category: Computational Biology
 authors:
