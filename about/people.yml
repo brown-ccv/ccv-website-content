@@ -1,4 +1,7 @@
 title: People
+fa:
+  prefix: fal
+  icon: users
 data:
   - name: Fernando Gelin
     type: Full Time

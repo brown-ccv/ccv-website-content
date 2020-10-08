@@ -1,4 +1,7 @@
 title: Opportunities
+fa:
+  prefix: fal
+  icon: users-plus
 data:
   # - title: Research Services Support Specialist
   #   team: CCV Operations

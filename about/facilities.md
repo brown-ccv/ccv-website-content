@@ -1,9 +1,9 @@
 ---
-title: Facilities
-description: Learn more about CCV's facilities and how to cite CCV.
+title: Facilities Statement
+fa:
+  prefix: fal
+  icon: warehouse
 ---
-
-## Facilities Statement
 
 If you are writing a grant proposal for research that will use CCV facilities, please use the following text as a short description of our facilities:
 
