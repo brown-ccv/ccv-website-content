@@ -12,7 +12,7 @@ If you are writing a grant proposal for research that will use CCV facilities, p
 
 **Please contact us if you need a more detailed description.**
 
-## How to Cite CCV
+### How to Cite CCV
 
 If you publish research that benefited from the use of CCV services or resources, we would greatly appreciate an acknowledgment that states:  
 
