@@ -1,16 +1,9 @@
 ---
 title: Globus
-
-tagTitle: Globus
-tagDescription: Transfer files asynchronously and securely
-
-date: 2020-05-05 18:29:17 +0000
-category: File Storage and Transfer
-icon: database
-lead: Transfer files asynchronously and securely
-weight: 0
-docs_link: globus
-
+description: Transfer files asynchronously and securely
+fa:
+  prefix: fal
+  icon: box-alt
 ---
 # Globus
 

@@ -1,15 +1,9 @@
 ---
 title: Campus File Service
-
-tagTitle: Campus File Storage - Center for Computation and Visualization
-tagDescription: Learn more about storing, sharing, and backing up files at Brown with Campus File Storage.
-
-date: 2019-01-22 18:29:08 +0000
-category: File Storage and Transfer
-icon: database2
-lead: Store, share, and back up files
-weight: 1
-haas: true
+description: Learn more about storing, sharing, and backing up files at Brown with Campus File Storage.
+fa:
+  prefix: fal
+  icon: database
 ---
 
 Campus File Storage provides university departments, researchers, and individuals with a location on files.brown.edu in which files can be stored. For departments and researchers, these files can be shared with collaborators who have a Brown account.  
