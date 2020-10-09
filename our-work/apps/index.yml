@@ -1,3 +1,9 @@
-title: Title
-category: Category
-hidden: false
+title: Web Applications
+description: |
+    Check some of the web applications we developed at CCV for our research collaborators.
+fa:
+  prefix: fal
+  icon: browser
+links:
+  - text: go to web applications
+    target: apps

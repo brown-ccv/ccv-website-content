@@ -1,3 +1,9 @@
-title: Title
-category: Category
-hidden: false
+title: Workshops
+description: |
+    List of workshops by CCV and links to the materials
+fa:
+  prefix: fal
+  icon: user-chart
+links:
+  - text: go to workshops
+    target: workshops

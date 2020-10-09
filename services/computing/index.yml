@@ -1,0 +1,13 @@
+title: Computing
+description: |
+  CCV's high-performance computer (Oscar) is only one of many computing services we provide. Check our computing services, inlcuding Stronghold, Cloud Computing, VMs and more.
+fa:
+  prefix: fal
+  icon: server
+links:
+  - text: See all computing services
+    target: computing
+  - text: Oscar documentation
+    target: https://docs.ccv.brown.edu/oscar
+  - text: Stronghold documentation
+    target: https://docs.ccv.brown.edu/stronghold

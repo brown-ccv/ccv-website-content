@@ -1,0 +1,9 @@
+title: Consulting
+description: |
+  We provide support for researchers seeking help with statistical modeling, machine learning, data mining, data visualization, computational biology, high-performance computing, and software engineering. 
+fa:
+  prefix: fal
+  icon: user-ninja
+links:
+  - text: Learn more about our consulting services
+    target: consulting/advanced-research-computing
