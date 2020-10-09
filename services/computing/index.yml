@@ -6,7 +6,7 @@ fa:
   icon: server
 links:
   - text: See all computing services
-    target: computing
+    target: our-work/computing
   - text: Oscar documentation
     target: https://docs.ccv.brown.edu/oscar
   - text: Stronghold documentation

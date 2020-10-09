@@ -7,7 +7,7 @@ fa:
   icon: users-class
 links:
   - text: See all classroom services
-    target: classroom
+    target: services/classroom
   - text: Jupyterhub documentation
     target: https://docs.ccv.brown.edu/jupyterhub
 hidden: false
