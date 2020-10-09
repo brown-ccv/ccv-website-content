@@ -1,15 +1,9 @@
 ---
 title: Student Accounts
-
-tagTitle: Student Accounts - Center for Computation and Visualization
-tagDescription: Learn more about the CCV's HPC resources for classes, workshops, demonstrations, and other instructional uses.
-
-date: 2019-01-24 20:20:17 +0000
-category: Classroom
-lead: Accounts on Brown's HPC systems, custom-tailored for class use
-weight: 0
-icon: users2
-
+description: Learn more about the CCV's HPC resources for classes, workshops, demonstrations, and other instructional uses.
+fa:
+  prefix: fal
+  icon: user-circle
 ---
 CCV provides access to HPC resources for classes, workshops, demonstrations, and other instructional uses.  In general, the system is available for most types of instructional use at Brown where HPC resources are required, and we will do what we can to provide the resources necessary to help teach your class.  We do ask that you follow these guidelines to help us better support your class.
 
