@@ -5,7 +5,7 @@ description: |
   for data security
 fa:
   prefix: fal
-  icon: user-circle
+  icon: shield-alt
 extra:
   text: CIS Risk Classification
   link: "https://it.brown.edu/computing-policies/risk-classifications"
