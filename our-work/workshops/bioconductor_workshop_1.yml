@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/bioconductor-workshop-1
 title: R/Bioconductor Workshop for Genomic Data Analysis
 slug: bioconductor1
 category: Computational Biology
@@ -9,6 +8,8 @@ description: |
   This workshop is designed to introduce attendees to Bioconductor and a variety
   of its use cases; it is an intermediate-level lecture that presupposes some
   knowledge of R like that found in our 'Fundamentals of R' workshop.
-docs: https://compbiocore.github.io/bioconductor-workshop-1
 type: workshop
 group: CBC
+links:
+  repository: https://github.com/compbiocore/bioconductor-workshop-1
+  documentation: https://compbiocore.github.io/bioconductor-workshop-1

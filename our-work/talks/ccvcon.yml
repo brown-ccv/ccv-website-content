@@ -1,8 +1,7 @@
-repo: "https://github.com/brown-ccv/ccv-con"
 title: "CCV-Con Slide Archive"
 slug: ccvcon
 group: CCV
-category: Conference
+category: Conferences
 image: https://raw.githubusercontent.com/brown-ccv/ccvcon-website/develop/themes/brown-simple/static/images/og-image.png
 authors:
   - name: "Fernando Gelin"
@@ -11,6 +10,8 @@ authors:
     github_user: mcmcgrath13
   - name: "Paul Stey"
     github_user: paulstey
+links:
+  repository: https://github.com/brown-ccv/ccv-con
 description: "This repo houses links to the publically available slides from presentations at the CCV-Con Conference at Brown University."
 details: |
   # CCV-Con 2019

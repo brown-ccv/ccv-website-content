@@ -1,4 +1,3 @@
-repo: https://github.com/dscov-tutorials/vega
 title: Basics of Data Exploration and Visualization with Vega
 slug: vega
 category: Data Visualization
@@ -10,6 +9,9 @@ description: |
   visualizations.  In this workshop, we’ll explore a dataset with DataVoyager,
   create an interactive flight map with Vega, and show how to use Vega with
   JavaScript, Julia, Python, and R.
-docs: https://bit.ly/2ItYMfd
 type: workshop
 group: DSCOV
+links:
+  repository: https://github.com/dscov-tutorials/vega
+  other: 
+    - https://bit.ly/2ItYMfd

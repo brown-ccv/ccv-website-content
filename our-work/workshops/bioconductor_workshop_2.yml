@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/bioconductor-workshop-2
 title: Analyses of RNA-seq and ChiP-seq with R/Bioconductor
 slug: bioconductor2
 category: Computational Biology
@@ -10,6 +9,8 @@ description: |
   the first Bioconductor workshop; it is an intermediate-level lecture that
   presupposes some knowledge of R like that found in our 'Fundamentals of R'
   workshop.
-docs: https://compbiocore.github.io/bioconductor-workshop-2
 type: workshop
 group: CBC
+links:
+  repository: https://github.com/compbiocore/bioconductor-workshop-2
+  documentation: https://compbiocore.github.io/bioconductor-workshop-2

@@ -8,9 +8,12 @@ authors:
 description: |
   This workshop is designed to introduce the QIIME and dada2 pipelines for
   analyzing metagenomics data.  A full video of this workshop can be found at
-  the following URLs: https://www.youtube.com/watch?v=LUS62N7tSUU
-  https://www.youtube.com/watch?v=nWeRN2lKIto
-  https://www.youtube.com/watch?v=wV5_z7rR6yw
-docs: https://compbiocore.github.io/metagenomics-workshop
+  the following links below.
 type: workshop
 group: CBC
+links:
+  documentation: https://compbiocore.github.io/metagenomics-workshop
+  other:
+    - https://www.youtube.com/watch?v=LUS62N7tSUU
+    - https://www.youtube.com/watch?v=nWeRN2lKIto
+    - https://www.youtube.com/watch?v=wV5_z7rR6yw

@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/tidyverse-workshop
 title: Visualization in R with tidyverse
 slug: tidyverse
 category: Data Science
@@ -8,6 +7,8 @@ authors:
 description: |
   This workshop is designed to introduce ggplot2 and the tidyverse paradigm for
   transforming and visualization data in R.
-docs: https://compbiocore.github.io/tidyverse-workshop
 type: workshop
 group: CBC
+links:
+  repository: https://github.com/compbiocore/tidyverse-workshop
+  documentation: https://compbiocore.github.io/tidyverse-workshop

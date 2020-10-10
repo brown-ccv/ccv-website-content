@@ -1,4 +1,3 @@
-repo: https://github.com/brown-ccv/react-aframe-volume-renderer
 title: Volume Renderer
 slug: volume_renderer
 category: Data Visualization
@@ -11,3 +10,6 @@ description: This project is an effort to integrate data visualization on VR and
   browser technologies. It was developed using React-JS and AFrame.
 type: software
 group: CCV
+links:
+  repository: https://github.com/brown-ccv/react-aframe-volume-renderer
+  website: 

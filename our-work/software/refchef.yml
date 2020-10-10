@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/refchef
 title: RefChef
 slug: refchef
 category: Computational Biology
@@ -12,7 +11,11 @@ description: |
   undertaken in the retrieval of genomic references; (2) maintain the associated
   metadata; (3) provide a mechanism for automatically reproducing retrieval and
   creation of an exact copy of genomic references.
-docs: https://compbiocore.github.io/refchef
 type: software
 pypi: true
 group: CBC
+links:
+  repository: https://github.com/compbiocore/refchef
+  documentation: https://compbiocore.github.io/refchef
+  doi: 
+  publication: 

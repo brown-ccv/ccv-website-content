@@ -1,4 +1,3 @@
-repo: https://github.com/dscov-tutorials/julia_language
 title: Solving the Two-Language Problem with Julia
 slug: julia_language
 category: Data Science
@@ -13,3 +12,5 @@ description: The Julia language aims to give its users the rare combination of e
   experience with Julia is required.
 type: workshop
 group: DSCOV
+links:
+  repository: https://github.com/dscov-tutorials/julia_language

@@ -1,4 +1,3 @@
-repo: https://github.com/dscov-tutorials/gcp-intro
 title: Cloud computing with GCP
 slug: gcp_intro
 category: Cloud Computing
@@ -8,6 +7,9 @@ authors:
 description: This workshop provides an introduction to Google Cloud Platform. We will gain
   familirity with Google Cloud Console and the basics of interacting and using
   Google's Compute Engine
-docs: http://bit.ly/dscov-gcp
 type: workshop
 group: DSCOV
+links:
+  repository: https://github.com/dscov-tutorials/gcp-intro
+  other: 
+    - http://bit.ly/dscov-gcp

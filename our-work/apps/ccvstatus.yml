@@ -1,4 +1,3 @@
-repo: https://github.com/brown-ccv/ccv-status-frontend
 title: CCV Status Page
 slug: statuspage
 group: CCV
@@ -8,3 +7,6 @@ authors:
   - name: Fernando Gelin
     github_user: fernandogelin
 description: "Simple Ember application that uses the GitHub API as backend to display status of CCV Resources."
+links:
+  repository: https://github.com/brown-ccv/ccv-status-frontend
+  website: https://status.ccv.brown.edu

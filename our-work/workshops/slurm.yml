@@ -1,4 +1,3 @@
-repo: https://github.com/brown-ccv/slurm
 title: Advanced Slurm
 slug: slurm
 category: High-performance computing
@@ -11,3 +10,5 @@ description: |
   arrays and scripting.
 type: workshop
 group: CCV
+links:
+  repository: https://github.com/brown-ccv/slurm

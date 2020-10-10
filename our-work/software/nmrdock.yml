@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/nmrdock
 title: NMRdock
 slug: nmrdock
 category: Computational Biology
@@ -12,6 +11,10 @@ description: |
   containing a variety of tools for analyzing NMR data both from the command
   line and via GUI. The site contains screenshots and video in addition to the
   standard narrative documentation.
-docs: https://compbiocore.github.io/nmrdock
 type: software
 group: CBC
+links:
+  repository: https://github.com/compbiocore/nmrdock
+  documentation: https://compbiocore.github.io/nmrdock
+  doi: 
+  publication: 

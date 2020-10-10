@@ -1,4 +1,3 @@
-repo: https://github.com/brown-ccv/version-control-with-git
 title: Version Control with Git
 slug: vc_git
 category: Software Engineering
@@ -8,3 +7,5 @@ authors:
 description: A practical introduction to version control using Git
 type: workshop
 group: CCV
+links:
+  repository: https://github.com/brown-ccv/version-control-with-git

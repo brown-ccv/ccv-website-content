@@ -1,4 +1,3 @@
-repo: https://github.com/brown-ccv/nlp_workshop_material
 title: Introduction to python, natural language processing, and machine learning
 slug: nlp
 category: Data Science
@@ -13,3 +12,5 @@ description: |
   machine learning.
 type: workshop
 group: CCV
+links:
+  repository: https://github.com/brown-ccv/nlp_workshop_material

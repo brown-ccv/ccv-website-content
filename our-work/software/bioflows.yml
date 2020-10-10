@@ -9,7 +9,7 @@ description: |
   module for automating SRA downloads and 3) External tools are made available
   as CONDA packages along with the tool.
 links:
-  url: https://github.com/compbiocore/bioflows
-  docs: https://compbiocore.github.io/bioflows/
+  repository: https://github.com/compbiocore/bioflows
+  documentation: https://compbiocore.github.io/bioflows/
   doi: 
   publication: 

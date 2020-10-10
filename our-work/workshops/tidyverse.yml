@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/tidyverse
 title: Tidying, transforming and visualizing data with tidyverse in R
 slug: tideverse2
 category: Data Science
@@ -10,3 +9,5 @@ description: |
   transforming and visualization data in R.
 type: workshop
 group: DSCOV
+links:
+  repository: https://github.com/compbiocore/tidyverse

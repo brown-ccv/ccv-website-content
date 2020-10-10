@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/deseq-workshop-2
 title: Differential Expression Analysis Using Bioconductor Workshop
 slug: diffeq_bioconductor
 category: Computational Biology
@@ -8,6 +7,8 @@ authors:
 description: This workshop is designed to introduce the process of differential expression
   and ontology analysis in an RNA-seq analysis workflow.  It is the second part
   of a series of two workshops that combine to form the full analysis workflow.
-docs: https://compbiocore.github.io/deseq-workshop-2
 type: workshop
 group: CBC
+links:
+  repository: https://github.com/compbiocore/deseq-workshop-2
+  documentation: https://compbiocore.github.io/deseq-workshop-2

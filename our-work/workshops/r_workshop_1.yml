@@ -1,4 +1,3 @@
-repo: https://github.com/compbiocore/r-workshop-1
 title: Fundamentals of R Workshop
 slug: r_lang
 category: Data Science
@@ -8,6 +7,8 @@ authors:
 description: |
   This workshop serves as an introduction to the R programming language for
   those with little to no experience in its use.
-docs: https://compbiocore.github.io/r-workshop-1
 type: workshop
 group: CBC
+links:
+  repository: https://github.com/compbiocore/r-workshop-1
+  documentation: https://compbiocore.github.io/r-workshop-1
