@@ -7,3 +7,221 @@ fa:
 links:
   - text: check our storage options
     target: services/file-storage-and-transfer
+
+services:
+  - service: google_drive
+    features:
+      - name: relative_speed
+        class: fast
+        notes:
+      - name: collaborative_edits
+        class: true
+        notes: 
+      - name: shareable_by_link
+        class: true
+        notes:
+      - name: data_protection
+        class: true 
+        notes: 
+          - up to 60 days
+      - name: secondary_site_backup
+        class: false
+        notes:
+      - name: brown_network
+        class: false
+        notes:
+      - name: access_from_oscar
+        class: partial 
+        notes: 
+          - accessible via API
+      - name: security features
+        class: 
+        notes: 
+          - prevent editors from resharing
+          - set expiration date
+      - name: data risk
+        class:
+        notes:
+      - name: storage
+        class: unlimited
+        notes: 
+          - per user
+      - name: max_file_size
+        class: 5 TB
+        notes:
+
+  - service: campus_file_storage_falsenreplicated
+    features:
+      - name: relative_speed
+        class: faster
+        notes:
+      - name: collaborative_edits
+        class: false
+        notes: 
+      - name: shareable_by_link
+        class: true
+        notes:
+          - via Globus
+      - name: data_protection
+        class: true 
+        notes: 
+          - up to 60 days
+      - name: secondary_site_backup
+        class: false
+        notes:
+      - name: brown_network
+        class: true
+        notes:
+          - except with Globus
+      - name: access_from_oscar
+        class: partial 
+        notes: 
+          - accessible on transfer falsedes
+      - name: security features
+        class: 
+        notes: 
+          - Access controlled by Brown Authentication and Security groups
+      - name: data risk
+        class:
+        notes:
+      - name: storage
+        class: 2 TB +
+        notes: 
+          - 2 TB per PI
+          - 20 TB per grant
+          - Paid after that @ $50/TB/Yr. (Consolidated across all paid storage types.)
+      - name: max_file_size
+        class: 9 XB
+        notes:
+          - 1 TB for best performance
+
+  - service: campus_file_storage_replicated
+    features:
+      - name: relative_speed
+        class: faster
+        notes:
+      - name: collaborative_edits
+        class: false
+        notes: 
+      - name: shareable_by_link
+        class: true
+        notes:
+          - via Globus
+      - name: data_protection
+        class: true 
+        notes: 
+          - up to 60 days
+      - name: secondary_site_backup
+        class: false
+        notes:
+      - name: brown_network
+        class: true
+        notes:
+          - except with Globus
+      - name: access_from_oscar
+        class: partial 
+        notes: 
+          - accessible on transfer falsedes
+      - name: security features
+        class: 
+        notes: 
+          - Access controlled by Brown Authentication and Security groups
+      - name: data risk
+        class:
+        notes:
+      - name: storage
+        class: 1 TB +
+        notes: 
+          - 1 TB per PI
+          - 10 TB per grant
+          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+      - name: max_file_size
+        class: 4 TB
+        notes:
+          - 1 TB for best performance
+
+  - service: research_data_storage
+    features:
+      - name: relative_speed
+        class: fastest
+        notes:
+      - name: collaborative_edits
+        class: false
+        notes: 
+      - name: shareable_by_link
+        class: true
+        notes:
+          - via Globus
+      - name: data_protection
+        class: true 
+        notes: 
+          - daily snapshots with 7 days retention
+      - name: secondary_site_backup
+        class: true
+        notes:
+      - name: brown_network
+        class: true
+        notes:
+          - except with Globus
+      - name: access_from_oscar
+        class: partial 
+        notes: 
+          - accessible on transfer falsedes
+      - name: security features
+        class: 
+        notes: 
+          - Access controlled by Brown Authentication and Security groups
+      - name: data risk
+        class:
+        notes:
+      - name: storage
+        class: 1 TB +
+        notes: 
+          - 1 TB per PI
+          - 10 TB per grant
+          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+      - name: max_file_size
+        class: 8 XB
+        notes:
+    
+  - service: stronghold
+    features:
+      - name: relative_speed
+        class: faster
+        notes:
+      - name: collaborative_edits
+        class: false
+        notes: 
+      - name: shareable_by_link
+        class: false
+        notes:
+      - name: data_protection
+        class: true 
+        notes: 
+          - up to 6 weeks
+      - name: secondary_site_backup
+        class: true
+        notes:
+      - name: brown_network
+        class: true
+        notes:
+          - except with Globus
+      - name: access_from_oscar
+        class: false 
+        notes: 
+      - name: security features
+        class: 
+        notes: 
+          - Appropriate for data with strong data compliance requirements PII, HIPAA, etc
+      - name: data risk
+        class: 3
+        notes:
+      - name: storage
+        class: 1 TB +
+        notes: 
+          - 1 TB per PI
+          - 10 TB per grant
+          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+      - name: max_file_size
+        class: 4 TB
+        notes:
