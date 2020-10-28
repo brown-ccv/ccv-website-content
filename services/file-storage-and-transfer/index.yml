@@ -40,7 +40,7 @@ services:
           - prevent editors from resharing
           - set expiration date
       - name: data risk
-        class:
+        class: 2
         notes:
       - name: storage
         class: unlimited
@@ -82,7 +82,7 @@ services:
         notes: 
           - Access controlled by Brown Authentication and Security groups
       - name: data risk
-        class:
+        class: 2
         notes:
       - name: storage
         class: 2 TB +
@@ -127,7 +127,7 @@ services:
         notes: 
           - Access controlled by Brown Authentication and Security groups
       - name: data risk
-        class:
+        class: 2
         notes:
       - name: storage
         class: 1 TB +
@@ -172,7 +172,7 @@ services:
         notes: 
           - Access controlled by Brown Authentication and Security groups
       - name: data risk
-        class:
+        class: 2
         notes:
       - name: storage
         class: 1 TB +
