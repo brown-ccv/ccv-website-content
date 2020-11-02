@@ -255,7 +255,8 @@ questions:
         category_classes:
           - true
       - answer: No
-        category_classes: false
+        category_classes: 
+          - false
       - answer: Not sure
         category_classes:
           - true
