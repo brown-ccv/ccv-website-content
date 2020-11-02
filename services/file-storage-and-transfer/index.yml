@@ -241,12 +241,6 @@ questions:
       - answer: Level 3
         category_classes:
           - 3
-      - answer: Not sure
-        category_classes: 
-          - 0
-          - 1
-          - 2
-          - 3
   - question: Do you need snapshots or replication of your data?
     information:
     affected_category: data_protection
