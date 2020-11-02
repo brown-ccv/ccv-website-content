@@ -290,4 +290,4 @@ questions:
       - answer: No
         category_classes:
           - true
-          - flase
+          - false
