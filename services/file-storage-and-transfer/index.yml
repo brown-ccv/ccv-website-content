@@ -34,14 +34,11 @@ services:
         class: partial 
         notes: 
           - accessible via API
-      - name: security features
-        class: 
+      - name: security
+        class: 2
         notes: 
           - prevent editors from resharing
           - set expiration date
-      - name: data risk
-        class: 2
-        notes:
       - name: storage
         class: unlimited
         notes: 
@@ -77,13 +74,10 @@ services:
         class: partial 
         notes: 
           - accessible on transfer falsedes
-      - name: security features
-        class: 
+      - name: security
+        class: 2
         notes: 
           - Access controlled by Brown Authentication and Security groups
-      - name: data risk
-        class: 2
-        notes:
       - name: storage
         class: 2 TB +
         notes: 
@@ -122,13 +116,10 @@ services:
         class: partial 
         notes: 
           - accessible on transfer falsedes
-      - name: security features
-        class: 
+      - name: security
+        class: 2
         notes: 
           - Access controlled by Brown Authentication and Security groups
-      - name: data risk
-        class: 2
-        notes:
       - name: storage
         class: 1 TB +
         notes: 
@@ -167,13 +158,10 @@ services:
         class: partial 
         notes: 
           - accessible on transfer falsedes
-      - name: security features
-        class: 
+      - name: security
+        class: 2
         notes: 
           - Access controlled by Brown Authentication and Security groups
-      - name: data risk
-        class: 2
-        notes:
       - name: storage
         class: 1 TB +
         notes: 
@@ -209,13 +197,10 @@ services:
       - name: access_from_oscar
         class: false 
         notes: 
-      - name: security features
-        class: 
-        notes: 
-          - Appropriate for data with strong data compliance requirements PII, HIPAA, etc
-      - name: data risk
+      - name: security
         class: 3
         notes:
+          - Appropriate for data with strong data compliance requirements PII, HIPAA, etc
       - name: storage
         class: 1 TB +
         notes: 
@@ -225,3 +210,89 @@ services:
       - name: max_file_size
         class: 4 TB
         notes:
+
+questions:
+  - question: What is the classification of your data?
+    information: |
+      Brown has classified its information assets into one of four risk-based categories 
+      (No Risk, Level 1, Level 2, or Level 3) for the purpose of determining who is allowed 
+      to access the information and what security precautions must be taken to protect it 
+      against unauthorized access. It is the data and service owner’s responsibility to ensure 
+      appropriate security measures are taken depending on the risk classification. If you 
+      have any questions or need help, please reach out to the Information Security Group 
+      (isg@brown.edu). [Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)
+    affected_category: security
+    answers:
+      - answer: No Risk
+        category_classes: 
+          - 0
+          - 1
+          - 2
+          - 3
+      - answer: Level 1
+        category_classes:
+          - 1
+          - 2
+          - 3
+      - answer: Level 2
+        category_classes:
+          - 2
+          - 3
+      - answer: Level 3
+        category_classes:
+          - 3
+      - answer: Not sure
+        category_classes: 
+          - 0
+          - 1
+          - 2
+          - 3
+  - question: Do you need snapshots or replication of your data?
+    information:
+    affected_category: data_protection
+    answers:
+      - answer: Yes
+        category_classes:
+          - true
+      - answer: No
+        category_classes: false
+      - answer: Not sure
+        category_classes:
+          - true
+          - false
+  - question: How much data do you have?
+    information:
+    affected_category: storage
+    answers:
+      - answer: Less than 2 TB 
+        category_classes:
+          - unlimited
+          - 1 TB +
+      - answer: Greater than 2TB
+        category_classes:
+          - unlimited
+          - 2 TB +
+  - question: Do you expect to access from Oscar?
+    information: 
+    affected_category: access_from_oscar
+    answers:
+      - answer: Yes 
+        category_classes:
+          - true
+          - partial
+      - answer: No
+        category_classes:
+          - true
+          - false
+          - partial
+  - question: Do you need to share data via a link?
+    information:
+    affected_category: shareable_by_link
+    answers:
+      - answer: Yes
+        category_classes:
+          - true
+      - answer: No
+        category_classes:
+          - true
+          - flase
