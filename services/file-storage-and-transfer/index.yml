@@ -8,6 +8,11 @@ links:
   - text: check our storage options
     target: services/file-storage-and-transfer
 
+storage_tool_header: |
+  This tool lets you compare the available storage options at Brown. 
+  Answer some of these questions or select services to compare their features
+  and decide which of these services suit your needs.
+
 services:
   - service: google_drive
     features:
@@ -251,6 +256,7 @@ questions:
       - answer: No
         category_classes: 
           - false
+          - true
       - answer: Not sure
         category_classes:
           - true
