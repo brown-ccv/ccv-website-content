@@ -15,6 +15,21 @@ storage_tool_header: |
 
 services:
   - service: google_drive
+    description: |
+      Google Drive gives you unlimited space to store and share documents. 
+      The native Google document formats allow for real-time collaboration and file history. 
+      You can also store unconverted files of various types in your Google Drive. 
+      It's easy to share files with members of the Brown community (including Google Groups) 
+      and non-Brown Google accounts; files can be shared with view-only, comment, or edit access. 
+      Google also has a really nice feature where you can scan in handwritten documents and have 
+      them converted to text. You can access files on the web, through a mobile app, or by 
+      installing Google Drive on your computer (which makes it act like a folder on your 
+      computer).
+      - Best for: Collaboration in native Google files, easy access from anywhere, unlimited storage, sharing with Google Groups.
+      - Limitations: Data transfer speeds may be limited when uploading/downloading large amounts of data, Globus can provide high bandwidth data transfers. 
+      - Rate: Free
+      - More info: [Service Catalog](https://it.brown.edu/services/type/google-drive) | [Documentation](https://ithelp.brown.edu/kb/48-google-drive) | [Redundancy](https://storage.googleapis.com/gfw-touched-accounts-pdfs/google-cloud-security-and-compliance-whitepaper.pdf)
+      
     features:
       - name: relative_speed
         class: fast
@@ -53,6 +68,18 @@ services:
         notes:
 
   - service: campus_file_storage_falsenreplicated
+    description: |
+      File Services for Research provides Brown University research departments with a 
+      location in which files can be stored, backed up, and shared with members of the 
+      Brown community using Brown ID’s and groups.  Space is allocated to each research 
+      lab or PI with an ITHelp request , security groups are required to define access 
+      to the data.   The data is accessible on Brown's campus networks (including VPN and 
+      wireless).
+      - Synonyms: LRS.Brown.EDU, LRSFiles, Qumulo
+      - Best for:  Brown faculty and staff researchers looking to store, share and protect research data. 
+      - Limitations: Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.  
+      - Rate: $50/TB/Year when storing above free/grant allocations
+      - More info: [Documentation](https://docs.google.com/document/d/1IUBLNqXDnCZk1d4A3RlG823IxKTKiWlVc618vTjI170/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service ](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
     features:
       - name: relative_speed
         class: faster
@@ -95,6 +122,19 @@ services:
           - 1 TB for best performance
 
   - service: campus_file_storage_replicated
+    description: |
+      File Services for Research provides Brown University research departments with a 
+      location in which files can be stored, backed up, and shared with members of the 
+      Brown community using Brown ID’s and groups.  Space is allocated to each research 
+      lab or PI with an ITHelp request , security groups are required to define access to 
+      the data.  The data is replicated daily to our disaster recovery site for true 
+      geo-redundant data protection.  The data is accessible on Brown's campus networks 
+      (including VPN and wireless).
+      - Synonyms: Files.Brown.EDU, Files, Isilon
+      - Best for:  Brown faculty and staff researchers looking to store, share and protect research data. 
+      - Limitations:  Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
+      - Rate: $100/TB/Year when storing above free/grant allocations   
+      - More info: [Documentation](https://docs.google.com/document/d/1GiUyKqo6sk9c00tOAkR3Q_GBlBhGs2Ob8EO6pYneNDc/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
     features:
       - name: relative_speed
         class: faster
@@ -137,6 +177,14 @@ services:
           - 1 TB for best performance
 
   - service: research_data_storage
+    description: | 
+      RData is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage / Research instead. You could also use RData for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
+
+      - Synonyms: RDATA, GPFS, HPC Storage, Oscar Storage 
+      - Best for: High performance storage of research data, perform computation on your data using Brown’s supercomputer
+      - Limitations: Not accessible on all campus networks.
+      - Rate: $100/TB/Year when storing above free/grant allocations
+      - More info: [Documentation](https://ccv.brown.edu/services/infrastructure/rdata/) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
     features:
       - name: relative_speed
         class: fastest
@@ -178,6 +226,13 @@ services:
         notes:
     
   - service: stronghold
+    description: |
+      Stronghold is a secure computing and storage environment that enables 
+      Brown researchers to analyze sensitive data while complying with regulatory 
+      or contractual requirements.
+      - Best for: Storing data with data usage agreements, FISMA, etc.
+      - Rate: $100/TB/Year when storing above free/grant allocations
+      - More info: [Service Catalog](https://it.brown.edu/services/type/stronghold-research-environment-data-compliance) | [Request this service](https://www.brown.edu/cis/forms/Stronghold/shold.php)
     features:
       - name: relative_speed
         class: faster
