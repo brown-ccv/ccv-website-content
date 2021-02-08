@@ -67,7 +67,7 @@ services:
         class: 5 TB
         notes:
 
-  - service: campus_file_storage_falsenreplicated
+  - service: campus_file_storage_non-replicated
     description: |
       File Services for Research provides Brown University research departments with a 
       location in which files can be stored, backed up, and shared with members of the 
