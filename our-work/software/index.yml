@@ -2,7 +2,7 @@ title: Software
 description: |
     Check the software that we developed in collaboration with researchers.
 fa:
-  prefix: fal
+  prefix: far
   icon: code-merge
 links:
   - text: go to software

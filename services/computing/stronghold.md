@@ -4,7 +4,7 @@ description: |
   Analyze sensitive data while complying with regulatory or contractual requirements
   for data security
 fa:
-  prefix: fal
+  prefix: far
   icon: shield-alt
 extra:
   text: CIS Risk Classification

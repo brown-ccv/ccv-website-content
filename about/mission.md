@@ -1,7 +1,7 @@
 ---
 title: Mission
 fa:
-  prefix: fal
+  prefix: far
   icon: bullseye-arrow
 ---
 

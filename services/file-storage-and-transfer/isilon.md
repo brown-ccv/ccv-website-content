@@ -2,7 +2,7 @@
 title: Campus File Service
 description: Learn more about storing, sharing, and backing up files at Brown with Campus File Storage.
 fa:
-  prefix: fal
+  prefix: far
   icon: database
 ---
 

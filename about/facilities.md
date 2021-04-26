@@ -1,7 +1,7 @@
 ---
 title: Facilities Statement
 fa:
-  prefix: fal
+  prefix: far
   icon: warehouse
 ---
 
