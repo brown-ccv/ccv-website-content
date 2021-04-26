@@ -4,7 +4,7 @@ description: |
     We have, the Cave, a fully-immersive display system and work with a variety of devices, 
     like VR headsets and holographic displays.
 fa:
-  prefix: far
+  prefix: fas
   icon: cubes
 links:
   - text: learn more about visualization at ccv

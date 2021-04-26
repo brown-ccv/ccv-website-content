@@ -2,7 +2,7 @@
 title: JupyterHub
 description: Learn more about JupyterHub, a convenient way to serve Jupyter Notebooks for multiple users.
 fa:
-  prefix: far
+  prefix: fas
   icon: laptop-code
 ---
 # Introduction

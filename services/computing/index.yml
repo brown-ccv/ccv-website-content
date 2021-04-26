@@ -2,7 +2,7 @@ title: Computing
 description: |
   CCV's high-performance computer (Oscar) is only one of many computing services we provide. Check our computing services, inlcuding Stronghold, Cloud Computing, VMs and more.
 fa:
-  prefix: far
+  prefix: fas
   icon: server
 links:
   - text: See all computing services

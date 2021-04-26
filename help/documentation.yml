@@ -4,5 +4,5 @@ links:
   - text: Check the Docs
     target: https://docs.ccv.brown.edu
 fa:
-  prefix: far
+  prefix: fas
   icon: book-spells

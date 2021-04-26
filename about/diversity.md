@@ -1,7 +1,7 @@
 ---
 title: Diversity Statement
 fa:
-  prefix: far
+  prefix: fas
   icon: heart-circle
 ---
 
