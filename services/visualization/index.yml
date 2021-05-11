@@ -1,11 +1,11 @@
 title: Visualization
 description: |
     CCV has visualization experts working on cutting-edge 3D visualization for research.
-    We have, the Cave, a fully-immersive display system and work with a variety of devices, 
+    We have, the Cave, a fully-immersive display system and work with a variety of devices,
     like VR headsets and holographic displays.
 fa:
   prefix: fas
   icon: cubes
 links:
   - text: learn more about visualization at ccv
-    target: services/visualization
+    target: /services/visualization
