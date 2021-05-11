@@ -265,8 +265,8 @@ services:
 
       LabArchives at Brown provides unlimited storage space. The current size limit per file is 4GB.
 
-      LabArchives at Brown is not approved for storing files containing Personally Identifiable Information (PII) or
-      Protected Health Information (PHI) or Brown Restricted Information.
+      LabArchives at Brown is not approved for storing files containing Personally Identifiable Information (PII),
+      Protected Health Information (PHI), or Brown Restricted Information.
       - More info: [Documentation](https://library.brown.edu/info/labarchives/)
     features:
       - name: relative_speed
@@ -447,7 +447,7 @@ questions:
       - answer: Level 3
         category_classes:
           - 3
-  - question: Would you like a DOI generated for your data?
+  - question: Would you like a DOI auto-generated for your data?
     information:
     affected_category: DOI_provided
     answers:
