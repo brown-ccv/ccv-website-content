@@ -14,7 +14,7 @@ storage_tool_header: |
   and decide which of these services suit your needs.
 
 services:
-  - service: google_drive
+  - service: google_Drive
     description: |
       Google Drive gives you unlimited space to store and share documents. 
       The native Google document formats allow for real-time collaboration and file history. 
@@ -37,13 +37,19 @@ services:
       - name: collaborative_edits
         class: true
         notes: 
-      - name: shareable_by_link
+      - name: shareable_link
         class: true
+        notes:
+      - name: DOI_provided
+        class: false
         notes:
       - name: data_protection
         class: true 
         notes: 
           - up to 60 days
+      - name: canvas_integration
+        class: false
+        notes:
       - name: secondary_site_backup
         class: false
         notes:
@@ -87,14 +93,20 @@ services:
       - name: collaborative_edits
         class: false
         notes: 
-      - name: shareable_by_link
+      - name: shareable_link
         class: true
         notes:
           - via Globus
+      - name: DOI_provided
+        class: false
+        notes:
       - name: data_protection
         class: true 
         notes: 
           - up to 60 days
+      - name: canvas_integration
+        class: false
+        notes:
       - name: secondary_site_backup
         class: false
         notes:
@@ -105,7 +117,7 @@ services:
       - name: access_from_oscar
         class: partial 
         notes: 
-          - accessible on transfer falsedes
+          - accessible on transfer nodes
       - name: security
         class: 2
         notes: 
@@ -142,16 +154,22 @@ services:
       - name: collaborative_edits
         class: false
         notes: 
-      - name: shareable_by_link
+      - name: shareable_link
         class: true
         notes:
           - via Globus
+      - name: DOI_provided
+        class: false
+        notes:
       - name: data_protection
         class: true 
         notes: 
           - up to 60 days
-      - name: secondary_site_backup
+      - name: canvas_integration
         class: false
+        notes:
+      - name: secondary_site_backup
+        class: true
         notes:
       - name: brown_network
         class: true
@@ -160,7 +178,7 @@ services:
       - name: access_from_oscar
         class: partial 
         notes: 
-          - accessible on transfer falsedes
+          - accessible on transfer nodes
       - name: security
         class: 2
         notes: 
@@ -175,6 +193,122 @@ services:
         class: 4 TB
         notes:
           - 1 TB for best performance
+
+  - service: Brown_Digital_Repository
+    description: |
+      The Brown Digital Repository (BDR) is a place to gather, index, store, preserve, and make 
+      available digital assets produced via the scholarly, instructional, research, and administrative 
+      activities at Brown.
+
+      The Brown University Library maintains the repository as a service to the Brown community; it 
+      provides:
+
+      - A searchable index of digital objects shared by the Brown community.
+      - Permanent, secure storage for personal and departmental digital objects.
+      - Off-site backups of digital content.
+      - Tools for sharing and publishing digital content.
+      - Data curation, format migration, and preservation services.
+
+      Faculty and researchers interested in using the Brown Digital Repository as a platform for 
+      programmatic data management, storage, and publication should contact the Library (bdr@brown.edu) 
+      for information about opportunities for research consulting and project development support.
+      - More info: [Documentation](https://repository.library.brown.edu/studio/about/)
+    features:
+      - name: relative_speed
+        class: faster
+        notes:
+      - name: collaborative_edits
+        class: false
+        notes: 
+      - name: shareable_link
+        class: true
+        notes:
+      - name: DOI_provided
+        class: true
+        notes:
+      - name: data_protection
+        class: true 
+        notes: 
+          - up to 60 days
+      - name: canvas_integration
+        class: false
+        notes:
+      - name: secondary_site_backup
+        class: true
+        notes:
+      - name: brown_network
+        class: true
+        notes:
+          - except with Globus
+      - name: access_from_oscar
+        class: partial 
+        notes: 
+          - accessible on transfer nodes
+      - name: security
+        class: 2
+        notes: 
+          - Access controlled by Brown Authentication and Security groups
+      - name: storage
+        class: 1 TB +
+        notes: 
+      - name: max_file_size
+        class: 4 GB
+        notes:
+          - 1 TB for best performance
+
+  - service: LabArchives
+    description: |
+      LabArchives is a cloud-based electronic lab notebook that can be used by researchers, instructors, and 
+      students for input and organization of laboratory data, information sharing, and collaboration, and for 
+      saving historical versions of files. It is appropriate for use in a wide variety of laboratories, including 
+      biological sciences, chemistry and physical sciences, and engineering, among others.
+
+      LabArchives at Brown provides unlimited storage space. The current size limit per file is 4GB.
+
+      LabArchives at Brown is not approved for storing files containing Personally Identifiable Health 
+      Information or Brown Restricted Information.
+      - More info: [Documentation](https://library.brown.edu/info/labarchives/)
+    features:
+      - name: relative_speed
+        class: faster
+        notes:
+      - name: collaborative_edits
+        class: true
+        notes: 
+      - name: shareable_link
+        class: true
+        notes:
+      - name: DOI_provided
+        class: false
+        notes:
+      - name: data_protection
+        class: true 
+        notes: 
+          - up to 60 days
+      - name: canvas_integration
+        class: true
+        notes:
+      - name: secondary_site_backup
+        class: true
+        notes:
+      - name: brown_network
+        class: true
+        notes:
+          - except with Globus
+      - name: access_from_oscar
+        class: partial 
+        notes: 
+          - accessible on transfer nodes
+      - name: security
+        class: 2
+        notes: 
+          - Access controlled by Brown Authentication and Security groups
+      - name: storage
+        class: 1 TB +
+        notes: 
+      - name: max_file_size
+        class: 4 GB
+        notes:
 
   - service: research_data_storage
     description: | 
@@ -192,14 +326,20 @@ services:
       - name: collaborative_edits
         class: false
         notes: 
-      - name: shareable_by_link
+      - name: shareable_link
         class: true
         notes:
           - via Globus
+      - name: DOI_provided
+        class: false
+        notes:
       - name: data_protection
         class: true 
         notes: 
           - daily snapshots with 7 days retention
+      - name: canvas_integration
+        class: false
+        notes:
       - name: secondary_site_backup
         class: true
         notes:
@@ -210,7 +350,7 @@ services:
       - name: access_from_oscar
         class: partial 
         notes: 
-          - accessible on transfer falsedes
+          - accessible on transfer nodes
       - name: security
         class: 2
         notes: 
@@ -240,13 +380,19 @@ services:
       - name: collaborative_edits
         class: false
         notes: 
-      - name: shareable_by_link
+      - name: shareable_link
+        class: false
+        notes:
+      - name: DOI_provided
         class: false
         notes:
       - name: data_protection
         class: true 
         notes: 
           - up to 6 weeks
+      - name: canvas_integration
+        class: false
+        notes:
       - name: secondary_site_backup
         class: true
         notes:
@@ -272,7 +418,7 @@ services:
         notes:
 
 questions:
-  - question: What is the classification of your data?
+  - question: What is the risk classification of your data?
     information: |
       Brown has classified its information assets into one of four risk-based categories 
       (No Risk, Level 1, Level 2, or Level 3) for the purpose of determining who is allowed 
@@ -301,6 +447,17 @@ questions:
       - answer: Level 3
         category_classes:
           - 3
+  - question: Do you need a DOI for the data?
+    information:
+    affected_category: DOI_provided
+    answers:
+      - answer: Yes
+        category_classes:
+          - true
+      - answer: No
+        category_classes:
+          - true
+          - false
   - question: Do you need snapshots or replication of your data?
     information:
     affected_category: data_protection
@@ -313,6 +470,17 @@ questions:
           - false
           - true
       - answer: Not sure
+        category_classes:
+          - true
+          - false
+  - question: Is integration with Canvas required?
+    information:
+    affected_category: canvas_integration
+    answers:
+      - answer: Yes
+        category_classes:
+          - true
+      - answer: No
         category_classes:
           - true
           - false
@@ -343,7 +511,7 @@ questions:
           - partial
   - question: Do you need to share data via a link?
     information:
-    affected_category: shareable_by_link
+    affected_category: shareable_link
     answers:
       - answer: Yes
         category_classes:
