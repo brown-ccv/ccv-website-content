@@ -2,7 +2,7 @@
 title: Globus
 description: Transfer files asynchronously and securely
 fa:
-  prefix: fal
+  prefix: fas
   icon: box-alt
 ---
 # Globus

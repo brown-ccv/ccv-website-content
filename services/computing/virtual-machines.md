@@ -2,7 +2,7 @@
 title: Virtual Machine Hosting
 description: Server access without the need to purchase or maintain hardware.
 fa:
-  prefix: fal
+  prefix: fas
   icon: desktop
 ---
 Virtual Hosting is aimed at departments or researchers who want access to a Server but don’t want to purchase or maintain the hardware. The virtual machines (VMs) can be either Windows or Linux servers. Depending on your needs, we can assist with basic system administration and maintenance.

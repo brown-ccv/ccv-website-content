@@ -2,7 +2,7 @@
 title: Advanced Research Computing
 description: Support for researchers seeking help with statistical modeling, machine learning, data mining, data visualization, computational biology, high-performance computing, and software engineering
 fa:
-  prefix: fal
+  prefix: fas
   icon: code-commit
 ---
 

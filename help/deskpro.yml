@@ -4,5 +4,5 @@ links:
   - text: Open a Ticket
     target: mailto:support@ccv.brown.edu
 fa:
-  prefix: fal
+  prefix: fas
   icon: ticket-alt

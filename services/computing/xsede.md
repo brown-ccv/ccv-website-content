@@ -3,7 +3,7 @@ title: XSEDE
 description: |
   XSEDE is an NSF-funded, nationwide collection of supercomputing systems that are available to researchers through merit-based allocations. 
 fa:
-  prefix: fal
+  prefix: fas
   icon: network-wired
 ---
 

@@ -1,6 +1,6 @@
 title: People
 fa:
-  prefix: fal
+  prefix: fas
   icon: users
 data:
   - name: Fernando Gelin
