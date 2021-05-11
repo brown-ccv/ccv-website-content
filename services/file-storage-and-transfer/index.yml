@@ -14,7 +14,7 @@ storage_tool_header: |
   and decide which of these services suit your needs.
 
 services:
-  - service: google_Drive
+  - service: "Google Drive"
     description: |
       Google Drive gives you unlimited space to store and share documents. 
       The native Google document formats allow for real-time collaboration and file history. 
