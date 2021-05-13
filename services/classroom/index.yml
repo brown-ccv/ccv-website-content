@@ -4,7 +4,7 @@ description: |
   We can provide tutorials or give you access to cutting edge technology for teaching with code, such as JupyterHub.
 fa:
   prefix: fas
-  icon: users-class
+  icon: user-graduate
 links:
   - text: See all classroom services
     target: /services/classroom
