@@ -10,10 +10,10 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Change content to current commit
-        run: cd content && git fetch origin && git checkout ${{ github.event.pull_request.head.sha }}
+        run: cd content && git checkout ${{ github.event.pull_request.head.sha }}
       - name: Build
         run: npm ci && npm run generate
-      - uses: FirebaseExtended/action-hosting-deploy@v0.5-alpha
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN_MIR }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
