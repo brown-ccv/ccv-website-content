@@ -1,0 +1,15 @@
+name: prod-deploy-on-merge
+on:
+  push:
+    branches:
+      - main
+jobs:
+  dispatch_prod_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Trigger Build and Deployment of CCV Website
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.MIRESTREPO_CCV_WEBSITE_NUXT_ACCESS_TOKEN }}
+        event-type: prod-deploy
