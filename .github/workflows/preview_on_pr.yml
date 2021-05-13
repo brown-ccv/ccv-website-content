@@ -1,0 +1,25 @@
+name: Deploy to Firebase Hosting on PR
+ on: pull_request
+ jobs:
+   build_and_preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: brown-ccv/ccv-website-nuxt
+          submodules: recursive
+      - name: Change content to current commit
+        run: cd content && git checkout $GITHUB_SHA
+      # - name: Install dependencies
+      #   run: |
+      #     npm config set "@fortawesome:registry" https://npm.fontawesome.com/
+      #     npm ci
+      - name: Build
+        run: npm ci && npm run generate
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN_MIR }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          projectId: ccv-brown-edu
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
