@@ -15,6 +15,8 @@ jobs:
         run: npm ci 
       - name: Generate Static Content
         run: npm run generate
+      - name: Grep for Change
+        run: cat dist/our-work/software/index.html | grep AFrame
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
