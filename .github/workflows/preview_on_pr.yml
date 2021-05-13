@@ -9,7 +9,7 @@ jobs:
           repository: brown-ccv/ccv-website-nuxt
           submodules: recursive
       - name: Change content to current commit
-        run: cd content && git checkout $GITHUB_SHA
+        run: cd content && git pull && git checkout ${{ github.event.pull_request.head.sha }}
       # - name: Install dependencies
       #   run: |
       #     npm config set "@fortawesome:registry" https://npm.fontawesome.com/
