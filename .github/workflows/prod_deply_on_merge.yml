@@ -1,0 +1,26 @@
+name: prod-deploy-on-merge
+on:
+  push:
+    branches:
+      - main
+jobs:
+  dispatch_prod_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: brown-ccv/ccv-website-nuxt
+          submodules: recursive
+      - name: Install
+        run: npm ci 
+      - name: Generate Static Content
+        run: npm run generate
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          projectId: ccv-brown-edu
+          channelId: live
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
