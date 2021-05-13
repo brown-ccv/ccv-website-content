@@ -11,18 +11,13 @@ jobs:
           fetch-depth: 0
       - name: Change content to current commit
         run: cd content && git checkout ${{ github.event.pull_request.head.sha }}
-      - name: Test secret redaction
-        run: |
-          echo '${{ secrets.LONGSTRING}}'
-          echo '${{ secrets.JSONSEC}}'
-          echo '${{ secrets.NAMESEC}}'
-      # - name: Build
-      #   run: npm ci && npm run generate
-      # - uses: FirebaseExtended/action-hosting-deploy@v0
-      #   with:
-      #     repoToken: '${{ secrets.GITHUB_TOKEN_MIR }}'
-      #     firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
-      #     projectId: ccv-brown-edu
-      #     expires: 7d
-      #   env:
-      #     FIREBASE_CLI_PREVIEWS: hostingchannels
+      - name: Build
+        run: npm ci && npm run generate
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN_MIR }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          projectId: ccv-brown-edu
+          expires: 7d
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
