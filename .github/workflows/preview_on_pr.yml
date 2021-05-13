@@ -8,6 +8,7 @@ jobs:
         with:
           repository: brown-ccv/ccv-website-nuxt
           submodules: recursive
+          fetch-depth: 0
       - name: Change content to current commit
         run: cd content && git fetch origin && git checkout ${{ github.event.pull_request.head.sha }}
       # - name: Install dependencies
