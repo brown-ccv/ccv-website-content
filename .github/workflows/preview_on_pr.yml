@@ -11,10 +11,6 @@ jobs:
           fetch-depth: 0
       - name: Change content to current commit
         run: cd content && git fetch origin && git checkout ${{ github.event.pull_request.head.sha }}
-      # - name: Install dependencies
-      #   run: |
-      #     npm config set "@fortawesome:registry" https://npm.fontawesome.com/
-      #     npm ci
       - name: Build
         run: npm ci && npm run generate
       - uses: FirebaseExtended/action-hosting-deploy@v0
