@@ -8,9 +8,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Trigger Build and Deployment of CCV Website
-      uses: peter-evans/repository-dispatch@v1
-      with:
-        repository: brown-ccv/ccv-website-nuxt
-        token: ${{ secrets.MIRESTREPO_CCV_WEBSITE_NUXT_ACCESS_TOKEN }}
-        event-type: prod-deploy
+      - uses: actions/checkout@v2
+        with:
+          repository: brown-ccv/ccv-website-nuxt
+          submodules: recursive
+      - name: Install
+        run: npm ci 
+      - name: Generate Static Content
+        run: npm run generate
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          projectId: ccv-brown-edu
+          channelId: live
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
