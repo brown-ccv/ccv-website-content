@@ -11,8 +11,10 @@ jobs:
           fetch-depth: 0
       - name: Change content to current commit
         run: cd content && git checkout ${{ github.event.pull_request.head.sha }}
-      - name: Build
-        run: npm ci && npm run generate
+      - name: Install
+        run: npm ci 
+      - name: Generate Static Content
+        run: npm run generate
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
