@@ -1,12 +1,12 @@
-title: Volume Renderer
-slug: volume_renderer
+title: AFrame Volume Renderer
+slug: aframe_volume_renderer
 category: Visualization
 authors:
   - name: Camilo Diaz Rodriguez
     github_user: kmilo9999
   - name: Ben Knorlein
     github_user: BenKnorlein
-description: This project is an effort to integrate data visualization on VR and web
+description: Volumetric data visualization on web enabled for VR devices
   browser technologies. It was developed using React-JS and AFrame.
 type: software
 group: CCV

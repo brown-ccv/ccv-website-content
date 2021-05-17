@@ -6,4 +6,4 @@ mdi:
   icon: ninja
 links:
   - text: Learn more about our consulting services
-    target: services/consulting/advanced-research-computing
+    target: /services/consulting/advanced-research-computing

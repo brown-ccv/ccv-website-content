@@ -6,4 +6,4 @@ mdi:
   icon: page-layout-header
 links:
   - text: go to web applications
-    target: our-work/apps
+    target: /our-work/apps

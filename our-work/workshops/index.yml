@@ -6,4 +6,4 @@ mdi:
   icon: wrench
 links:
   - text: go to workshops
-    target: our-work/workshops
+    target: /our-work/workshops

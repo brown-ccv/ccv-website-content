@@ -1,0 +1,25 @@
+name: preview-on-pr
+on: pull_request
+jobs:
+  build_and_preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: brown-ccv/ccv-website-nuxt
+          submodules: recursive
+          fetch-depth: 0
+      - name: Change content to current commit
+        run: cd content && git checkout ${{ github.event.pull_request.head.sha }}
+      - name: Install
+        run: npm ci 
+      - name: Generate Static Content
+        run: npm run generate
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          projectId: ccv-brown-edu
+          expires: 7d
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
