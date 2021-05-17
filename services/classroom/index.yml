@@ -2,9 +2,9 @@ title: Classroom
 description: |
   CCV services to help prefessors in the classroom. 
   We can provide tutorials or give you access to cutting edge technology for teaching with code, such as JupyterHub.
-fa:
-  prefix: fal
-  icon: users-class
+mdi:
+  prefix: mdi
+  icon: account-group
 links:
   - text: See all classroom services
     target: services/classroom

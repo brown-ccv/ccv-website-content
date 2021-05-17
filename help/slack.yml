@@ -3,6 +3,6 @@ description: CCV Share is a collection of Slack channels where CCV staff and the
 links:
   - text: Join CCV's Slack
     target: https://join.slack.com/t/ccv-share/shared_invite/enQtODY5OTQ3MTk0ODU1LTM4OWQyZjVlYWRmY2QxNWEyZjQ0NzEwMmRlNTRlZjYyMjM1Y2U5MDU1ZGFmMmRhZWIzNjliYmQzYTBiMzY2NzU
-fa:
-  prefix: fab
+mdi:
+  prefix: mdi
   icon: slack

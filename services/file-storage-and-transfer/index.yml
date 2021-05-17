@@ -1,8 +1,8 @@
 title: File storage and transfer
 description: |
   Several services at Brown allow you to share and store files. This guide will let you compare the options and decide which one(s) are right for you. 
-fa:
-  prefix: fal
+mdi:
+  prefix: mdi
   icon: database
 links:
   - text: check our storage options

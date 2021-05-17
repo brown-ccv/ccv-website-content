@@ -1,4 +1,4 @@
 title: Data Science
-fa:
-  prefix: fal
-  icon: project-diagram
+mdi:
+  prefix: mdi
+  icon: file-tree

@@ -3,9 +3,9 @@ title: Data Risk Level 3 Computing (Stronghold)
 description: |
   Analyze sensitive data while complying with regulatory or contractual requirements
   for data security
-fa:
-  prefix: fal
-  icon: shield-alt
+mdi:
+  prefix: mdi
+  icon: shield-half-full
 extra:
   text: CIS Risk Classification
   link: "https://it.brown.edu/computing-policies/risk-classifications"

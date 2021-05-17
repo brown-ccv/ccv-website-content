@@ -1,7 +1,7 @@
 ---
 title: Mission
-fa:
-  prefix: fal
+mdi:
+  prefix: mdi
   icon: bullseye-arrow
 ---
 

@@ -1,6 +1,6 @@
 title: DevOps
 description: |
   Software, CI/CD Automation, Docker Containers, and more to help you with your DevOps needs.
-fa:
-  prefix: fal
-  icon: cogs
+mdi:
+  prefix: mdi
+  icon: settings

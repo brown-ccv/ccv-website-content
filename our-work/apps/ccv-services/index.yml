@@ -1,4 +1,4 @@
 title: CCV Services Apps
-fa:
-  prefix: fal
-  icon: browser
+mdi:
+  prefix: mdi
+  icon: page-layout-header

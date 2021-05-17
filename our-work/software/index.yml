@@ -1,9 +1,9 @@
 title: Software
 description: |
     Check the software that we developed in collaboration with researchers.
-fa:
-  prefix: fal
-  icon: code-merge
+mdi:
+  prefix: mdi
+  icon: source-pull
 links:
   - text: go to software
     target: our-work/software

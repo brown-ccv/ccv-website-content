@@ -1,9 +1,9 @@
 ---
 title: Globus
 description: Transfer files asynchronously and securely
-fa:
-  prefix: fal
-  icon: box-alt
+mdi:
+  prefix: mdi
+  icon: transfer
 ---
 # Globus
 

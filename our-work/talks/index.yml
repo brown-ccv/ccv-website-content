@@ -1,8 +1,8 @@
 title: Talks and Conferences
 description: |
     Talks by CCV staff and Conferences we organize.
-fa:
-  prefix: fal
+mdi:
+  prefix: mdi
   icon: presentation
 links:
   - text: go to talks

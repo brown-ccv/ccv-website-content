@@ -1,4 +1,4 @@
 title: Software Engineering
-fa:
-  prefix: fal
-  icon: code
+mdi:
+  prefix: mdi
+  icon: code-tags

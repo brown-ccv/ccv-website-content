@@ -4,6 +4,6 @@ description: |
 links:
   - text: Find Zoom Link
     target: https://events.brown.edu/ccv/view/month
-fa:
-  prefix: fal
-  icon: camera-home
+mdi:
+  prefix: mdi
+  icon: camera

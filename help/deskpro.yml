@@ -3,6 +3,6 @@ description: Open a ticket with our user services team. We will respond as soon 
 links:
   - text: Open a Ticket
     target: mailto:support@ccv.brown.edu
-fa:
-  prefix: fal
-  icon: ticket-alt
+mdi:
+  prefix: mdi
+  icon: ticket-confirmation

@@ -1,9 +1,9 @@
 ---
 title: BrownBox
 description: Share files up to 2GB in size with CCV's BrownBox service.
-fa:
-  prefix: fal
-  icon: box
+mdi:
+  prefix: mdi
+  icon: inbox-arrow-up
 
 ---
 # BrownBox

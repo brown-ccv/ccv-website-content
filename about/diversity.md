@@ -1,7 +1,7 @@
 ---
 title: Diversity Statement
-fa:
-  prefix: fal
+mdi:
+  prefix: mdi
   icon: heart-circle
 ---
 
