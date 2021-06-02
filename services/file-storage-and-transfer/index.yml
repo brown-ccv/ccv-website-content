@@ -348,9 +348,8 @@ services:
         notes:
           - except with Globus
       - name: access_from_oscar
-        class: partial
+        class: true
         notes:
-          - accessible on transfer nodes
       - name: security
         class: 2
         notes:
