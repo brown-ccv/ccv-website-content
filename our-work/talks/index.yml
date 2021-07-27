@@ -1,9 +1,9 @@
-title: Talks and Conferences
+title: Workshops
 description: |
-    Talks by CCV staff and Conferences we organize.
+    List of workshops and talks by CCV and links to the materials
 mdi:
   prefix: mdi
-  icon: presentation
+  icon: wrench
 links:
-  - text: go to talks
-    target: /our-work/talks
+  - text: go to workshops
+    target: /our-work/workshops
