@@ -1,6 +1,6 @@
 title: File storage and transfer
 description: |
-  Several services at Brown allow you to share and store files. This guide will let you compare the options and decide which one(s) are right for you. 
+  Several services at Brown allow you to share and store files. This guide will let you compare the options and decide which one(s) are right for you.
 mdi:
   prefix: mdi
   icon: database
@@ -427,6 +427,7 @@ questions:
       have any questions or need help, please reach out to the Information Security Group
       (isg@brown.edu). [Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)
     affected_category: security
+    default_answer: No Risk
     answers:
       - answer: No Risk
         category_classes:
@@ -449,32 +450,19 @@ questions:
   - question: Would you like a DOI auto-generated for your data?
     information:
     affected_category: DOI_provided
+    default_answer: No
     answers:
       - answer: Yes
         category_classes:
           - true
       - answer: No
-        category_classes:
-          - true
-          - false
-  - question: Do you need snapshots or replication of your data?
-    information:
-    affected_category: data_protection
-    answers:
-      - answer: Yes
-        category_classes:
-          - true
-      - answer: No
-        category_classes:
-          - false
-          - true
-      - answer: Not sure
         category_classes:
           - true
           - false
   - question: Is integration with Canvas required?
     information:
     affected_category: canvas_integration
+    default_answer: No
     answers:
       - answer: Yes
         category_classes:
@@ -486,11 +474,13 @@ questions:
   - question: How much data do you have?
     information:
     affected_category: storage
+    default_answer: Less than 2 TB
     answers:
       - answer: Less than 2 TB
         category_classes:
           - unlimited
           - 1 TB +
+          - 2 TB +
       - answer: Greater than 2TB
         category_classes:
           - unlimited
@@ -498,6 +488,7 @@ questions:
   - question: Do you expect to access from Oscar?
     information:
     affected_category: access_from_oscar
+    default_answer: No
     answers:
       - answer: Yes
         category_classes:
@@ -511,6 +502,7 @@ questions:
   - question: Do you need to share data via a link?
     information:
     affected_category: shareable_link
+    default_answer: No
     answers:
       - answer: Yes
         category_classes:
