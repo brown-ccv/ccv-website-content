@@ -5,5 +5,5 @@ mdi:
   prefix: mdi
   icon: wrench
 links:
-  - text: go to talks
-    target: /our-work/talks
+  - text: go to workshops and talks
+    target: /our-work/workshops-and-talks
