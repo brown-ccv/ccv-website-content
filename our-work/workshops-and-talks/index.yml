@@ -1,9 +1,9 @@
-title: Workshops
+title: Workshops and Talks
 description: |
     List of workshops and talks by CCV and links to the materials
 mdi:
   prefix: mdi
   icon: wrench
 links:
-  - text: go to workshops
-    target: /our-work/workshops
+  - text: go to workshops and talks
+    target: /our-work/workshops-and-talks
