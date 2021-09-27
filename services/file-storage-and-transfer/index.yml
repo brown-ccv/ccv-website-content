@@ -53,7 +53,7 @@ services:
       - name: secondary_site_backup
         class: false
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: false
         notes:
       - name: access_from_oscar
@@ -110,7 +110,7 @@ services:
       - name: secondary_site_backup
         class: false
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: true
         notes:
           - except with Globus
@@ -171,7 +171,7 @@ services:
       - name: secondary_site_backup
         class: true
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: true
         notes:
           - except with Globus
@@ -184,7 +184,7 @@ services:
         notes:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
-        class: 1 TB +
+        class: 2 TB +
         notes:
           - 1 TB per PI
           - 10 TB per grant
@@ -236,7 +236,7 @@ services:
       - name: secondary_site_backup
         class: true
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: true
         notes:
           - except with Globus
@@ -291,7 +291,7 @@ services:
       - name: secondary_site_backup
         class: true
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: true
         notes:
           - except with Globus
@@ -343,7 +343,7 @@ services:
       - name: secondary_site_backup
         class: true
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: true
         notes:
           - except with Globus
@@ -395,7 +395,7 @@ services:
       - name: secondary_site_backup
         class: true
         notes:
-      - name: brown_network
+      - name: brown_network_required
         class: true
         notes:
           - except with Globus
@@ -407,7 +407,7 @@ services:
         notes:
           - Appropriate for data with strong data compliance requirements PII, HIPAA, etc
       - name: storage
-        class: 1 TB +
+        class: 2 TB +
         notes:
           - 1 TB per PI
           - 10 TB per grant
@@ -447,7 +447,11 @@ questions:
         category_classes:
           - 3
   - question: Would you like a DOI auto-generated for your data?
-    information:
+    information: |
+      A digital object identifier (DOI) is a unique and persistent identification number. These 
+      are primarily used in academia as unique identifiers for journal articles, research publications,
+      and data sets. Some Brown University storage services provide the option of having a DOI
+      created for your data set.
     affected_category: DOI_provided
     answers:
       - answer: Yes
@@ -472,7 +476,7 @@ questions:
         category_classes:
           - true
           - false
-  - question: Is integration with Canvas required?
+  - question: Do your data require integration with Canvas?
     information:
     affected_category: canvas_integration
     answers:
@@ -495,7 +499,7 @@ questions:
         category_classes:
           - unlimited
           - 2 TB +
-  - question: Do you expect to access from Oscar?
+  - question: Do you need access to your data from Oscar?
     information:
     affected_category: access_from_oscar
     answers:
