@@ -1,0 +1,16 @@
+title: XNAT Tools
+description: "Python library that facilitates the export and conversion of data stored in Brown's XNAT platform to the Brain Imaging Data Structure (BIDS)"
+tags:
+  - python
+  - neuroimaging
+  - xnat
+  - bids
+  - bnc
+authors:
+  - name: M.I. Restrepo
+    github_user: mirestrepo
+links:
+  - category: "code"
+    url: https://github.com/brown-bnc/xnat-tools
+  - category: "docs"
+    url: https://brown-bnc.github.io/xnat-tools/

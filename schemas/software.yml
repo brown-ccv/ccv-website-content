@@ -1,0 +1,19 @@
+title: str()
+description: str()
+collaborators: list(include('collaborator'))
+tags: list(include('tag'))
+authors: list(include('author'))
+links: list(include('link'), required=False)
+---
+tag: str()
+author:
+  name: str()
+  github_user: str()
+# These are links associated with the software 
+link:
+  # Must match one of the values in the regex
+  category: regex('^.*(code|docs).*$')
+  url: str()
+  
+
+  
