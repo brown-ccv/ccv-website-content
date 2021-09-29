@@ -13,6 +13,7 @@ jobs:
         # strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
+    needs: [yaml-schema-validation]
     steps:
       - uses: actions/checkout@v2
         with:
