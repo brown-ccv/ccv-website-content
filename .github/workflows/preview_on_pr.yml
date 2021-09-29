@@ -1,6 +1,16 @@
 name: preview-on-pr
 on: pull_request
 jobs:
+  yaml-schema-validation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nrkno/yaml-schema-validator-github-action@master
+      with:
+        schema: 'schemas/software.yml'
+        target: 'our-work/software'
+        # Uncomment to enable strict checks
+        # strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
     steps:
