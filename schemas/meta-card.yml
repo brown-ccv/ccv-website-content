@@ -1,0 +1,12 @@
+title: str()
+description: str()
+# Material design icon from https://materialdesignicons.com
+mdi:
+  prefix: str()
+  icon: str()
+links: list(include('link'), required=False)
+--
+link:
+  - text: str()
+    #relative path in the site or website
+    target: str()

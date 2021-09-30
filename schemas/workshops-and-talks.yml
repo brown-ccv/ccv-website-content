@@ -1,14 +1,15 @@
 # Schema for all yml files in our-work/software and our-work/workshops-and-talks 
 title: str()
 description: str()
+slug: str(required=False)
 groups: list(include('group'))
 languages: list(include('language'), required=False)
 tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: regex('^.*(python|julia|R|matlab|javascript|typescript|vuejs|reactjs).*$')
-tag: regex('^.*(behavioral-tasks|neuroimaging|neuroscience).*$')
+language: regex('^.*(python|julia|R|matlab|unix-cli).*$')
+tag: regex('^.*(cloud-computing).*$')
 #people involved in the project
 person:
   name: str()
@@ -18,7 +19,7 @@ group: str()
 # These are links associated with the software 
 link:
   # Must match one of the values in the regex
-  category: regex('^.*(code|docs|website).*$')
+  category: regex('^.*(code|slides|website|video).*$')
   url: str()
   
 

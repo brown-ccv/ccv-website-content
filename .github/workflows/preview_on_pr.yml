@@ -9,8 +9,22 @@ jobs:
       with:
         schema: 'schemas/software.yml'
         target: 'our-work/software'
-        # Uncomment to enable strict checks
-        # strict: '1'
+        strict: '1'
+    - uses: nrkno/yaml-schema-validator-github-action@master
+      with:
+        schema: 'schemas/workshops-and-talks.yml'
+        target: 'our-work/workshops-and-talks'
+        strict: '1'
+    - uses: nrkno/yaml-schema-validator-github-action@master
+      with:
+        schema: 'schemas/meta-banner.yml'
+        target: 'meta/banner'
+        strict: '1'
+    - uses: nrkno/yaml-schema-validator-github-action@master
+      with:
+        schema: 'schemas/meta-card.yml'
+        target: 'meta/card'
+        strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
     needs: [yaml-schema-validation]

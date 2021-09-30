@@ -1,0 +1,7 @@
+title: str()
+description: str()
+call-for-action: include('button', required=False)
+---
+button:
+  text: str()
+  href: str()
