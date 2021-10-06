@@ -1,19 +1,26 @@
 # CCV Website Content
 
 - home
-    - index.yml
-- about
-    - category
-        - index.yml
+    - banners
         - single.md
-    - index.yml
-- services
+- about - markdown/yml files uniquely handled
+    single.yml/single.md
+- services - markdown/yml files handled consistently within a category
     - category (rates can be a category)
-        - index.yml/md: title, description, hidden(Bool)
         - single.md
-    - index.yml: title, description
-- our-work
+- our-work - yml files handled consistently within a category
     - category
-        - index.yml
         - single.md
-    - index.yml
+- help - yml files handled consistently within a category
+    - single.yml
+- meta - yml files describing the above categories.
+    - main - provides content to banners
+        - single.yml
+    - category - provides content to overview cards
+        - single.yml
+
+
+## Validation
+
+We use [Yamale]() in conjuction with GitHub Actions to make sure that the content of files adheres to a specific schema.
+ 

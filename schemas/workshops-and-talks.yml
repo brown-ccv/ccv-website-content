@@ -9,7 +9,7 @@ people: list(include('person'))
 links: list(include('link'), required=False)
 ---
 language: regex('^.*(python|julia|R|matlab|unix-cli).*$')
-tag: regex('^.*(cloud-computing).*$')
+tag: regex('^.*(cloud-computing|gcp).*$')
 #people involved in the project
 person:
   name: str()

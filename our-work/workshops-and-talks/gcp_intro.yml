@@ -3,7 +3,6 @@ description: This workshop provides an introduction to Google Cloud Platform. It
   familiarity with Google Cloud Console and the basics of interacting and using
   Google's Compute Engine
 slug: gcp_intro
-category: Cloud Computing
 languages:
   - unix-cli
 tags:
