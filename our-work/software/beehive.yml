@@ -5,7 +5,7 @@ languages:
   - vuejs
 tags:
   - behavioral-tasks
-collaborators:
+groups:
   - borton-lab
   - openmind
   - frank-lab

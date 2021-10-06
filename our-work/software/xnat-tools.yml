@@ -9,7 +9,7 @@ people:
     github_user: mirestrepo
   - name: Bradford Roarr
     github_user: broarr
-collaborators:
+groups:
   - bnc
 links:
   - category: "code"
