@@ -8,506 +8,506 @@ links:
   - text: check our storage options
     target: /services/file-storage-and-transfer
 
-storage_tool_header: |
-  This tool lets you compare the available storage options at Brown.
-  Answer some of these questions or select services to compare their features
-  and decide which of these services suit your needs.
+# storage_tool_header: |
+#   This tool lets you compare the available storage options at Brown.
+#   Answer some of these questions or select services to compare their features
+#   and decide which of these services suit your needs.
 
-services:
-  - service: "Google Drive"
-    description: |
-      Google Drive gives you unlimited space to store and share documents.
-      The native Google document formats allow for real-time collaboration and file history.
-      You can also store unconverted files of various types in your Google Drive.
-      It's easy to share files with members of the Brown community (including Google Groups)
-      and non-Brown Google accounts; files can be shared with view-only, comment, or edit access.
-      Google also has a really nice feature where you can scan in handwritten documents and have
-      them converted to text. You can access files on the web, through a mobile app, or by
-      installing Google Drive on your computer (which makes it act like a folder on your
-      computer).
-      - Best for: Collaboration in native Google files, easy access from anywhere, unlimited storage, sharing with Google Groups.
-      - Limitations: Data transfer speeds may be limited when uploading/downloading large amounts of data, Globus can provide high bandwidth data transfers.
-      - Rate: Free
-      - More info: [Service Catalog](https://it.brown.edu/services/type/google-drive) | [Documentation](https://ithelp.brown.edu/kb/48-google-drive) | [Redundancy](https://storage.googleapis.com/gfw-touched-accounts-pdfs/google-cloud-security-and-compliance-whitepaper.pdf)
+# services:
+#   - service: "Google Drive"
+#     description: |
+#       Google Drive gives you unlimited space to store and share documents.
+#       The native Google document formats allow for real-time collaboration and file history.
+#       You can also store unconverted files of various types in your Google Drive.
+#       It's easy to share files with members of the Brown community (including Google Groups)
+#       and non-Brown Google accounts; files can be shared with view-only, comment, or edit access.
+#       Google also has a really nice feature where you can scan in handwritten documents and have
+#       them converted to text. You can access files on the web, through a mobile app, or by
+#       installing Google Drive on your computer (which makes it act like a folder on your
+#       computer).
+#       - Best for: Collaboration in native Google files, easy access from anywhere, unlimited storage, sharing with Google Groups.
+#       - Limitations: Data transfer speeds may be limited when uploading/downloading large amounts of data, Globus can provide high bandwidth data transfers.
+#       - Rate: Free
+#       - More info: [Service Catalog](https://it.brown.edu/services/type/google-drive) | [Documentation](https://ithelp.brown.edu/kb/48-google-drive) | [Redundancy](https://storage.googleapis.com/gfw-touched-accounts-pdfs/google-cloud-security-and-compliance-whitepaper.pdf)
 
-    features:
-      - name: relative_speed
-        class: fast
-        notes:
-      - name: collaborative_edits
-        class: true
-        notes:
-      - name: shareable_link
-        class: true
-        notes:
-      - name: DOI_provided
-        class: false
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - up to 60 days
-      - name: canvas_integration
-        class: false
-        notes:
-      - name: secondary_site_backup
-        class: false
-        notes:
-      - name: brown_network
-        class: false
-        notes:
-      - name: access_from_oscar
-        class: partial
-        notes:
-          - accessible via API
-      - name: security
-        class: 2
-        notes:
-          - prevent editors from resharing
-          - set expiration date
-      - name: storage
-        class: unlimited
-        notes:
-          - per user
-      - name: max_file_size
-        class: 5 TB
-        notes:
+#     features:
+#       - name: relative_speed
+#         class: fast
+#         notes:
+#       - name: collaborative_edits
+#         class: true
+#         notes:
+#       - name: shareable_link
+#         class: true
+#         notes:
+#       - name: DOI_provided
+#         class: false
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - up to 60 days
+#       - name: canvas_integration
+#         class: false
+#         notes:
+#       - name: secondary_site_backup
+#         class: false
+#         notes:
+#       - name: brown_network
+#         class: false
+#         notes:
+#       - name: access_from_oscar
+#         class: partial
+#         notes:
+#           - accessible via API
+#       - name: security
+#         class: 2
+#         notes:
+#           - prevent editors from resharing
+#           - set expiration date
+#       - name: storage
+#         class: unlimited
+#         notes:
+#           - per user
+#       - name: max_file_size
+#         class: 5 TB
+#         notes:
 
-  - service: campus_file_storage_non-replicated
-    description: |
-      File Services for Research provides Brown University research departments with a
-      location in which files can be stored, backed up, and shared with members of the
-      Brown community using Brown ID’s and groups.  Space is allocated to each research
-      lab or PI with an ITHelp request , security groups are required to define access
-      to the data.   The data is accessible on Brown's campus networks (including VPN and
-      wireless).
-      - Synonyms: LRS.Brown.EDU, LRSFiles, Qumulo
-      - Best for:  Brown faculty and staff researchers looking to store, share and protect research data.
-      - Limitations: Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
-      - Rate: $50/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://docs.google.com/document/d/1IUBLNqXDnCZk1d4A3RlG823IxKTKiWlVc618vTjI170/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service ](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
-    features:
-      - name: relative_speed
-        class: faster
-        notes:
-      - name: collaborative_edits
-        class: false
-        notes:
-      - name: shareable_link
-        class: true
-        notes:
-          - via Globus
-      - name: DOI_provided
-        class: false
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - up to 60 days
-      - name: canvas_integration
-        class: false
-        notes:
-      - name: secondary_site_backup
-        class: false
-        notes:
-      - name: brown_network
-        class: true
-        notes:
-          - except with Globus
-      - name: access_from_oscar
-        class: partial
-        notes:
-          - accessible on transfer nodes
-      - name: security
-        class: 2
-        notes:
-          - Access controlled by Brown Authentication and Security groups
-      - name: storage
-        class: 2 TB +
-        notes:
-          - 2 TB per PI
-          - 20 TB per grant
-          - Paid after that @ $50/TB/Yr. (Consolidated across all paid storage types.)
-      - name: max_file_size
-        class: 9 XB
-        notes:
-          - 1 TB for best performance
+#   - service: campus_file_storage_non-replicated
+#     description: |
+#       File Services for Research provides Brown University research departments with a
+#       location in which files can be stored, backed up, and shared with members of the
+#       Brown community using Brown ID’s and groups.  Space is allocated to each research
+#       lab or PI with an ITHelp request , security groups are required to define access
+#       to the data.   The data is accessible on Brown's campus networks (including VPN and
+#       wireless).
+#       - Synonyms: LRS.Brown.EDU, LRSFiles, Qumulo
+#       - Best for:  Brown faculty and staff researchers looking to store, share and protect research data.
+#       - Limitations: Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
+#       - Rate: $50/TB/Year when storing above free/grant allocations
+#       - More info: [Documentation](https://docs.google.com/document/d/1IUBLNqXDnCZk1d4A3RlG823IxKTKiWlVc618vTjI170/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service ](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
+#     features:
+#       - name: relative_speed
+#         class: faster
+#         notes:
+#       - name: collaborative_edits
+#         class: false
+#         notes:
+#       - name: shareable_link
+#         class: true
+#         notes:
+#           - via Globus
+#       - name: DOI_provided
+#         class: false
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - up to 60 days
+#       - name: canvas_integration
+#         class: false
+#         notes:
+#       - name: secondary_site_backup
+#         class: false
+#         notes:
+#       - name: brown_network
+#         class: true
+#         notes:
+#           - except with Globus
+#       - name: access_from_oscar
+#         class: partial
+#         notes:
+#           - accessible on transfer nodes
+#       - name: security
+#         class: 2
+#         notes:
+#           - Access controlled by Brown Authentication and Security groups
+#       - name: storage
+#         class: 2 TB +
+#         notes:
+#           - 2 TB per PI
+#           - 20 TB per grant
+#           - Paid after that @ $50/TB/Yr. (Consolidated across all paid storage types.)
+#       - name: max_file_size
+#         class: 9 XB
+#         notes:
+#           - 1 TB for best performance
 
-  - service: campus_file_storage_replicated
-    description: |
-      File Services for Research provides Brown University research departments with a
-      location in which files can be stored, backed up, and shared with members of the
-      Brown community using Brown ID’s and groups.  Space is allocated to each research
-      lab or PI with an ITHelp request , security groups are required to define access to
-      the data.  The data is replicated daily to our disaster recovery site for true
-      geo-redundant data protection.  The data is accessible on Brown's campus networks
-      (including VPN and wireless).
-      - Synonyms: Files.Brown.EDU, Files, Isilon
-      - Best for:  Brown faculty and staff researchers looking to store, share and protect research data.
-      - Limitations:  Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
-      - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://docs.google.com/document/d/1GiUyKqo6sk9c00tOAkR3Q_GBlBhGs2Ob8EO6pYneNDc/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
-    features:
-      - name: relative_speed
-        class: faster
-        notes:
-      - name: collaborative_edits
-        class: false
-        notes:
-      - name: shareable_link
-        class: true
-        notes:
-          - via Globus
-      - name: DOI_provided
-        class: false
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - up to 60 days
-      - name: canvas_integration
-        class: false
-        notes:
-      - name: secondary_site_backup
-        class: true
-        notes:
-      - name: brown_network
-        class: true
-        notes:
-          - except with Globus
-      - name: access_from_oscar
-        class: partial
-        notes:
-          - accessible on transfer nodes
-      - name: security
-        class: 2
-        notes:
-          - Access controlled by Brown Authentication and Security groups
-      - name: storage
-        class: 1 TB +
-        notes:
-          - 1 TB per PI
-          - 10 TB per grant
-          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
-      - name: max_file_size
-        class: 4 TB
-        notes:
-          - 1 TB for best performance
+#   - service: campus_file_storage_replicated
+#     description: |
+#       File Services for Research provides Brown University research departments with a
+#       location in which files can be stored, backed up, and shared with members of the
+#       Brown community using Brown ID’s and groups.  Space is allocated to each research
+#       lab or PI with an ITHelp request , security groups are required to define access to
+#       the data.  The data is replicated daily to our disaster recovery site for true
+#       geo-redundant data protection.  The data is accessible on Brown's campus networks
+#       (including VPN and wireless).
+#       - Synonyms: Files.Brown.EDU, Files, Isilon
+#       - Best for:  Brown faculty and staff researchers looking to store, share and protect research data.
+#       - Limitations:  Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
+#       - Rate: $100/TB/Year when storing above free/grant allocations
+#       - More info: [Documentation](https://docs.google.com/document/d/1GiUyKqo6sk9c00tOAkR3Q_GBlBhGs2Ob8EO6pYneNDc/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
+#     features:
+#       - name: relative_speed
+#         class: faster
+#         notes:
+#       - name: collaborative_edits
+#         class: false
+#         notes:
+#       - name: shareable_link
+#         class: true
+#         notes:
+#           - via Globus
+#       - name: DOI_provided
+#         class: false
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - up to 60 days
+#       - name: canvas_integration
+#         class: false
+#         notes:
+#       - name: secondary_site_backup
+#         class: true
+#         notes:
+#       - name: brown_network
+#         class: true
+#         notes:
+#           - except with Globus
+#       - name: access_from_oscar
+#         class: partial
+#         notes:
+#           - accessible on transfer nodes
+#       - name: security
+#         class: 2
+#         notes:
+#           - Access controlled by Brown Authentication and Security groups
+#       - name: storage
+#         class: 1 TB +
+#         notes:
+#           - 1 TB per PI
+#           - 10 TB per grant
+#           - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+#       - name: max_file_size
+#         class: 4 TB
+#         notes:
+#           - 1 TB for best performance
 
-  - service: Brown_Digital_Repository
-    description: |
-      The Brown Digital Repository (BDR) is a place to gather, index, store, preserve, and make
-      available digital assets produced via the scholarly, instructional, research, and administrative
-      activities at Brown.
+#   - service: Brown_Digital_Repository
+#     description: |
+#       The Brown Digital Repository (BDR) is a place to gather, index, store, preserve, and make
+#       available digital assets produced via the scholarly, instructional, research, and administrative
+#       activities at Brown.
 
-      The Brown University Library maintains the repository as a service to the Brown community; it
-      provides:
+#       The Brown University Library maintains the repository as a service to the Brown community; it
+#       provides:
 
-      - A searchable index of digital objects shared by the Brown community.
-      - Permanent, secure storage for personal and departmental digital objects.
-      - Off-site backups of digital content.
-      - Tools for sharing and publishing digital content.
-      - Data curation, format migration, and preservation services.
+#       - A searchable index of digital objects shared by the Brown community.
+#       - Permanent, secure storage for personal and departmental digital objects.
+#       - Off-site backups of digital content.
+#       - Tools for sharing and publishing digital content.
+#       - Data curation, format migration, and preservation services.
 
-      Faculty and researchers interested in using the Brown Digital Repository as a platform for
-      programmatic data management, storage, and publication should contact the Library (bdr@brown.edu)
-      for information about opportunities for research consulting and project development support.
-      - More info: [Documentation](https://repository.library.brown.edu/studio/about/)
-    features:
-      - name: relative_speed
-        class: faster
-        notes:
-      - name: collaborative_edits
-        class: false
-        notes:
-      - name: shareable_link
-        class: true
-        notes:
-      - name: DOI_provided
-        class: true
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - up to 60 days
-      - name: canvas_integration
-        class: false
-        notes:
-      - name: secondary_site_backup
-        class: true
-        notes:
-      - name: brown_network
-        class: true
-        notes:
-          - except with Globus
-      - name: access_from_oscar
-        class: partial
-        notes:
-          - accessible on transfer nodes
-      - name: security
-        class: 2
-        notes:
-          - Access controlled by Brown Authentication and Security groups
-      - name: storage
-        class: 1 TB +
-        notes:
-      - name: max_file_size
-        class: 4 GB
-        notes:
-          - 1 TB for best performance
+#       Faculty and researchers interested in using the Brown Digital Repository as a platform for
+#       programmatic data management, storage, and publication should contact the Library (bdr@brown.edu)
+#       for information about opportunities for research consulting and project development support.
+#       - More info: [Documentation](https://repository.library.brown.edu/studio/about/)
+#     features:
+#       - name: relative_speed
+#         class: faster
+#         notes:
+#       - name: collaborative_edits
+#         class: false
+#         notes:
+#       - name: shareable_link
+#         class: true
+#         notes:
+#       - name: DOI_provided
+#         class: true
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - up to 60 days
+#       - name: canvas_integration
+#         class: false
+#         notes:
+#       - name: secondary_site_backup
+#         class: true
+#         notes:
+#       - name: brown_network
+#         class: true
+#         notes:
+#           - except with Globus
+#       - name: access_from_oscar
+#         class: partial
+#         notes:
+#           - accessible on transfer nodes
+#       - name: security
+#         class: 2
+#         notes:
+#           - Access controlled by Brown Authentication and Security groups
+#       - name: storage
+#         class: 1 TB +
+#         notes:
+#       - name: max_file_size
+#         class: 4 GB
+#         notes:
+#           - 1 TB for best performance
 
-  - service: LabArchives
-    description: |
-      LabArchives is a cloud-based electronic lab notebook that can be used by researchers, instructors, and
-      students for input and organization of laboratory data, information sharing, and collaboration, and for
-      saving historical versions of files. It is appropriate for use in a wide variety of laboratories, including
-      biological sciences, chemistry and physical sciences, and engineering, among others.
+#   - service: LabArchives
+#     description: |
+#       LabArchives is a cloud-based electronic lab notebook that can be used by researchers, instructors, and
+#       students for input and organization of laboratory data, information sharing, and collaboration, and for
+#       saving historical versions of files. It is appropriate for use in a wide variety of laboratories, including
+#       biological sciences, chemistry and physical sciences, and engineering, among others.
 
-      LabArchives at Brown provides unlimited storage space. The current size limit per file is 4GB.
+#       LabArchives at Brown provides unlimited storage space. The current size limit per file is 4GB.
 
-      LabArchives at Brown is not approved for storing files containing Personally Identifiable Information (PII),
-      Protected Health Information (PHI), or Brown Restricted Information.
-      - More info: [Documentation](https://library.brown.edu/info/labarchives/)
-    features:
-      - name: relative_speed
-        class: faster
-        notes:
-      - name: collaborative_edits
-        class: true
-        notes:
-      - name: shareable_link
-        class: true
-        notes:
-      - name: DOI_provided
-        class: false
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - up to 60 days
-      - name: canvas_integration
-        class: true
-        notes:
-      - name: secondary_site_backup
-        class: true
-        notes:
-      - name: brown_network
-        class: true
-        notes:
-          - except with Globus
-      - name: access_from_oscar
-        class: partial
-        notes:
-          - accessible on transfer nodes
-      - name: security
-        class: 2
-        notes:
-          - Access controlled by Brown Authentication and Security groups
-      - name: storage
-        class: 1 TB +
-        notes:
-      - name: max_file_size
-        class: 4 GB
-        notes:
+#       LabArchives at Brown is not approved for storing files containing Personally Identifiable Information (PII),
+#       Protected Health Information (PHI), or Brown Restricted Information.
+#       - More info: [Documentation](https://library.brown.edu/info/labarchives/)
+#     features:
+#       - name: relative_speed
+#         class: faster
+#         notes:
+#       - name: collaborative_edits
+#         class: true
+#         notes:
+#       - name: shareable_link
+#         class: true
+#         notes:
+#       - name: DOI_provided
+#         class: false
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - up to 60 days
+#       - name: canvas_integration
+#         class: true
+#         notes:
+#       - name: secondary_site_backup
+#         class: true
+#         notes:
+#       - name: brown_network
+#         class: true
+#         notes:
+#           - except with Globus
+#       - name: access_from_oscar
+#         class: partial
+#         notes:
+#           - accessible on transfer nodes
+#       - name: security
+#         class: 2
+#         notes:
+#           - Access controlled by Brown Authentication and Security groups
+#       - name: storage
+#         class: 1 TB +
+#         notes:
+#       - name: max_file_size
+#         class: 4 GB
+#         notes:
 
-  - service: research_data_storage
-    description: |
-      RData is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage / Research instead. You could also use RData for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
+#   - service: research_data_storage
+#     description: |
+#       RData is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage / Research instead. You could also use RData for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
 
-      - Synonyms: RDATA, GPFS, HPC Storage, Oscar Storage
-      - Best for: High performance storage of research data, perform computation on your data using Brown’s supercomputer
-      - Limitations: Not accessible on all campus networks.
-      - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://ccv.brown.edu/services/infrastructure/rdata/) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
-    features:
-      - name: relative_speed
-        class: fastest
-        notes:
-      - name: collaborative_edits
-        class: false
-        notes:
-      - name: shareable_link
-        class: true
-        notes:
-          - via Globus
-      - name: DOI_provided
-        class: false
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - daily snapshots with 7 days retention
-      - name: canvas_integration
-        class: false
-        notes:
-      - name: secondary_site_backup
-        class: true
-        notes:
-      - name: brown_network
-        class: true
-        notes:
-          - except with Globus
-      - name: access_from_oscar
-        class: true
-        notes:
-      - name: security
-        class: 2
-        notes:
-          - Access controlled by Brown Authentication and Security groups
-      - name: storage
-        class: 1 TB +
-        notes:
-          - 1 TB per PI
-          - 10 TB per grant
-          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
-      - name: max_file_size
-        class: 8 XB
-        notes:
+#       - Synonyms: RDATA, GPFS, HPC Storage, Oscar Storage
+#       - Best for: High performance storage of research data, perform computation on your data using Brown’s supercomputer
+#       - Limitations: Not accessible on all campus networks.
+#       - Rate: $100/TB/Year when storing above free/grant allocations
+#       - More info: [Documentation](https://ccv.brown.edu/services/infrastructure/rdata/) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
+#     features:
+#       - name: relative_speed
+#         class: fastest
+#         notes:
+#       - name: collaborative_edits
+#         class: false
+#         notes:
+#       - name: shareable_link
+#         class: true
+#         notes:
+#           - via Globus
+#       - name: DOI_provided
+#         class: false
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - daily snapshots with 7 days retention
+#       - name: canvas_integration
+#         class: false
+#         notes:
+#       - name: secondary_site_backup
+#         class: true
+#         notes:
+#       - name: brown_network
+#         class: true
+#         notes:
+#           - except with Globus
+#       - name: access_from_oscar
+#         class: true
+#         notes:
+#       - name: security
+#         class: 2
+#         notes:
+#           - Access controlled by Brown Authentication and Security groups
+#       - name: storage
+#         class: 1 TB +
+#         notes:
+#           - 1 TB per PI
+#           - 10 TB per grant
+#           - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+#       - name: max_file_size
+#         class: 8 XB
+#         notes:
 
-  - service: stronghold
-    description: |
-      Stronghold is a secure computing and storage environment that enables
-      Brown researchers to analyze sensitive data while complying with regulatory
-      or contractual requirements.
-      - Best for: Storing data with data usage agreements, FISMA, etc.
-      - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Service Catalog](https://it.brown.edu/services/type/stronghold-research-environment-data-compliance) | [Request this service](https://www.brown.edu/cis/forms/Stronghold/shold.php)
-    features:
-      - name: relative_speed
-        class: faster
-        notes:
-      - name: collaborative_edits
-        class: false
-        notes:
-      - name: shareable_link
-        class: false
-        notes:
-      - name: DOI_provided
-        class: false
-        notes:
-      - name: data_protection
-        class: true
-        notes:
-          - up to 6 weeks
-      - name: canvas_integration
-        class: false
-        notes:
-      - name: secondary_site_backup
-        class: true
-        notes:
-      - name: brown_network
-        class: true
-        notes:
-          - except with Globus
-      - name: access_from_oscar
-        class: false
-        notes:
-      - name: security
-        class: 3
-        notes:
-          - Appropriate for data with strong data compliance requirements PII, HIPAA, etc
-      - name: storage
-        class: 1 TB +
-        notes:
-          - 1 TB per PI
-          - 10 TB per grant
-          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
-      - name: max_file_size
-        class: 4 TB
-        notes:
+#   - service: stronghold
+#     description: |
+#       Stronghold is a secure computing and storage environment that enables
+#       Brown researchers to analyze sensitive data while complying with regulatory
+#       or contractual requirements.
+#       - Best for: Storing data with data usage agreements, FISMA, etc.
+#       - Rate: $100/TB/Year when storing above free/grant allocations
+#       - More info: [Service Catalog](https://it.brown.edu/services/type/stronghold-research-environment-data-compliance) | [Request this service](https://www.brown.edu/cis/forms/Stronghold/shold.php)
+#     features:
+#       - name: relative_speed
+#         class: faster
+#         notes:
+#       - name: collaborative_edits
+#         class: false
+#         notes:
+#       - name: shareable_link
+#         class: false
+#         notes:
+#       - name: DOI_provided
+#         class: false
+#         notes:
+#       - name: data_protection
+#         class: true
+#         notes:
+#           - up to 6 weeks
+#       - name: canvas_integration
+#         class: false
+#         notes:
+#       - name: secondary_site_backup
+#         class: true
+#         notes:
+#       - name: brown_network
+#         class: true
+#         notes:
+#           - except with Globus
+#       - name: access_from_oscar
+#         class: false
+#         notes:
+#       - name: security
+#         class: 3
+#         notes:
+#           - Appropriate for data with strong data compliance requirements PII, HIPAA, etc
+#       - name: storage
+#         class: 1 TB +
+#         notes:
+#           - 1 TB per PI
+#           - 10 TB per grant
+#           - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+#       - name: max_file_size
+#         class: 4 TB
+#         notes:
 
-questions:
-  - question: What is the risk classification of your data?
-    information: |
-      Brown has classified its information assets into one of four risk-based categories
-      (No Risk, Level 1, Level 2, or Level 3) for the purpose of determining who is allowed
-      to access the information and what security precautions must be taken to protect it
-      against unauthorized access. It is the data and service owner’s responsibility to ensure
-      appropriate security measures are taken depending on the risk classification. If you
-      have any questions or need help, please reach out to the Information Security Group
-      (isg@brown.edu). [Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)
-    affected_category: security
-    default_answer: No Risk
-    answers:
-      - answer: No Risk
-        category_classes:
-          - 0
-          - 1
-          - 2
-          - 3
-      - answer: Level 1
-        category_classes:
-          - 1
-          - 2
-          - 3
-      - answer: Level 2
-        category_classes:
-          - 2
-          - 3
-      - answer: Level 3
-        category_classes:
-          - 3
-  - question: Would you like a DOI auto-generated for your data?
-    information:
-    affected_category: DOI_provided
-    default_answer: No
-    answers:
-      - answer: Yes
-        category_classes:
-          - true
-      - answer: No
-        category_classes:
-          - true
-          - false
-  - question: Is integration with Canvas required?
-    information:
-    affected_category: canvas_integration
-    default_answer: No
-    answers:
-      - answer: Yes
-        category_classes:
-          - true
-      - answer: No
-        category_classes:
-          - true
-          - false
-  - question: How much data do you have?
-    information:
-    affected_category: storage
-    default_answer: Less than 2 TB
-    answers:
-      - answer: Less than 2 TB
-        category_classes:
-          - unlimited
-          - 1 TB +
-          - 2 TB +
-      - answer: Greater than 2TB
-        category_classes:
-          - unlimited
-          - 2 TB +
-  - question: Do you expect to access from Oscar?
-    information:
-    affected_category: access_from_oscar
-    default_answer: No
-    answers:
-      - answer: Yes
-        category_classes:
-          - true
-          - partial
-      - answer: No
-        category_classes:
-          - true
-          - false
-          - partial
-  - question: Do you need to share data via a link?
-    information:
-    affected_category: shareable_link
-    default_answer: No
-    answers:
-      - answer: Yes
-        category_classes:
-          - true
-      - answer: No
-        category_classes:
-          - true
-          - false
+# questions:
+#   - question: What is the risk classification of your data?
+#     information: |
+#       Brown has classified its information assets into one of four risk-based categories
+#       (No Risk, Level 1, Level 2, or Level 3) for the purpose of determining who is allowed
+#       to access the information and what security precautions must be taken to protect it
+#       against unauthorized access. It is the data and service owner’s responsibility to ensure
+#       appropriate security measures are taken depending on the risk classification. If you
+#       have any questions or need help, please reach out to the Information Security Group
+#       (isg@brown.edu). [Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)
+#     affected_category: security
+#     default_answer: No Risk
+#     answers:
+#       - answer: No Risk
+#         category_classes:
+#           - 0
+#           - 1
+#           - 2
+#           - 3
+#       - answer: Level 1
+#         category_classes:
+#           - 1
+#           - 2
+#           - 3
+#       - answer: Level 2
+#         category_classes:
+#           - 2
+#           - 3
+#       - answer: Level 3
+#         category_classes:
+#           - 3
+#   - question: Would you like a DOI auto-generated for your data?
+#     information:
+#     affected_category: DOI_provided
+#     default_answer: No
+#     answers:
+#       - answer: Yes
+#         category_classes:
+#           - true
+#       - answer: No
+#         category_classes:
+#           - true
+#           - false
+#   - question: Is integration with Canvas required?
+#     information:
+#     affected_category: canvas_integration
+#     default_answer: No
+#     answers:
+#       - answer: Yes
+#         category_classes:
+#           - true
+#       - answer: No
+#         category_classes:
+#           - true
+#           - false
+#   - question: How much data do you have?
+#     information:
+#     affected_category: storage
+#     default_answer: Less than 2 TB
+#     answers:
+#       - answer: Less than 2 TB
+#         category_classes:
+#           - unlimited
+#           - 1 TB +
+#           - 2 TB +
+#       - answer: Greater than 2TB
+#         category_classes:
+#           - unlimited
+#           - 2 TB +
+#   - question: Do you expect to access from Oscar?
+#     information:
+#     affected_category: access_from_oscar
+#     default_answer: No
+#     answers:
+#       - answer: Yes
+#         category_classes:
+#           - true
+#           - partial
+#       - answer: No
+#         category_classes:
+#           - true
+#           - false
+#           - partial
+#   - question: Do you need to share data via a link?
+#     information:
+#     affected_category: shareable_link
+#     default_answer: No
+#     answers:
+#       - answer: Yes
+#         category_classes:
+#           - true
+#       - answer: No
+#         category_classes:
+#           - true
+#           - false
