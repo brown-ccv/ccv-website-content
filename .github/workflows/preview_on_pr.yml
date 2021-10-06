@@ -17,13 +17,13 @@ jobs:
         strict: '1'
     - uses: nrkno/yaml-schema-validator-github-action@master
       with:
-        schema: 'schemas/meta-banner.yml'
-        target: 'meta/banner'
+        schema: 'schemas/meta-main.yml'
+        target: 'meta/main'
         strict: '1'
     - uses: nrkno/yaml-schema-validator-github-action@master
       with:
-        schema: 'schemas/meta-card.yml'
-        target: 'meta/card'
+        schema: 'schemas/meta-category.yml'
+        target: 'meta/category'
         strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
