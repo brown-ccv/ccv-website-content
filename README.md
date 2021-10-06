@@ -18,9 +18,26 @@
         - single.yml
     - category - provides content to overview cards
         - single.yml
+- schemas - schemas for yml validation via Yamale
+    - meta*.yml - validation for meta/* folders
+    - single.yml - validation for folder with matching name
 
 
 ## Validation
 
-We use [Yamale]() in conjuction with GitHub Actions to make sure that the content of files adheres to a specific schema.
- 
+We use [Yamale]() together with GitHub Actions to make sure that the content of files adheres to a specific schema.
+
+All schemas are defined in the `schemas` folder. When you open a Pull Request, the necessary validations are run. 
+However, if you would like to validate the yml file locally you can install Yamale
+
+To install Yamale, you can use pipx (or pip)
+
+```
+pipx install yamale
+```
+
+Then specify the schema and content folder (or file) to verify. For instance,
+
+```
+yamale -s schemas/software.yml our-work/software
+```

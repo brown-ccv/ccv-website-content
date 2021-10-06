@@ -7,6 +7,6 @@ mdi:
 links: list(include('link'), required=False)
 --
 link:
-  - text: str()
-    #relative path in the site or website
-    target: str()
+  text: str()
+  #relative path in the site or website
+  target: str()
