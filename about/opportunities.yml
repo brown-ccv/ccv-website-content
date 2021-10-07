@@ -1,7 +1,5 @@
 title: Opportunities
-mdi:
-  prefix: mdi
-  icon: account-plus
+icon: account-plus
 data:
   - title: Research Services Support Specialist
     team: CCV Operations

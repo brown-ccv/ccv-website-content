@@ -1,9 +1,7 @@
 title: Collaborations
 description: |
     Check the groups we collaborate with
-mdi:
-  prefix: mdi
-  icon: people-group
+icon: people-group
 links:
   - text: go to collaborations
     target: /our-work/collaborations

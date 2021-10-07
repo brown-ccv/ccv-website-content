@@ -7,8 +7,8 @@ tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: regex('^.*(python|julia|R|matlab|javascript|typescript|vuejs|reactjs).*$')
-tag: regex('^.*(behavioral-tasks|neuroimaging|neuroscience).*$')
+language: regex('^(python|julia|R|matlab|javascript|typescript|vuejs|reactjs|rust)$')
+tag: regex('^(behavioral-tasks|neuroimaging|neuroscience)$')
 #people involved in the project
 person:
   name: str()
@@ -18,7 +18,7 @@ group: str()
 # These are links associated with the software 
 link:
   # Must match one of the values in the regex
-  category: regex('^.*(code|docs|website).*$')
+  category: regex('^(code|docs|website)$')
   url: str()
   
 

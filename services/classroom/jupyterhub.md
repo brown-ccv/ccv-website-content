@@ -1,9 +1,7 @@
 ---
 title: JupyterHub
 description: Learn more about JupyterHub, a convenient way to serve Jupyter Notebooks for multiple users.
-mdi:
-  prefix: mdi
-  icon: code-greater-than-or-equal
+icon: code-greater-than-or-equal
 ---
 # Introduction
 
