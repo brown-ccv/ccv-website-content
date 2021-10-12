@@ -14,12 +14,12 @@ jobs:
           - schema: 'schemas/workshops-and-talks.yml'
             target: 'our-work/workshops-and-talks'
             name: 'Workshops YML Validation'
-          # - schema: 'schemas/meta-main.yml'
-          #   target: 'meta/main'
-          #   name: 'Main YML Validation'
-          # - schema: 'schemas/meta-category.yml'
-          #   target: 'our-work/category'
-          #   name: 'Category YML Validation'
+          - schema: 'schemas/meta-main.yml'
+            target: 'meta/main'
+            name: 'Main YML Validation'
+          - schema: 'schemas/meta-category.yml'
+            target: 'our-work/category'
+            name: 'Category YML Validation'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
