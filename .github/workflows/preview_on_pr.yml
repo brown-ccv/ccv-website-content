@@ -2,28 +2,25 @@ name: preview-on-pr
 on: pull_request
 jobs:
   yaml-schema-validation:
+    matrix:
+      schema: [""]
+      target: [""]
+      include:
+        - schema: 'schemas/software.yml'
+          target: 'our-work/software'
+        - schema: 'schemas/workshops-and-talks.yml'
+          target: 'our-work/workshops-and-talks'
+        - schema: 'schemas/meta-main.yml'
+          target: 'meta/main'
+        - schema: 'schemas/meta-category.yml'
+          target: 'our-work/category'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: nrkno/yaml-schema-validator-github-action@master
       with:
-        schema: 'schemas/software.yml'
-        target: 'our-work/software'
-        strict: '1'
-    - uses: nrkno/yaml-schema-validator-github-action@master
-      with:
-        schema: 'schemas/workshops-and-talks.yml'
-        target: 'our-work/workshops-and-talks'
-        strict: '1'
-    - uses: nrkno/yaml-schema-validator-github-action@master
-      with:
-        schema: 'schemas/meta-main.yml'
-        target: 'meta/main'
-        strict: '1'
-    - uses: nrkno/yaml-schema-validator-github-action@master
-      with:
-        schema: 'schemas/meta-category.yml'
-        target: 'meta/category'
+        schema: ${{ matrix.schema }}
+        target: ${{ matrix.target }}
         strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
