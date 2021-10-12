@@ -2,18 +2,19 @@ name: preview-on-pr
 on: pull_request
 jobs:
   yaml-schema-validation:
-    matrix:
-      schema: [""]
-      target: [""]
-      include:
-        - schema: 'schemas/software.yml'
-          target: 'our-work/software'
-        - schema: 'schemas/workshops-and-talks.yml'
-          target: 'our-work/workshops-and-talks'
-        - schema: 'schemas/meta-main.yml'
-          target: 'meta/main'
-        - schema: 'schemas/meta-category.yml'
-          target: 'our-work/category'
+    strategy:
+      matrix:
+        schema: [""]
+        target: [""]
+        include:
+          - schema: 'schemas/software.yml'
+            target: 'our-work/software'
+          - schema: 'schemas/workshops-and-talks.yml'
+            target: 'our-work/workshops-and-talks'
+          - schema: 'schemas/meta-main.yml'
+            target: 'meta/main'
+          - schema: 'schemas/meta-category.yml'
+            target: 'our-work/category'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
