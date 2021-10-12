@@ -1,22 +1,22 @@
 name: preview-on-pr
 on: pull_request
 jobs:
-  yaml-schema-validation:
+  yaml-validation:
     strategy:
       matrix:
         values:
-          - schema: 'schemas/software.yml'
+          - name: 'Software Validation'
+            schema: 'schemas/software.yml'
             target: 'our-work/software'
-            name: 'Software YML Validation'
-          - schema: 'schemas/workshops-and-talks.yml'
-            target: 'our-work/workshops-and-talks'
-            name: 'Workshops YML Validation'
-          - schema: 'schemas/meta-main.yml'
-            target: 'meta/main'
-            name: 'Main YML Validation'
-          - schema: 'schemas/meta-category.yml'
+          - name: 'Workshops Validation'
+            schema: 'schemas/workshops-and-talks.yml'
+            target: 'our-work/workshops-and-talks'        
+          - name: 'Meta-Main Validation'
+            schema: 'schemas/meta-main.yml'
+            target: 'meta/main' 
+          - name: 'Meta-Category Validation'
+            schema: 'schemas/meta-category.yml'
             target: 'our-work/category'
-            name: 'Category YML Validation'
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
