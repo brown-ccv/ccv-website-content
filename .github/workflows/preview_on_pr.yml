@@ -24,7 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: ${{ matrix.name }}
-      if: ${{ matrix.name }} != ""
+      if: ${{ matrix.schema }} != ""
       uses: nrkno/yaml-schema-validator-github-action@master
       with:
         schema: ${{ matrix.schema }}
