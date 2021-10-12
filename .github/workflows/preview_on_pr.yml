@@ -37,19 +37,20 @@ jobs:
             target: 'services'
           - name: 'About Frontmatter Validation'
             schema: 'schemas/about-frontmatter.yml'
-            target: 'about'             
+            target: 'temp'             
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Services frontmatter to yml
       if: startsWith(matrix.values.name, 'Services')
-      run: |
+      run: | 
         grep '^---$' services/**/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> fname.yml'
     - name: About frontmatter to yml
       if: startsWith(matrix.values.name, 'About')
       run: |
-        grep '^---$' about/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> fname.yml'
+        mkdir temp
+        grep '^---$' about/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> temp/fname.yml'
     - name: ${{ matrix.values.name }}
       uses: nrkno/yaml-schema-validator-github-action@master
       with:
