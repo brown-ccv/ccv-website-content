@@ -24,7 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: nrkno/yaml-schema-validator-github-action@master
-      if: startsWith(matrix.schema, schemas)
+      if: startsWith(matrix.schema, 'schemas')
       with:
         schema: ${{ matrix.schema }}
         target: ${{ matrix.target }}
