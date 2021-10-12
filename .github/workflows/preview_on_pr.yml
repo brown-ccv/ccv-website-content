@@ -40,7 +40,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Services frontmatter to yml
-      if: startsWith{matrix.values.name, 'Services'}
+      if: startsWith(matrix.values.name, 'Services')
       run: |
         grep '^---$' services/**/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> fname.yml'
     - name: ${{ matrix.values.name }}
