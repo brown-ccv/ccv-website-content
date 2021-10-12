@@ -49,7 +49,7 @@ jobs:
     - name: About frontmatter to yml
       if: startsWith(matrix.values.name, 'About')
       run: |
-        mkdir temp
+        mkdir -p temp/about
         grep '^---$' about/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> temp/fname.yml'
     - name: ${{ matrix.values.name }}
       uses: nrkno/yaml-schema-validator-github-action@master
