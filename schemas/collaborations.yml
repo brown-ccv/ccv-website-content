@@ -6,7 +6,7 @@ tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-tag: regex('^(behavioral-tasks|neuro-imaging|neuro-engineering|computational-psychiatry)$')
+tag: regex('^(visualization|vr|database|behavioral-tasks|neuro-imaging|neuro-engineering|computational-psychiatry)$')
 #people involved in the project
 investigators:
   name: str()
@@ -17,7 +17,7 @@ person:
 # These are links associated with the software 
 link:
   # Must match one of the values in the regex
-  category: regex('^(website)$')
+  category: regex('^(website|code)$')
   url: str()
   
 
