@@ -4,10 +4,7 @@ jobs:
   yaml-schema-validation:
     strategy:
       matrix:
-        schema: [""]
-        target: [""]
-        name: ["Default"]
-        include:
+        values:
           - schema: 'schemas/software.yml'
             target: 'our-work/software'
             name: 'Software YML Validation'
@@ -22,12 +19,14 @@ jobs:
             name: 'Category YML Validation'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: nrkno/yaml-schema-validator-github-action@master
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: ${{ matrix.values.name }}
+      uses: nrkno/yaml-schema-validator-github-action@master
       if: startsWith(matrix.schema, 'schemas')
       with:
-        schema: ${{ matrix.schema }}
-        target: ${{ matrix.target }}
+        schema: ${{ matrix.values.schema }}
+        target: ${{ matrix.values.target }}
         strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
