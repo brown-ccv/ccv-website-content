@@ -31,11 +31,18 @@ jobs:
             target: 'our-work/software'
           - name: 'Workshops Validation'
             schema: 'schemas/workshops-and-talks.yml'
-            target: 'our-work/workshops-and-talks'        
+            target: 'our-work/workshops-and-talks'
+          - name: 'Services Validation'
+            schema: 'schemas/services-frontmatter.yml'
+            target: 'services'          
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
       uses: actions/checkout@v2
+    - name: Services frontmatter to yml
+      if: startsWith{matrix.values.name, 'Services'}
+      run: |
+        grep '^---$' services/**/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> fname.yml'
     - name: ${{ matrix.values.name }}
       uses: nrkno/yaml-schema-validator-github-action@master
       with:
