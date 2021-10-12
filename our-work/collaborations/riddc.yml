@@ -3,8 +3,8 @@ description: "The goal of the RI Data Discovery Center is to become the national
 CCV supports, maintains and upgrades existing infrastructure used by the RI Data Discovery Center at Brown University. This includes databases as well as code and web technology used to access and visualize historic and model data."
 tags:
   - visualization
-  - data
   - vr
+  - database
 investigators:
   - name: Jeff Morgan
     link: https://vivo.brown.edu/display/jrmorgan
