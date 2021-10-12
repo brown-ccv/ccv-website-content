@@ -4,7 +4,7 @@ description: |
   Analyze sensitive data while complying with regulatory or contractual requirements
   for data security
 icon: shield-half-full
-extra:
+links:
   text: CIS Risk Classification
   link: "https://it.brown.edu/computing-policies/risk-classifications"
 ---

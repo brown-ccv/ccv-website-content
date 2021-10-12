@@ -1,9 +1,7 @@
 ---
 title: Advanced Research Computing
 description: Support for researchers seeking help with statistical modeling, machine learning, data mining, data visualization, computational biology, high-performance computing, and software engineering
-mdi:
-  prefix: mdi
-  icon: source-commit
+icon: source-commit
 ---
 
 ## Data Science

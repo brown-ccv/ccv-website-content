@@ -1,9 +1,7 @@
 ---
 title: Campus File Service
 description: Learn more about storing, sharing, and backing up files at Brown with Campus File Storage.
-mdi:
-  prefix: mdi
-  icon: database
+icon: database
 ---
 
 Campus File Storage provides university departments, researchers, and individuals with a location on files.brown.edu in which files can be stored. For departments and researchers, these files can be shared with collaborators who have a Brown account.  
