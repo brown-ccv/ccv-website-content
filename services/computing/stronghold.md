@@ -5,8 +5,8 @@ description: |
   for data security
 icon: shield-half-full
 links:
-  text: CIS Risk Classification
-  link: "https://it.brown.edu/computing-policies/risk-classifications"
+  - text: CIS Risk Classification
+    link: "https://it.brown.edu/computing-policies/risk-classifications"
 ---
 # Overview
 
