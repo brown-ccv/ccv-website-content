@@ -9,6 +9,9 @@ links: list(include('link'), required=False)
 language: regex('^(python|julia|R|matlab|unix-cli|rust)$')
 tag: regex('^(behavioral-tasks|neuro-imaging|neuro-engineering|computational-psychiatry)$')
 #people involved in the project
+group:
+  name: str()
+  link: str(required=False)
 person:
   name: str()
   github_user: str(required=False)

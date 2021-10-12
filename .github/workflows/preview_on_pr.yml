@@ -5,6 +5,9 @@ jobs:
     strategy:
       matrix:
         values:
+          - name: 'Collaboration Validation'
+            schema: 'schemas/collaborations.yml'
+            target: 'our-work/collaborations'
           - name: 'Software Validation'
             schema: 'schemas/software.yml'
             target: 'our-work/software'
