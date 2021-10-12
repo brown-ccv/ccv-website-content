@@ -4,8 +4,9 @@ jobs:
   yaml-schema-validation:
     strategy:
       matrix:
-        schema: []
-        target: []
+        schema: [""]
+        target: [""]
+        name: ["Default"]
         include:
           - schema: 'schemas/software.yml'
             target: 'our-work/software'
@@ -23,6 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: ${{ matrix.name }}
+      if: ${{ matrix.name }} != ""
       uses: nrkno/yaml-schema-validator-github-action@master
       with:
         schema: ${{ matrix.schema }}
