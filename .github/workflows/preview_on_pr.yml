@@ -26,14 +26,12 @@ jobs:
           - name: 'Workshops Validation'
             schema: 'schemas/workshops-and-talks.yml'
             target: 'our-work/workshops-and-talks'        
-
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
       uses: actions/checkout@v2
     - name: ${{ matrix.values.name }}
       uses: nrkno/yaml-schema-validator-github-action@master
-      if: startsWith(matrix.schema, 'schemas')
       with:
         schema: ${{ matrix.values.schema }}
         target: ${{ matrix.values.target }}
