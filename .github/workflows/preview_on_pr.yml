@@ -23,9 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: ${{ matrix.name }}
+    - uses: nrkno/yaml-schema-validator-github-action@master
       if: ${{ matrix.schema }} != ""
-      uses: nrkno/yaml-schema-validator-github-action@master
       with:
         schema: ${{ matrix.schema }}
         target: ${{ matrix.target }}
