@@ -9,16 +9,21 @@ jobs:
         include:
           - schema: 'schemas/software.yml'
             target: 'our-work/software'
+            name: 'Software YML Validation'
           - schema: 'schemas/workshops-and-talks.yml'
             target: 'our-work/workshops-and-talks'
-          - schema: 'schemas/meta-main.yml'
-            target: 'meta/main'
-          - schema: 'schemas/meta-category.yml'
-            target: 'our-work/category'
+            name: 'Workshops YML Validation'
+          # - schema: 'schemas/meta-main.yml'
+          #   target: 'meta/main'
+          #   name: 'Main YML Validation'
+          # - schema: 'schemas/meta-category.yml'
+          #   target: 'our-work/category'
+          #   name: 'Category YML Validation'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: nrkno/yaml-schema-validator-github-action@master
+    - name: ${{ matrix.name }}
+      uses: nrkno/yaml-schema-validator-github-action@master
       with:
         schema: ${{ matrix.schema }}
         target: ${{ matrix.target }}
