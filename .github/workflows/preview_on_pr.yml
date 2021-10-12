@@ -4,8 +4,8 @@ jobs:
   yaml-schema-validation:
     strategy:
       matrix:
-        schema: [""]
-        target: [""]
+        schema: []
+        target: []
         include:
           - schema: 'schemas/software.yml'
             target: 'our-work/software'
