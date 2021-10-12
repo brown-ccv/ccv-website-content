@@ -8,7 +8,7 @@ links: list(include('link'), required=False)
 ---
 tag: regex('^(visualization|vr|database|behavioral-tasks|neuro-imaging|neuro-engineering|computational-psychiatry)$')
 #people involved in the project
-investigators:
+investigator:
   name: str()
   link: str(required=False)
 person:
