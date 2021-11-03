@@ -41,3 +41,7 @@ Then specify the schema and content folder (or file) to verify. For instance,
 ```
 yamale -s schemas/software.yml our-work/software
 ```
+
+## Icons
+
+When icons are necessary, please refer to [these icons](https://pictogrammers.github.io/@mdi/font/5.9.55/). Note that the version linked here may have changed from that one included in the website.
