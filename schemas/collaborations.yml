@@ -1,0 +1,24 @@
+# Schema for all yml files in our-work/collaborations 
+title: str()
+description: str()
+investigators: list(include('investigator'))
+tags: list(include('tag'))
+people: list(include('person'))
+links: list(include('link'), required=False)
+---
+tag: regex('^(visualization|vr|database|behavioral-tasks|neuro-imaging|neuro-engineering|computational-psychiatry)$')
+#people involved in the project
+investigator:
+  name: str()
+  link: str(required=False)
+person:
+  name: str()
+  github_user: str(required=False)
+# These are links associated with the software 
+link:
+  # Must match one of the values in the regex
+  category: regex('^(website|code)$')
+  url: str()
+  
+
+  

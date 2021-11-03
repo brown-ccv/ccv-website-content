@@ -1,14 +1,9 @@
----
 title: COVID-19
-
 tagTitle: COVID-19 Updates - Center for Computation and Visualization
 tagDescription: The Center for Computation and Visualization remains committed to supporting the computing needs of the Brown Research Community during this difficult time.
-
 hero:
   lead: The Center for Computation and Visualization remains committed to supporting the computing needs of the Brown Research Community during this difficult time.
-
 lastUpdated: 06 April 2020
-
 items:
 - name: statement
   title: Statement from CCV Directors
@@ -46,6 +41,3 @@ items:
 
         Please email [support@ccv.brown.edu](mailto:support@ccv.brown.edu) to ask for
         this service and CCV will work with OVPR to vet and approve the request.
-
-
----

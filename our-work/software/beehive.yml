@@ -1,0 +1,26 @@
+title: Beehive
+description: "A hub for researchers to share and find behavioral tasks"
+languages:
+  - javascript
+  - vuejs
+tags:
+  - behavioral-tasks
+groups:
+  - borton-lab
+  - openmind
+  - frank-lab
+  - nassar-lab
+people:
+  - name: Rashi Dhar
+    github_user: Rashi1997 
+  - name: Fernando Gelin
+    github_user: fernandogelin
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+  - name: Isabel Restrepo
+    github_user: mirestrepo
+links:
+  - category: "code"
+    url: https://github.com/brown-ccv/behavioral-task-hub
+  - category: "website"
+    url: https://beehive.ccv.brown.edu

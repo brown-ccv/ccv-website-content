@@ -2,9 +2,7 @@
 title: XSEDE
 description: |
   XSEDE is an NSF-funded, nationwide collection of supercomputing systems that are available to researchers through merit-based allocations. 
-mdi:
-  prefix: mdi
-  icon: access-point-network
+icon: access-point-network
 ---
 
 [XSEDE](https://www.xsede.org/) is an NSF-funded, nationwide collection of supercomputing systems that are available to researchers through merit-based allocations.  The resources are free, but the application process is competitive.  CCV participates in the Campus Champions program and has a small pool of compute time available for Brown researchers to try out XSEDE resources.   This is a great way to test your code on XSEDE systems before getting your own allocation.

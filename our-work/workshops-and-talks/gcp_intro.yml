@@ -1,15 +1,22 @@
 title: Cloud computing with GCP
+description: This workshop provides an introduction to Google Cloud Platform. It provides
+  familiarity with Google Cloud Console and the basics of interacting and using
+  Google's Compute Engine
 slug: gcp_intro
-category: Cloud Computing
-authors:
+languages:
+  - unix-cli
+tags:
+  - cloud-computing
+  - gcp
+people:
   - name: Isabel Restrepo
     github_user: mirestrepo
-description: This workshop provides an introduction to Google Cloud Platform. We will gain
-  familirity with Google Cloud Console and the basics of interacting and using
-  Google's Compute Engine
-type: workshop
-group: DSCOV
+groups:
+  - dscov
 links:
-  repository: https://github.com/dscov-tutorials/gcp-intro
-  other: 
-    - http://bit.ly/dscov-gcp
+  - category: code
+    url: https://github.com/dscov-tutorials/gcp-intro
+  - category: slides 
+    url: http://bit.ly/dscov-gcp
+  - category: video
+    url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa0aa1a2-acee-4878-b366-ab9f003367bd

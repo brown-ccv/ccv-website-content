@@ -1,20 +1,10 @@
-title: File storage and transfer
-description: |
-  Several services at Brown allow you to share and store files. This guide will let you compare the options and decide which one(s) are right for you.
-mdi:
-  prefix: mdi
-  icon: database
-links:
-  - text: check our storage options
-    target: /services/file-storage-and-transfer
-
 storage_tool_header: |
   This tool lets you compare the available storage options at Brown.
   Answer some of these questions or select services to compare their features
   and decide which of these services suit your needs.
 
 services:
-  - service: "Google Drive"
+  - name: "Google Drive"
     description: |
       Google Drive gives you unlimited space to store and share documents.
       The native Google document formats allow for real-time collaboration and file history.
@@ -35,26 +25,26 @@ services:
         class: fast
         notes:
       - name: collaborative_edits
-        class: true
+        class: True
         notes:
       - name: shareable_link
-        class: true
+        class: True
         notes:
       - name: DOI_provided
-        class: false
+        class: False
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - up to 60 days
       - name: canvas_integration
-        class: false
+        class: False
         notes:
       - name: secondary_site_backup
-        class: false
+        class: False
         notes:
       - name: brown_network
-        class: false
+        class: False
         notes:
       - name: access_from_oscar
         class: partial
@@ -73,7 +63,7 @@ services:
         class: 5 TB
         notes:
 
-  - service: campus_file_storage_non-replicated
+  - name: campus_file_storage_non-replicated
     description: |
       File Services for Research provides Brown University research departments with a
       location in which files can be stored, backed up, and shared with members of the
@@ -91,27 +81,27 @@ services:
         class: faster
         notes:
       - name: collaborative_edits
-        class: false
+        class: False
         notes:
       - name: shareable_link
-        class: true
+        class: True
         notes:
           - via Globus
       - name: DOI_provided
-        class: false
+        class: False
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - up to 60 days
       - name: canvas_integration
-        class: false
+        class: False
         notes:
       - name: secondary_site_backup
-        class: false
+        class: False
         notes:
       - name: brown_network
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -133,13 +123,13 @@ services:
         notes:
           - 1 TB for best performance
 
-  - service: campus_file_storage_replicated
+  - name: campus_file_storage_replicated
     description: |
       File Services for Research provides Brown University research departments with a
       location in which files can be stored, backed up, and shared with members of the
       Brown community using Brown ID’s and groups.  Space is allocated to each research
       lab or PI with an ITHelp request , security groups are required to define access to
-      the data.  The data is replicated daily to our disaster recovery site for true
+      the data.  The data is replicated daily to our disaster recovery site for True
       geo-redundant data protection.  The data is accessible on Brown's campus networks
       (including VPN and wireless).
       - Synonyms: Files.Brown.EDU, Files, Isilon
@@ -152,27 +142,27 @@ services:
         class: faster
         notes:
       - name: collaborative_edits
-        class: false
+        class: False
         notes:
       - name: shareable_link
-        class: true
+        class: True
         notes:
           - via Globus
       - name: DOI_provided
-        class: false
+        class: False
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - up to 60 days
       - name: canvas_integration
-        class: false
+        class: False
         notes:
       - name: secondary_site_backup
-        class: true
+        class: True
         notes:
       - name: brown_network
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -194,7 +184,7 @@ services:
         notes:
           - 1 TB for best performance
 
-  - service: Brown_Digital_Repository
+  - name: Brown_Digital_Repository
     description: |
       The Brown Digital Repository (BDR) is a place to gather, index, store, preserve, and make
       available digital assets produced via the scholarly, instructional, research, and administrative
@@ -218,26 +208,26 @@ services:
         class: faster
         notes:
       - name: collaborative_edits
-        class: false
+        class: False
         notes:
       - name: shareable_link
-        class: true
+        class: True
         notes:
       - name: DOI_provided
-        class: true
+        class: True
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - up to 60 days
       - name: canvas_integration
-        class: false
+        class: False
         notes:
       - name: secondary_site_backup
-        class: true
+        class: True
         notes:
       - name: brown_network
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -256,7 +246,7 @@ services:
         notes:
           - 1 TB for best performance
 
-  - service: LabArchives
+  - name: LabArchives
     description: |
       LabArchives is a cloud-based electronic lab notebook that can be used by researchers, instructors, and
       students for input and organization of laboratory data, information sharing, and collaboration, and for
@@ -273,26 +263,26 @@ services:
         class: faster
         notes:
       - name: collaborative_edits
-        class: true
+        class: True
         notes:
       - name: shareable_link
-        class: true
+        class: True
         notes:
       - name: DOI_provided
-        class: false
+        class: False
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - up to 60 days
       - name: canvas_integration
-        class: true
+        class: True
         notes:
       - name: secondary_site_backup
-        class: true
+        class: True
         notes:
       - name: brown_network
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -310,7 +300,7 @@ services:
         class: 4 GB
         notes:
 
-  - service: research_data_storage
+  - name: research_data_storage
     description: |
       RData is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage / Research instead. You could also use RData for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
 
@@ -324,31 +314,31 @@ services:
         class: fastest
         notes:
       - name: collaborative_edits
-        class: false
+        class: False
         notes:
       - name: shareable_link
-        class: true
+        class: True
         notes:
           - via Globus
       - name: DOI_provided
-        class: false
+        class: False
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - daily snapshots with 7 days retention
       - name: canvas_integration
-        class: false
+        class: False
         notes:
       - name: secondary_site_backup
-        class: true
+        class: True
         notes:
       - name: brown_network
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
-        class: true
+        class: True
         notes:
       - name: security
         class: 2
@@ -364,7 +354,7 @@ services:
         class: 8 XB
         notes:
 
-  - service: stronghold
+  - name: stronghold
     description: |
       Stronghold is a secure computing and storage environment that enables
       Brown researchers to analyze sensitive data while complying with regulatory
@@ -377,30 +367,30 @@ services:
         class: faster
         notes:
       - name: collaborative_edits
-        class: false
+        class: False
         notes:
       - name: shareable_link
-        class: false
+        class: False
         notes:
       - name: DOI_provided
-        class: false
+        class: False
         notes:
       - name: data_protection
-        class: true
+        class: True
         notes:
           - up to 6 weeks
       - name: canvas_integration
-        class: false
+        class: False
         notes:
       - name: secondary_site_backup
-        class: true
+        class: True
         notes:
       - name: brown_network
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
-        class: false
+        class: False
         notes:
       - name: security
         class: 3
@@ -454,11 +444,11 @@ questions:
     answers:
       - answer: Yes
         category_classes:
-          - true
+          - True
       - answer: No
         category_classes:
-          - true
-          - false
+          - True
+          - False
   - question: Is integration with Canvas required?
     information:
     affected_category: canvas_integration
@@ -466,11 +456,11 @@ questions:
     answers:
       - answer: Yes
         category_classes:
-          - true
+          - True
       - answer: No
         category_classes:
-          - true
-          - false
+          - True
+          - False
   - question: How much data do you have?
     information:
     affected_category: storage
@@ -492,12 +482,12 @@ questions:
     answers:
       - answer: Yes
         category_classes:
-          - true
+          - True
           - partial
       - answer: No
         category_classes:
-          - true
-          - false
+          - True
+          - False
           - partial
   - question: Do you need to share data via a link?
     information:
@@ -506,8 +496,8 @@ questions:
     answers:
       - answer: Yes
         category_classes:
-          - true
+          - True
       - answer: No
         category_classes:
-          - true
-          - false
+          - True
+          - False

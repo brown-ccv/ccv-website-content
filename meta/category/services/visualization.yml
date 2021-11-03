@@ -3,9 +3,7 @@ description: |
     CCV has visualization experts working on cutting-edge 3D visualization for research.
     We have, the Cave, a fully-immersive display system and work with a variety of devices,
     like VR headsets and holographic displays.
-mdi:
-  prefix: mdi
-  icon: cube-outline
+icon: cube-outline
 links:
   - text: learn more about visualization at ccv
     target: /services/visualization
