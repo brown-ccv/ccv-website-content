@@ -1,0 +1,15 @@
+title: Borton Lab
+description: The Borton Lab is sesigning, developing, and deploying neurotechnology to better understand the nervous system and improve human lives. CCV has supported software development of Behavioral Tasks used in clinical studies that can be deployed to multiple platforms as well as to the browser. CCV Software Engineers have also supported the Open Mind Consortium, which the Borton Lab is part of,  with the goal of designing and developing open source software elements for neural sensing at home paired with peripheral monitors, and streamlined regulatory pathway for FDA approval of investigational protocols, which we call the “Open Source Quality Management System”.
+tags:
+  - neuroengineering
+investigators:
+  - name: David Borton
+    link: https://vivo.brown.edu/display/daborton
+people:
+  - name: Bradford Roarr
+    github_user: broarr
+links:
+  - category: "github-org"
+    url: https://github.com/neuromotion
+  - category: "website"
+    url: https://borton.engin.brown.edu

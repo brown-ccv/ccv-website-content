@@ -1,0 +1,14 @@
+title: BrainGate
+description: The BrainGate research program is focused on developing brain-computer interface (BCI) technologies to restore the communication, mobility, and independence of people with neurologic disease, injury, or limb loss. CCV's collaboration with BrainGate focused around the development of a database solution using TimeScaleDB for continuous neuro-recording.  
+tags:
+  - neuroscience
+  - carney
+investigators:
+  - name: John Simeral
+    link: https://vivo.brown.edu/display/jsimeral
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+links:
+  - category: "website"
+    url: https://www.brown.edu/carney/research-project/braingate
