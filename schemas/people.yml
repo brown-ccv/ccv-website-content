@@ -12,3 +12,4 @@ person:
   brown_directory_uuid: str()
   bio: str(required=False)
   image: str()
+  weight: int(required=False)
