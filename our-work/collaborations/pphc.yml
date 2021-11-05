@@ -1,0 +1,22 @@
+title: The People, Place and Health Collective
+description: The People, Place & Health Collective is research laboratory in the Department of Epidemiology at the Brown University School of Public Health. CCV has helped refactor, bring testing, continuos integration and development, improved documentation and performance to TITAN - an Agent Based Model developed by the lab. More recently, CCV helps with data management, development of visualization tools, advising on ways to create more efficient/automated processes, and supporting growth of new skills/software within the context of PPHC's PROVIDENT and PROFOUND projects. 
+tags:
+  - epidimiology
+  - python-library
+  - web
+  - visualization
+investigators:
+  - name: Brandon DL Marshall
+    link: https://vivo.brown.edu/display/bm8
+  - name: William Goedel
+    link: https://vivo.brown.edu/display//wgoedel
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+  - name: Ellen Duong
+    github_user: kmilo9999
+links:
+  - category: "code"
+    url: https://github.com/ridatadiscoverycenter
+  - category: "website"
+    url: https://ridatadiscovery.org/#/
