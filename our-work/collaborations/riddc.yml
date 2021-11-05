@@ -2,9 +2,7 @@ title: RI Data Discovery Center
 description: "The goal of the RI Data Discovery Center is to become the national and international go-to-source for data on the Narragansett Bay ecosystem.
 CCV supports, maintains and upgrades existing infrastructure used by the RI Data Discovery Center at Brown University. This includes databases as well as code and web technology used to access and visualize historic and model data."
 tags:
-  - visualization
-  - vr
-  - database
+  - EPSCoR
 investigators:
   - name: Jeff Morgan
     link: https://vivo.brown.edu/display/jrmorgan

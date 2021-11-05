@@ -1,0 +1,23 @@
+title: The Behavioral Neuroimaging Core (BNC)
+description: The BNC provides ongoing support, training, assistance and advice to COBRE project leaders in the practical aspects of data collection, data management and data processing across a wide variety of neuroscience related methodologies. CCV's help has primarily focused on the deployment of the XNAT Neuroimaging Data Management Platform for the community, as well as, software development and documentation to facilitate data management and processing in OSCAR while promoting adoption of the Brain Imaging Standard (BIDS) and containarized BIDS applications.
+tags:
+  - neuroimaging
+investigators:
+  - name: David Sheinberg
+    link: https://vivo.brown.edu/display/dsheinbe
+  - name: Michael Worden
+    link: https://vivo.brown.edu/display/mworden
+  - name: Edward Walsh
+    link: https://vivo.brown.edu/display/ewalsh
+people:
+  - name: Isabel Restrepo
+    github_user: mirestrepo
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+links:
+  - category: "website"
+    url: https://www.brown.edu/carney/centers-initiatives/cobre-center-central-nervous-system-function/behavior-and-neuroimaging-core
+  - category: "github-org"
+    url: https://github.com/brown-bnc
+  - category: "docs"
+    url: https://bnc.brown.edu
