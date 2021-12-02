@@ -1,0 +1,14 @@
+title: Desktop VR Volume Viewer
+description: A simple viewer for visualizing volumetric datasets. It supports color mapping using transfer functions to map specific values of data to a scalar color. The view camera is fully interactive, and it works on multiple systems (Windows and Linux). It also support multiple displays devices (desktop, VR HMDs, cave-systems).
+languages:
+  - c++
+tags:
+  - vr
+people:
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+groups:
+  - riddc
+links:
+  - category: code
+    url: https://github.com/brown-ccv/VR-Volumeviewer
