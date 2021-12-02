@@ -5,6 +5,9 @@ icon: database
 links:
   - text: check our storage options
     target: /services/file-storage-and-transfer
+call-for-action:
+  text: Check Our Storage Options
+  href: /storage
 
 # storage_tool_header: |
 #   This tool lets you compare the available storage options at Brown.
