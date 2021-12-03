@@ -1,0 +1,20 @@
+title: Cognitive Research Registration App
+description: "Firebase Application that allows participants to register and researchers to manage their registration"
+languages:
+  - javascript
+  - vuejs
+tags:
+  - cognitive-science
+groups:
+  - nassar-lab
+  - frank-lab
+  - shenhav-lab
+  - oh-lab
+people:
+  - name: Isabel Restrepo
+    github_user: mirestrepo
+links:
+  - category: "code"
+    url: https://github.com/brown-ccv/cognitive-aging-research-app
+  - category: "website"
+    url: https://cogresnet.ccv.brown.edu
