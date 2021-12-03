@@ -6,7 +6,7 @@ tags: list(include('tag'))
 people: list(include('person'), required=False)
 links: list(include('link'), required=False)
 ---
-tag: regex('^(active|neuroscience|neuroimaging|neuroengineering|computational-psychiatry|sociology|ecology|epidimiology)$')
+tag: regex('^(active|neuroscience|neuroimaging|neuroengineering|computational-psychiatry|sociology|ecology|epidemiology)$')
 #people involved in the project
 investigator:
   name: str()
