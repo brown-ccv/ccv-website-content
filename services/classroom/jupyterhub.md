@@ -11,7 +11,7 @@ On Brown's JupyterHub, each user is provided a persistent working directory and 
 
 Once connected to JupyterHub servers, users enter an isolated workspace to write and run code. There are no time limit restrictions or specified lockout times, so feel free to use your personal JupyterHub server as needed and adhere to CCV's Computing Policies.
 
-If you are an instructor, CCV can provide access to JupyterHub for your class or workshop, and Digital Learning and Design (DLD) can assist with integrating computational assignments into curricula. The implementation is supported by Brown CIS; please follow the link below to request an instance for your class. CIS staff will respond to your request to begin the setup process. We ask that requests for JupyterHub be made at least two months in advance of expected course  deployment. 
+If you are an instructor, CCV can provide access to JupyterHub for your class or workshop, and Digital Learning and Design (DLD) can assist with integrating computational assignments into curricula. The implementation is supported by Brown OIT; please follow the link below to request an instance for your class. CIS staff will respond to your request to begin the setup process. We ask that requests for JupyterHub be made at least two months in advance of expected course  deployment. 
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSct9rFCxLhPIezHI-RYRyEuSnvHrPZLMuUSFRTriIyd_3TAfA/viewform?usp=sf_link">Request a Hub</a> 
 
