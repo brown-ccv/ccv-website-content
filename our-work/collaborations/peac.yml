@@ -12,7 +12,7 @@ people:
   - name: Ellen Duong
     github_user: eldu
 links:
-  - category: "github-org"
+  - category: "github"
     url: https://github.com/bodysigns
   - category: "website"
     url: https://fpetzschner.com/lab/
