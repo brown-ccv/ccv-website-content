@@ -1,13 +1,13 @@
 # Schema for all yml files in our-work/software and our-work/workshops-and-talks 
 title: str()
 description: str()
-groups: list(include('group'))
+groups: list(include('group'), required=False)
 languages: list(include('language'), required=False)
 tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: regex('^(python|julia|R|matlab|javascript|typescript|vuejs|reactjs|c++|rust)$')
+language: regex('^(python|julia|R|matlab|javascript|typescript|vuejs|reactjs|c\+\+|rust)$')
 tag: regex('^(behavioral-tasks|neuroimaging|neuroscience|vr)$')
 #people involved in the project
 person:
