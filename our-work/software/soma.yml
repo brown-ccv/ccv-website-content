@@ -2,13 +2,14 @@ title: SOMA pain & recovery
 description: A mobile app that combines symptom tracking with neuroscientific assessments and tailored interventions. SOMA is designed to directly support individuals on their journeys to overcome pain.
 languages:
   - typescript
-  - react native
+  - react-native
 tags:
+  - human-behavior
   - mobile
 people:
-  - Bradford Roarr
+  - name: Bradford Roarr
     github_user: broarr
-  - Ellen Duong
+  - name: Ellen Duong
     github_user: eldu
 groups:
-  - PEAC Lab
+  - peac-lab
