@@ -7,8 +7,33 @@ tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: regex('^(javascript|julia|matlab|python|R|nodejs|reactjs|react-native|rust|typescript|vuejs|sql)$')
-tag: regex('^(behavioral-tasks|computational-psychiatry|mobile|neuroimaging|neuroscience|public-health|database|engineering|ecology|web)$')
+language: "enum(
+              'javascript',
+              'julia',
+              'matlab',
+              'nodejs',
+              'python',
+              'R',
+              'reactjs',
+              'react-native',
+              'rust',
+              'sql',
+              'typescript',
+              'vuejs'
+              )"
+tag: "enum(
+          'behavioral-tasks',
+          'computational-psychiatry',
+          'database',
+          'ecology',
+          'engineering',
+          'mobile',
+          'model',
+          'neuroimaging',
+          'neuroscience',
+          'public-health',
+          'web'
+          )"
 #people involved in the project
 person:
   name: str()
@@ -18,5 +43,5 @@ group: str()
 # These are links associated with the software
 link:
   # Must match one of the values in the regex
-  category: regex('^(code|docs|website)$')
+  category: enum('code', 'docs', 'website')
   url: str()
