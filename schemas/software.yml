@@ -7,8 +7,33 @@ tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: enum('javascript', 'julia', 'matlab', 'python', 'R', 'reactjs', 'react-native', 'rust', 'typescript', 'vuejs')
-tag: enum('behavioral-tasks', 'computational-psychiatry', 'mobile', 'neuroimaging', 'neuroscience', 'public-health', 'model')
+language: "enum(
+              'javascript',
+              'julia',
+              'matlab',
+              'nodejs',
+              'python',
+              'R',
+              'reactjs',
+              'react-native',
+              'rust',
+              'sql'
+              'typescript',
+              'vuejs'
+              )"
+tag: "enum(
+          'behavioral-tasks',
+          'computational-psychiatry',
+          'database',
+          'ecology',
+          'engineering',
+          'mobile',
+          'model',
+          'neuroimaging',
+          'neuroscience',
+          'public-health'
+          'web'
+          )"
 #people involved in the project
 person:
   name: str()
