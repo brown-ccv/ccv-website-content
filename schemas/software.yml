@@ -8,7 +8,7 @@ people: list(include('person'))
 links: list(include('link'), required=False)
 ---
 language: "enum(
-              'c\+\+',
+              'c++',
               'javascript',
               'julia',
               'matlab',
