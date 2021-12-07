@@ -7,8 +7,8 @@ tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: regex('^(python|julia|R|matlab|javascript|typescript|vuejs|reactjs|rust)$')
-tag: regex('^(behavioral-tasks|neuroimaging|neuroscience)$')
+language: regex('^(javascript|julia|matlab|python|R|reactjs|react-native|rust|typescript|vuejs)$')
+tag: regex('^(behavioral-tasks|computational-psychiatry|mobile|neuroimaging|neuroscience|public-health)$')
 #people involved in the project
 person:
   name: str()
