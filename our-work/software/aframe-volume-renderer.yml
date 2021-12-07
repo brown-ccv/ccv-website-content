@@ -5,7 +5,9 @@ languages:
   - javascript
   - reactjs
 tags:
-  - vr
+  - VR
+  - Volume Rendering
+  - WebGL
 people:
   - name: Camilo Diaz Rodriguez
     github_user: kmilo9999
