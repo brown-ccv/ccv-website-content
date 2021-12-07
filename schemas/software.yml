@@ -17,7 +17,7 @@ language: "enum(
               'reactjs',
               'react-native',
               'rust',
-              'sql'
+              'sql',
               'typescript',
               'vuejs'
               )"
@@ -31,7 +31,7 @@ tag: "enum(
           'model',
           'neuroimaging',
           'neuroscience',
-          'public-health'
+          'public-health',
           'web'
           )"
 #people involved in the project
