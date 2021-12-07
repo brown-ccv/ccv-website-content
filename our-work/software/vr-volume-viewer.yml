@@ -1,5 +1,5 @@
 title: Desktop VR Volume Viewer
-description: A simple viewer for visualizing volumetric datasets. It supports color mapping using transfer functions to map specific values of data to a scalar color. The view camera is fully interactive, and it works on multiple systems (Windows and Linux). It also support multiple displays devices (desktop, VR HMDs, cave-systems).
+description: A simple viewer for visualizing volumetric datasets. It supports color mapping through a transfer function that maps specific data values to a scalar color. The view camera is fully interactive, and it works on multiple systems (Windows and Linux). It also support multiple displays devices (desktop, VR HMDs, cave-systems).
 languages:
   - c++
 tags:
