@@ -3,7 +3,9 @@ description: A simple viewer for visualizing volumetric datasets. It supports co
 languages:
   - c++
 tags:
-  - vr
+  - VR
+  - Volume Rendering
+  - MinVR
 people:
   - name: Camilo Diaz Rodriguez
     github_user: kmilo9999
