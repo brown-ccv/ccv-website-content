@@ -1,4 +1,4 @@
-# Schema for all yml files in our-work/software and our-work/workshops-and-talks 
+# Schema for all yml files in our-work/software and our-work/workshops-and-talks
 title: str()
 description: str()
 groups: list(include('group'))
@@ -7,19 +7,16 @@ tags: list(include('tag'))
 people: list(include('person'))
 links: list(include('link'), required=False)
 ---
-language: regex('^(javascript|julia|matlab|python|R|reactjs|react-native|rust|typescript|vuejs)$')
-tag: regex('^(behavioral-tasks|computational-psychiatry|mobile|neuroimaging|neuroscience|public-health)$')
+language: enum('javascript', 'julia', 'matlab', 'python', 'R', 'reactjs', 'react-native', 'rust', 'typescript', 'vuejs')
+tag: enum('behavioral-tasks', 'computational-psychiatry', 'mobile', 'neuroimaging', 'neuroscience', 'public-health', 'model')
 #people involved in the project
 person:
   name: str()
   github_user: str(required=False)
 # This string should match the identifying the slug in the collaborations section
 group: str()
-# These are links associated with the software 
+# These are links associated with the software
 link:
   # Must match one of the values in the regex
-  category: regex('^(code|docs|website)$')
+  category: enum('code', 'docs', 'website')
   url: str()
-  
-
-  
