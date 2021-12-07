@@ -4,7 +4,7 @@ languages:
   - typescript
   - react-native
 tags:
-  - human-behavior
+  - computational-psychiatry
   - mobile
 people:
   - name: Bradford Roarr
