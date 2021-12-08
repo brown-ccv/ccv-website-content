@@ -1,0 +1,13 @@
+title: 2D Materials Database
+description: A normalized database for Bob Hurt's lab to track and publish data on toxicity of 2D materials.
+groups:
+  - hurt
+languages:
+  - sql
+  - julia
+tags:
+  - database
+  - engineering
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrat13

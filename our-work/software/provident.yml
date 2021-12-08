@@ -1,0 +1,17 @@
+title: Provident
+description: A web app to support the PROVIDENT research study looking to prevent drug-related deaths in neighborhoods across Rhode Island. The dashboard showcases a predictive analytics model that identifies neighborhoods where future overdose deaths are most likely to occur. We are also tracking interventions from organizations and what effects they will have on the overdose data. The results from this study will improve public health decision-making and inform resource allocation to communities that should be prioritized for evidence-based prevention, treatment, recovery, and overdose rescue services.
+languages:
+  - javascript
+  - vuejs
+tags:
+  - public-health
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+  - name: Ellen Duong
+    github_user: eldu
+groups:
+  - pphc
+links:
+  - category: website
+    url: https://provident.preventoverdoseri.org/
