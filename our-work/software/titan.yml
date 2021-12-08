@@ -1,0 +1,19 @@
+title: TITAN Model
+description: TITAN (Treatment of Infectious Transmissions through Agent-based Network) is an agent-based simulation model used to explore contact transmission in complex social networks.
+groups:
+  - pphc
+languages:
+  - python
+tags:
+  - public-health
+  - model
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+links:
+  - category: code
+    url: https://github.com/pph-collective/TITAN
+  - category: docs
+    url: https://pph-collective.github.io/TITAN/
+  - category: website
+    url: https://www.titanmodel.org/

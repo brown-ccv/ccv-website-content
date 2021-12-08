@@ -1,0 +1,21 @@
+---
+title: Narragansett Bay Data Explorer App
+description: Explore historical and real-time data about water quality, temperature, and more from the Narragansett Bay.
+groups:
+  - riddc
+languages:
+  - vuejs
+  - nodejs
+tags:
+  - ecology
+  - web
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+links:
+  - category: code
+    url: https://github.com/ridatadiscoverycenter/buoy-viewer-nuxt
+  - category: code
+    url: https://github.com/ridatadiscoverycenter/buoy-api
+  - category: website
+    url: https://data-explorer.riddc.brown.edu/
