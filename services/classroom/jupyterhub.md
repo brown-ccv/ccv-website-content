@@ -13,9 +13,7 @@ Once connected to JupyterHub servers, users enter an isolated workspace to write
 
 If you are an instructor, CCV can provide access to JupyterHub for your class or workshop, and Digital Learning and Design (DLD) can assist with integrating computational assignments into curricula. The implementation is supported by Brown OIT; please follow the link below to request an instance for your class. CIS staff will respond to your request to begin the setup process. We ask that requests for JupyterHub be made at least two months in advance of expected course  deployment. 
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSct9rFCxLhPIezHI-RYRyEuSnvHrPZLMuUSFRTriIyd_3TAfA/viewform?usp=sf_link" class="button is-primary">Request a Hub</a> 
-
-<a href="https://docs.ccv.brown.edu/jupyterhub/" class="button is-primary">Documentation</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSct9rFCxLhPIezHI-RYRyEuSnvHrPZLMuUSFRTriIyd_3TAfA/viewform?usp=sf_link" class="button is-link">Request a Hub</a> <a href="https://docs.ccv.brown.edu/jupyterhub/" class="button is-link">Documentation</a>
 
 
 ## JupyterHub Vs Other Resources for Teaching
