@@ -9,11 +9,43 @@ icon: access-point-network
 
 Deadlines for research allocations are quarterly:
 
-SUBMISSION PERIOD | MEETING DATE | USERS NOTIFIED | ALLOCATION BEGIN DATE
--- | -- | -- | --
-Dec 15 thru Jan 15 | Early March | March 15 | April 1
-Mar 15 thru Apr 15 | Early June | June 15 | Jul 1
-Jun 15 thru Jul 15 | Late August/Early September | September 15 | Oct 1
-Sep 15 thru Oct 15 | Early December | December 15 | Jan 1
+<div>
+  <table style=" font-size:0.9rem; margin-bottom:2rem;">
+    <thead>
+      <tr>
+        <th>SUBMISSION PERIOD</th>
+        <th>MEETING DATE</th>
+        <th>USERS NOTIFIED</th>
+        <th>ALLOCATION BEGIN DATE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dec 15 thru Jan 15</td>
+        <td>Early March</td>
+        <td>March 15</td>
+        <td>April 1</td>
+      </tr>
+      <tr>
+        <td>Mar 15 thru Apr 15</td>
+        <td>Early June</td>
+        <td>June 15</td>
+        <td>Jul 1</td>
+      </tr>
+      <tr>
+        <td>Jun 15 thru Jul 15</td>
+        <td>Late August/Early September</td>
+        <td>September 15</td>
+        <td>Oct 1</td>
+      </tr>
+      <tr>
+        <td>Sep 15 thru Oct 15</td>
+        <td>Early December</td>
+        <td>December 15</td>
+        <td>Jan 1</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 If you would like help getting started with XSEDE , please contact support@ccv.brown.edu with a description of your project and which XSEDE systems you would like to access. We can also assist you in preparing the 'Code Performance & Resource Costs' section of your research allocation proposal.

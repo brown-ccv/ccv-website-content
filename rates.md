@@ -5,9 +5,9 @@ tagTitle: Rates - Center for Computation and Visualization
 tagDescription: Check rates for advanced research computing that require extra resources.
 
 date: 2020-08-05T18:04:51.000+00:00
-lead: We provide services with limited resources at **no cost** to all
+lead: We provide services with limited resources at no cost to all
   members affiliated with Brown. For advanced computing that requires extra resources,
-  we charge a quarterly fee. See below the rates for FY21.
+  we charge a quarterly fee. See below the rates for FY22.
 
 ---
 
@@ -19,12 +19,95 @@ lead: We provide services with limited resources at **no cost** to all
 * GPU     - GPU Nodes
 * BigMem  - Large Memory Nodes
 
-{{< rates >}}
+
+
+<div>
+
+  <table style=" font-size:0.9rem; margin-bottom:2rem;">
+    <thead>
+      <tr>
+        <th>Account Type</th>
+        <th>Partition</th>
+        <th>CPU Cores</th>
+        <th>Memory(GB)</th>
+        <th>GPU</th>
+        <th>Max Walltime* (Hours)</th>
+        <th>Cost per Quarter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td width="25%"> Exploratory <br> <!-- Make it Single Line. -->
+        <td> <br> batch <br> gpu <br> bigmem</td>
+        <td> <br> 32 <br> 4 <br> 32 <br> </td>
+        <td> <br> 246 <br> 192 <br> 752 </td>
+        <td> <br> None <br> 2 Std. <br> None </td>
+        <td> 48</td>
+        <td> $0</td>
+      </tr>
+      <tr>
+        <td>HPC Priority</td>
+        <td>batch</td>
+        <td>208</td>
+        <td>1,500</td>
+        <td>2 Std.</td>
+        <td>96</td>
+        <td>$200</td>
+      </tr>
+      <tr>
+        <td>HPC Priority+</td>
+        <td>batch</td>
+        <td>416</td>
+        <td>3,000</td>
+        <td>2 Std.</td>
+        <td>96</td>
+        <td>$400</td>
+      </tr>
+      <tr>
+        <td>Standard GPU Priority</td>
+        <td>gpu</td>
+        <td>16</td>
+        <td>192</td>
+        <td>4 Std.</td>
+        <td>96</td>
+        <td>$200</td>
+      </tr>
+      <tr>
+        <td>Standard GPU Priority+</td>
+        <td>gpu</td>
+        <td>32</td>
+        <td>384</td>
+        <td>8 Std.</td>
+        <td>96</td>
+        <td>$400</td>
+      </tr>
+      <tr>
+        <td>High End GPU Priority</td>
+        <td>gpu-he</td>
+        <td>16</td>
+        <td>256</td>
+        <td>4 high-end</td>
+        <td>96</td>
+        <td>$400</td>
+      </tr>
+      <tr>
+        <td>Large Memory Priority</td>
+        <td>bigmem</td>
+        <td>32</td>
+        <td>2TB</td>
+        <td>-</td>
+        <td>96</td>
+        <td>$100</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
 
 * Note, these values are subject to periodic review and changes
 * Each account is assigned 20G Home, 512G Scratch (purged every 30 days).
-* \* Priority accounts and Exploratory accounts with a PI get a data directory.
-* \* Exploratory accounts without a PI have no data directory provided.
+* Priority accounts and Exploratory accounts with a PI get a data directory.
+* Exploratory accounts without a PI have no data directory provided.
 * Priority accounts have a higher Quality-of-Service (QOS) i.e. priority accounts will have faster job start times.
 * The maximum number of cores and duration may change based on cluster utilization.
   * HPC Priority account has a Quality-of-Service (QOS) allowing up to 208 cores, 1TB memory, and a total per-job limit of 1,198,080 core-minutes. This allows a 208-core job to run for 96 hours, a 104-core job to run for 192 hours, or 208 1-core jobs to run for 96 hours.
@@ -51,12 +134,35 @@ lead: We provide services with limited resources at **no cost** to all
 
 # Staff Services
 
-| Support Level | Description | Cost |
-| --- | --- | --- |
-| General Support | Limited code troubleshooting, training, office-hours. Limited to 1 week per year | $0
-| Advanced Support | Any staff services requiring more than 1 week's effort per year | $85/hour |
-| Project Collaboration | Percent time of a specific staff member charged directly to the grant | %FTE |
-
+<div>
+  <table style=" font-size:0.9rem; margin-bottom:2rem;">
+    <thead>
+      <tr>
+        <th>Support Level</th>
+        <th>Description</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Advanced Support</td>
+        <td>Limited code troubleshooting, training, office-hours. Limited to 1 week per year</td>
+        <td>$0</td>
+      </tr>
+      <tr>
+        <td>General Support</td>
+        <td>Any staff services requiring more than 1 week's effort per year</td>
+        <td>$85/hour</td>
+      </tr>
+      <tr>
+        <td>Project Collaboration</td>
+        <td>Percent time of a specific staff member charged directly to the grant</td>
+        <td>%FTE</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    
 # Research Data Storage
 
 * 1TB per Brown Faculty Member - Free
