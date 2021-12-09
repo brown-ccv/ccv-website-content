@@ -6,7 +6,7 @@ languages:
   - reactjs
 tags:
   - vr
-  - web
+  - web-app
 people:
   - name: Camilo Diaz Rodriguez
     github_user: kmilo9999
@@ -15,5 +15,5 @@ people:
 links:
   - category: code
     url: https://github.com/brown-ccv/react-volume-viewer.git
-  - category: code
+  - category: npm
     url: https://www.npmjs.com/package/react-volume-viewer

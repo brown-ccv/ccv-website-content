@@ -46,5 +46,5 @@ group: str()
 # These are links associated with the software
 link:
   # Must match one of the values in the regex
-  category: enum('code', 'docs', 'website')
+  category: enum('code', 'docs', 'npm', 'pypi', 'website')
   url: str()
