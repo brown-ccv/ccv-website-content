@@ -23,6 +23,7 @@ language: "enum(
               )"
 tag: "enum(
           'behavioral-tasks',
+          'cognitive-science',
           'computational-psychiatry',
           'database',
           'ecology',
