@@ -1,0 +1,19 @@
+title: OpenMind Neuromodulation Interface (OMNI)
+description: OMNI is a software framework for interfacing with neuromodulation systems in a platform, device, and programming language agnostic way.
+languages:
+  - c#
+  - python
+  - typescript
+tags:
+  - neuro
+  - engineering
+people:
+  - name: Bradford Roarr
+    github_user: broarr
+groups:
+  - openmind-consortium
+links:
+  - category: website
+    url: https://openmind-consortium.github.io/
+  - category: publication
+    url: https://ieeexplore.ieee.org/abstract/document/9441311
