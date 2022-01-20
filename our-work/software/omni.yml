@@ -11,7 +11,8 @@ people:
   - name: Bradford Roarr
     github_user: broarr
 groups:
-  - openmind-consortium
+  - openmind
+  - borton-lab
 links:
   - category: website
     url: https://openmind-consortium.github.io/
