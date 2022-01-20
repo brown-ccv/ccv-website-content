@@ -1,5 +1,5 @@
 title: Cognitive Research Registration App
-description: "Web portal that allows participants to register for studies, and for researchers to manage participant registrations"
+description: "Web application that allows participants to register for studies, and for researchers to manage participant registrations"
 languages:
   - javascript
   - vuejs
