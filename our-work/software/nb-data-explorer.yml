@@ -4,7 +4,7 @@ description: Explore historical and real-time data about water quality, temperat
 groups:
   - riddc
 languages:
-  - javascript
+  - typescript
   - vuejs
   - nodejs
 tags:
