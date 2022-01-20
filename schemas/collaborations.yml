@@ -1,5 +1,15 @@
 # Schema for all yml files in our-work/collaborations 
 title: str()
+id: "enum(
+          'bnc',
+          'borton-lab',
+          'braingate',
+          'frickel',
+          'hurt-lab'
+          'peac',
+          'pphc',
+          'riddc'
+          )"
 description: str()
 investigators: list(include('investigator'))
 tags: list(include('tag'))
