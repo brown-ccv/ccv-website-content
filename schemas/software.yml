@@ -25,6 +25,7 @@ language: "enum(
               )"
 tag: "enum(
           'behavioral-tasks',
+          'cognitive-science',
           'computational-psychiatry',
           'database',
           'desktop',
@@ -44,8 +45,22 @@ tag: "enum(
 person:
   name: str()
   github_user: str(required=False)
-# This string should match the identifying the slug in the collaborations section
-group: str()
+# This string should match the identifying the id in the collaborations section
+group: "enum(
+            'bnc',
+            'borton-lab',
+            'braingate',
+            'frank-lab',
+            'frickel',
+            'hurt-lab',
+            'nassar-lab',
+            'oh-lab',
+            'openmind',
+            'peac-lab',
+            'pphc',
+            'riddc',
+            'shenhav-lab'
+            )"
 # These are links associated with the software
 link:
   # Must match one of the values in the regex
