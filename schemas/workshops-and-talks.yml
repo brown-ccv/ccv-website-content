@@ -20,6 +20,7 @@ language: "enum(
                 'rust',
                 'sql',
                 'typescript',
+                'unix-cli',
                 'vuejs'
                 )"
 tag: "enum(
