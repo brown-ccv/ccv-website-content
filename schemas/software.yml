@@ -1,7 +1,7 @@
 # Schema for all yml files in our-work/software and our-work/workshops-and-talks
 title: str()
 description: str()
-groups: list(include('group'))
+groups: list(include('group'), required=False)
 languages: list(include('language'), required=False)
 tags: list(include('tag'))
 people: list(include('person'))
@@ -9,6 +9,7 @@ links: list(include('link'), required=False)
 ---
 language: "enum(
               'c#',
+              'c++',
               'javascript',
               'julia',
               'matlab',
@@ -27,16 +28,18 @@ tag: "enum(
           'cognitive-science',
           'computational-psychiatry',
           'database',
+          'desktop',
           'ecology',
           'engineering',
           'mobile',
           'model',
           'neuro',
-          'neuroengineering',
           'neuroimaging',
           'neuroscience',
+          'oceanography',
           'public-health',
-          'web'
+          'web',
+          'vr'
           )"
 #people involved in the project
 person:
@@ -61,5 +64,5 @@ group: "enum(
 # These are links associated with the software
 link:
   # Must match one of the values in the regex
-  category: enum('code', 'docs', 'publication', 'website')
+  category: enum('code', 'docs', 'npm', 'publication', 'pypi', 'website')
   url: str()
