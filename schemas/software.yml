@@ -46,7 +46,7 @@ group: "enum(
             'braingate',
             'borton-lab',
             'frickel',
-            'hurt-lab'
+            'hurt-lab',
             'peac',
             'pphc'
             )"
