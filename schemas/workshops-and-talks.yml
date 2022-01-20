@@ -23,8 +23,8 @@ language: "enum(
                 'vuejs'
                 )"
 tag: "enum(
-           cloud-computing,
-           gcp
+           'cloud-computing',
+           'gcp'
            )"
 #people involved in the project
 person:
@@ -35,7 +35,7 @@ group: str()
 # These are links associated with the software 
 link:
   # Must match one of the values in the regex
-  category: "enum(code, slides, website, video)"
+  category: "enum('code', 'slides', 'website', 'video')"
   url: str()
   
 
