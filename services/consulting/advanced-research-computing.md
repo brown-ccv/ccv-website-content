@@ -49,9 +49,7 @@ The Computational Biology Core provides assistance in experimental design and da
 
 ----
 
-##### Expertise, Reproducible Research, and Collaborations  
-
-
+## Expertise, Reproducible Research, and Collaborations  
 
 We have expertise in `C`, `C++`, `CUDA`, `Fortran`, `JavaScript`, `Julia`, `Matlab`, `OpenCL`, `Python`, `R`, and `SQL`. To achieve best practices in reproducible research, we use state-of-the-art technologies like [Docker](https://docker.com), [Git](https://git-scm.com/) and [GitHub](https://github.com), [Travis CI](https://travis-ci.org), [Conda](https://conda.io), among others.
 
@@ -78,12 +76,12 @@ Explore our [collaborations](https://ccv.brown.edu/our-work/collaborations)
 
 
 ------
-##### Outreach
+## Outreach
 
 In addition to directly working with researchers, our group also works to to advance best practices in software engineering and promote robust and reproducible research across the university. To that end, we frequently hold workshops that aim to disseminate the current state-of-the-art tools and best practices for data analysis that is both sound and reproducible.
 
 -------
-### Check out our code, containers, and applications!
+## Check out our code, containers, and applications!
 -------
 
 [Explore our software, publications and more!](https://ccv.brown.edu/our-work)
