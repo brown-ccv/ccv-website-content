@@ -14,3 +14,11 @@ General information on Caves and projects involving the Cave:
 * [Various Brown CS projects](http://vis.cs.brown.edu/areas/projects.html)
 * [Plato's Allegory of the Cave](http://en.wikipedia.org/wiki/Allegory_of_the_Cave) (one way the name "Cave" was derived)
 * [Information on the Cave at EVL](http://www.evl.uic.edu/pape/CAVE/), the creators of the original Cave
+
+
+<!-- TODO
+    Talk about CAVE in its current state - currently being upgraded
+    Hosted in Studio 4 at the Granoff Center  
+    Add information about MML and link to their website
+    Talk about other VR events with MML in our cooporation
+-->
