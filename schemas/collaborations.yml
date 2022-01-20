@@ -4,11 +4,15 @@ id: "enum(
           'bnc',
           'borton-lab',
           'braingate',
+          'frank-lab',
           'frickel',
           'hurt-lab',
-          'peac',
+          'nassar-lab',
+          'oh-lab',
+          'peac-lab',
           'pphc',
-          'riddc'
+          'riddc',
+          'shenhav-lab'
           )"
 description: str()
 investigators: list(include('investigator'))

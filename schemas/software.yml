@@ -44,11 +44,16 @@ group: "enum(
             'bnc',
             'borton-lab',
             'braingate',
-            'borton-lab',
+            'frank-lab',
             'frickel',
             'hurt-lab',
-            'peac',
-            'pphc'
+            'nassar-lab',
+            'oh-lab',
+            'openmind',
+            'peac-lab',
+            'pphc',
+            'riddc',
+            'shenhav-lab'
             )"
 # These are links associated with the software
 link:
