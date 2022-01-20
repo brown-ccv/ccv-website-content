@@ -44,8 +44,7 @@ The Computational Biology Core provides assistance in experimental design and da
 - Technology Assessment
 - Software Engineering
 
-<a href="https://cbc.brown.edu">Computational Biology Core Website</a>
-
+<a href="https://cbc.brown.edu" class="button is-link">Computational Biology Core Website</a>
 
 ----
 
@@ -57,7 +56,7 @@ Our data scientists and research software engineers can work with researchers on
 
 We also have long-running collaborations with researchers in Neuroscience, Sociology, Engineering, Epidemiology, and the Department of Earth, Environment, and Planetary Sciences.
 
-Explore our [collaborations](https://ccv.brown.edu/our-work/collaborations)
+<a href="https://ccv.brown.edu/our-work/collaborations" class="button is-link">Explore our collaborations!</a>
 
 ------
 ## Our Teams
@@ -84,4 +83,4 @@ In addition to directly working with researchers, our group also works to to adv
 ## Check out our code, containers, and applications!
 -------
 
-[Explore our software, publications and more!](https://ccv.brown.edu/our-work)
+<a href="https://ccv.brown.edu/our-work" class="button is-link">Explore our software, publications and more!</a>
