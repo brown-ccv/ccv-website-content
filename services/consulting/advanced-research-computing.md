@@ -80,7 +80,6 @@ Leadership: [Isabel Restrepo](https://directory.brown.edu/uuid/cb8b0a49-ef4b-66e
 In addition to directly working with researchers, our group also works to to advance best practices in software engineering and promote robust and reproducible research across the university. To that end, we frequently hold workshops that aim to disseminate the current state-of-the-art tools and best practices for data analysis that is both sound and reproducible.
 
 -------
-## Check out our code, containers, and applications!
--------
+## Software, publications, and other work products
 
 <a href="https://ccv.brown.edu/our-work" class="button is-link">Explore our software, publications and more!</a>
