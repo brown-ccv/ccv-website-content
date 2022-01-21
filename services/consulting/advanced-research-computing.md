@@ -1,5 +1,5 @@
 ---
-title: Advanced Research Computing
+title: Research Computing
 description: Support for researchers seeking help with statistical modeling, machine learning, data mining, data visualization, computational biology, high-performance computing, and software engineering
 icon: source-commit
 ---
@@ -31,7 +31,7 @@ CCV's team of graphics software engineers provides a wide range of services to a
  - Expertise with graphics software and packages
  - Familiarity with a wide range of cutting-edge visualization hardware
  - Custom software development  
- - Experience implementing advanced visualiztion technology in labs and work environments across campus
+ - Experience implementing advanced visualization technology in labs and work environments across campus
 
 If you would like more information on CCV's visualization services, please contact [support@ccv.brown.edu](mailto:support@ccv.brown.edu).
 
@@ -44,14 +44,11 @@ The Computational Biology Core provides assistance in experimental design and da
 - Technology Assessment
 - Software Engineering
 
-<a href="https://cbc.brown.edu">Computational Biology Core Website</a>
-
+<a href="https://cbc.brown.edu" class="button is-link">Computational Biology Core Website</a>
 
 ----
 
-##### Expertise, Reproducible Research, and Collaborations  
-
-
+## Expertise, Reproducible Research, and Collaborations  
 
 We have expertise in `C`, `C++`, `CUDA`, `Fortran`, `JavaScript`, `Julia`, `Matlab`, `OpenCL`, `Python`, `R`, and `SQL`. To achieve best practices in reproducible research, we use state-of-the-art technologies like [Docker](https://docker.com), [Git](https://git-scm.com/) and [GitHub](https://github.com), [Travis CI](https://travis-ci.org), [Conda](https://conda.io), among others.
 
@@ -59,33 +56,30 @@ Our data scientists and research software engineers can work with researchers on
 
 We also have long-running collaborations with researchers in Neuroscience, Sociology, Engineering, Epidemiology, and the Department of Earth, Environment, and Planetary Sciences.
 
+<a href="https://ccv.brown.edu/our-work/collaborations" class="button is-link">Explore our collaborations!</a>
+
 ------
 ## Our Teams
 
-> Computational Biology Core
-> Ashok Ragavendran
-The COBRE-CBHD Computational Biology Core (CBC) integrates across multiple research focused Centers supporting data-intensive research using high-throughput DNA/RNA sequencing datasets. CBC provides help for experimental design and data processing pipelines for high-throughput datasets generated in individual projects, particularly for DNA/RNA sequencing data.
+### Computational Biology Core
+Leadership: [Ashok Ragavendran](https://directory.brown.edu/uuid/60802d0b-8f18-499a-a1f3-5f9b24c390e4)
+>The COBRE-CBHD Computational Biology Core (CBC) integrates across multiple research focused Centers supporting data-intensive research using high-throughput DNA/RNA sequencing datasets. CBC provides help for experimental design and data processing pipelines for high-throughput datasets generated in individual projects, particularly for DNA/RNA sequencing data.
 
-> Data & Visualization
-> Isabel Restrepo
-We partner with Brown’s researchers and academic community to bring modern software engineering, visualization, and data science practices to their work. We are software engineers and data scientists with expertise in a broad range of fields, including: visualization techniques, computer vision, computer graphics, web technologies, data management, and data science. We can program in almost any language, and enjoy learning new technologies, documenting, striving for best practices, and especially brewing coffee. Additionally, our group is responsible for supporting and developing applications for the YURT, Brown's state of the art virtual reality theater.
+### High-Performance Computing
+Leadership: [Ashok Ragavendran](https://directory.brown.edu/uuid/60802d0b-8f18-499a-a1f3-5f9b24c390e4)
+>Our software engineers help researchers to get the most out of high-performance computing (HPC) resources. To achieve this, we partner with users to design, debug, and optimize their code to run in an HPC environment. We also collaborate with new and non-traditional HPC users to help them to scale up and accelerate their science.
 
-> High-Performance Computing
-> Helen Kershaw
-Our software engineers help researchers to get the most out of high-performance computing (HPC) resources. To achieve this, we partner with users to design, debug, and optimize their code to run in an HPC environment. We also collaborate with new and non-traditional HPC users to help them to scale up and accelerate their science.
-
-> Institutional Data Group
-> Andras Zsom
-We collaborate and support academic administrators to make better data-driven decisions, and we also collaborate with faculty members on data-intensive projects. We perform exploratory data analysis to better understand datasets, prepare visualizations and dashboards, perform classical statistical analyses, and develop machine learning models.
+### GSDC (Graphics, Software and Data Core)
+Leadership: [Isabel Restrepo](https://directory.brown.edu/uuid/cb8b0a49-ef4b-66e7-5ccc-6689493e8ace), [Mary McGrath](https://directory.brown.edu/uuid/fa814738-23c5-42b9-a63c-1ea789f3d1eb)
+>We partner with Brown’s academic researchers and administrators to bring modern software engineering, visualization, and data science practices to their work. We are software engineers and data scientists with expertise in a broad range of fields, including: visualization techniques, computer vision, computer graphics, web technologies, data management, and data science. We can program in almost any language, and enjoy learning new technologies, documenting, striving for best practices, and especially brewing coffee. Additionally, our group is responsible for supporting and developing Virtual Reality applications, we maintain the CAVE and collaborate with the [Multimedia Labs at Brown](https://sites.google.com/brown.edu/multimedia-labs-new-site/home) to bring VR to the community. 
 
 
 ------
-##### Outreach
+## Outreach
 
 In addition to directly working with researchers, our group also works to to advance best practices in software engineering and promote robust and reproducible research across the university. To that end, we frequently hold workshops that aim to disseminate the current state-of-the-art tools and best practices for data analysis that is both sound and reproducible.
 
 -------
-### Check out our code, containers, and applications!
--------
+## Software, publications, and other work products
 
-[GitHub](https://github.com/brown-ccv), [Docker](https://hub.docker.com/u/browndatasci), [CBC GitHub](https://github.com/compbiocore)
+<a href="https://ccv.brown.edu/our-work" class="button is-link">Explore our software, publications and more!</a>
