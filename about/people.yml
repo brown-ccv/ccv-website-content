@@ -39,15 +39,15 @@ data:
   - name: Mete Tunca
     type: Full Time
     team: Leadership
-    title: Assistant Director of Cloud and Research Computing
-    github_username: ''
+    title: Assistant Director of Research Systems and Services
+    github_username: mttunca
     brown_directory_uuid: d0e7b3b6-f6b4-f28b-3bfd-08bccf05ac31
     bio: ''
     image: mete_main.jpg
   - name: Paul Stey
     type: Full Time
     team: Leadership
-    title: Director of Scientific Computing and Data Science
+    title: Associate Director of Research Systems and Services
     github_username: paulstey
     brown_directory_uuid: 0525f19f-d156-4c47-a2e1-8b4e904a2e84
     bio: Paul is a data scientist interested in using data and machine learning to solve
@@ -65,10 +65,10 @@ data:
   - name: Thomas Serre
     type: Full Time
     team: Leadership
-    title: Faculty Director
+    title: Associate Director of the Center for Computational Brain Science, Director for the Center for Computation and Visualization, Professor of Cognitive, Linguistic and Psychological Sciences, Professor of Computer Science
     github_username: tserre
     brown_directory_uuid: 9517d64b-6924-1c56-1f7e-2452b2304030
-    bio: Dr. Serre is an Associate Professor in the Cognitive Linguistic & Psychological
+    bio: Dr. Serre is a Professor in the Cognitive Linguistic & Psychological
       Sciences at Brown University. Dr. Serre is a computational neuroscientist by training.
       He received a Ph.D. in Neuroscience from MIT in 2006 and an MSc in EECS from Télécom
       Bretagne (France) in 2000.
@@ -124,7 +124,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Computational Biology Core
-    title: Genomics Data Scientist
+    title: Senior Genomics Data Scientist
     github_username: aguang
     brown_directory_uuid: b3f2991e-b618-190f-881f-25fc21f82d02
     bio: August obtained their PhD from Brown in 2017 in Applied Mathematics and Computational
@@ -159,7 +159,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Institutional Data
-    title: Senior Data Scientist
+    title: Senior Research Software Engineer
     github_username: alee35
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
     bio: Ashley received training in Biology and Data Science at the University of Virginia
