@@ -3,7 +3,7 @@ icon: account-multiple
 data:
   - name: Ashok Ragavendran
     type: Full Time
-    team: Advanced Research Computing
+    team: Leadership
     subteam: Computational Biology Core
     title: Assistant Director of Computational Biology and Data Science
     github_username: ashokrags
@@ -47,7 +47,8 @@ data:
   - name: Paul Stey
     type: Full Time
     team: Leadership
-    title: Associate Director of Research Systems and Services
+    title: Director, Scientific Computing and Data Science, Adjunct Lecturer in International and Public Affairs
+  Office of Information Technology
     github_username: paulstey
     brown_directory_uuid: 0525f19f-d156-4c47-a2e1-8b4e904a2e84
     bio: Paul is a data scientist interested in using data and machine learning to solve
@@ -57,7 +58,7 @@ data:
   - name: Sam Fulcomer
     type: Full Time
     team: Leadership
-    title: Associate Director
+    title: HPC IT Architect
     github_username: ''
     brown_directory_uuid: 0d83d4b5-85a5-62fc-44a3-81eaff49e183
     bio: ''
@@ -116,7 +117,7 @@ data:
     type: Full Time
     team: CCV Operations
     title: Research Service Center Manager
-    github_username:
+    github_username: yangliu2009
     brown_directory_uuid: e0e55df3-9f2c-4a12-a1de-742955164e1e
     bio:
     image: yang_main.jpg
@@ -158,7 +159,7 @@ data:
   - name: Ashley S. Lee
     type: Full Time
     team: Advanced Research Computing
-    subteam: Institutional Data
+    subteam: Data and Visualization
     title: Senior Research Software Engineer
     github_username: alee35
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
