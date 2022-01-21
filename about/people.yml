@@ -189,7 +189,6 @@ data:
     bio: ''
     image: camilo_main.jpg
   - name: Ellen Duong
-    weight: "9"
     type: Full Time
     team: Advanced Research Computing
     subteam: Data & Visualization
@@ -251,7 +250,6 @@ data:
       materials that would be more efficient at thermal management inside microprocessors.
     image: rohit_main.jpg
   - name: Hadley Dalton
-    weight:
     type: CCV Interns
     team: Advanced Research Computing
     subteam: Data & Visualization
@@ -260,7 +258,6 @@ data:
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
     image: hadley_main.jpg
   - name: Minsik Cho
-    weight:
     type: CCV Interns
     team: Advanced Research Computing
     subteam: High-Performance Computing
