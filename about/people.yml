@@ -1,23 +1,11 @@
 title: People
 icon: account-multiple
 data:
-  - name: Fernando Gelin
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Senior Research Software Engineer
-    github_username: fernandogelin
-    brown_directory_uuid: 8144f0fb-0d36-47ed-ae64-ab07c232ebba
-    bio: Fernando grew up in Brazil, received his PhD in Biology from the University
-      of Vermont in 2014. He is the mastermind behind the CCV and CBC websites.
-      His professional interests include Julia, JavaScript, web app development; his
-      personal interests include feeding his dogs ice cream and spending time outside.
-    image: fernando_main.jpg
   - name: Mary McGrath
     type: Full Time
     team: Advanced Research Computing
     subteam: Data & Visualization
-    title: Senior Research Software Engineer
+    title: Lead Research Software Engineer
     github_username: mcmcgrath13
     brown_directory_uuid: fa814738-23c5-42b9-a63c-1ea789f3d1eb
     bio: Mary is a data scientist/whatever-needs-doing-er at CCV. She enjoys learning
@@ -58,16 +46,6 @@ data:
       PhD from the University of Rhode Island. Her background is primarily in studying
       microbes.
     image: joselynn_main.jpg
-  - name: Helen Kershaw
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: High-Performance Computing
-    title: Lead Research Software Engineer
-    github_username: hkershaw-brown
-    brown_directory_uuid: 7dd767e6-6eec-4394-ab48-c89ab40ca69a
-    bio: Helen is a research software engineer interested in getting the most out of
-      HPC
-    image: helen_main.jpg
   - name: Isabel Restrepo
     type: Full Time
     team: Advanced Research Computing
@@ -93,17 +71,6 @@ data:
       that crisis and uncertainty are a gift and that we must be involved in shaping
       how change happens.
     image: august_main.jpg
-  - name: Andras Zsom
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Institutional Data
-    title: Lead Data Scientist
-    github_username: azsom
-    brown_directory_uuid: 84734442-fa19-4e15-8b06-9f71351e9104
-    bio: Andras is passionate about using machine learning and predictive modeling for
-      good. He has a PhD in astrophysics and he was a postdoctoral researcher at MIT
-      before coming to Brown.
-    image: andras_main.jpg
   - name: Ashley S. Lee
     type: Full Time
     team: Advanced Research Computing
@@ -213,15 +180,6 @@ data:
     brown_directory_uuid: 448fac67-1dea-42ef-8205-9305ac9b79a6
     bio: ''
     image: camilo_main.jpg
-  - name: Benjamin Knörlein
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Senior Research Software Engineer
-    github_username: BenKnorlein
-    brown_directory_uuid: d797cce1-aae5-515f-1de6-25571fc91b93
-    bio: ''
-    image: ben_main.jpg
   - name: Paulo S Baptista
     type: Full Time
     team: CCV Operations
@@ -263,42 +221,6 @@ data:
     brown_directory_uuid: 1c597441-90f8-4543-8627-d11dcd0dbdb0
     bio:
     image: kirk_main.jpg
-  - name: Rashi Dhar
-    weight:
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Web Development Intern
-    github_username: Rashi1997
-    brown_directory_uuid: 07ffddd8-24dd-4f2c-b125-55f8913c83e2
-    image: rashi_main.jpg
-  - name: Aryan Srivastava
-    weight:
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Virtual Reality Intern
-    github_username: aryan096
-    brown_directory_uuid: 83d46da6-50fa-48e8-b17c-665d2b66427b
-    image: aryan_main.jpg
-  - name: Tiffany Lei
-    weight:
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Web Development Intern
-    github_username: TiffL
-    brown_directory_uuid: 2fe3c48e-df22-4a97-a910-6d784e3fba73
-    image: tiffany_main.jpg
-  - name: Maura Driscoll
-    weight:
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Web Development Intern
-    github_username: mauradriscoll
-    brown_directory_uuid: 333b6b44-a77c-4df4-9d02-d01e02b15572
-    image: maura_main.jpg
   - name: Minsik Cho
     weight:
     type: CCV Interns
@@ -309,33 +231,3 @@ data:
     brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
     bio: Minsik is an undergrad student studying chemical physics.
     image: minsik_main.jpg
-  - name: Louis Kilfoyle
-    weight:
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Institutional Data
-    title: Data Science Intern
-    github_username: louis-kilfoyle
-    brown_directory_uuid: 5b343470-0e0f-4797-8a13-519449cb5d49
-    bio: Louis is an undergrad studying Computer Science and Applied Mathematics.
-    image: louisk_main.jpg
-  - name: Cameron Webster
-    weight:
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Institutional Data
-    title: Data science Intern
-    github_username: camweb36
-    brown_directory_uuid: 3b9db98c-fb5f-45a8-b220-1abfc19dd4e6
-    bio: Cameron is an undergraduate studying applied math-biology
-    image: cameron_main.jpg
-  - name: Kuba Tarlowski
-    weight:
-    type: CCV Interns
-    team: CCV Operations
-    subteam: CCV Operations
-    title: Services Support Intern
-    github_username: kubatarlowski
-    brown_directory_uuid: 154c611f-7b29-4209-9bf3-5e731cf360ea
-    bio:
-    image: kuba_main.jpg
