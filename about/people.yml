@@ -47,7 +47,7 @@ data:
   - name: Paul Stey
     type: Full Time
     team: Leadership
-    title: Director, Scientific Computing and Data Science, Adjunct Lecturer in International and Public Affairs Office of Information Technology
+    title: Assistant CIO Research Software Engineering and Data Science
     github_username: paulstey
     brown_directory_uuid: 0525f19f-d156-4c47-a2e1-8b4e904a2e84
     bio: Paul is a data scientist interested in using data and machine learning to solve
@@ -65,7 +65,7 @@ data:
   - name: Thomas Serre
     type: Full Time
     team: Leadership
-    title: Associate Director of the Center for Computational Brain Science, Director for the Center for Computation and Visualization, Professor of Cognitive, Linguistic and Psychological Sciences, Professor of Computer Science
+    title: Faculty Director
     github_username: tserre
     brown_directory_uuid: 9517d64b-6924-1c56-1f7e-2452b2304030
     bio: Dr. Serre is a Professor in the Cognitive Linguistic & Psychological
