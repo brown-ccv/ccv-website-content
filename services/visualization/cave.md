@@ -14,7 +14,14 @@ General information on Caves and projects involving the Cave:
 * [Various Brown CS projects](http://vis.cs.brown.edu/areas/projects.html)
 * [Plato's Allegory of the Cave](http://en.wikipedia.org/wiki/Allegory_of_the_Cave) (one way the name "Cave" was derived)
 * [Information on the Cave at EVL](http://www.evl.uic.edu/pape/CAVE/), the creators of the original Cave
-
+  
+<!-- Note from Leo:
+    The Multimedia Labs provide the Brown community with inclusive, adaptive, and experimental 
+    spaces equipped with emerging technology to support creative digital work and inspire a 
+    community of makers. We embrace thinking through making as a powerful approach to design and 
+    learning. Some of the activities the MML supports include: video production, podcasting, large 
+    format 2D printing, 3D printing, and VR.
+ -->
 
 <!-- TODO
     Talk about CAVE in its current state - currently being upgraded
