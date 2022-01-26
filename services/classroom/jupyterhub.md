@@ -7,7 +7,7 @@ icon: code-greater-than-or-equal
 
 Brown's JupyterHub service  provides a convenient, cloud-hosted way to serve Jupyter Notebooks for multiple users. Notebooks are launched within a pre-configured computing environment; users do not need to install any software packages. This set-up free environment is ideal for courses and workshops where instructors intend for students to begin coding with minimal obstacles. Jupyter’s flexibility allows instructors to pick the preferred language for a particular context, including Python, Julia, R and many more. Regardless of the language chosen, the Jupyter interface remains the same. To learn more about using Jupyter Notebooks for teaching and learning, [please visit the guide.](https://jupyter4edu.github.io/jupyter-edu-book/jupyter.html)
 
-On Brown's JupyterHub, each user is provided a persistent working directory and compute resource allocation. This means the environment you are provided is only accessible by yourself and CIS support staff. 
+On Brown's JupyterHub, each user is provided a persistent working directory and compute resource allocation. This means the environment you are provided is only accessible by yourself and OIT support staff. 
 
 Once connected to JupyterHub servers, users enter an isolated workspace to write and run code. There are no time limit restrictions or specified lockout times, so feel free to use your personal JupyterHub server as needed and adhere to CCV's Computing Policies.
 
