@@ -531,3 +531,15 @@ questions:
         category_classes:
           - True
           - False
+  - question: Would you like to restrict default access to the Brown network?
+    information:
+    affected_category: brown_network_required
+    default_answer: No
+    answers:
+      - answer: Yes
+        category_classes:
+          - True
+      - answer: No
+        category_classes:
+          - True
+          - False
