@@ -15,7 +15,10 @@ jobs:
       - name: Install
         run: npm ci 
       - name: Generate Static Content
-        run: npm run generate
+        run: |
+          git submodule set-branch -b main content
+          git submodule update --remote
+          npm run generate
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'

@@ -11,10 +11,6 @@ groups:
   - frank-lab
   - nassar-lab
 people:
-  - name: Rashi Dhar
-    github_user: Rashi1997 
-  - name: Fernando Gelin
-    github_user: fernandogelin
   - name: Mary McGrath
     github_user: mcmcgrath13
   - name: Isabel Restrepo

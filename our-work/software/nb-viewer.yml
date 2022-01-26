@@ -1,0 +1,21 @@
+title: Narragansett Bay Volume Viewer
+description: The 3D volume viewer of the Narragansett Bay and Rhode Island Sound showing the Ocean State Oceanographic Model predictions for Salinity and Temperature.
+languages:
+  - javascript
+  - reactjs
+tags:
+  - vr
+  - web
+  - oceanography
+groups:
+  - riddc
+people:
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+links:
+  - category: code
+    url: https://github.com/ridatadiscoverycenter/react-aframe-volume-renderer
+  - category: website
+    url: https://bay-viewer.riddc.brown.edu
