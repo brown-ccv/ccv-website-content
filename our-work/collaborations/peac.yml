@@ -1,0 +1,19 @@
+title: Psychiatry, Embodiment and Computation Lab (PEAC)
+id: peac-lab
+description: The PEAC Lab examines computational basis of our perception, learning, and control of our bodies and the external world. CCV supports the software architecting and development of their SOMA mobile app
+tags:
+  - active
+  - computational-psychiatry
+investigators:
+  - name: Frederike Petzschner
+    link: https://fpetzschner.com
+people:
+  - name: Bradford Roarr
+    github_user: broarr
+  - name: Ellen Duong
+    github_user: eldu
+links:
+  - category: "github"
+    url: https://github.com/bodysigns
+  - category: "website"
+    url: https://fpetzschner.com/lab/

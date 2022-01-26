@@ -1,0 +1,11 @@
+title: Classroom
+description: |
+  CCV services to help professors in the classroom.
+  We can provide tutorials or give you access to cutting edge technology for teaching with code, such as JupyterHub.
+icon: account-group
+links:
+  - text: See all classroom services
+    target: /services/classroom
+  - text: Jupyterhub documentation
+    target: https://docs.ccv.brown.edu/jupyterhub
+hidden: false

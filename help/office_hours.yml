@@ -1,9 +1,7 @@
 title: Office Hours
 description: |
   CCV holds office hours on Fridays 10am-12pm. The Computational Biology Core holds office hours on Wednesdays 1:30pm-3:30pm. During this time, both groups are holding office hours via Zoom. Click below to check CCV's Calendar for the Zoom link.
+icon: camera
 links:
   - text: Find Zoom Link
     target: https://events.brown.edu/ccv/view/month
-mdi:
-  prefix: mdi
-  icon: camera

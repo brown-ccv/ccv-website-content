@@ -1,0 +1,15 @@
+title: bioflows
+category: Computational Biology
+authors:
+  - name: Ashok Ragavendran
+    github_user: ashokrags
+description: |
+  A bioinformatics workflow engine that streamlines the most common analysis
+  pipelines. Key features include: 1) Provision of standardized workflows 2) A
+  module for automating SRA downloads and 3) External tools are made available
+  as CONDA packages along with the tool.
+links:
+  repository: https://github.com/compbiocore/bioflows
+  documentation: https://compbiocore.github.io/bioflows/
+  doi: 
+  publication:

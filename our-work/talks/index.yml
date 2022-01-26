@@ -1,9 +1,0 @@
-title: Talks and Conferences
-description: |
-    Talks by CCV staff and Conferences we organize.
-mdi:
-  prefix: mdi
-  icon: presentation
-links:
-  - text: go to talks
-    target: /our-work/talks

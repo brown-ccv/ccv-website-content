@@ -1,0 +1,25 @@
+storage_tool_header: str()
+services: list(include("service"))
+questions: list(include("question")
+---
+service:
+  name: str()
+  description: str()
+  features: list(include("feature"))
+
+feature:
+  name: str()
+  class: bool()
+  notes: str()
+
+
+question: 
+    description: str()
+    information: str()
+    affected_category: str()
+    default_answer: str()
+    answers: list(include(answer))
+
+answer:
+  text: str()
+  category_classes: int()

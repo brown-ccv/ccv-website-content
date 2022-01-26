@@ -1,0 +1,15 @@
+title: str()
+icon: str()
+data: list(include('person'))
+---
+person:
+  name: str()
+  type: str()
+  team: str()
+  subteam: str(required=False)
+  title: str()
+  github_username: str(required=False)
+  brown_directory_uuid: str()
+  bio: str(required=False)
+  image: str()
+  weight: int(required=False)
