@@ -197,6 +197,15 @@ data:
     brown_directory_uuid: 1dee85fb-a5e4-474d-9f5e-ebef7d9d5ab7
     bio: ""
     image: ellen_main.jpg
+  - name: Joshua Lu
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Daya & Visualization
+    title: Research Software Engineer
+    github_username: jashlu
+    brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
+    bio: ''
+    image: joshua_main.jpg
   - name: Mary McGrath
     type: Full Time
     team: Advanced Research Computing
