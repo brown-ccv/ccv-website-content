@@ -1,8 +1,2 @@
 title: str()
-description: str()
 icon: str()
-links: list(include('link'), required=False)
----
-link:
-  text: str()
-  link: str()
