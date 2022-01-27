@@ -130,7 +130,7 @@ lead: We provide services with limited resources at no cost to all
 
 ## How to get started
 
-* Contact support@ccv.brown.edu to discuss your needs and review purchase options
+* Contact [support@ccv.brown.edu](mailto:support@ccv.brown.edu) to discuss your needs and review purchase options
 
 # Staff Services
 
