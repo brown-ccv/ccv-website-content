@@ -1,9 +1,0 @@
-title: Advanced Research Computing - Consulting
-description: |
-  We provide support for researchers seeking help with statistical modeling, machine learning, data mining, data visualization, computational biology, high-performance computing, and software engineering. 
-mdi:
-  prefix: mdi
-  icon: ninja
-links:
-  - text: Learn more about our consulting services
-    target: /services/consulting/advanced-research-computing

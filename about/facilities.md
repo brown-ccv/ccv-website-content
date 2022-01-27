@@ -1,8 +1,6 @@
 ---
 title: Facilities Statement
-mdi:
-  prefix: mdi
-  icon: domain
+icon: domain
 ---
 
 If you are writing a grant proposal for research that will use CCV facilities, please use the following text as a short description of our facilities:  

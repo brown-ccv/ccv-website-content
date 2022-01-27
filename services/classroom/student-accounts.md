@@ -1,9 +1,6 @@
 ---
 title: Student Accounts
-description: Learn more about the CCV's HPC resources for classes, workshops, demonstrations, and other instructional uses.
-mdi:
-  prefix: mdi
-  icon: account-circle
+icon: account-circle
 ---
 CCV provides access to HPC resources for classes, workshops, demonstrations, and other instructional uses.  In general, the system is available for most types of instructional use at Brown where HPC resources are required, and we will do what we can to provide the resources necessary to help teach your class.  We do ask that you follow these guidelines to help us better support your class.
 

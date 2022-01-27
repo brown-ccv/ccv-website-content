@@ -1,9 +1,6 @@
 ---
 title: Globus
-description: Transfer files asynchronously and securely
-mdi:
-  prefix: mdi
-  icon: transfer
+icon: transfer
 ---
 # Globus
 

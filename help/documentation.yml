@@ -1,8 +1,6 @@
 title: Documentation
 description: CCV's Services Documentation
+icon: book-open
 links:
   - text: Check the Docs
     target: https://docs.ccv.brown.edu
-mdi:
-  prefix: mdi
-  icon: book-open

@@ -1,0 +1,46 @@
+# Schema for all yml files in our-work/collaborations 
+title: str()
+id: "enum(
+          'bnc',
+          'borton-lab',
+          'braingate',
+          'frank-lab',
+          'frickel',
+          'hurt-lab',
+          'nassar-lab',
+          'oh-lab',
+          'peac-lab',
+          'pphc',
+          'riddc',
+          'shenhav-lab'
+          )"
+description: str()
+investigators: list(include('investigator'))
+tags: list(include('tag'))
+people: list(include('person'), required=False)
+links: list(include('link'), required=False)
+---
+tag: "enum(
+            'active',
+            'neuro',
+            'engineering',
+            'computational-psychiatry',
+            'sociology',
+            'ecology',
+            'epidemiology'
+          )"
+#people involved in the project
+investigator:
+  name: str()
+  link: str(required=False)
+person:
+  name: str()
+  github_user: str(required=False)
+# These are links associated with the software 
+link:
+  # Must match one of the values in the regex
+  category: "enum('website', 'github', 'docs')"
+  url: str()
+  
+
+  

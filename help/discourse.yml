@@ -1,11 +1,9 @@
 title: Discourse
 description: |
   A shared community resource, providing a discussion forum to share skills, knowledge and interests through ongoing conversation. Brown has its own category for Brown specific questions, to be answered by participants. For more general questions or discussion topics about research computing, there are other categories that are not institution specific, where feedback may be provided by users from any of the participating institutions.
+icon: comment-multiple
 links:
   - text: Brown Space 
     target: https://ask.cyberinfrastructure.org/c/brown-research-computing
   - text: General ask.ci 
     target: https://ask.ci
-mdi:
-  prefix: mdi
-  icon: comment-multiple

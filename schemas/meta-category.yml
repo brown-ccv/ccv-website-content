@@ -1,0 +1,15 @@
+title: str()
+description: str()
+# Material design icon from https://materialdesignicons.com
+icon: str()
+links: list(include('link'), required=False)
+call-for-action: include('button', required=False)
+hidden: bool(required=False)
+---
+link:
+  text: str()
+  #relative path in the site or website
+  target: str()
+button:
+  text: str()
+  href: str()

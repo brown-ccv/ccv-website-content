@@ -1,22 +1,13 @@
 ---
 title: Data Risk Level 3 Computing (Stronghold)
-description: |
-  Analyze sensitive data while complying with regulatory or contractual requirements
-  for data security
-mdi:
-  prefix: mdi
-  icon: shield-half-full
-extra:
-  text: CIS Risk Classification
-  link: "https://it.brown.edu/computing-policies/risk-classifications"
+icon: shield-half-full
 ---
-# Overview
 
 Stronghold is a secure computing and storage environment that enables Brown researchers to analyze sensitive data while complying with regulatory or contractual requirements. It has been established by Brown University to be compatible with Federal and Rhode Island Law standards for data privacy and protection.
 
 Each Principal Investigator (PI) is given a dedicated environment for their project to support their researchers, graduate students, and collaborators. To view the Stronghold documentation and learn more about the offered features, please follow this [link](https://docs.ccv.brown.edu/stronghold/).
 
-# Key Features
+## Key Features
 
 - **Environments** - Linux or Windows compute environments available
 - **Software** - Workstations come preinstalled with our Windows Standard Software or Linux Standard Software packages
@@ -33,4 +24,5 @@ Each Principal Investigator (PI) is given a dedicated environment for their proj
 security group membership, user login times, and user file transfer activity
 Dual Firewall -  Provides added layer of security for traffic coming in and out of your system
 
-<a href="https://brown.edu/go/stronghold">Request an Environment</a>
+<a href="https://brown.edu/go/stronghold" class="button is-link">Request an Environment</a> 
+<a href="https://it.brown.edu/computing-policies/risk-classifications" class="button is-link">OIT Risk Classification</a>
