@@ -356,7 +356,7 @@ services:
         notes:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
-        class: 1 TB +
+        class: 2 TB +
         notes:
           - 1 TB per PI
           - 10 TB per grant
@@ -450,10 +450,13 @@ questions:
           - 3
   - question: Would you like a DOI auto-generated for your data?
     information: |
-      A digital object identifier (DOI) is a unique and persistent identification number. These 
-      are primarily used in academia as unique identifiers for journal articles, research publications,
-      and data sets. Some Brown University storage services provide the option of having a DOI
-      created for your data set.
+      A digital object identifier (DOI) is unique and persistent identifier used to identify 
+      a physical, digital, or abstract object (e.g., journal article, research report, or data
+      set). The DOI remains constant over the life of the object, and as such, provides a
+      digital, searchable, and persistent link. The Brown University Library will help students, 
+      faculty, and staff obtain a DOI for digital assets produced via the scholarly, 
+      instructional, research, and administrative activities at Brown. [You can learn more 
+      here](https://repository.library.brown.edu/studio/doi/)
     affected_category: DOI_provided
     default_answer: No
     answers:
@@ -465,7 +468,11 @@ questions:
           - True
           - False
   - question: Do you need snapshots or replication of your data?
-    information:
+    information: |
+      Many storage services offer the ability to take "snapshots" or backup copies of your 
+      data. As the terms suggests, these amount to duplicate copies—frozen at a given point
+      in time—of your data. And if necessary, your data could be restored to a prior snapshot
+      or replication copy of the data.
     affected_category: data_protection
     default_answer: No
     answers:
@@ -480,8 +487,10 @@ questions:
         category_classes:
           - True
           - False
-  - question: Do your data require integration with Canvas?
-    information:
+  - question: Is integration with Canvas required?
+    information: |
+      Are you using these data for teaching purposes, and if so, do you need your students
+      to be able to access the data from with the Canvas learning management system? 
     affected_category: canvas_integration
     default_answer: No
     answers:
@@ -493,7 +502,12 @@ questions:
           - True
           - False
   - question: How much data do you have?
-    information:
+    information: |
+      Most of the storage services the University offers can accommodate very large data 
+      sets. But there are fewer options once your data grows to exceptionally large sized. 
+      And for the exceptionally large data sets, these will also often exceed the free 
+      allocations that Brown provides—and thus, you might need to pay a small fee for 
+      the additional storage.
     affected_category: storage
     default_answer: Less than 2 TB
     answers:
