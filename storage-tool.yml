@@ -467,6 +467,7 @@ questions:
   - question: Do you need snapshots or replication of your data?
     information:
     affected_category: data_protection
+    default_answer: No
     answers:
       - answer: Yes
         category_classes:
