@@ -1,9 +1,0 @@
-title: str()
-icon: str()
-data: list(include("opportunity"))
----
-opportunity:
-  title: str()
-  team: str()
-  subteam: str()
-  link: str()
