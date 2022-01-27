@@ -55,7 +55,7 @@ services:
         class: False
         notes:
       - name: brown_network_required
-        class: false
+        class: False
         notes:
       - name: access_from_oscar
         class: partial
@@ -112,7 +112,7 @@ services:
         class: False
         notes:
       - name: brown_network_required
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -173,7 +173,7 @@ services:
         class: True
         notes:
       - name: brown_network_required
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -238,7 +238,7 @@ services:
         class: True
         notes:
       - name: brown_network_required
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -293,7 +293,7 @@ services:
         class: True
         notes:
       - name: brown_network_required
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -345,7 +345,7 @@ services:
         class: True
         notes:
       - name: brown_network_required
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -397,7 +397,7 @@ services:
         class: True
         notes:
       - name: brown_network_required
-        class: true
+        class: True
         notes:
           - except with Globus
       - name: access_from_oscar
@@ -462,23 +462,24 @@ questions:
           - True
       - answer: No
         category_classes:
-          - true
-          - false
+          - True
+          - False
   - question: Do you need snapshots or replication of your data?
     information:
     affected_category: data_protection
+    default_answer: No
     answers:
       - answer: Yes
         category_classes:
-          - true
+          - True
       - answer: No
         category_classes:
-          - false
-          - true
+          - False
+          - True
       - answer: Not sure
         category_classes:
-          - true
-          - false
+          - True
+          - False
   - question: Do your data require integration with Canvas?
     information:
     affected_category: canvas_integration
