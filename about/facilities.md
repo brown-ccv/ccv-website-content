@@ -22,7 +22,7 @@ CCV provides high-performance computing (HPC) resources and scientific computing
 - a GPFS parallel filesystem which provides a total of 3 - PB of usable storage space
 - 100 Gb/s EDR Infiniband connectivity
 
-For more technical details, please see this [link](https://docs.ccv.brown.edu/oscar/system-overview).
+For more technical details, please see [Oscar's system overview](https://docs.ccv.brown.edu/oscar/system-overview).
 
 CCV also supports the Carney condo for The Robert J. & Nancy D. Carney Institute for Brain Science. The condo has
 
@@ -44,7 +44,7 @@ Use of dbGaP data on the computing cluster is restricted to a Singularity softwa
 ## CCV Staff
 CCV’s state-of-the-art infrastructure is maintained and operated by CCV staff, who have extensive experience in operating shared computational clusters. CCV staff members are responsible for scheduled maintenance, access control, and integration with research-specific hardware as required by researchers. A large collection of software is available on Oscar, including: R, Matlab, Mathematica, Maple, and a large range of optimized math and science libraries and domain-specific applications. CCV staff members are available to assist with the acquisition and installation of any applications not already available on Oscar. CCV staff members are also available to consult on research projects and work directly to support and develop the advanced computational methods used by researchers at Brown.
 
-Please contact support@ccv.brown.edu if you need a more detailed description.
+Please contact [CCV](mailto:support@ccv.brown.edu) if you need a more detailed description.
 
 ### How to Cite CCV
 
