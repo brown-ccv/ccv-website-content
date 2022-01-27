@@ -1,6 +1,5 @@
 ---
 title: JupyterHub
-description: Learn more about JupyterHub, a convenient way to serve Jupyter Notebooks for multiple users.
 icon: code-greater-than-or-equal
 ---
 # Introduction
