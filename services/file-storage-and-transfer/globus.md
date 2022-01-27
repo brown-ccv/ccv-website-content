@@ -1,6 +1,5 @@
 ---
 title: Globus
-description: Transfer files asynchronously and securely
 icon: transfer
 ---
 # Globus

@@ -1,8 +1,5 @@
 ---
 title: High-Performance Computing (Oscar)
-description: |
-  Research computing cluster featuring more than 300 multi-core nodes, GPU nodes,
-  and a high-performance parallel filesystem
 icon: server
 ---
 
