@@ -13,7 +13,8 @@ id: "enum(
           'pphc',
           'riddc',
           'shenhav-lab',
-          'vci-lab'
+          'vci-lab',
+          'burke-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -29,7 +30,8 @@ tag: "enum(
             'sociology',
             'ecology',
             'epidemiology',
-            'finance'
+            'finance',
+            'computer-vision'
           )"
 #people involved in the project
 investigator:
