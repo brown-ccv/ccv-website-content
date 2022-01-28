@@ -1,0 +1,18 @@
+title: Leveraging Computer Vision to Augment Risk Prediction
+id: burke-lab
+description: The aim of this project is to collect and analyze image data from individuals with scarring from self-harm injuries. This data will be used to train computer vision models to predict various clinical outcome variables. CCV supports the data collection, analysis and model development infrastructure in collaboration with the Massachusetts General Hospital.
+tags:
+  - active
+  - computer-vision
+investigators:
+  - name: Taylor Burke, Ph.D.
+  - name: Thomas Serre, Ph.D.
+people:
+  - name: Matt Slivinski
+    github_user: mattsliv
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+  - name: Paul Stey
+    github_user: paulstey
+  - name: Isabel Restrepo
+    github_user: mirestrepo
