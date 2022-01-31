@@ -9,16 +9,10 @@ The Cave is located in Studio 4 of the Granoff Center. It is a shared space with
 
 The Cave is currently in a rebuilding phase as we fully integrate the system with Unity. It is available to all researchers and educators at Brown. New projects can be initiated through consultation with CCV visualization staff.
 
-Example Projects:
-
-* [CavePainting](https://github.com/brown-ccv/DrawingOnAir)
-* [CaveWriting](https://github.com/brown-ccv/CaveWriting)
-* [DinoYurt](http://vis.cs.brown.edu/docs/pdf/Novotny-2019-DVR.pdf)
-* [Other VR projects](http://vis.cs.brown.edu/areas/projects.html)
-
 Further Reading:
 
 * [Brown University unveils 3D virtual-reality room](https://www.bostonglobe.com/lifestyle/style/2015/06/19/brown-university-unveils-virtual-reality-room/QoTOOp66NpPZeGMF0bapjO/story.html)
 * [Brown University and the Future of Virtual Reality](http://www.xconomy.com/boston/2014/10/22/brown-university-and-the-future-of-virtual-reality/)
-* [The original CAVE at EVL](http://www.evl.uic.edu/pape/CAVE/)
+* [Other VR projects](http://vis.cs.brown.edu/areas/projects.html)
 * [Wikipedia Article](https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment)
+* [The original CAVE at EVL](http://www.evl.uic.edu/pape/CAVE/)
