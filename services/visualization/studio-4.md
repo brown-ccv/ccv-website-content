@@ -22,13 +22,8 @@ Learn More about CAVE Systems:
 
 ## Head Mounted Displays
 
-Head mounted VR displays have entered the mainstream. 
+Offerings from Oculus, Meta, HTC, and others have brought head mounted VR displays into the mainstream. HMDs are the easiest way for an individual to experience virtual reality, our aim is to support students and professors as much as possible in their pursuit of the technology. The MML owns over a dozen Oculus Quest 2 headsets, often lent to professors to teach with, and we host ongoing events exploring virtual reality. Here attendees can explore VR games, art, and other media with our direct support. The CCV hopes to provide more information, support, and opportunities for Unity specific development with head mounted displays to the Brown community in the near future.
 
 ## Holographic Displays (upcoming)
 
-<!-- TODO
-    ## Head Mounted Displays
-    ## Holographic Displays
- -->
-
-<!-- TODO: Add on with David's lab* [Other VR projects](http://vis.cs.brown.edu/areas/projects.html) -->
+Holographic displays are a new medium for visualization that is waiting to be explored. These displays are especially distinguished because they do not need any external glasses, screens, or other equipment to create a three dimensional image. Light diffraction, often created by lasers, builds virtual objects above/around the device and human interaction with the devices is a widening area of research today. The CCV hopes to soon explore such research and it's interdisciplinary application to all areas of the University.
