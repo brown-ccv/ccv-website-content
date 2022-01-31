@@ -22,6 +22,7 @@ Learn More about CAVE Systems:
 
 ## Head Mounted Displays
 
+Head mounted VR displays have entered the mainstream 
 
 ## Holographic Displays (upcoming)
 
