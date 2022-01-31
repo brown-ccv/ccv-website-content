@@ -1,6 +1,5 @@
 ---
 title: In-Class Tutorials
-description: CCV offers a variety of tutorials to provide students with experience using Brown's HPC systems. Learn more here.
 icon: account-group
 ---
 
