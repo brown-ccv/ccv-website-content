@@ -12,7 +12,8 @@ id: "enum(
           'peac-lab',
           'pphc',
           'riddc',
-          'shenhav-lab'
+          'shenhav-lab',
+          'vrl'
           )"
 description: str()
 investigators: list(include('investigator'))

@@ -22,12 +22,12 @@ Learn More about CAVE Systems:
 
 ## Head Mounted Displays
 
+
 ## Holographic Displays (upcoming)
 
 <!-- TODO
     ## Head Mounted Displays
     ## Holographic Displays
  -->
-
 
 <!-- TODO: Add on with David's lab* [Other VR projects](http://vis.cs.brown.edu/areas/projects.html) -->
