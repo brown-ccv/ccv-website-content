@@ -3,6 +3,6 @@ title: Oscar
 icon: server
 ---
 
-Stuff about oscar
-"In general we support visualization software in Oscar"
-[Link to Oscar part of the website](services/computing#oscar.md)
+Visualizations and 3-D models of large datasets can be rendered using Oscar. It offers a modern and robust solution for displaying datasets that are too computationally expensive for laptops and desktops. It uses open source software, Paraview, to render datasets into downloadable models remotely.
+
+More information on Oscar is available in the [computing section](../computing#oscar.md) of this website.
