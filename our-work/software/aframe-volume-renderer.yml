@@ -1,0 +1,19 @@
+title: Web Volume Viewer
+description: Volumetric data visualization on the web with compatibility on VR devices.
+  It supports color mapping through a transfer function that maps specific data values to a scalar color. Developed using React-JS and A-Frame.  
+languages:
+  - javascript
+  - reactjs
+tags:
+  - vr
+  - web
+people:
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+links:
+  - category: code
+    url: https://github.com/brown-ccv/react-volume-viewer.git
+  - category: npm
+    url: https://www.npmjs.com/package/react-volume-viewer
