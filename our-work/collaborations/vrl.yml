@@ -1,0 +1,18 @@
+title: Visualization Research Lab
+id: vrl
+description: |
+  The Visualization Research Lab (VRL) is part of the Brown University Graphics, Visualization, & 
+  Interaction (GVI) Group. It focuses on developing ways to visualize, interact with, and study a 
+  range of problems and phenomena from science as well as the arts and humanities.
+tags:
+investigators:
+  - name: David Laidlaw
+    link: https://vivo.brown.edu/display/dhl
+people:
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+links:
+  - category: "website"
+    url: http://vis.cs.brown.edu
