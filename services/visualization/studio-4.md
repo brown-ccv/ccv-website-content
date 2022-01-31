@@ -13,8 +13,6 @@ The Cave is currently in a rebuilding phase as we fully integrate the system wit
 
 Learn More about CAVE Systems:
 
-* [Brown University unveils 3D virtual-reality room](https://www.bostonglobe.com/lifestyle/style/2015/06/19/brown-university-unveils-virtual-reality-room/QoTOOp66NpPZeGMF0bapjO/story.html)
-* [Brown University and the Future of Virtual Reality](http://www.xconomy.com/boston/2014/10/22/brown-university-and-the-future-of-virtual-reality/)
 * [Wikipedia Information](https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment)
 * [The original CAVE at EVL](http://www.evl.uic.edu/pape/CAVE/)
 
