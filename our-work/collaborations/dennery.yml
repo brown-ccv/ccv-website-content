@@ -1,0 +1,20 @@
+title: Dennery Lab
+id: dennery-lab
+description: The Dennery lab investigates neonatal lung injury and repair. CCV's collaboration with the Dennery lab involved analyzing and publishing ChIP-Seq and single cell RNA-seq data.
+tags:
+  - active
+  - computational-biology
+investigators:
+  - name: Phyllis Dennery
+    link: https://vivo.brown.edu/display/pdennery
+people:
+  - name: Joselynn Wallace
+    github_user: jrwallace
+links:
+  - category: "github"
+    url: https://github.com/compbiocore/Dennery_scRNA/
+  - category: "website"
+  - category: "github"
+    url: https://github.com/compbiocore/scaffa/
+  - category: "github"
+    url: https://github.com/Dennery_scRNA/
