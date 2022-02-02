@@ -1,0 +1,19 @@
+title: Fedulov Lab
+id: fedulov-lab
+description: The Fedulov lab investigates epigenetic regulation. CCV's collaboration with the Fedulov lab involved analyzing and publishing reduced-representation bisulfite sequencing data.
+tags:
+  - active
+  - computational-biology
+investigators:
+  - name: Alexey Fedulov
+    link: https://vivo.brown.edu/display/afedulov
+people:
+  - name: Joselynn Wallace
+    github_user: jrwallace
+  - name: Jordan Lawson
+    github_user: j-stat
+links:
+  - category: "github"
+    url: https://github.com/compbiocore/Fedulov_porcine_rrbs
+  - category: "github"
+    url: https://github.com/compbiocore/fedulov_rrbs_data
