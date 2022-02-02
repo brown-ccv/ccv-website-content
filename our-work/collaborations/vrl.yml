@@ -12,8 +12,6 @@ investigators:
 people:
   - name: Camilo Diaz Rodriguez
     github_user: kmilo9999
-  - name: Robert Gemma
-    github_user: RobertGemmaJr
 links:
   - category: "website"
     url: http://vis.cs.brown.edu
