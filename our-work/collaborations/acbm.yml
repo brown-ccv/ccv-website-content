@@ -1,5 +1,5 @@
 title: Serre Lab
-id: ACBM
+id: acbm
 description: Automated Continuous Behavioral Monitoring (ACBM) is a machine vision-based automated phenotyping method to detect and quantify the earliest-detected phenotypes in Tdp43Q331K knock-in mice.This method entails continuous video recording for 5 days (~1.4 X 107 frames/mouse/session) that is then scored by a trained computer system. In addition to its sensitivity, objectivity and reproducibility, a major advantage of this method is the ability to acquire and archive video recordings and then analyze the data at sites remote from those of acquisition. CCV's collaboration with Serre Lab is to enable cloud based analysis of video recordings. Our goal is to establish sensitive, robust, objective, and open-source machine vision-based behavioral analysis tools that will be widely available to workers in the field.
 tags:
   - active
