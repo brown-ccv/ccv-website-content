@@ -13,6 +13,7 @@ id: "enum(
           'pphc',
           'riddc',
           'shenhav-lab',
+          'vrl',
           'fedulov-lab',
           'dennery-lab' 
           )"
@@ -30,7 +31,8 @@ tag: "enum(
             'sociology',
             'ecology',
             'epidemiology',
-            'computational-biology'
+            'computational-biology',
+            'vr'
           )"
 #people involved in the project
 investigator:
