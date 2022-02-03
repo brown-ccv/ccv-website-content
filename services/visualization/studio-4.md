@@ -5,7 +5,7 @@ icon: virtual-reality
 
 Studio 4 in Brown's [Granoff Center](https://arts.brown.edu) is a flexible production space used for teaching and research. It is a fairly basic, workshop-like space that we share with Brown's [MultiMedia Labs](https://sites.google.com/brown.edu/multimedia-labs-new-site/home). The MML are inclusive, adaptive, and experimental spaces equipped with emerging technology to support creative digital work and inspire a community of makers. It has spaces for video production, podcasting, large format 2D printing, 3D printing, and VR. CCV and MML continue to collaborate on a variety of VR projects for the Brown community, with Studio 4 serving as the home base for visualization research and exploration.
 
-![Studio 4](/images/studio_4.jpg)
+![Studio 4](/content/images/studio_4.jpg)
 
 ## CAVE Automatic Virtual Environment (upcoming)
 
