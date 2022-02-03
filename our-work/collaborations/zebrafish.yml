@@ -1,0 +1,15 @@
+title: The Creton Laboratory
+id: zebrafish
+description: Zebrafish model systems have been extensively utilized as a surrogate for understanding mammalian brain functions. One particular advantage of using zebrafish model system is due to low incubation period (5 days) and low footprint of zebrafish, this model system can be utilized to obtain high-throughput measurements. CCV's collaboration with Creton Lab is to develop a image processing framework to autonomously detect zebrafish locations and orientations in videos or images. The goal of this project is to automate the characterization of zebrafish behaviours using deep learning.
+tags:
+  - active
+  - neuro
+investigators:
+  - name: Robbert Creton
+    link: https://vivo.brown.edu/display/rcretonp
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+links:
+  - category: "github"
+    url: https://github.com/rkakodkar/Automated-Analysis-of-Zebrafish
