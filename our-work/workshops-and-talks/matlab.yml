@@ -1,5 +1,5 @@
 title: Using MATLAB on Oscar
-description: An introduction to using MATLAB on Oscar. Topics covered include: working with MATLAB interactively on Oscar, using the MATLAB GUI, and using MATLAB in batch jobs.  
+description: An introduction to using MATLAB on Oscar. Topics covered include working with MATLAB interactively on Oscar, using the MATLAB GUI, and using MATLAB in batch jobs.  
 slug: using_matlab
 languages:
   - unix-cli

@@ -1,5 +1,5 @@
 title: File Transfer Basics
-description: An overview of methods for moving files onto and off of Oscar. Topics covered include: Linux command line tools for file transfer (scp, rsync, sftp), GUI-based file transfer applications, mounting Oscar’s filesystem using CIFS, and using Globus on Oscar. 
+description: An overview of methods for moving files onto and off of Oscar. Topics covered include Linux command line tools for file transfer (scp, rsync, sftp), GUI-based file transfer applications, mounting Oscar’s filesystem using CIFS, and using Globus on Oscar. 
 slug: file_transfer
 languages:
   - unix-cli
