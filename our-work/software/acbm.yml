@@ -6,7 +6,8 @@ languages:
   - python
 tags:
   - neuro
-  - engineering
+  - gcp
+  - pipelines
 people:
   - name: Rohit Kakodkar
     github_user: rkakodkar

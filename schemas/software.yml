@@ -39,7 +39,9 @@ tag: "enum(
           'oceanography',
           'public-health',
           'web',
-          'vr'
+          'vr',
+          'gcp',
+          'pipelines'
           )"
 #people involved in the project
 person:
