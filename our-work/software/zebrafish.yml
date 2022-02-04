@@ -1,0 +1,18 @@
+title: Automated Analysis of Zebrafish Behaviors
+description: Automated Analysis of Zebrafish Behaviors is a set of tools and deep learning models to autonomously detect zebrafish behaviors from a image set or video stream.
+groups:
+  - creton-lab
+languages:
+  - python
+tags:
+  - neuroscience
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+links:
+  - category: code
+    url: https://github.com/rkakodkar/Automated-Analysis-of-Zebrafish
+  - category: publication
+    url: https://github.com/rkakodkar/Automated-Analysis-of-Zebrafish#:~:text=Analysis%20of%20vertebrate%20vision%20in%20a%20384%2Dwell%20imaging%20system
+  - category: publication
+    url: https://github.com/rkakodkar/Automated-Analysis-of-Zebrafish#:~:text=A%20zebrafish%20model%20for%20calcineurin%2Ddependent%20brain%20function

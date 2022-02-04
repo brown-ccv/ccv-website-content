@@ -1,0 +1,17 @@
+title: Serre Lab
+id: serre-lab
+description: The goal of Serre Lab is to understand the neural computations supporting visual perception. CCV's collaboration with the Serre Lab is to standardize and optimize the various Machine Learning/Deep Learning pipelines used by the lab. The goal of this collaboration is to simplify the use of the computational tools used by the lab and reduce the time to solution.
+tags:
+  - active
+  - neuro
+investigators:
+  - name: Thomas Serre
+    link: https://vivo.brown.edu/display/tserre
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+links:
+  - category: "website"
+    url: "https://serre-lab.clps.brown.edu/"
+  - category: "github"
+    url: https://github.com/serre-lab
