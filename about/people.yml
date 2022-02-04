@@ -107,7 +107,7 @@ data:
   - name: Singh Saluja
     type: Full Time
     team: CCV Operations
-    title: Research Services Support Specialist
+    title: Research Computing Consultant
     github_username: singhsaluja
     brown_directory_uuid: 786ef442-dcc4-4463-aaf3-c5728a2a8d38
     bio: ''
@@ -120,6 +120,14 @@ data:
     brown_directory_uuid: e0e55df3-9f2c-4a12-a1de-742955164e1e
     bio:
     image: yang_main.jpg
+  - name: Prasad Bandarkar
+    type: Full Time
+    team: CCV Operations
+    title: Research Computing Specialist
+    github_username: prasadbandarkar
+    brown_directory_uuid: 11533980-c5cd-4969-81ca-537543da9b72
+    bio:
+    image: prasad_main.jpg
   - name: August Guang
     type: Full Time
     team: Advanced Research Computing

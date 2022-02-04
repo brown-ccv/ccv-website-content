@@ -15,6 +15,9 @@ id: "enum(
           'shenhav-lab',
           'vci-lab',
           'burke-lab'
+          'vrl',
+          'fedulov-lab',
+          'dennery-lab' 
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -32,6 +35,8 @@ tag: "enum(
             'epidemiology',
             'finance',
             'computer-vision'
+            'computational-biology',
+            'vr'
           )"
 #people involved in the project
 investigator:
