@@ -1,5 +1,5 @@
 title: Building Software on Oscar
-description: Learn how to build and install software packages on Oscar. Topics covered include: make, cmake, compiler options on Oscar, pip, building python packages from source, and python virtual environments. 
+description: Learn how to build and install software packages on Oscar. Topics covered include make, cmake, compiler options on Oscar, pip, building python packages from source, and python virtual environments. 
 slug: building_software
 languages:
   - unix-cli
