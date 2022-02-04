@@ -14,10 +14,10 @@ id: "enum(
           'riddc',
           'shenhav-lab',
           'vci-lab',
-          'burke-lab'
+          'burke-lab',
           'vrl',
           'fedulov-lab',
-          'dennery-lab' 
+          'dennery-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -34,7 +34,7 @@ tag: "enum(
             'ecology',
             'epidemiology',
             'finance',
-            'computer-vision'
+            'computer-vision',
             'computational-biology',
             'vr'
           )"
