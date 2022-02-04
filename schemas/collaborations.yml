@@ -15,8 +15,8 @@ id: "enum(
           'shenhav-lab',
           'fedulov-lab',
           'dennery-lab',
-          'zebrafish',
-          'acbm' 
+          'serre-lab',
+          'creton-lab' 
           )"
 description: str()
 investigators: list(include('investigator'))

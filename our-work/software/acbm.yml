@@ -1,0 +1,12 @@
+title: Automated Continuos Behavioral Monitoring (ACBM)
+description: Automated Continuous Behavioral Monitoring (ACBM) is a machine vision-based automated phenotyping method to detect and quantify the earliest-detected phenotypes in Tdp43Q331K knock-in mice. This method entails continuous video recording for 5 days that is then scored by a trained computer system. The system is a set of DL models deployed on google cloud platform using Kubeflow pipelines. Our goal is to establish sensitive, robust, objective, and open-source machine vision-based behavioral analysis tools that will be widely available to workers in the field.
+groups:
+  - serre-lab
+languages:
+  - python
+tags:
+  - neuro
+  - engineering
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
