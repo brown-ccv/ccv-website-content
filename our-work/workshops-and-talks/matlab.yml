@@ -1,0 +1,18 @@
+title: Using MATLAB on Oscar
+description: An introduction to using MATLAB on Oscar. Topics covered include: working with MATLAB interactively on Oscar, using the MATLAB GUI, and using MATLAB in batch jobs.  
+slug: using_matlab
+languages:
+  - unix-cli
+  - matlab
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Paul Hall
+    github_user: phall-brown
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/1Mu8OEisagl2xAU17r3i3j8ySN3O0VK9w1EON-8_-0gQ/edit?usp=sharing
+
