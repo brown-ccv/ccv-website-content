@@ -1,5 +1,5 @@
 title: Working on the Command Line
-description: A practical introduction to the Linux operating system. Topics covered include: basic Linux commands for maneuvering within the file system and manipulating files, Unix shells, and working with environment variables and paths.
+description: A practical introduction to the Linux operating system. Topics covered include basic Linux commands for maneuvering within the file system and manipulating files, Unix shells, and working with environment variables and paths.
 slug: command_line
 languages:
   - unix-cli
