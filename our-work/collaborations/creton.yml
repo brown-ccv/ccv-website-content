@@ -1,0 +1,15 @@
+title: The Creton Laboratory
+id: creton-lab
+description: Research in the Creton laboratory is focused on brain development and behavior, using zebrafish as a model system. The studies aim to provide a better understanding of basic biological mechanisms and to contribute to the prevention and treatment of various human disorders, including visual impairment, developmental brain disorders and Alzheimer's disease. CCV's collaboration with Creton Lab is to automate the tracking of zebrafish behaviors with the help of deep learning models and developing tools to analyze those behaviors.
+tags:
+  - active
+  - neuro
+investigators:
+  - name: Robbert Creton
+    link: https://vivo.brown.edu/display/rcretonp
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+links:
+  - category: "website"
+    url: https://www.brown.edu/research/projects/zebrafish/creton
