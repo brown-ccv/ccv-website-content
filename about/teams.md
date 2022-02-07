@@ -13,7 +13,7 @@ Leadership: [Ashok Ragavendran](https://directory.brown.edu/uuid/60802d0b-8f18-4
 
 ### High-Performance Computing Systems
 Leadership: [Mete Tunca](https://directory.brown.edu/uuid/d0e7b3b6-f6b4-f28b-3bfd-08bccf05ac31)
->Our HPC systems engineers are responsible for building and maintaining the hardware and system-level software for Brown's primary supercomputer, Oscar. This includes designing the overall architecture of the system, the storage and networking configurations, as well as the operating system and the system libraries. We also work with researcher to plan hardware purchases for grant applications. 
+>Our HPC systems engineers are responsible for building and maintaining the hardware and system-level software for Brown's primary supercomputer, Oscar. This includes designing the overall architecture of the system, the storage and networking configurations, as well as the operating system and the system libraries. We also work with researchers to plan hardware purchases for grant applications. 
 
 ### GSDC (Graphics, Software and Data Core)
 Leadership: [Isabel Restrepo](https://directory.brown.edu/uuid/cb8b0a49-ef4b-66e7-5ccc-6689493e8ace), [Mary McGrath](https://directory.brown.edu/uuid/fa814738-23c5-42b9-a63c-1ea789f3d1eb)
