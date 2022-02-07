@@ -1,0 +1,17 @@
+title: Intro to Slurm
+description: A primer on submitting jobs to the job scheduler on Oscar. Some basic familiarity with Unix/Linux systems is assumed. Topics covered include - an overview of the use of Slurm for resource allocation, submitting jobs to Slurm, and using Bash scripts to configure and submit jobs to Slurm.
+slug: slurm-intro
+languages:
+  - unix-cli
+  - bash
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/1XumM5oXrfO4mMjPiXSsWNAm0A8zyzCfqynDohblveXI/edit?usp=sharing

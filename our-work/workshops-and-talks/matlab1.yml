@@ -1,0 +1,16 @@
+title: MATLAB - Improving performance
+description: This workshop will cover basic performance optimization techniques using MATLAB, including - code profiling, pre-allocation, sequential memory access, vectorization, and efficient matrix-vector storage and operations. We will assume that participants have a basic understanding of the MATLAB programming language.
+slug: matlab-1
+languages:
+  - matlab
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/1rlw2hmQfOU4McYLIQN-M8gT4NJbUi70mNqZeQ76xNDs/edit?usp=sharing
