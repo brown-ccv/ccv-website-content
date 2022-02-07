@@ -17,8 +17,8 @@ Leadership: [Ashok Ragavendran](https://directory.brown.edu/uuid/60802d0b-8f18-4
 
 ### High-Performance Computing Systems
 Leadership: [Mete Tunca](https://directory.brown.edu/uuid/d0e7b3b6-f6b4-f28b-3bfd-08bccf05ac31)
->Our HPC systems engineers are responsible for building and maintaining the hardware and system-level software for Brown's primary supercomputer, Oscar. This includes designing the overall architecture of the system, the storage and networking configurations, as well as the operating system and the system libraries. We also work with researcher to plan hardware purchases for grant applications. 
+>Our HPC systems engineers are responsible for building and maintaining the hardware and system-level software for Brown's primary supercomputer, Oscar. This includes designing the overall architecture of the system, the storage and networking configurations, as well as the operating system and the system libraries. We also work with researchers to plan hardware purchases for grant applications. 
 
 ### Research Technical Services
 Leadership: [Mete Tunca](https://directory.brown.edu/uuid/d0e7b3b6-f6b4-f28b-3bfd-08bccf05ac31)
->Our team research computing consultants support researchers across all of our research computing environments and tools. This includes on Oscar, Stronghold, Globus, Hibernate, JupyterHub, and others. We can help with onboarding to our systems, we can help with debugging, and we can help you decide what systems are best suited to your research computing needs. We hold regular weekly office hours, and are happy to help with tutorials and additional consultation sessions outside of office hours. 
+>Our team of research computing consultants support researchers across all of our research computing environments and tools. This includes Oscar, Stronghold, Globus, Hibernate, JupyterHub, and others. We can help with onboarding to our systems, debugging, and deciding what systems are best suited to your research computing needs. We hold regular weekly office hours, and are happy to help with tutorials and additional consultation sessions outside of office hours. 

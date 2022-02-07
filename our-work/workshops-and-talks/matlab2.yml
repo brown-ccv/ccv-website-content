@@ -1,0 +1,16 @@
+title: MATLAB - Tools for Parallel Computing
+description: This workshop will cover basic performance optimization techniques using parallel computing techniques in MATLAB, including - parallel for-loops (parfor), single program multiple data (spmd), and distributed arrays. We assume that participants have a relatively advanced knowlege of the MATLAB programming language and have written at least one scientific computing application.
+slug: matlab-2
+languages:
+  - matlab
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/1-cKR9XfFl7_M0WN-JC13e7pCG0YF4dtO1__BiQ--geM/edit?usp=sharing
