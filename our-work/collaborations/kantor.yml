@@ -1,0 +1,12 @@
+title: Kantor Lab
+id: kantor-lab
+description: The Kantor lab HIV/AIDS reseach includes the evolution of antiretroviral resistance, treatment monitoring, and transmission, with a focus on HIV/AIDS locally and in resource-limited settings. CCV collaborates with the Kantor lab on transmission inference related projects.
+tags:
+  - active
+  - computational-biology
+investigators:
+  - name: Rami Kantor
+    link: https://vivo.brown.edu/display/rkantor
+people:
+  - name: August Guang
+    github_user: aguang
