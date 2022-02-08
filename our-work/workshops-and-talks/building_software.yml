@@ -1,0 +1,21 @@
+title: Building Software on Oscar
+description: Learn how to build and install software packages on Oscar. Topics covered include make, cmake, compiler options on Oscar, pip, building python packages from source, and python virtual environments.
+slug: building_software
+languages:
+  - unix-cli
+  - bash
+  - c/c++
+  - fortran
+  - python
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Paul Hall
+    github_user: phall-brown
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/1Rtd3mjHPhI8CUsTLOn8lRA6X7dGQAlMeqoImszAqqFI/edit?usp=sharing
+
