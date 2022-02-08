@@ -10,8 +10,8 @@ links: list(include('link'), required=False)
 ---
 language: "enum(
                 'bash',
-c/c++,
-fortran,
+                'c/c++',
+                'fortran',
                 'javascript',
                 'julia',
                 'matlab',
@@ -29,8 +29,8 @@ fortran,
 tag: "enum(
            'cloud-computing',
            'gcp',
-           'hpc',
-           'oscar'
+           'oscar',
+           'hpc'
            )"
 #people involved in the project
 person:
