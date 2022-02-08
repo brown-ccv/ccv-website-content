@@ -10,7 +10,7 @@ links: list(include('link'), required=False)
 ---
 language: "enum(
                 'bash',
-                'C/C++',
+c/c++,
                 'Fortran',
                 'javascript',
                 'julia',
