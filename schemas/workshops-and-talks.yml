@@ -11,7 +11,7 @@ links: list(include('link'), required=False)
 language: "enum(
                 'bash',
 c/c++,
-                'Fortran',
+fortran,
                 'javascript',
                 'julia',
                 'matlab',
