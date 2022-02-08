@@ -1,0 +1,18 @@
+title: Proteomics RShiny App
+id: proteomics app
+description: This R shiny app was developed for visualizing pathways with metabolomics and proteomics.
+tags:
+  - proteomics
+  - metabolomics 
+  - rshiny 
+investigators:
+  - name: Mamiko Yajima and Shakson Isaac 
+    link: https://sites.brown.edu/yajima-lab/lab-members/ 
+people:
+  - name: Jordan Lawson
+    github_user: j-stat
+links:
+  - category: "github"
+    url: https://github.com/compbiocore/sea_urchin_app1 
+  - category: "website"
+    url: 
