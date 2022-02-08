@@ -1,9 +1,10 @@
 title: The Crunch Group
 id: crunch-group
-description: The CRUNCH group is a research team of the Division of Applied Mathematics working at the interface of Computational Mathematics + Machine Learning + X, where X may be problems in biology, geophysics, soft matter, functional materials, physical chemistry, or fluid and solid mechanics. Their emphasis is on Scientific Machine Learning and Physics-Informed Neural Networks (PINNs) that the CRUNCH group pioneered. 
+description: The CRUNCH group is a research team of the Division of Applied Mathematics working at the interface of Computational Mathematics + Machine Learning + X, where X may be problems in biology, geophysics, soft matter, functional materials, physical chemistry, or fluid and solid mechanics. Their emphasis is on Scientific Machine Learning and Physics-Informed Neural Networks (PINNs) that the CRUNCH group pioneered. CCV provides Linux system administration and research software support to the CRUNCH group and other faculty in Applied Math.
 tags:
   - active
   - applied-math
+  - system-administration
 investigators:
   - name: George Karniadakis
     link: https://www.brown.edu/research/projects/crunch/george-karniadakis

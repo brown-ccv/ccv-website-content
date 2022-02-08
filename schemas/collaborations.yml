@@ -40,7 +40,8 @@ tag: "enum(
             'computer-vision',
             'computational-biology',
             'vr',
-            'applied-math'
+            'applied-math',
+            'system-administration'
           )"
 #people involved in the project
 investigator:
