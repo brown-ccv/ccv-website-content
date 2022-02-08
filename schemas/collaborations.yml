@@ -19,7 +19,8 @@ id: "enum(
           'fedulov-lab',
           'dennery-lab',
           'serre-lab',
-          'creton-lab'
+          'creton-lab',
+          'crunch-group'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -38,7 +39,8 @@ tag: "enum(
             'finance',
             'computer-vision',
             'computational-biology',
-            'vr'
+            'vr',
+            'applied-math'
           )"
 #people involved in the project
 investigator:
