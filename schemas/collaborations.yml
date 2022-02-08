@@ -19,7 +19,7 @@ id: "enum(
           'fedulov-lab',
           'dennery-lab',
           'serre-lab',
-          'creton-lab'
+          'creton-lab',
           'crunch-group'
           )"
 description: str()
