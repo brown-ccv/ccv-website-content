@@ -1,0 +1,15 @@
+title: DrawOnAir (cave-painting)
+description: A collaboration between Dr Daniel Keefe (University of Minnesota), Dr David Laidlaw (Brown University) and CCV to expand 3D DrawOnAir haptic functionality to VR systems
+languages:
+  - c++
+tags:
+  - vr
+  - desktop
+people:
+  - name: Daniel Keefe
+    github_user: dankeefe
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+links:
+  - category: code
+    url: https://github.com/brown-ccv/DrawingOnAir
