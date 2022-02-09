@@ -4,7 +4,6 @@ languages:
   - c++
 tags:
   - vr
-  - hmd
   - desktop
 people:
   - name: Daniel Keefe
