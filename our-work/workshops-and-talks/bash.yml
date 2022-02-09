@@ -1,0 +1,17 @@
+title: Intro to Bash programming
+description: This workshop will cover basic shell scripting in Bash - variables, loops, pipes and more so participants can learn to automate work with Bash.  We will assume participants have some familiarity with the linux command line. 
+slug: bash
+languages:
+  - unix-cli
+  - bash
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Rohit Kakodkar
+    github_user: rkakodkar
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/12wCVXuDVIuJMjM_Am65exg9mcx6QyQlx8mV-HgQjCx0/edit?usp=sharing

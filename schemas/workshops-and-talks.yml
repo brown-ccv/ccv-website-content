@@ -9,6 +9,9 @@ people: list(include('person'))
 links: list(include('link'), required=False)
 ---
 language: "enum(
+                'bash',
+                'c/c++',
+                'fortran',
                 'javascript',
                 'julia',
                 'matlab',
@@ -21,11 +24,14 @@ language: "enum(
                 'sql',
                 'typescript',
                 'unix-cli',
-                'vuejs'
+                'vuejs',
+                'bash'
                 )"
 tag: "enum(
            'cloud-computing',
-           'gcp'
+           'gcp',
+           'oscar',
+           'hpc'
            )"
 #people involved in the project
 person:

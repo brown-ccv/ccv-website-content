@@ -1,0 +1,18 @@
+title: Getting Started on Oscar
+description: An introduction to Oscar, Brown’s research computing cluster, for new users. Participants will learn how to connect to Oscar (ssh, VNC), how to navigate Oscar’s filesystem, and how to use the module system to access software packages on Oscar. 
+slug: intro_oscar
+languages:
+  - unix-cli
+  - bash
+tags:
+  - oscar
+  - hpc
+people:
+  - name: Paul Hall
+    github_user: phall-brown
+groups:
+  - hpc-workshops
+links:
+  - category: slides 
+    url: https://docs.google.com/presentation/d/1QsV97bau-FB0zcfmx_A9ZwSeo8BAHEw7QhmusfDNobc/edit?usp=sharing
+
