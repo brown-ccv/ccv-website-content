@@ -20,7 +20,12 @@ id: "enum(
           'dennery-lab',
           'serre-lab',
           'creton-lab',
-          'crunch-group'
+          'crunch-group',
+	  'kantor-lab',
+	  'mcdonald-lab',
+	  'mchugh-lab',
+	  'rothman-lab',
+	  'spade-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
