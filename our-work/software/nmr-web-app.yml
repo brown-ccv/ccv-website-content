@@ -1,0 +1,14 @@
+id: NMR Web Application 
+description: Web application built from docker containers that allow for the processing, storage, and retrieval of nuclear magnetic resonance spectroscopic data. 
+groups:
+   - lisi-lab
+tags:
+   - spectral-processing
+   - docker
+   - checmical-physics
+people:
+   - name: Jordan Lawson
+     github_user: j-stat
+links: 
+   - category: code
+   url: https://github.com/compbiocore/NMR-WebApp 
