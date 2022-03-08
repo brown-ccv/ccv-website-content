@@ -310,3 +310,15 @@ data:
     brown_directory_uuid: f9b90aaf-a7f2-4ce9-b51e-b9b5b484c4dd
     bio: Yuan is an undergrad student studying computational biology.
     image: yuan_main.jpg
+  - name: Timothy Divoll
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Data Scientist
+    github_username: tdivoll
+    brown_directory_uuid: d98138f4-a49c-4e1b-9bc4-1832b51f6f46
+    bio: Tim has dabbled in several aspects of data science such as computer vision for species detection,
+      bioinformatics for metabarcoding, and statistics for ecological inference. He studied the foraging
+      ecology of bats at Indiana State University for his PhD. Overall, he enjoys reproducible science
+      and making pipelines accessible.
+    image: tim_main.jpg
