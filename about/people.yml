@@ -283,6 +283,15 @@ data:
     brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
     bio: Minsik is an undergrad student studying chemical physics.
     image: minsik_main.jpg
+  - name: Jiatao Yuan
+    type: CCV Interns
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Data Science Intern
+    github_username: Francis958
+    brown_directory_uuid: 1fb9b19e-3269-459d-8e2e-92f0cae6ce1b
+    bio: Jiatao is a graduade student studying data science.
+    image: jiatao_main.jpg
   - name: Zhuoran Han
     type: CCV Interns
     team: Advanced Research Computing
