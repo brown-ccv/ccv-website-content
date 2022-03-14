@@ -13,5 +13,5 @@ icon: database
     * Action: Archive, Delete, Recover
 
 <!-- {{< account_form >}} -->
-{{< button text="Request a zone" href="https://brown.co1.qualtrics.com/jfe/form/SV_3V3SZ2HSJLxoCs6">}}
+[To request a zone please submit this form](https://brown.co1.qualtrics.com/jfe/form/SV_3V3SZ2HSJLxoCs6)
 
