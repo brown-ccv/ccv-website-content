@@ -73,6 +73,9 @@ services:
       - name: max_file_size
         class: 5 TB
         notes:
+      - name: storage_warmth
+        class: warm
+        notes:
 
   - name: campus_file_storage_non-replicated
     description: |
@@ -133,6 +136,9 @@ services:
         class: 9 XB
         notes:
           - 1 TB for best performance
+      - name: storage_warmth
+        class: hot
+        notes:
 
   - name: campus_file_storage_replicated
     description: |
@@ -194,6 +200,9 @@ services:
         class: 4 TB
         notes:
           - 1 TB for best performance
+      - name: storage_warmth
+        class: hot
+        notes:
 
   - name: Brown_Digital_Repository
     description: |
@@ -256,6 +265,9 @@ services:
         class: 4 GB
         notes:
           - 1 TB for best performance
+      - name: storage_warmth
+        class: cold
+        notes:
 
   - name: LabArchives
     description: |
@@ -309,6 +321,9 @@ services:
         notes:
       - name: max_file_size
         class: 4 GB
+        notes:
+      - name: storage_warmth
+        class: hot
         notes:
 
   - name: research_data_storage
@@ -364,6 +379,9 @@ services:
       - name: max_file_size
         class: 8 XB
         notes:
+      - name: storage_warmth
+        class: hot
+        notes:
 
   - name: stronghold
     description: |
@@ -416,7 +434,62 @@ services:
       - name: max_file_size
         class: 4 TB
         notes:
+      - name: storage_warmth
+        class: hot
+        notes:
 
+  - name: Hibernate
+    description: |
+      [Hibernate is a secure, reliable, research data archive solution](https://docs.ccv.brown.edu/hibernate/). Hibernate is a Brown OIT archival service for the research community to migrate inactive data off active Network-attached storage (NAS) platforms onto a lower cost, long-term retention environment. 
+
+          * Hibernate leverages [StarFish](https://docs.ccv.brown.edu/starfish/) an application that provides a metadata and rules-based management framework for large file systems. StarFish makes storage tiering easy: moving data, reporting, zones. 
+          * A zone is a virtual-volume or collection of branches across different file-systems (GPFS, Isilion, LRS etc.). Each PI group is distributed into an individual zone. A zone provides:
+              * Types/sizes of files, access times
+              * Hot Spots (Growth, user(s)/Group(s)
+              * Action: Archive, Delete, Recover
+    features:
+      - name: relative_speed
+        class: slow
+        notes:
+      - name: collaborative_edits
+        class: False
+        notes:
+      - name: shareable_link
+        class: False
+        notes:
+      - name: DOI_provided
+        class: False
+        notes:
+      - name: data_protection
+        class: False
+        notes:
+      - name: canvas_integration
+        class: False
+        notes:
+      - name: secondary_site_backup
+        class: True
+        notes:
+      - name: brown_network_required
+        class: True
+        notes:
+      - name: access_from_oscar
+        class: True
+        notes:
+          - via Starfish
+      - name: security
+        class: 2
+        notes:
+          - Access controlled by Brown Authentication and Security groups
+      - name: storage
+        class: 2 TB +
+        notes:
+          - Capacity as needed
+      - name: max_file_size
+        class: 4 TB
+        notes:
+      - name: storage_warmth
+        class: cold
+        notes:
 questions:
   - question: What is the risk classification of your data?
     information: |
@@ -546,3 +619,30 @@ questions:
         category_classes:
           - True
           - False
+  - question: Do your data require "hot" or "cold" storage?
+    information: |
+      The "warmth" of a data set is essentially the frequency with which it needs to be accessed 
+      or updated. A "hot" data set is one that you are actively working with as part of your model
+      fitting or analysis. A "warm" data set is one that is still sometimes accessed for reading 
+      and writing. A "cold" data set is effectively never (or only _extremely_ rarely) accessed. 
+      Cold storage is often referred to as "archival storage". So, cold storage solutions are most 
+      appropriate when the analysis of the data is complete. That is, when you are done with 
+      the data, but you are keeping the around because of either obligations from grants or 
+      funding agencies, or just in case they are needed at some later time. 
+    affected_category: storage_warmth
+    default_answer: any
+    answers:
+      - answer: hot
+        category_classes:
+          - hot
+      - answer: warm
+        category_classes:
+          - warm
+      - answer: cold
+        category_classes:
+          - cold
+      - answer: any
+        category_classes:
+          - hot
+          - warm
+          - cold
