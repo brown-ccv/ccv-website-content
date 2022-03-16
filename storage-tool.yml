@@ -117,7 +117,7 @@ services:
         notes:
           - 2 TB per PI
           - 20 TB per grant
-          - Paid after that @ $50/TB/Yr. (Consolidated across all paid storage types.)
+          - Paid after that @ $50/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
         class: 9 EB
         notes:
@@ -172,11 +172,11 @@ services:
         notes:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
-        class: 2 TB +
+        class: 1 TB +
         notes:
           - 1 TB per PI
           - 10 TB per grant
-          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+          - Paid after that @ $100/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
         class: 4 TB
         notes:
@@ -328,11 +328,11 @@ services:
         notes:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
-        class: 2 TB +
+        class: 1 TB +
         notes:
           - 1 TB per PI
           - 10 TB per grant
-          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+          - Paid after that @ $100/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
         class: 8 EB
       - name: storage_warmth
@@ -378,7 +378,7 @@ services:
         notes:
           - 1 TB per PI
           - 10 TB per grant
-          - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
+          - Paid after that @ $100/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
         class: 4 TB
       - name: storage_warmth
