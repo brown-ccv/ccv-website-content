@@ -627,7 +627,7 @@ questions:
       and writing. A "cold" data set is effectively never (or only _extremely_ rarely) accessed. 
       Cold storage is often referred to as "archival storage". So, cold storage solutions are most 
       appropriate when the analysis of the data is complete. That is, when you are done with 
-      the data, but you are keeping the around because of either obligations from grants or 
+      the data, but you are keeping it around because of either obligations from grants or 
       funding agencies, or just in case they are needed at some later time. 
     affected_category: storage_warmth
     default_answer: any
