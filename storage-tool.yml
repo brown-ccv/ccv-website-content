@@ -234,6 +234,9 @@ services:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
         class: 1 TB +
+          - 1 TB per PI
+          - 10 TB per grant
+          - Paid after that @ $100/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
         class: 4 GB
         notes:
