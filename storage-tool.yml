@@ -34,29 +34,22 @@ services:
     features:
       - name: relative_speed
         class: fast
-        notes:
       - name: collaborative_edits
         class: True
-        notes:
       - name: shareable_link
         class: True
-        notes:
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: True
         notes:
           - up to 60 days
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: False
-        notes:
       - name: brown_network_required
         class: False
-        notes:
       - name: access_from_oscar
         class: partial
         notes:
@@ -72,10 +65,8 @@ services:
           - per user
       - name: max_file_size
         class: 5 TB
-        notes:
       - name: storage_warmth
         class: warm
-        notes:
 
   - name: campus_file_storage_non-replicated
     description: |
@@ -93,27 +84,22 @@ services:
     features:
       - name: relative_speed
         class: faster
-        notes:
       - name: collaborative_edits
         class: False
-        notes:
       - name: shareable_link
         class: True
         notes:
           - via Globus
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: True
         notes:
           - up to 60 days
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: False
-        notes:
       - name: brown_network_required
         class: True
         notes:
@@ -133,12 +119,12 @@ services:
           - 20 TB per grant
           - Paid after that @ $50/TB/Yr. (Consolidated across all paid storage types.)
       - name: max_file_size
-        class: 9 XB
+        class: 9 EB
         notes:
           - 1 TB for best performance
       - name: storage_warmth
         class: hot
-        notes:
+
 
   - name: campus_file_storage_replicated
     description: |
@@ -157,27 +143,22 @@ services:
     features:
       - name: relative_speed
         class: faster
-        notes:
       - name: collaborative_edits
         class: False
-        notes:
       - name: shareable_link
         class: True
         notes:
           - via Globus
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: True
         notes:
           - up to 60 days
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: True
-        notes:
       - name: brown_network_required
         class: True
         notes:
@@ -202,7 +183,6 @@ services:
           - 1 TB for best performance
       - name: storage_warmth
         class: hot
-        notes:
 
   - name: Brown_Digital_Repository
     description: |
@@ -226,26 +206,20 @@ services:
     features:
       - name: relative_speed
         class: faster
-        notes:
       - name: collaborative_edits
         class: False
-        notes:
       - name: shareable_link
         class: True
-        notes:
       - name: DOI_provided
         class: True
-        notes:
       - name: data_protection
         class: True
         notes:
           - up to 60 days
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: True
-        notes:
       - name: brown_network_required
         class: True
         notes:
@@ -260,14 +234,12 @@ services:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
         class: 1 TB +
-        notes:
       - name: max_file_size
         class: 4 GB
         notes:
           - 1 TB for best performance
       - name: storage_warmth
         class: cold
-        notes:
 
   - name: LabArchives
     description: |
@@ -284,26 +256,20 @@ services:
     features:
       - name: relative_speed
         class: faster
-        notes:
       - name: collaborative_edits
         class: True
-        notes:
       - name: shareable_link
         class: True
-        notes:
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: True
         notes:
           - up to 60 days
       - name: canvas_integration
         class: True
-        notes:
       - name: secondary_site_backup
         class: True
-        notes:
       - name: brown_network_required
         class: True
         notes:
@@ -318,13 +284,10 @@ services:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
         class: 1 TB +
-        notes:
       - name: max_file_size
         class: 4 GB
-        notes:
       - name: storage_warmth
         class: hot
-        notes:
 
   - name: research_data_storage
     description: |
@@ -338,34 +301,28 @@ services:
     features:
       - name: relative_speed
         class: fastest
-        notes:
       - name: collaborative_edits
         class: False
-        notes:
       - name: shareable_link
         class: True
         notes:
           - via Globus
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: True
         notes:
           - daily snapshots with 7 days retention
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: True
-        notes:
       - name: brown_network_required
         class: True
         notes:
           - except with Globus
       - name: access_from_oscar
         class: True
-        notes:
       - name: security
         class: 2
         notes:
@@ -377,11 +334,9 @@ services:
           - 10 TB per grant
           - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
       - name: max_file_size
-        class: 8 XB
-        notes:
+        class: 8 EB
       - name: storage_warmth
         class: hot
-        notes:
 
   - name: stronghold
     description: |
@@ -394,33 +349,26 @@ services:
     features:
       - name: relative_speed
         class: faster
-        notes:
       - name: collaborative_edits
         class: False
-        notes:
       - name: shareable_link
         class: False
-        notes:
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: True
         notes:
           - up to 6 weeks
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: True
-        notes:
       - name: brown_network_required
         class: True
         notes:
           - except with Globus
       - name: access_from_oscar
         class: False
-        notes:
       - name: security
         class: 3
         notes:
@@ -433,10 +381,8 @@ services:
           - Paid after that @ $100/TB/Yr. (Consolidated across all paid storage types.)
       - name: max_file_size
         class: 4 TB
-        notes:
       - name: storage_warmth
         class: hot
-        notes:
 
   - name: Hibernate
     description: |
@@ -450,28 +396,22 @@ services:
     features:
       - name: relative_speed
         class: slow
-        notes:
       - name: collaborative_edits
         class: False
-        notes:
       - name: shareable_link
         class: False
-        notes:
       - name: DOI_provided
         class: False
-        notes:
       - name: data_protection
         class: False
         notes:
+          - up to 6 weeks
       - name: canvas_integration
         class: False
-        notes:
       - name: secondary_site_backup
         class: True
-        notes:
       - name: brown_network_required
         class: True
-        notes:
       - name: access_from_oscar
         class: True
         notes:
@@ -486,10 +426,9 @@ services:
           - Capacity as needed
       - name: max_file_size
         class: 4 TB
-        notes:
       - name: storage_warmth
         class: cold
-        notes:
+
 questions:
   - question: What is the risk classification of your data?
     information: |
@@ -627,21 +566,21 @@ questions:
       and writing. A "cold" data set is effectively never (or only _extremely_ rarely) accessed. 
       Cold storage is often referred to as "archival storage". So, cold storage solutions are most 
       appropriate when the analysis of the data is complete. That is, when you are done with 
-      the data, but you are keeping it around because of either obligations from grants or 
+      the data, but you are keeping the around because of either obligations from grants or 
       funding agencies, or just in case they are needed at some later time. 
     affected_category: storage_warmth
-    default_answer: any
+    default_answer: Any
     answers:
-      - answer: hot
+      - answer: Hot
         category_classes:
           - hot
-      - answer: warm
+      - answer: Warm
         category_classes:
           - warm
-      - answer: cold
+      - answer: Cold
         category_classes:
           - cold
-      - answer: any
+      - answer: Any
         category_classes:
           - hot
           - warm
