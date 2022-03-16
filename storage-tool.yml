@@ -405,7 +405,6 @@ services:
       - name: data_protection
         class: False
         notes:
-          - up to 6 weeks
       - name: canvas_integration
         class: False
       - name: secondary_site_backup
