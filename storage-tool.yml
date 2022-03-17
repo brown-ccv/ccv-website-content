@@ -425,6 +425,7 @@ services:
           - Access controlled by Brown Authentication and Security groups
       - name: storage
         class: 2 TB +
+        note: Capacity for greater storage needs, but may eventually be a small fee
       - name: max_file_size
         class: 4 TB
       - name: storage_warmth
