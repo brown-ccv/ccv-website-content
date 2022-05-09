@@ -1,8 +1,7 @@
 title: McDonald Lab
 id: mcdonald-lab
 description: Dr. McDonald's primary research focus is on improving maternal and infant health in resource poor settings, with particular emphasis on the role of the placenta in mediating the impact of maternal infectious disease on fetal development. CCV is collaborating with Dr. McDonald on applying metagenomics methods to study the impact of schistosomiasis on the breast milk and placental microbiome.
-active:
-  - True
+active: True
 department:
   - computational-biology
 investigators:

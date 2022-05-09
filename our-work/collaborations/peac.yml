@@ -1,8 +1,7 @@
 title: Psychiatry, Embodiment and Computation Lab (PEAC)
 id: peac-lab
 description: The PEAC Lab examines computational basis of our perception, learning, and control of our bodies and the external world. CCV supports the software architecting and development of their SOMA mobile app
-active:
-  - True
+active: True
 department:
   - computational-psychiatry
 investigators:

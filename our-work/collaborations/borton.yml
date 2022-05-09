@@ -1,8 +1,7 @@
 title: Borton Lab
 id: borton-lab
 description: The Borton Lab is designing, developing, and deploying neurotechnology to better understand the nervous system and improve human lives. CCV has supported software development of Behavioral Tasks used in clinical studies that can be deployed to multiple platforms as well as to the browser. CCV Software Engineers have also supported the Open Mind Consortium, which the Borton Lab is part of, with the goal of designing and developing open source software elements for neural sensing at home paired with peripheral monitors, and streamlined regulatory pathway for FDA approval of investigational protocols.
-active:
-  - True
+active: True
 department:
   - neuro
   - engineering
