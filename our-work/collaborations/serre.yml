@@ -1,8 +1,9 @@
 title: Serre Lab
 id: serre-lab
 description: The goal of Serre Lab is to understand the neural computations supporting visual perception. CCV's collaboration with the Serre Lab is to standardize and optimize the various Machine Learning/Deep Learning pipelines used by the lab. The goal of this collaboration is to simplify the use of the computational tools used by the lab and reduce the time to solution.
-tags:
-  - active
+active:
+  - True
+department:
   - neuro
 investigators:
   - name: Thomas Serre

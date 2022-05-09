@@ -1,4 +1,4 @@
-# Schema for all yml files in our-work/collaborations 
+# Schema for all yml files in our-work/collaborations
 title: str()
 id: "enum(
           'bnc',
@@ -29,12 +29,13 @@ id: "enum(
           )"
 description: str()
 investigators: list(include('investigator'))
+active: bool(required=True)
+department: list(include('department'))
 tags: list(include('tag'))
 people: list(include('person'), required=False)
 links: list(include('link'), required=False)
 ---
-tag: "enum(
-            'active',
+department: "enum(
             'neuro',
             'engineering',
             'computational-psychiatry',
@@ -48,6 +49,9 @@ tag: "enum(
             'applied-math',
             'system-administration'
           )"
+tag: "enum(
+            'system-administration'
+          )"
 #people involved in the project
 investigator:
   name: str()
@@ -55,11 +59,8 @@ investigator:
 person:
   name: str()
   github_user: str(required=False)
-# These are links associated with the software 
+# These are links associated with the software
 link:
   # Must match one of the values in the regex
   category: "enum('website', 'github', 'docs')"
   url: str()
-  
-
-  

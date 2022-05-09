@@ -1,8 +1,9 @@
 title: Dan Spade
 id: spade-lab
 description: Dr. Spade's research focuses on mechanisms of male reproductive toxicity. CCV is collaborating with Dr. Spade on looking into biomarkers of toxicity in rats treated with the toxin EGME.
-tags:
-  - active
+active:
+  - True
+department:
   - computational-biology
 investigators:
   - name: Daniel Spade

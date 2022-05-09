@@ -1,7 +1,9 @@
 title: Hurt Lab
 id: hurt-lab
 description: The Hurt Lab focuses on the creation of 2D and 3D nanomaterials and their effects on human health and the environment.  CCV has helped the hurt lab with the design and implementation of a database to track toxicity of 2D nanomaterials.
-tags:
+active:
+  - False
+department:
   - engineering
 people:
   - name: Mary McGrath

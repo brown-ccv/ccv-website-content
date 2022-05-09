@@ -1,8 +1,9 @@
 title: Kantor Lab
 id: kantor-lab
 description: The Kantor lab HIV/AIDS reseach includes the evolution of antiretroviral resistance, treatment monitoring, and transmission, with a focus on HIV/AIDS locally and in resource-limited settings. CCV collaborates with the Kantor lab on transmission inference related projects.
-tags:
-  - active
+active:
+  - True
+department:
   - computational-biology
 investigators:
   - name: Rami Kantor
