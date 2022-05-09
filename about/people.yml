@@ -314,3 +314,15 @@ data:
       ecology of bats at Indiana State University for his PhD. Overall, he enjoys reproducible science
       and making pipelines accessible.
     image: tim_main.jpg
+  - name: John Gerrard Holland
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Senior Data Scientist
+    github_username: hollandjg
+    brown_directory_uuid: c58cefc3-dc27-408f-ae62-fa098803341d
+    bio: John is a data scientist at the CCV, who is passionate about climate, 
+      Earth observation and sustainability. Prior to starting at the CCV, John studied physics,  
+      received his doctorate for research in astronomy, 
+      and worked for a boutique management and IT consultancy in Germany.
+    image: john_main.jpg
