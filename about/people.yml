@@ -218,15 +218,6 @@ data:
       Prior to coming to Brown, Mary was a consultant at Accenture specializing in
       health data and analytics.
     image: mary_main.jpg
-  - name: Matt Slivinski
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Data Scientist
-    github_username: mattsliv
-    brown_directory_uuid: 326247d1-8219-46f1-848b-d45d10d7624d
-    bio: ""
-    image: matt_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
