@@ -10,7 +10,7 @@ data:
     brown_directory_uuid: 60802d0b-8f18-499a-a1f3-5f9b24c390e4
     bio: Ashok is a computational biologist/data scientist with a varied background
       in genetics, genomics, statistics and computation. He has a PhD in Fisheries and
-      Wildlife from MSU and has worked in areas of quantitave genetics, biomedical genetics,
+      Wildlife from MSU and has worked in areas of quantitative genetics, biomedical genetics,
       ecology and bioinformatics. Above all he has a keen interest in data analysis,
       computing and providing user friendly solutions for analysis and visualization
       of large data sets. Otherwise he keeps busy with two boys, two pups and life near
@@ -24,8 +24,8 @@ data:
     github_username: mirestrepo
     brown_directory_uuid: cb8b0a49-ef4b-66e7-5ccc-6689493e8ace
     bio: Isabel grew up in Colombia and received her Ph.D from Brown in 2013 in Electrical
-      Enginering with a focus in Computer Vision. She enjoys machine learning, reproducible
-      science, reverse enginering, playing squash, the sea, and dancing with her wild
+      Engineering with a focus in Computer Vision. She enjoys machine learning, reproducible
+      science, reverse engineering, playing squash, the sea, and dancing with her wild
       children.
     image: isabel_main.jpg
   - name: Linnea Wolfe
@@ -200,7 +200,7 @@ data:
   - name: Joshua Lu
     type: Full Time
     team: Advanced Research Computing
-    subteam: Daya & Visualization
+    subteam: Data & Visualization
     title: Research Software Engineer
     github_username: jashlu
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
@@ -273,7 +273,7 @@ data:
     title: Data Science Intern
     github_username: Francis958
     brown_directory_uuid: 1fb9b19e-3269-459d-8e2e-92f0cae6ce1b
-    bio: Jiatao is a graduade student studying data science.
+    bio: Jiatao is a graduate student studying data science.
     image: jiatao_main.jpg
   - name: Zhuoran Han
     type: CCV Interns
@@ -282,7 +282,7 @@ data:
     title: Data Science Intern
     github_username: zhuoran-han
     brown_directory_uuid: a813faaa-55d3-4a15-8960-6cb5e71b9425
-    bio: Zhuoran is a graduade student studying data science.
+    bio: Zhuoran is a graduate student studying data science.
     image: zhuoran_main.jpg
   - name: Yuan Pu
     type: CCV Interns
