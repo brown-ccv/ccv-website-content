@@ -51,7 +51,7 @@ department: "enum(
 tag: "enum(
             'cloud-computing',
             'computational-biology',
-            'computer-vision'
+            'computer-vision',
             'data-management',
             'data-science',
             'deep-learning',
