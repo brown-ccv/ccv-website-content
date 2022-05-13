@@ -4,6 +4,10 @@ description: Research in the Creton laboratory is focused on brain development a
 active: True
 department:
   - neuro
+tags:
+  - software-engineering
+  - deep-learning
+  - DeepLabCut
 investigators:
   - name: Robbert Creton
     link: https://vivo.brown.edu/display/rcretonp

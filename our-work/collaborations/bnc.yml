@@ -4,6 +4,10 @@ description: The BNC provides ongoing support, training, assistance and advice t
 active: True
 department:
   - neuro
+tags:
+  - software-engineering
+  - system-administration
+  - data-management
 investigators:
   - name: David Sheinberg
     link: https://vivo.brown.edu/display/dsheinbe

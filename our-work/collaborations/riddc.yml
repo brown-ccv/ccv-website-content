@@ -5,6 +5,9 @@ CCV supports, maintains and upgrades existing infrastructure used by the RI Data
 active: True
 department:
   - ecology
+tags:
+  - data-management
+  - software-engineering
 investigators:
   - name: Jeff Morgan
     link: https://vivo.brown.edu/display/jrmorgan

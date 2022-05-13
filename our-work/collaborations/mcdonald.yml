@@ -4,6 +4,8 @@ description: Dr. McDonald's primary research focus is on improving maternal and 
 active: True
 department:
   - computational-biology
+tags:
+  - computational-biology
 investigators:
   - name: Emily McDonald
     link: https://vivo.brown.edu/display/em26

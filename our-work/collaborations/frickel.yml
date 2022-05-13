@@ -4,6 +4,9 @@ description: IBES supports research to understand the interactions between natur
 active: False
 department:
   - sociology
+tags:
+  - computer-vision
+  - nlp 
 people:
   - name: Isabel Restrepo
     github_user: mirestrepo

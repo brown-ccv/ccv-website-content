@@ -5,6 +5,9 @@ active: False
 department:
   - neuro
   - engineering
+tags:
+  - software-engineering
+  - data-management
 investigators:
   - name: John Simeral
     link: https://vivo.brown.edu/display/jsimeral

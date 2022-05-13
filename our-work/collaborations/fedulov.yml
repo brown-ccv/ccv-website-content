@@ -4,6 +4,8 @@ description: The Fedulov lab investigates epigenetic regulation. CCV's collabora
 active: True
 department:
   - computational-biology
+tags:
+  - computational-biology
 investigators:
   - name: Alexey Fedulov
     link: https://vivo.brown.edu/display/afedulov

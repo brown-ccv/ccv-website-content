@@ -4,6 +4,8 @@ description: The Hurt Lab focuses on the creation of 2D and 3D nanomaterials and
 active: False
 department:
   - engineering
+tags:
+  - data-management
 people:
   - name: Mary McGrath
     github_user: mcmcgrath13

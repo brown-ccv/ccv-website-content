@@ -5,6 +5,8 @@ active: True
 department:
   - neuro
   - engineering
+tags:
+  - software-engineering
 investigators:
   - name: David Borton
     link: https://vivo.brown.edu/display/daborton

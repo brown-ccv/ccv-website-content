@@ -4,6 +4,8 @@ description: The Kantor lab HIV/AIDS reseach includes the evolution of antiretro
 active: True
 department:
   - computational-biology
+tags:
+  - computational-biology
 investigators:
   - name: Rami Kantor
     link: https://vivo.brown.edu/display/rkantor

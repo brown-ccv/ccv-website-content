@@ -4,6 +4,8 @@ description: The Dennery lab investigates neonatal lung injury and repair. CCV's
 active: True
 department:
   - computational-biology
+tags:
+  - computational-biology
 investigators:
   - name: Phyllis Dennery
     link: https://vivo.brown.edu/display/pdennery

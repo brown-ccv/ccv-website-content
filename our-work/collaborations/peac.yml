@@ -4,6 +4,8 @@ description: The PEAC Lab examines computational basis of our perception, learni
 active: True
 department:
   - computational-psychiatry
+tags:
+  - software-engineeering
 investigators:
   - name: Frederike Petzschner
     link: https://fpetzschner.com

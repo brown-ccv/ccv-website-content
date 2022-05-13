@@ -6,6 +6,8 @@ description: |
   range of problems and phenomena from science as well as the arts and humanities. CCV has a long-running collaboration with the VRL focusing on the support and development of VR software for CAVE systems and more recently for collaborative VR using head mounted displays.
 active: False
 department:
+  - computer-science
+tags:
   - vr
 investigators:
   - name: David Laidlaw

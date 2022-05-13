@@ -4,6 +4,8 @@ description: Dr. McHugh's research interests focus on legitimacy and network the
 active: False
 department:
   - engineering
+tags:
+  - data-science
 investigators:
   - name: Patrick McHugh
     link: https://vivo.brown.edu/display/pm5

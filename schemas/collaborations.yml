@@ -30,8 +30,8 @@ id: "enum(
 description: str()
 investigators: list(include('investigator'))
 active: bool(required=True)
-department: list(include('department'))
-tags: list(include('tag'))
+department: list(include('department'), required=True)
+tags: list(include('tag'), required=True)
 people: list(include('person'), required=False)
 links: list(include('link'), required=False)
 ---
@@ -45,12 +45,21 @@ department: "enum(
             'finance',
             'computer-vision',
             'computational-biology',
-            'vr',
-            'applied-math',
-            'system-administration'
+            'applied-math'
           )"
 tag: "enum(
-            'system-administration'
+            'cloud-computing',
+            'computational-biology'
+            'data-management',
+            'data-science',
+            'deep-learning',
+            'DeepLabCut',
+            'nlp',
+            'REDCap',
+            'software-engineering',
+            'system-administration',
+            'vr',
+
           )"
 #people involved in the project
 investigator:

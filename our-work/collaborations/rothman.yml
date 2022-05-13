@@ -4,6 +4,8 @@ description: Dr. Rothman has been involved in research on immunity and pathogene
 active: False
 department:
   - computational-biology
+tags:
+  - computational-biology
 investigators:
   - name: Alan Rothman
     link: https://web.uri.edu/lvip/alan-l-rothman/

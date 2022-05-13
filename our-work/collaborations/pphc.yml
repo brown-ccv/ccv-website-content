@@ -4,6 +4,8 @@ description: The People, Place & Health Collective (PPHC) is a research group in
 active: True
 department:
   - epidemiology
+tags:
+  - software-engineering
 investigators:
   - name: Brandon DL Marshall
     link: https://vivo.brown.edu/display/bm8

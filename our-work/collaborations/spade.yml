@@ -4,6 +4,8 @@ description: Dr. Spade's research focuses on mechanisms of male reproductive tox
 active: True
 department:
   - computational-biology
+tags:
+  - computational-biology
 investigators:
   - name: Daniel Spade
     link: https://vivo.brown.edu/display/dspade
