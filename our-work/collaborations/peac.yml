@@ -5,7 +5,7 @@ active: True
 department:
   - computational-psychiatry
 tags:
-  - software-engineeering
+  - software-engineering
 investigators:
   - name: Frederike Petzschner
     link: https://fpetzschner.com

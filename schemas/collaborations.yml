@@ -43,13 +43,15 @@ department: "enum(
             'ecology',
             'epidemiology',
             'finance',
+            'computer-science',
             'computer-vision',
             'computational-biology',
             'applied-math'
           )"
 tag: "enum(
             'cloud-computing',
-            'computational-biology'
+            'computational-biology',
+            'computer-vision'
             'data-management',
             'data-science',
             'deep-learning',
