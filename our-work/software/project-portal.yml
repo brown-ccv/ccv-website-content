@@ -4,7 +4,7 @@ groups:
   - tpl
 languages:
   - typescript
-  - react
+  - reactjs
   - nodejs
 tags:
   - government
