@@ -49,6 +49,7 @@ person:
   github_user: str(required=False)
 # This string should match the identifying the id in the collaborations section
 group: "enum(
+            'aer',
             'bnc',
             'borton-lab',
             'braingate',
