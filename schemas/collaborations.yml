@@ -44,6 +44,7 @@ tag: "enum(
             'epidemiology',
             'finance',
             'computer-vision',
+            'computer-reasoning',
             'computational-biology',
             'vr',
             'applied-math',
