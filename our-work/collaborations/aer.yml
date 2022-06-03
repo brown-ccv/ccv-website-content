@@ -1,6 +1,6 @@
-title: Autonomous Empirical Research (aer)
+title: Autonomous Empirical Research
 id: aer
-description: The Autonomous Empirical Research Group (AER) strives to enhance and accelerate scientific discovery by automating each step of the empirical research process, from constructing a scientific hypothesis to conducting novel experiments. CCV is supporting development of a framework which AER can use to run simulations to test machine learning models and to run experiments with real participants via crowd-sourcing platforms (e.g. MTurk, Prolific).
+description: The Autonomous Empirical Research Group (AER) strives to enhance and accelerate scientific discovery by automating each step of the empirical research process, from constructing a scientific hypothesis to conducting novel experiments. CCV's collaboration focuses on developing a framework which the group can use to run simulations to test machine learning models and run experiments with real participants.
 tags:
   - active
   - neuro
