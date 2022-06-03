@@ -25,7 +25,8 @@ id: "enum(
 	  'mcdonald-lab',
 	  'mchugh-lab',
 	  'rothman-lab',
-	  'spade-lab'
+	  'spade-lab',
+    'wilhelmus-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -46,7 +47,8 @@ tag: "enum(
             'computational-biology',
             'vr',
             'applied-math',
-            'system-administration'
+            'system-administration',
+            'climate-science'
           )"
 #people involved in the project
 investigator:
