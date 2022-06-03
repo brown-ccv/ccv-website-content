@@ -1,4 +1,4 @@
-title: Automated Empirical Research (AER)
+title: Automated Empirical Research
 description: Automated Empirical Research (AER) is a framework for implementing machine learning tools which autonomously and iteratively generate 1) new theories to describe real-world data, and 2) experiments to falsify those theories and seed a new cycle of theory-making. The experiments will be run online via crowd-sourcing platforms (MTurk, Prolific).
 groups:
   - aer
@@ -15,7 +15,6 @@ tags:
   - database
   - engineering
   - model
-  - neuro
   - neuroscience
 people:
   - name: John Gerrard Holland
