@@ -64,7 +64,8 @@ group: "enum(
             'riddc',
             'shenhav-lab',
             'serre-lab',
-            'creton-lab'
+            'creton-lab',
+            'tpl'
             )"
 # These are links associated with the software
 link:
