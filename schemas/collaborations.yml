@@ -21,11 +21,11 @@ id: "enum(
           'serre-lab',
           'creton-lab',
           'crunch-group',
-	  'kantor-lab',
-	  'mcdonald-lab',
-	  'mchugh-lab',
-	  'rothman-lab',
-	  'spade-lab'
+          'kantor-lab',
+          'mcdonald-lab',
+          'mchugh-lab',
+          'rothman-lab',
+          'spade-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
