@@ -1,7 +1,6 @@
 # Schema for all yml files in our-work/collaborations 
 title: str()
 id: "enum(
-          'aer',
           'bnc',
           'borton-lab',
           'braingate',
@@ -26,7 +25,8 @@ id: "enum(
           'mcdonald-lab',
           'mchugh-lab',
           'rothman-lab',
-          'spade-lab'
+          'spade-lab',
+          'aer'
           )"
 description: str()
 investigators: list(include('investigator'))

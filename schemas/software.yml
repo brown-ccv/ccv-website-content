@@ -49,7 +49,6 @@ person:
   github_user: str(required=False)
 # This string should match the identifying the id in the collaborations section
 group: "enum(
-            'aer',
             'bnc',
             'borton-lab',
             'braingate',
@@ -64,7 +63,8 @@ group: "enum(
             'riddc',
             'shenhav-lab',
             'serre-lab',
-            'creton-lab'
+            'creton-lab',
+            'aer'
             )"
 # These are links associated with the software
 link:
