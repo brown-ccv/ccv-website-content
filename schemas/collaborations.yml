@@ -1,6 +1,7 @@
 # Schema for all yml files in our-work/collaborations 
 title: str()
 id: "enum(
+          'aer',
           'bnc',
           'borton-lab',
           'braingate',
