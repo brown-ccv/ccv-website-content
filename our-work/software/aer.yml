@@ -6,9 +6,7 @@ languages:
   - python
   - javascript
 tags:
-  - database
-  - model
-  - engineering
+  - machine-scientist
   - cognitive-science
   - behavioral-tasks
 people:
