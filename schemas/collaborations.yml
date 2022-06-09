@@ -27,6 +27,7 @@ id: "enum(
           'rothman-lab',
           'spade-lab',
           'aer-group',
+          'wilhelmus-lab',
           'the-policy-lab'
           )"
 description: str()
@@ -51,6 +52,7 @@ tag: "enum(
             'vr',
             'applied-math',
             'system-administration',
+            'climate-science',
             'government',
             'economics'
           )"
