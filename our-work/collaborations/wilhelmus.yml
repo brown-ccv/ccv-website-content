@@ -1,0 +1,23 @@
+title: Wilhelmus Lab
+id: wilhelmus-lab
+description: The Wilhelmus Lab takes an engineering approach to solve scientific problems related to fluid mechanics and transport mechanisms. One example is tracking ice floes in satellite imagery to understand velocity and turblence in the Arctic Ocean. CCV collaborates on this project with Dr. Wilhelmus to translate the existing code base into a module that can be parameterized and used by researchers. This includes looking for processing efficiencies in the process.
+tags:
+  - active
+  - computer-vision
+  - climate-science
+  - engineering
+investigators:
+  - name: Monica Martinez Wilhelmus
+    link: https://engineering.brown.edu/people/monica-martinez-wilhelmus
+people:
+  - name: Bradford Roarr
+    github_user: broarr
+  - name: Timothy Divoll
+    github_user: tdivoll
+  - name: Carlos Paniagua
+    github_user: cpaniaguam
+links:
+  - category: "github"
+    url: https://github.com/WilhelmusLab
+  - category: "website"
+    url: https://wilhelmuslab.me/
