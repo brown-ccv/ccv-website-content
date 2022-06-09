@@ -21,11 +21,12 @@ id: "enum(
           'serre-lab',
           'creton-lab',
           'crunch-group',
-	  'kantor-lab',
-	  'mcdonald-lab',
-	  'mchugh-lab',
-	  'rothman-lab',
-	  'spade-lab'
+          'kantor-lab',
+          'mcdonald-lab',
+          'mchugh-lab',
+          'rothman-lab',
+          'spade-lab',
+          'aer-group'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -37,12 +38,14 @@ tag: "enum(
             'active',
             'neuro',
             'engineering',
+            'software-engineering',
             'computational-psychiatry',
             'sociology',
             'ecology',
             'epidemiology',
             'finance',
             'computer-vision',
+            'machine-learning',
             'computational-biology',
             'vr',
             'applied-math',

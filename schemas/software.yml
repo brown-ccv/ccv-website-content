@@ -27,6 +27,7 @@ tag: "enum(
           'behavioral-tasks',
           'cognitive-science',
           'computational-psychiatry',
+          'machine-learning',
           'database',
           'desktop',
           'ecology',
@@ -63,7 +64,8 @@ group: "enum(
             'riddc',
             'shenhav-lab',
             'serre-lab',
-            'creton-lab'
+            'creton-lab',
+            'aer-group'
             )"
 # These are links associated with the software
 link:
