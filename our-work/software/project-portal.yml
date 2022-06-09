@@ -1,7 +1,7 @@
 title: Project Portal
 description: The Project Portal is a website template allowing state agencies (local or national governments) to share their research needs and to empower people with a way to express interest in partnering to work on those needs. The CCV supported The Policy Lab with the development of the first version of the website, and is working to make it scalable for more government agencies.
 groups:
-  - tpl
+  - the-policy-lab
 languages:
   - typescript
   - reactjs

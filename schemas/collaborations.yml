@@ -27,7 +27,7 @@ id: "enum(
           'rothman-lab',
           'spade-lab',
           'aer-group',
-          'tpl'
+          'the-policy-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
