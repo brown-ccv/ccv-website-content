@@ -26,8 +26,9 @@ id: "enum(
           'mchugh-lab',
           'rothman-lab',
           'spade-lab',
+          'aer-group',
           'wilhelmus-lab',
-          'aer-group'
+          'the-policy-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -51,7 +52,9 @@ tag: "enum(
             'vr',
             'applied-math',
             'system-administration',
-            'climate-science'
+            'climate-science',
+            'government',
+            'economics'
           )"
 #people involved in the project
 investigator:

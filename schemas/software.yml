@@ -42,7 +42,8 @@ tag: "enum(
           'web',
           'vr',
           'gcp',
-          'pipelines'
+          'pipelines',
+          'government'
           )"
 #people involved in the project
 person:
@@ -65,7 +66,8 @@ group: "enum(
             'shenhav-lab',
             'serre-lab',
             'creton-lab',
-            'aer-group'
+            'aer-group',
+            'the-policy-lab'
             )"
 # These are links associated with the software
 link:
