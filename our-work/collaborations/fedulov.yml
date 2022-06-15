@@ -1,8 +1,10 @@
 title: Fedulov Lab
 id: fedulov-lab
 description: The Fedulov lab investigates epigenetic regulation. CCV's collaboration with the Fedulov lab involved analyzing and publishing reduced-representation bisulfite sequencing data.
+active: True
+department:
+  - computational-biology
 tags:
-  - active
   - computational-biology
 investigators:
   - name: Alexey Fedulov

@@ -1,8 +1,12 @@
 title: Institute at Brown for Environment and Society (IBES)
 id: frickel
 description: IBES supports research to understand the interactions between natural, human and social systems. CCV has supported software development and computer vision and NLP pipeline design to automate extraction of hazardous sites information from historic city directories and sandborn maps
-tags:
+active: False
+department:
   - sociology
+tags:
+  - computer-vision
+  - nlp 
 people:
   - name: Isabel Restrepo
     github_user: mirestrepo

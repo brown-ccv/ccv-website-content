@@ -1,8 +1,10 @@
 title: Dennery Lab
 id: dennery-lab
 description: The Dennery lab investigates neonatal lung injury and repair. CCV's collaboration with the Dennery lab involved analyzing and publishing ChIP-Seq and single cell RNA-seq data.
+active: True
+department:
+  - computational-biology
 tags:
-  - active
   - computational-biology
 investigators:
   - name: Phyllis Dennery

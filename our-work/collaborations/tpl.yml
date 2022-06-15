@@ -1,8 +1,10 @@
 title: The Policy Lab
 id: the-policy-lab
 description: The Policy Lab brings together experts from government, universities, and community organizations to collaborate on research tailored to inform decisions about how to improve policies and programs across the state. The CCV's collaboration with The Policy Lab includes automating data-processing pipelines in partnership with collaborators (other academics, state/local agencies), developing web tools to enhance policymaking, and improving adoption of software engineering best practices.
+active: True
+department:
+  - policy-lab
 tags:
-  - active
   - government
 investigators:
   - name: David Yokum
