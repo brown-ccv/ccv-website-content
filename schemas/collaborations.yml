@@ -51,7 +51,9 @@ department: "enum(
             'computer-vision',
             'machine-learning',
             'computational-biology',
-            'applied-math'
+            'applied-math',
+            'clps',
+            'policy-lab'
           )"
 tag: "enum(
             'cloud-computing',
@@ -69,7 +71,8 @@ tag: "enum(
             'system-administration',
             'climate-science',
             'government',
-            'economics'
+            'economics',
+            'machine-learning'
           )"
 #people involved in the project
 investigator:
