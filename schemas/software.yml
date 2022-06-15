@@ -27,6 +27,7 @@ tag: "enum(
           'behavioral-tasks',
           'cognitive-science',
           'computational-psychiatry',
+          'machine-learning',
           'database',
           'desktop',
           'ecology',
@@ -41,7 +42,8 @@ tag: "enum(
           'web',
           'vr',
           'gcp',
-          'pipelines'
+          'pipelines',
+          'government'
           )"
 #people involved in the project
 person:
@@ -63,7 +65,9 @@ group: "enum(
             'riddc',
             'shenhav-lab',
             'serre-lab',
-            'creton-lab'
+            'creton-lab',
+            'aer-group',
+            'the-policy-lab'
             )"
 # These are links associated with the software
 link:

@@ -21,11 +21,14 @@ id: "enum(
           'serre-lab',
           'creton-lab',
           'crunch-group',
-	  'kantor-lab',
-	  'mcdonald-lab',
-	  'mchugh-lab',
-	  'rothman-lab',
-	  'spade-lab'
+          'kantor-lab',
+          'mcdonald-lab',
+          'mchugh-lab',
+          'rothman-lab',
+          'spade-lab',
+          'aer-group',
+          'wilhelmus-lab',
+          'the-policy-lab'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -38,6 +41,7 @@ links: list(include('link'), required=False)
 department: "enum(
             'neuro',
             'engineering',
+            'software-engineering',
             'computational-psychiatry',
             'sociology',
             'ecology',
@@ -45,6 +49,7 @@ department: "enum(
             'finance',
             'computer-science',
             'computer-vision',
+            'machine-learning',
             'computational-biology',
             'applied-math'
           )"
@@ -61,7 +66,10 @@ tag: "enum(
             'software-engineering',
             'system-administration',
             'vr',
-
+            'system-administration',
+            'climate-science',
+            'government',
+            'economics'
           )"
 #people involved in the project
 investigator:
