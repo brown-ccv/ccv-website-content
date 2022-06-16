@@ -1,8 +1,11 @@
 title: Patrick McHugh
 id: mchugh-lab
 description: Dr. McHugh's research interests focus on legitimacy and network theory in the context of social media and decision making. CCV collaborated with Dr. McHugh on research looking into tipping points using logistic regression and machine learning.
-tags:
+active: False
+department:
   - engineering
+tags:
+  - data-science
 investigators:
   - name: Patrick McHugh
     link: https://vivo.brown.edu/display/pm5

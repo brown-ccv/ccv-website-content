@@ -1,6 +1,9 @@
 title: Alan Rothman
 id: rothman-lab
 description: Dr. Rothman has been involved in research on immunity and pathogenesis of viral diseases in humans for over 25 years. A major focus of his research has been defining the virological and immunological events in acute dengue virus infection and their relationship to the development of the viral hemorrhagic fever syndrome. CCV collaborated with Dr. Rothman on research into the cross reactivity of T cell receptors for dengue virus.
+active: False
+department:
+  - computational-biology
 tags:
   - computational-biology
 investigators:

@@ -124,7 +124,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Computational Biology Core
-    title: Senior Genomics Data Scientist
+    title: Lead Genomics Data Scientist
     github_username: aguang
     brown_directory_uuid: b3f2991e-b618-190f-881f-25fc21f82d02
     bio: August obtained their PhD from Brown in 2017 in Applied Mathematics and Computational
@@ -147,7 +147,7 @@ data:
   - name: Joselynn Wallace
     type: Full Time
     team: Advanced Research Computing
-    title: Genomics Data Scientist
+    title: Senior Genomics Data Scientist
     subteam: Computational Biology Core
     github_username: jrwallace
     brown_directory_uuid: 1eb864be-02d2-4880-a43f-62076e2d7366
