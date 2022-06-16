@@ -237,18 +237,6 @@ data:
     bio: Paul has a background in computational fluid dynamics and geophysics. He received
       his Ph.D. in Oceanography from the URI.
     image: hall_main.jpg
-  - name: Rohit Kakodkar
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: High-Performance Computing
-    title: Research Software Engineer
-    github_username: rkakodkar
-    brown_directory_uuid: bdc65f4b-8852-4cef-99c3-f765988e15c0
-    bio: Rohit completed his Ph.D. in Mechanical Engineering at the University of Delaware,
-      where his research involved developing a large-scale simulation code base to calculate
-      thermal properties of nanostructured materials. Using these simulations, he worked on developing
-      materials that would be more efficient at thermal management inside microprocessors.
-    image: rohit_main.jpg
   - name: Hadley Dalton
     type: CCV Interns
     team: Advanced Research Computing
