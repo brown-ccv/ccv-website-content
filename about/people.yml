@@ -305,3 +305,12 @@ data:
       received his doctorate for research in astronomy, 
       and worked for a boutique management and IT consultancy in Germany.
     image: john_main.jpg
+  - name: Carlos Paniagua
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Senior Data Scientist
+    github_username: cpaniaguam
+    brown_directory_uuid: 504c3db1-c3ec-4b15-9350-704e8bbe3036
+    bio: Carlos is a data scientist at the CCV. Previoulsly a Mathematics tenure-track faculty member at universities in the US and the Dominican Republic, Carlos likes using his skills working with data for wider social impact.
+    image: carlos_main.jpg
