@@ -316,7 +316,7 @@ data:
     image: carlos_main.jpg
   - name: Aisulu Omar
     type: Full Time
-     team: Advanced Research Computing
+    team: Advanced Research Computing
      subteam: Data & Visualization
     title: Senior Data Scientist
     github_username: aisomar
