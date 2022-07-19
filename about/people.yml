@@ -314,3 +314,11 @@ data:
     brown_directory_uuid: 504c3db1-c3ec-4b15-9350-704e8bbe3036
     bio: Carlos is a data scientist at the CCV. Previously a Mathematics tenure-track faculty member at universities in the US and the Dominican Republic, Carlos likes using his skills working with data for wider social impact.
     image: carlos_main.jpg
+  - name: Aisulu Omar
+    type: Full Time
+    team: CCV Operations
+    title: Senior Data Scientist
+    github_username: aisomar
+    brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
+    bio: Aisulu is a data scientist at the CVV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening arund her. Prior to coming to Brown, Aisulu was a data scientists at Toast working on food and restaurants related algorithms. 
+    image: aisulu_main.jpg
