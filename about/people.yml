@@ -317,7 +317,7 @@ data:
   - name: Aisulu Omar
     type: Full Time
     team: Advanced Research Computing
-     subteam: Data & Visualization
+    subteam: Data & Visualization
     title: Senior Data Scientist
     github_username: aisomar
     brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
