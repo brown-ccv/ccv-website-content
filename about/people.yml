@@ -321,8 +321,18 @@ data:
     title: Senior Data Scientist
     github_username: aisomar
     brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
-    bio: Aisulu is a data scientist at the CVV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms. 
+    bio: Aisulu is a data scientist at the CCV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms. 
     image: aisulu_main.jpg
+  - name: George Dang
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Senior Data Scientist
+    github_username: gtdang
+    brown_directory_uuid: d91b1633-1534-41ab-b38d-78a23e99d843
+    bio: George is a data scientist with a background in biology and environmental science. 
+      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics. 
+    image: dang_main.jpg
   - name: Ford McDonald
     type: Full Time
     team: Advanced Research Computing
