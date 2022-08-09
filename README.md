@@ -1,26 +1,28 @@
 # CCV Website Content
 
-- home
-    - banners
-        - single.md
-- about - markdown/yml files uniquely handled
-    single.yml/single.md
-- services - markdown/yml files handled consistently within a category
-    - category (rates can be a category)
-        - single.md
-- our-work - yml files handled consistently within a category
-    - category
-        - single.md
-- help - yml files handled consistently within a category
+- **home**
+- **about** - markdown/yml files uniquely handled
+    - single.yml/single.md
+- **banners**
+    - single.yml/single.md
+- **help** - yml files handled consistently within a category
     - single.yml
-- meta - yml files describing the above categories.
-    - main - provides content to banners
+- **images** - jpg files within a category
+    - *category*
+- **meta** - yml files describing the above categories.
+    - *main* - provides content to banners
         - single.yml
-    - category - provides content to overview cards
+    - *category* - provides content to overview cards
         - single.yml
-- schemas - schemas for yml validation via Yamale
+- **our-work** - yml files handled consistently within a category
+    - *category* - provide content to 
+        - single.yml
+- **schemas** - schemas for yml validation via Yamale
     - meta*.yml - validation for meta/* folders
     - single.yml - validation for folder with matching name
+- **services** - markdown/yml files handled consistently within a category
+    - *category* (rates can be a category)
+        - single.md
 
 
 ## Validation
