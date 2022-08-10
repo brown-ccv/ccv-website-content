@@ -334,11 +334,11 @@ data:
       Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics. 
     image: dang_main.jpg
  - name: Ford McDonald
-     type: Full Time
-     team: Advanced Research Computing
-     subteam: Data & Visualization
-     title: Research Software Engineer
-     github_username: fordmcdonald
-     brown_directory_uuid: c694e24f-287d-4816-9f96-2753568d085c
-     bio: Ford is a software engineer here at CCV, with a background in simulation-based prototyping and user interface development. His favorite weekend ventures include hiking a new trail in the White Mountains, or heading down to Narragansett Beach for a surf.
-     image: ford_main.jpg
+   type: Full Time
+   team: Advanced Research Computing
+   subteam: Data & Visualization
+   title: Research Software Engineer
+   github_username: fordmcdonald
+   brown_directory_uuid: c694e24f-287d-4816-9f96-2753568d085c
+   bio: Ford is a software engineer here at CCV, with a background in simulation-based prototyping and user interface development. His favorite weekend ventures include hiking a new trail in the White Mountains, or heading down to Narragansett Beach for a surf.
+   image: ford_main.jpg
