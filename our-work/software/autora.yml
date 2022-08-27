@@ -1,0 +1,20 @@
+title: Autonomous Research Assistant (AutoRA)
+description: Autonomous Research Assistant (AutoRA) is a framework for implementing machine learning tools which autonomously and iteratively generate 1) new theories to describe real-world data, and 2) experiments to invalidate those theories and seed a new cycle of theory-making. The experiments will be run online via crowd-sourcing platforms (MTurk, Prolific).
+groups:
+  - aer-group
+languages:
+  - python
+  - javascript
+tags:
+  - machine-learning
+  - cognitive-science
+  - behavioral-tasks
+people:
+  - name: John Gerrard Holland
+    github_user: hollandjg
+links:
+  - category: code
+    url: https://github.com/AutoResearch/autora
+  - category: docs
+    url: https://autoresearch.github.io/autora/
+
