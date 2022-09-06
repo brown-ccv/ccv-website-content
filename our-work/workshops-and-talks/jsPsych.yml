@@ -1,9 +1,9 @@
 title: Converting a jsPsych task with Honeycomb
-description: Workshop was held on August 19, 2022.
+description: Guide on creating and converting jsPsych tasks with Honeycomb on Firebase. Workshop was held on August 19, 2022.
 slug: honeycomb
 languages:
-  - react
-  - js
+  - reactjs
+  - javascript
 tags:
   - react
   - firebase
