@@ -5,10 +5,7 @@ languages:
   - reactjs
   - javascript
 tags:
-  - react
-  - firebase
-  - git
-  - github
+  - honeycomb
 people:
   - name: Robert Gemma
     github_user: RobertGemmaJr

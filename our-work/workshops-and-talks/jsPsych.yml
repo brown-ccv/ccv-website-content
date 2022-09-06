@@ -5,8 +5,7 @@ languages:
   - reactjs
   - javascript
 tags:
-  - react
-  - firebase
+  - honeycomb
 people:
   - name: Ben Heasly
     github_user: benjamin-heasly

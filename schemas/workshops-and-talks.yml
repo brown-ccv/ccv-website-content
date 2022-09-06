@@ -31,7 +31,8 @@ tag: "enum(
            'cloud-computing',
            'gcp',
            'oscar',
-           'hpc'
+           'hpc',
+           'honeycomb'
            )"
 #people involved in the project
 person:
