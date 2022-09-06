@@ -1,5 +1,5 @@
 title: Getting Started with Honeycomb
-description: Step by step guide on creating a new honeycomb repository 
+description: Step by step guide on creating a new honeycomb repository. Installing dependencies, basic git workflows, and Firebase set up. Workshop was held on August 10, 2022.
 slug: honeycomb
 languages:
   - react
@@ -7,16 +7,20 @@ languages:
 tags:
   - react
   - firebase
+  - git
+  - github
 people:
   - name: Robert Gemma
     github_user: RobertGemmaJr
-  - name: Josh 
-    github_user: 
-  - name: Aisulu
-    github_user: 
+  - name: Josh Lu
+    github_user: jashlu
+  - name: Aisulu Omar
+    github_user: AisOmar
 groups:
   - honeycomb-workshops
 links:
-  - category: slides 
-    url: [link here]
+  - category: video 
+    url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=38c60a2c-309e-49b3-b23b-aef201239cbb
+  - category: video 
+    url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5903a4db-9759-4cef-a9e8-aefd014adaa5
 
