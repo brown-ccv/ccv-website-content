@@ -1,0 +1,22 @@
+title: Getting Started with Honeycomb
+description: Step by step guide on creating a new honeycomb repository 
+slug: honeycomb
+languages:
+  - react
+  - js
+tags:
+  - react
+  - firebase
+people:
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+  - name: Josh 
+    github_user: 
+  - name: Aisulu
+    github_user: 
+groups:
+  - honeycomb-workshops
+links:
+  - category: slides 
+    url: [link here]
+
