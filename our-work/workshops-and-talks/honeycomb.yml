@@ -6,6 +6,7 @@ languages:
   - javascript
 tags:
   - honeycomb
+  - behavioral-tasks
 people:
   - name: Robert Gemma
     github_user: RobertGemmaJr
