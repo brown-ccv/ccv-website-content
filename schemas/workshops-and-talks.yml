@@ -32,7 +32,9 @@ tag: "enum(
            'gcp',
            'oscar',
            'hpc',
-           'honeycomb'
+           'honeycomb',
+           'behavioral-tasks'
+           
            )"
 #people involved in the project
 person:
