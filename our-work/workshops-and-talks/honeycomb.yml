@@ -1,5 +1,5 @@
 title: Getting Started with Honeycomb
-description: Step by step guide on creating new behavioral/psychophysiological tasks for clinic, laboratory, and home using a template repository called [Honeycomb](https://brown-ccv.github.io/honeycomb-docs/docs/), which CCV has developed in collaboration with the Borton, Frank and Nassar labs. The first video covers installing dependencies and basic git workflows, and the second covers Firebase set up. Workshop was held on August 10, 2022. The third video corresponds to a follow up workshop organized by the Nassar lab and lead by Ben Heasly on **Converting a jsPsych task with Honeycomb**
+description: Step by step guide on creating new behavioral/psychophysiological tasks for clinic, laboratory, and home using a template repository called [Honeycomb](https://brown-ccv.github.io/honeycomb-docs/docs/), which CCV has developed in collaboration with the Borton, Frank and Nassar labs. The first video covers installing dependencies and basic git workflows, and the second covers Firebase set up. The third video corresponds to a follow up workshop organized by the Nassar lab and lead by Ben Heasly on **Converting a jsPsych task with Honeycomb**
 slug: honeycomb
 languages:
   - reactjs
@@ -21,6 +21,6 @@ links:
     url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=38c60a2c-309e-49b3-b23b-aef201239cbb
   - category: video 
     url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5903a4db-9759-4cef-a9e8-aefd014adaa5
-  - category: video 
-     url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=096759c6-7d5b-4ead-b307-aefc01539396
+  - category: video
+    url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=096759c6-7d5b-4ead-b307-aefc01539396
 
