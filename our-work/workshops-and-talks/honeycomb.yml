@@ -1,5 +1,5 @@
 title: Getting Started with Honeycomb
-description: Step by step guide on creating new behavioral/psychophysiological tasks for clinic, laboratory, and home using a template repository called <a href=https://brown-ccv.github.io/honeycomb-docs/docs/>Honeycomb</a>, which CCV has developed in collaboration with the Borton, Frank and Nassar labs. The first video covers installing dependencies and basic git workflows, and the second covers Firebase set up. The third video corresponds to a follow up workshop organized by the Nassar lab and lead by Ben Heasly on <b>Converting a jsPsych task with Honeycomb</b>
+description: Step by step guide on creating new behavioral/psychophysiological tasks for clinic, laboratory, and home using a template repository called Honeycomb, which CCV has developed in collaboration with the Borton, Frank and Nassar labs. The first video covers installing dependencies and basic git workflows, and the second covers Firebase set up. The third video corresponds to a follow up workshop organized by the Nassar lab and lead by Ben Heasly on Converting a jsPsych task with Honeycomb.
 slug: honeycomb
 languages:
   - reactjs
@@ -25,4 +25,5 @@ links:
     url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=096759c6-7d5b-4ead-b307-aefc01539396
   - category: slides
     url: https://docs.google.com/document/d/1pk8-E1NpbIrjTmWZBVPsmusAl_NEMXy8XE5FdamXx08/edit?usp=sharing
-
+  - category: website
+    url: https://brown-ccv.github.io/honeycomb-docs/docs/
