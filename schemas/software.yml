@@ -41,7 +41,8 @@ tag: "enum(
           'web',
           'vr',
           'gcp',
-          'pipelines'
+          'pipelines',
+          'chemical-physics'
           )"
 #people involved in the project
 person:
@@ -63,7 +64,9 @@ group: "enum(
             'riddc',
             'shenhav-lab',
             'serre-lab',
-            'creton-lab'
+            'creton-lab',
+            'brown-university-library',
+            'lisi-lab'
             )"
 # These are links associated with the software
 link:
