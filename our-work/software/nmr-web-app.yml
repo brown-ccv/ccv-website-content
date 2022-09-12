@@ -1,11 +1,12 @@
 id: NMR Web Application 
-description: Web application built from docker containers that allow for the processing, storage, and retrieval of nuclear magnetic resonance spectroscopic data. 
+description: "Web application built from docker containers that allow for the processing, storage, and retrieval of nuclear magnetic resonance spectroscopic data." 
+languages: 
+   - python
+tags:
+   - web 
+   - checmical-physics
 groups:
    - lisi-lab
-tags:
-   - spectral-processing
-   - docker
-   - checmical-physics
 people:
    - name: Jordan Lawson
      github_user: j-stat

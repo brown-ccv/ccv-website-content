@@ -1,11 +1,13 @@
 id: Natural Language Processing of Brown Course Syllabi 
-description: Web dahsboard that allows Brown University Library staff to interactively use natural language processing for investigating how race and racial issues are discussed in courses at Brown. 
-groups:
-   - brown-university-library-planning-and-assessment
+description: "Web dahsboard that allows Brown University Library staff to interactively use natural language processing for investigating how race and racial issues are discussed in courses at Brown." 
+languages: 
+   - python
+   - R 
 tags:
-   - natural-language-processing
-   - racial-issues
-   - social-science
+   - web
+   - machine-learning 
+groups:
+   - brown-university-library
 people:
    - name: Jordan Lawson
      github_user: j-stat
