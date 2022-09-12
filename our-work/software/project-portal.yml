@@ -1,0 +1,21 @@
+title: Project Portal
+description: The Project Portal is a website template allowing state agencies (local or national governments) to share their research needs and to empower people with a way to express interest in partnering to work on those needs. The CCV supported The Policy Lab with the development of the first version of the website, and is working to make it scalable for more government agencies.
+groups:
+  - the-policy-lab
+languages:
+  - typescript
+  - reactjs
+  - nodejs
+tags:
+  - government
+  - web
+people:
+  - name: Mary McGrath
+    github_user: mcmcgrath13
+  - name: Joshua Lu
+    github_user: jashlu
+  - name: John Gerrard Holland
+    github_user: hollandjg
+links:
+  - category: website
+    url: https://projectportal.nc.gov

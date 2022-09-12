@@ -1,12 +1,12 @@
 title: Taylor Burke, Ph.D.
 id: burke-lab
 description: Dr. Burke's research aims to utilize novel technologies, methodologies, and computational approaches to improve the prediction and prevention of self-injurious thoughts and behaviors among adolescents. The goal of this project is to collect and analyze image data from individuals with scarring from self-harm injuries. This data will be used to train computer vision models to predict various clinical outcome variables. CCV supports the data collection, analysis and model development infrastructure in collaboration with the Massachusetts General Hospital.
+active: False
+department:
+  - neuro
 tags:
-  - active
-  - computer-vision
+  - REDCap
+  - software-engineering
 investigators:
   - name: Taylor Burke, Ph.D.
   - name: Thomas Serre, Ph.D.
-people:
-  - name: Matt Slivinski
-    github_user: mattsliv

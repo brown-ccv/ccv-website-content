@@ -11,12 +11,12 @@ If you are writing a grant proposal for research that will use CCV facilities, p
 CCV provides high-performance computing (HPC) resources and scientific computing expertise to Brown University’s research community. Oscar, CCV’s primary research computing cluster, has
 
 - 2 login nodes
-- 360 diskless multi-core nodes
-    - 11,816 CPU cores
-    - available memory ranging from 93 GB to 2096 GB per node
+- 393 diskless multi-core nodes
+    - 14136 CPU cores
+    - available memory ranging from 95 GB to 2096 GB per node
     - sharing a high-performance interconnect and file system and running Red Hat Enterprise Linux 7.3
-- 47 GPU nodes
-    - total of 355 GPUs
+- 57 GPU nodes
+    - total of 385 GPUs
     - available memory ranging from 11 to 48 GB VRAM per GPU
 - xCAT (IBM’s cluster administration toolkit) for provisioning all nodes
 - a GPFS parallel filesystem which provides a total of 3 - PB of usable storage space

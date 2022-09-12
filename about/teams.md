@@ -16,9 +16,9 @@ Leadership: [Ashok Ragavendran](https://directory.brown.edu/uuid/60802d0b-8f18-4
 >Our software engineers help researchers to get the most out of high-performance computing (HPC) resources. To achieve this, we partner with users to design, debug, and optimize their code to run in an HPC environment. We also collaborate with new and non-traditional HPC users to help them to scale up and accelerate their science.
 
 ### High-Performance Computing Systems
-Leadership: [Mete Tunca](https://directory.brown.edu/uuid/d0e7b3b6-f6b4-f28b-3bfd-08bccf05ac31)
->Our HPC systems engineers are responsible for building and maintaining the hardware and system-level software for Brown's primary supercomputer, Oscar. This includes designing the overall architecture of the system, the storage and networking configurations, as well as the operating system and the system libraries. We also work with researchers to plan hardware purchases for grant applications. 
+Leadership: [Paul Koussa](https://directory.brown.edu/uuid/c67a6c91-53f3-3502-8fcb-006770f4d76e), [Sam Fulcomer](https://directory.brown.edu/uuid/0d83d4b5-85a5-62fc-44a3-81eaff49e183)
+>Our HPC architects and systems engineers are responsible for building and maintaining the hardware and system-level software for Brown's primary supercomputer, "Oscar". This includes designing the overall architecture of the system, the storage and networking configurations, as well as the operating system and the system libraries. Our HPC architects and engineers also work with researchers to plan hardware purchases for grant applications; in some cases this includes partnering with researchers to write portions of grant applications. 
 
 ### Research Technical Services
-Leadership: [Mete Tunca](https://directory.brown.edu/uuid/d0e7b3b6-f6b4-f28b-3bfd-08bccf05ac31)
+Leadership: [Paul Stey](https://directory.brown.edu/uuid/0525f19f-d156-4c47-a2e1-8b4e904a2e84)
 >Our team of research computing consultants support researchers across all of our research computing environments and tools. This includes Oscar, Stronghold, Globus, Hibernate, JupyterHub, and others. We can help with onboarding to our systems, debugging, and deciding what systems are best suited to your research computing needs. We hold regular weekly office hours, and are happy to help with tutorials and additional consultation sessions outside of office hours. 

@@ -1,0 +1,17 @@
+id: Proteomics RShiny App
+description: This R shiny app was developed for visualizing pathways with metabolomics and proteomics.
+languages: 
+  - R
+tags:
+  - web
+  - metabolomics 
+group:
+  - yajima-lab
+people:
+  - name: Jordan Lawson
+    github_user: j-stat
+links:
+  - category: code
+    url: https://github.com/compbiocore/sea_urchin_app1 
+  - category: website
+    url: https://micnmapp-de57keuawa-uc.a.run.app 

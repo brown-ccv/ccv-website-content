@@ -1,0 +1,18 @@
+title: Autonomous Empirical Research Group
+id: aer-group
+description: The Autonomous Empirical Research Group (AER) strives to enhance and accelerate scientific discovery by automating each step of the empirical research process, from constructing a scientific hypothesis to conducting novel experiments. CCV's collaboration focuses on developing a framework which the group can use to run simulations to test machine learning models and run experiments with real participants.
+active: True
+department:
+  - clps
+tags:
+  - machine-learning
+  - software-engineering
+investigators:
+  - name: Sebastian Musslick
+    link: https://vivo.brown.edu/display/smusslic
+people:
+  - name: John Gerrard Holland
+    github_user: hollandjg
+links:
+  - category: "website"
+    url: https://musslick.github.io/AER_website/About.html
