@@ -1,4 +1,4 @@
-id: Proteomics RShiny App
+title: Proteomics RShiny App
 description: This R shiny app was developed for visualizing pathways with metabolomics and proteomics.
 languages: 
   - R
