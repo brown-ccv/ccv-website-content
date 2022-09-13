@@ -4,7 +4,7 @@ languages:
    - python
 tags:
    - web 
-   - checmical-physics
+   - chemical-physics
 groups:
    - lisi-lab
 people:
