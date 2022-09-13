@@ -1,4 +1,4 @@
-id: Natural Language Processing of Brown Course Syllabi 
+title: Natural Language Processing of Brown Course Syllabi 
 description: "Web dahsboard that allows Brown University Library staff to interactively use natural language processing for investigating how race and racial issues are discussed in courses at Brown." 
 languages: 
    - python

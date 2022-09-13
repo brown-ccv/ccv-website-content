@@ -1,4 +1,4 @@
-id: NMR Web Application 
+title: NMR Web Application 
 description: "Web application built from docker containers that allow for the processing, storage, and retrieval of nuclear magnetic resonance spectroscopic data." 
 languages: 
    - python

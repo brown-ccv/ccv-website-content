@@ -5,7 +5,7 @@ languages:
 tags:
   - web
   - metabolomics 
-group:
+groups:
   - yajima-lab
 people:
   - name: Jordan Lawson
