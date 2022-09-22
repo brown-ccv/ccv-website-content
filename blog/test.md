@@ -2,7 +2,9 @@
 title: Test Blog Post
 author: Riggins Lee
 date: 2022-09-22
-tags: woof, bark
+tags:
+  - woof
+  - bark
 ---
 
 # Header 1
