@@ -3,6 +3,7 @@ title: Test Blog Post 1
 author: Riggins Lee
 date: 2022-09-22
 slug: test1
+description: Bow wow woof woof ruff ruff bark!
 tags:
   - ruff
   - bark
