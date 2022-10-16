@@ -1,8 +1,8 @@
 ---
 title: Test Blog Post 1
-author: Riggins Lee
+author: Paul Stey
 date: 2022-09-22
-slug: test1
+slug: test-1
 description: Bow wow woof woof ruff ruff bark!
 tags:
   - ruff
