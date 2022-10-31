@@ -25,7 +25,9 @@ language: "enum(
                 'typescript',
                 'unix-cli',
                 'vuejs',
-                'bash'
+                'bash',
+                'markdown',
+                'git'
                 )"
 tag: "enum(
            'cloud-computing',
