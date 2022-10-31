@@ -1,0 +1,19 @@
+title: "Collaborative Coding: How To PR with GitHub"
+description:
+  In this hands-on workshop we covered collaborative coding, making and understanding branches, and making code suggestions with pull requests.
+slug: how-to-pr
+languages:
+  - git
+  - markdown
+tags:
+  - cloud-computing
+people:
+  - name: John Gerrard Holland
+    github_user: hollandjg
+groups:
+  - dscov
+links:
+  - category: website
+    url: https://github.com/dscov-tutorials/how-to-pr
+  - category: video
+    url: https://drive.google.com/file/d/1LK_mf6r6jo5ojcIjcg3kAMr4hu534rVi/view?usp=drive_web
