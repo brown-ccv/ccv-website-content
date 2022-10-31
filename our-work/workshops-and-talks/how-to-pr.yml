@@ -6,7 +6,7 @@ languages:
   - git
   - markdown
 tags:
-  - cloud-computing
+  - collaboration
 people:
   - name: John Gerrard Holland
     github_user: hollandjg

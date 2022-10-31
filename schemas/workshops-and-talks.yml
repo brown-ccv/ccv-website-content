@@ -35,8 +35,8 @@ tag: "enum(
            'oscar',
            'hpc',
            'honeycomb',
-           'behavioral-tasks'
-           
+           'behavioral-tasks',
+           'collaboration'
            )"
 #people involved in the project
 person:
