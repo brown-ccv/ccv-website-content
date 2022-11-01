@@ -14,6 +14,8 @@ groups:
   - dscov
 links:
   - category: website
+    url: https://brownccv.notion.site/How-To-PR-2a463bf6849e4abd889adde308d708de
+  - category: code
     url: https://github.com/dscov-tutorials/how-to-pr
   - category: video
     url: https://drive.google.com/file/d/1LK_mf6r6jo5ojcIjcg3kAMr4hu534rVi/view?usp=drive_web
