@@ -43,7 +43,9 @@ tag: "enum(
           'vr',
           'gcp',
           'pipelines',
-          'government'
+          'government',
+          'chemical-physics',
+          'metabolomics'
           )"
 #people involved in the project
 person:
@@ -67,7 +69,10 @@ group: "enum(
             'serre-lab',
             'creton-lab',
             'aer-group',
-            'the-policy-lab'
+            'the-policy-lab',
+            'brown-university-library',
+            'lisi-lab',
+            'yajima-lab'
             )"
 # These are links associated with the software
 link:
