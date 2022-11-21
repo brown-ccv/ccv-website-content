@@ -36,7 +36,7 @@ tag: "enum(
            'hpc',
            'honeycomb',
            'behavioral-tasks',
-           'collaboration'
+           'collaboration',
            'visualization'
            )"
 #people involved in the project
