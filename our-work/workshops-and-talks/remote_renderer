@@ -1,0 +1,16 @@
+title: 3D Remote Renderer on Oscar
+description: Get to know this new service to use Oscar as your own 3D render server to visualize datasets that will not fit in your desktop/laptop. We will use Paraview as a tool to interact and analyze your data.
+slug: remote-renderer
+languages:
+  - unix-cli
+tags:
+  - visualization
+  - oscar
+people:
+  - name: Camilo Diaz
+    github_user: kmilo9999
+groups:
+  - 3d-visualization-workshop
+links:
+  - category: video 
+    url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=526cb8b8-2ce3-439b-ab84-adc001569019
