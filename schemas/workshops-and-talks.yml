@@ -37,6 +37,7 @@ tag: "enum(
            'honeycomb',
            'behavioral-tasks',
            'collaboration'
+           'visualization'
            )"
 #people involved in the project
 person:
