@@ -12,7 +12,7 @@ people:
 groups:
   - dscov
 links:
-  - category: video 
+  - category: video
     url: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=526cb8b8-2ce3-439b-ab84-adc001569019
-  - category: documentation 
+  - category: website
     url: https://docs.ccv.brown.edu/oscar/visualization/paraview-remote-rendering
