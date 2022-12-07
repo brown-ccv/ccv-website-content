@@ -47,7 +47,7 @@ This ***text*** is really important.
 This is an email link [support@ccv.brown.edu](mailto:support@ccv.brown.edu)
 
 This is an image:
-![Riggins](/images/blog/test.png)
+![Riggins](/images/blog/test.jpg)
 
 This is `code`.
 
