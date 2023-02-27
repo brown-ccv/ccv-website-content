@@ -54,8 +54,8 @@ jobs:
           echo "Directory is not empty, proceeding with next step"
         fi
     - name: ${{ matrix.values.name }}
-      if: ${{ success() }} 
       uses: nrkno/yaml-schema-validator-github-action@v4
+      if: ${{ success() }} 
       with:
         schema: ${{ matrix.values.schema }}
         target: ${{ matrix.values.target }}
