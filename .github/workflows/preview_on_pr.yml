@@ -48,7 +48,13 @@ jobs:
       run: |
         mkdir -p temp/about
         grep '^---$' about/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> temp/fname.yml'
+    - name: Check if directory is empty
+      run: |
+        if [ "$(ls -A {{ matrix.values.target }})" ]; then
+          echo "Directory is not empty, proceeding with next step"
+        fi
     - name: ${{ matrix.values.name }}
+      if: ${{ success() }} 
       uses: nrkno/yaml-schema-validator-github-action@master
       with:
         schema: ${{ matrix.values.schema }}
