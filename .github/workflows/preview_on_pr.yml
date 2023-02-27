@@ -59,7 +59,8 @@ jobs:
       with:
         schema: ${{ matrix.values.schema }}
         target: ${{ matrix.values.target }}
-        strict: '1'
+          #Uncomment to disable strict checks 
+          #no-strict: true 
   build_and_preview:
     runs-on: ubuntu-latest
     needs: [yaml-validation]
