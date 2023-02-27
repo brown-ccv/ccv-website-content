@@ -55,7 +55,7 @@ jobs:
         fi
     - name: ${{ matrix.values.name }}
       if: ${{ success() }} 
-      uses: nrkno/yaml-schema-validator-github-action@master
+      uses: nrkno/yaml-schema-validator-github-action@v4
       with:
         schema: ${{ matrix.values.schema }}
         target: ${{ matrix.values.target }}
