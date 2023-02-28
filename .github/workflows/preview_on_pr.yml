@@ -63,6 +63,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [yaml-validation]
     steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
       - uses: actions/checkout@v3
         with:
           repository: brown-ccv/ccv-website-nuxt
