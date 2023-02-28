@@ -351,3 +351,10 @@ data:
     brown_directory_uuid: 0b047bf7-47f2-4873-8eef-87d4d69aba98
     bio: Eric is a genomics data scientist at the CCV. Before coming to Brown, he was a postdoc investigating genome evolution, organellar metabolism, and biodiversity of protists at the Czech Academy of Sciences. He earned his PhD from the University of Rhode Island studying the evolution of parasitism in red algae.
     image: eric_main.jpg
+  - name: Rain Fan
+    type: Full Time
+    team: CCV Operations
+    title: Research Computing Consultant
+    github_username: rainxfan
+    brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
+    image: rain_main.jpg
