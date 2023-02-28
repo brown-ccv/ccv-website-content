@@ -19,6 +19,7 @@ jobs:
         run: npm ci 
       - name: Generate Static Content
         run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
           git submodule set-branch -b main content
           git submodule update --remote
           npm run generate
