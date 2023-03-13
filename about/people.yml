@@ -351,3 +351,12 @@ data:
     brown_directory_uuid: 0b047bf7-47f2-4873-8eef-87d4d69aba98
     bio: Eric is a genomics data scientist at the CCV. Before coming to Brown, he was a postdoc investigating genome evolution, organellar metabolism, and biodiversity of protists at the Czech Academy of Sciences. He earned his PhD from the University of Rhode Island studying the evolution of parasitism in red algae.
     image: eric_main.jpg
+  - name: Heather Yu
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: hetd54
+    brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
+    bio: Heather is a software engineer with a background in research applications and database creation. Prior to joining CCV, she was a Research Manager at Brown in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS).
+    image: heather_main.jpg
