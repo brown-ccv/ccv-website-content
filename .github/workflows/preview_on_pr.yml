@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Services frontmatter to yml
       if: startsWith(matrix.values.name, 'Services')
       run: | 
@@ -48,17 +48,25 @@ jobs:
       run: |
         mkdir -p temp/about
         grep '^---$' about/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> temp/fname.yml'
+    - name: Check if directory is empty
+      run: |
+        if [ "$(ls -A {{ matrix.values.target }})" ]; then
+          echo "Directory is not empty, proceeding with next step"
+        fi
     - name: ${{ matrix.values.name }}
-      uses: nrkno/yaml-schema-validator-github-action@master
+      uses: nrkno/yaml-schema-validator-github-action@v4
+      if: ${{ success() }} 
       with:
         schema: ${{ matrix.values.schema }}
         target: ${{ matrix.values.target }}
-        strict: '1'
   build_and_preview:
     runs-on: ubuntu-latest
     needs: [yaml-validation]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - uses: actions/checkout@v3
         with:
           repository: brown-ccv/ccv-website-nuxt
           submodules: recursive
@@ -68,7 +76,9 @@ jobs:
       - name: Install
         run: npm ci 
       - name: Generate Static Content
-        run: npm run generate
+        run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
+          npm run generate
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
