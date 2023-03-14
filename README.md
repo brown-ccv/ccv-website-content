@@ -1,5 +1,7 @@
 # CCV Website Content
 
+The directory structure is describe below:
+
 - **home**
 - **about** - markdown/yml files uniquely handled
     - single.yml/single.md
