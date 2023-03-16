@@ -1,6 +1,6 @@
 ---
 title: Hardware Purchasing 
-icon: disk 
+icon: server 
 ---
 
 CCV's High-Performance Computing (HPC) Architect and HPC Systems Engineers have many decades of combined experience building and maintaining supercomputing systems for scientific research. They also have excellent relationships with many hardware vendors. 
