@@ -206,18 +206,6 @@ data:
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
     bio: ''
     image: joshua_main.jpg
-  - name: Mary McGrath
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Lead Research Software Engineer
-    github_username: mcmcgrath13
-    brown_directory_uuid: fa814738-23c5-42b9-a63c-1ea789f3d1eb
-    bio: Mary is a data scientist/whatever-needs-doing-er at CCV. She enjoys learning
-      new tools and technologies, coffee, bike touring, and cooking excellent food.
-      Prior to coming to Brown, Mary was a consultant at Accenture specializing in
-      health data and analytics.
-    image: mary_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
@@ -245,15 +233,6 @@ data:
     github_username: hadleydalt
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
     image: hadley_main.jpg
-  - name: Minsik Cho
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: High-Performance Computing
-    title: HPC Intern
-    github_username: mscho527
-    brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
-    bio: Minsik is an undergrad student studying chemical physics.
-    image: minsik_main.jpg
   - name: Jiatao Yuan
     type: CCV Interns
     team: Advanced Research Computing
@@ -351,3 +330,12 @@ data:
     brown_directory_uuid: 0b047bf7-47f2-4873-8eef-87d4d69aba98
     bio: Eric is a genomics data scientist at the CCV. Before coming to Brown, he was a postdoc investigating genome evolution, organellar metabolism, and biodiversity of protists at the Czech Academy of Sciences. He earned his PhD from the University of Rhode Island studying the evolution of parasitism in red algae.
     image: eric_main.jpg
+  - name: Heather Yu
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: hetd54
+    brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
+    bio: Heather is a research software engineer with a background in research applications and database creation. Prior to joining CCV, she was a Research Manager at Brown in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS).
+    image: heather_main.jpg
