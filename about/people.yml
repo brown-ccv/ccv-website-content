@@ -339,3 +339,12 @@ data:
     brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
     bio: Heather is a research software engineer with a background in research applications and database creation. Prior to joining CCV, she was a Research Manager at Brown in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS).
     image: heather_main.jpg
+  - name: Anna Murphy
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: anna-murphy
+    brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
+    bio: Anna is a software engineer and researcher with the CCV with a background in full-stack web development. She loves thinking about technology and media, and the different impacts they both have on the world.
+    image: anna_main.jpg
