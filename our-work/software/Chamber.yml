@@ -1,0 +1,15 @@
+title: Chamber.jl
+description: Julia package for simulating the eruption of a volcano using a model for the frequency of eruptions of upper crustal magma chambers based on Degruyter and Huber (2014).
+languages:
+  - julia
+tags:
+  - julia
+  - volcanology
+people:
+  - name: Carlos Paniagua
+    github_user: cpaniaguam
+groups:
+  - Huber Lab
+links:
+  - category: code
+    url: https://github.com/brown-ccv/Chamber.jl
