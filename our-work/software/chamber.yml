@@ -3,7 +3,7 @@ description: Julia package for simulating the eruption of a volcano using a mode
 languages:
   - julia
 tags:
-  - julia
+  - model
   - volcanology
 people:
   - name: Carlos Paniagua
