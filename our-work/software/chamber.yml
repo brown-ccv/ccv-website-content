@@ -9,7 +9,7 @@ people:
   - name: Carlos Paniagua
     github_user: cpaniaguam
 groups:
-  - Huber Lab
+  - huber-lab
 links:
   - category: code
     url: https://github.com/brown-ccv/Chamber.jl
