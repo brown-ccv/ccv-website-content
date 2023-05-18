@@ -4,6 +4,7 @@ description:
 slug: introduction-to-python
 languages:
   - python
+tags:
 people:
   - name: Ellen Duong
     github_user: eldu
