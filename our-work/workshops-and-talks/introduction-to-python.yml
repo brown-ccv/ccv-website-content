@@ -1,0 +1,16 @@
+title: "Introduction to Python"
+description:
+  In this hands-on workshop we covered collaborative coding, making and understanding branches, and making code suggestions with pull requests.
+slug: introduction-to-python
+languages:
+  - python
+tags:
+  - software-engineering
+people:
+  - name: Ellen Duong
+    github_user: eldu
+groups:
+  - dscov
+links:
+  - category: slides
+    url: https://docs.google.com/presentation/d/104aGeYJ_W3mgbtPtlVjNsR0FLOOsApGAXvxJOpBa7TE/edit?usp=sharing
