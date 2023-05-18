@@ -5,6 +5,7 @@ slug: introduction-to-python
 languages:
   - python
 tags:
+  - visualization
 people:
   - name: Ellen Duong
     github_user: eldu
