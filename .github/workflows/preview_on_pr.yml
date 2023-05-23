@@ -16,7 +16,7 @@ jobs:
             target: 'about/people.yml'
           - name: 'Banners Frontmatter Validation'
             schema: 'schemas/banners-frontmatter.yml'
-            target: 'banners'
+            target: 'banners/announcements'
           - name: 'Help Validation'
             schema: 'schemas/meta-category.yml'
             target: 'help'
