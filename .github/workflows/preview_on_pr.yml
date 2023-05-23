@@ -14,8 +14,8 @@ jobs:
           - name: 'People Validation'
             schema: 'schemas/people.yml'
             target: 'about/people.yml'
-          - name: 'Banners Validation'
-            schema: 'schemas/banners.yml'
+          - name: 'Banners Frontmatter Validation'
+            schema: 'schemas/banners-frontmatter.yml'
             target: 'banners'
           - name: 'Help Validation'
             schema: 'schemas/meta-category.yml'
@@ -41,6 +41,10 @@ jobs:
       uses: actions/checkout@v3
     - name: Services frontmatter to yml
       if: startsWith(matrix.values.name, 'Services')
+      run: | 
+        grep '^---$' services/**/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> fname.yml'
+    - name: Banners frontmatter to yml
+      if: startsWith(matrix.values.name, 'Banners')
       run: | 
         grep '^---$' services/**/*.md |cut -f 1 -d ":" | uniq | xargs -I fname sh -c 'grep -A 100 "^---$" fname | grep -B 100 "^---$" | grep -v "\-\-\-" | grep -v "\-\-"> fname.yml'
     - name: About frontmatter to yml
