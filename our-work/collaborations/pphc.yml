@@ -1,6 +1,6 @@
 title: The People, Place and Health Collective
 id: pphc
-description: The People, Place & Health Collective (PPHC) is a research group in the Department of Epidemiology at the Brown University School of Public Health. CCV has helped refactor, bring testing, continuous integration and deployment, improved documentation and performance to TITAN - an Agent Based Model developed by the collective. More recently, CCV helps with data management, development of visualization tools, advising on ways to create more efficient/automated processes, and supporting growth of new skills/software within the context of PPHC's Signal, PROVIDENT, and PROFOUND projects.
+description: The People, Place & Health Collective (PPHC) is a research group in the Department of Epidemiology at the Brown University School of Public Health. CCV has helped refactor, bring testing, continuous integration and deployment, improved documentation and performance to TITAN - an Agent Based Model developed by the collective. More recently, CCV helps with data management, development of visualization tools, advising on ways to create more efficient/automated processes, and supporting growth of new skills/software within the context of PPHC's <a href="https://signal-ri.org/">Signal</a>, <a href="https://provident.preventoverdoseri.org/">PROVIDENT</a>, and <a href="https://profoundmodel.org/">PROFOUND</a> projects.
 active: True
 department:
   - epidemiology
