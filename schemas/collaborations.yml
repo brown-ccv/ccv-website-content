@@ -2,11 +2,18 @@
 title: str()
 id: "enum(
           'bnc',
+          'beura-lab',
           'borton-lab',
           'braingate',
+          'brodsky-lab',
+          'covid19',
+          'degraffenried-lab',
           'frank-lab',
           'frickel',
+          'fussell-lab',
           'hurt-lab',
+          'koren-lab',
+          'lee-lab',
           'nassar-lab',
           'oh-lab',
           'peac-lab',
@@ -26,9 +33,13 @@ id: "enum(
           'mchugh-lab',
           'rothman-lab',
           'spade-lab',
+          'trikalinos-lab',
           'aer-group',
+          'ventutulo',
           'wilhelmus-lab',
+          'wong-lab',
           'the-policy-lab'
+          'yajima-lab',
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -84,5 +95,5 @@ person:
 # These are links associated with the software
 link:
   # Must match one of the values in the regex
-  category: "enum('website', 'github', 'docs')"
+  category: "enum('website', 'github', 'docs', 'publications')"
   url: str()
