@@ -339,6 +339,15 @@ data:
     brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
     bio: Heather is a research software engineer with a background in research applications and database creation. Prior to joining CCV, she was a Research Manager at Brown in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS).
     image: heather_main.jpg
+  - name: Pratibha Raghunandan
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: High Performance Computing
+    title: Research Software Engineer
+    github_username: rubberduck2023
+    brown_directory_uuid: 0628ae98-dce6-41c4-986d-2c67b95512ec
+    bio: Pratibha is Research Software Engineer at CCV. She earned her PhD in Aerospace Engineering and has a background in code development for complex scientific problems.
+    image: pratibha_main.jpg
   - name: Anna Murphy
     type: Full Time
     team: Advanced Research Computing
