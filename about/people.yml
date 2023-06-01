@@ -357,3 +357,12 @@ data:
     brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
     bio: Anna is a software engineer and researcher with the CCV with a background in full-stack web development. She loves thinking about technology and media, and the different impacts they both have on the world.
     image: anna_main.jpg
+  - name: Chai Harsha
+    type: CCV Interns
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Data Science Intern
+    github_username: Equite774
+    brown_directory_uuid: 4be9464b-a128-4a0b-b484-968f99475871
+    bio: Chai is an undergrad student studying applied math-computer science.
+    image: chai_main.jpg
