@@ -1,12 +1,12 @@
 title: "Collaborative Coding: How To PR with GitHub"
-description:
-  In this hands-on workshop we covered collaborative coding, making and understanding branches, and making code suggestions with pull requests.
+description: "A hands-on workshop on version control systems: what they are, why every coder needs them, and how to use git for solo and collaborative coding."
 slug: how-to-pr
 languages:
   - git
   - markdown
 tags:
   - collaboration
+  - oscar
 people:
   - name: John Gerrard Holland
     github_user: hollandjg
@@ -14,6 +14,6 @@ groups:
   - dscov
 links:
   - category: website
-    url: https://brownccv.notion.site/How-To-PR-2a463bf6849e4abd889adde308d708de
+    url: https://brownccv.notion.site/Coding-Collaboration-using-Git-GitHub-and-Pull-Requests-afdc0e8c48a449f2864f0e3e8b5b4a59?pvs=4
   - category: code
-    url: https://github.com/dscov-tutorials/how-to-pr
+    url: https://github.com/brown-ccv/how-to-pr
