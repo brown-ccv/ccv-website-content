@@ -1,9 +1,6 @@
 title: Acadia National Park Natural Resources
 id: acadia
-description: "The goal of this project is to extract data-driven 'vital signs' from  data collected on bat populations at Acadia National Park since 2008 and 
-transform data into 
-standardized annual Data Packages for submission to the National Park Service Inventory & Monitoring Data Store. CCV helps to wrangle and clean the various 
-datasets into data packages and to generate report templates for quick visualization of vital signs."
+description: "The goal of this project is to extract data-driven 'vital signs' from  data collected on bat populations at Acadia National Park since 2008 and transform data into standardized annual Data Packages for submission to the National Park Service Inventory & Monitoring Data Store. CCV helps to wrangle and clean the various datasets into data packages and to generate report templates for quick visualization of vital signs."
 active: True
 department:
   - ecology
