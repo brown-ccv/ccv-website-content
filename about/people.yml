@@ -375,3 +375,11 @@ data:
     brown_directory_uuid: 4be9464b-a128-4a0b-b484-968f99475871
     bio: Chai is an undergrad student studying applied math-computer science.
     image: chai_main.jpg
+  - name: Rain Fan
+    type: Full Time
+    team: CCV Operations
+    title: Research Computing Consultant
+    github_username: rainxfan
+    brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
+    bio:
+    image: rain_main.jpg
