@@ -1,0 +1,22 @@
+title: Acadia National Park Natural Resources
+id: acadia
+description: "The goal of this project is to extract data-driven 'vital signs' from  data collected on bat populations at Acadia National Park since 2008 and transform data into standardized annual Data Packages for submission to the National Park Service Inventory & Monitoring Data Store. CCV helps to wrangle and clean the various datasets into data packages and to generate report templates for quick visualization of vital signs."
+active: True
+department:
+  - ecology
+tags:
+  - government
+  - data-science
+  - data-management
+  - software-engineering
+investigators:
+  - name: Bik Wheeler
+    link: https://www.nps.gov/subjects/parkscience/author-bik-wheeler.htm
+people:
+  - name: Timothy Divoll
+    github_user: tdivoll
+links:
+  - category: "website"
+    url: https://irma.nps.gov/DataStore
+  - category: "website"
+    url: https://www.nps.gov/im/vital-signs.htm
