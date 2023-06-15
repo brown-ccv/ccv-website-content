@@ -1,0 +1,6 @@
+title: str()
+tagTitle: str()
+tagDescription: str()
+hero:
+  lead: str(required=False)
+lastUpdated: str(required=False)
