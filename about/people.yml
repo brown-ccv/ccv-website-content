@@ -357,3 +357,20 @@ data:
     brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
     bio: Anna is a software engineer and researcher with the CCV with a background in full-stack web development. She loves thinking about technology and media, and the different impacts they both have on the world.
     image: anna_main.jpg
+  - name: Galen Winsor
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: galenwinsor
+    brown_directory_uuid: 77e8343c-498a-4bed-bedf-ed0a59d0fa3c
+    bio: Galen is passionate about building usable, flexible, and accessible web applications. Outside of work, he loves playing music, playing tennis and squash, and hiking. 
+    image: galen_main.jpg
+  - name: Rain Fan
+    type: Full Time
+    team: CCV Operations
+    title: Research Computing Consultant
+    github_username: rainxfan
+    brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
+    bio:
+    image: rain_main.jpg
