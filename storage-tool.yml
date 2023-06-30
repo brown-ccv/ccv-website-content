@@ -8,7 +8,7 @@ links:
 call-for-action:
   text: Check Our Storage Options
   href: /storage
-  
+
 storage_tool_header: |
   This tool lets you compare the available storage options at Brown.
   Answer some of these questions or select services to compare their features
@@ -124,7 +124,6 @@ services:
           - 1 TB for best performance
       - name: storage_warmth
         class: hot
-
 
   - name: campus_file_storage_replicated
     description: |
@@ -301,7 +300,7 @@ services:
       - Best for: High performance storage of research data, perform computation on your data using Brown’s supercomputer
       - Limitations: Not accessible on all campus networks.
       - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://ccv.brown.edu/services/infrastructure/rdata/) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
+      - More info: [Documentation](https://ccv.brown.edu/services/computing#high-performance-computing-(oscar)) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
     features:
       - name: relative_speed
         class: fastest
@@ -504,7 +503,7 @@ questions:
   - question: Is integration with Canvas required?
     information: |
       Are you using these data for teaching purposes, and if so, do you need your students
-      to be able to access the data from with the Canvas learning management system? 
+      to be able to access the data from with the Canvas learning management system?
     affected_category: canvas_integration
     default_answer: No
     answers:
@@ -571,7 +570,7 @@ questions:
       Cold storage is often referred to as "archival storage". So, cold storage solutions are most 
       appropriate when the analysis of the data is complete. That is, when you are done with 
       the data, but you are keeping them around because of either obligations from grants or 
-      funding agencies, or just in case they are needed at some later time. 
+      funding agencies, or just in case they are needed at some later time.
     affected_category: storage_warmth
     default_answer: Any
     answers:
