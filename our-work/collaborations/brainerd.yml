@@ -1,0 +1,18 @@
+title: Elizabeth Brainerd
+id: brainerd-lab
+description: Temp
+active: True
+department:
+  - engineering
+tags:
+  - data-science
+investigators:
+  - name: Elizabeth Brainerd
+    link: https://vivo.brown.edu/display/ebrainer
+people:
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+  - name: Bradford Roarr
+    github_user: broarr
+  - name: Galen Winsor
+    github_user: galenwinsor
