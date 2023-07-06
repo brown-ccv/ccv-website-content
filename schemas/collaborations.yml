@@ -4,6 +4,7 @@ id: "enum(
           'bnc',
           'borton-lab',
           'braingate',
+          'brainerd-lab',
           'frank-lab',
           'frickel',
           'hurt-lab',
@@ -29,7 +30,7 @@ id: "enum(
           'aer-group',
           'wilhelmus-lab',
           'the-policy-lab',
-	  'acadia'
+	        'acadia'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -46,6 +47,7 @@ department: "enum(
             'computational-psychiatry',
             'sociology',
             'ecology',
+            'ecology-and-evolutionary-biology',
             'epidemiology',
             'finance',
             'computer-science',
