@@ -5,7 +5,7 @@ active: True
 department:
   - biomedical
 tags:
-  - university-administrative
+  - university-administration
   - data-science
   - nlp
 investigators:
