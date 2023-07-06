@@ -13,6 +13,8 @@ investigators:
 people:
   - name: John Gerrard Holland
     github_user: hollandjg
+  - name: George Dang
+    github_user: gtdang
 links:
   - category: "website"
     url: https://musslick.github.io/AER_website/About.html
