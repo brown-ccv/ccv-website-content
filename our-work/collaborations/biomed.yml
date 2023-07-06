@@ -1,0 +1,19 @@
+title: Division of Biology and Medicine Administrative
+id: division-biology-medicine
+description: "The goal of this project is to extract insights on diversity and inclusion efforts from employee surveys among Brown's Biomedical departments and affiliates. We transform survey data into scoring metrics and apply natural language processing to derive sentiments and topics from the typed responses"
+active: True
+department:
+  - biomedical
+tags:
+  - university-adminstrative
+  - data-science
+  - nlp
+investigators:
+  - name: Joseph Diaz, MD, MPH
+    link: https://diversity.biomed.brown.edu/people/joseph-diaz-md-mph
+people:
+  - name: Timothy Divoll
+    github_user: tdivoll
+links:
+  - category: "website"
+    url: https://biomedical.brown.edu/diversity

@@ -29,7 +29,8 @@ id: "enum(
           'aer-group',
           'wilhelmus-lab',
           'the-policy-lab',
-	  'acadia'
+	        'acadia',
+          'division-biology-medicine'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -54,7 +55,8 @@ department: "enum(
             'computational-biology',
             'applied-math',
             'clps',
-            'policy-lab'
+            'policy-lab', 
+            'biomedical'
           )"
 tag: "enum(
             'cloud-computing',
@@ -70,6 +72,7 @@ tag: "enum(
             'system-administration',
             'vr',
             'system-administration',
+            'university-administration',
             'climate-science',
             'government',
             'economics',
