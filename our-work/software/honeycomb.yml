@@ -1,0 +1,25 @@
+title: Honeycomb
+description: 'Template repository for reproducible psychophysiological tasks for clinic, laboratory, and home use.'
+languages:
+  - javascript
+  - reactjs
+tags:
+  - honeycomb
+  - behavioral-tasks
+groups:
+  - borton-lab
+  - openmind
+  - frank-lab
+  - nassar-lab
+people:
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+  - name: Isabel Restrepo
+    github_user: mirestrepo
+links:
+  - category: 'code'
+    url: https://github.com/brown-ccv/honeycomb
+  - category: 'website'
+    url: https://brown-ccv.github.io/honeycomb-docs/
+  - category: 'publication'
+    url: https://www.scielo.br/j/rbp/a/XFbqkbZKfG65BwTxmnrHgZh/?lang=en#
