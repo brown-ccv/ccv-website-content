@@ -11,8 +11,8 @@ tags:
   - ecology
   - web
 people:
-  - name: Mary McGrath
-    github_user: mcmcgrath13
+  - name: Tim Divoll 
+    github_user: tdivoll
 links:
   - category: code
     url: https://github.com/ridatadiscoverycenter/buoy-viewer-nuxt

@@ -6,10 +6,10 @@ languages:
 tags:
   - public-health
 people:
-  - name: Mary McGrath
-    github_user: mcmcgrath13
   - name: Ellen Duong
     github_user: eldu
+  - name: Anna Murphy
+    github_user: anna-murphy
 groups:
   - pphc
 links:
