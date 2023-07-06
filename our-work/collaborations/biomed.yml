@@ -5,11 +5,7 @@ active: True
 department:
   - biomedical
 tags:
-<<<<<<< HEAD
-  - university-administration
-=======
-  - university-adminstrative
->>>>>>> cfd9b05 (feat: add biomed to collaborations)
+  - university-administrative
   - data-science
   - nlp
 investigators:
