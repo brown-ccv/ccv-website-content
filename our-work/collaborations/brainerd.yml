@@ -17,5 +17,5 @@ people:
   - name: Galen Winsor
     github_user: galenwinsor
 links:
-  category: "website"
-  url: https://elizabeth-brainerd.squarespace.com
+  - category: 'website'
+    url: https://elizabeth-brainerd.squarespace.com
