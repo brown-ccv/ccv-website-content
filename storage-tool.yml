@@ -433,13 +433,14 @@ services:
 questions:
   - question: What is the risk classification of your data?
     information: |
-      Brown has classified its information assets into one of four risk-based categories
+      **[Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)** is a 
+      system Brown has developed to classify its information assets into one of four risk-based categories
       (No Risk, Level 1, Level 2, or Level 3) for the purpose of determining who is allowed
       to access the information and what security precautions must be taken to protect it
       against unauthorized access. It is the data and service owner’s responsibility to ensure
       appropriate security measures are taken depending on the risk classification. If you
       have any questions or need help, please reach out to the Information Security Group
-      (isg@brown.edu). [Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)
+      (isg@brown.edu).
     affected_category: security
     default_answer: No Risk
     answers:
