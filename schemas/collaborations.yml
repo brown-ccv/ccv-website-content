@@ -46,7 +46,6 @@ department: "enum(
             'software-engineering',
             'computational-psychiatry',
             'sociology',
-            'ecology',
             'ecology-evolution-and-organismal-biology',
             'epidemiology',
             'finance',
