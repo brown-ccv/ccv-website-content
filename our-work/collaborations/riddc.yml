@@ -4,7 +4,7 @@ description: "The goal of the RI Data Discovery Center is to become the national
 CCV supports, maintains and upgrades existing infrastructure used by the RI Data Discovery Center at Brown University. This includes databases as well as code and web technology used to access and visualize historic and model data."
 active: False
 department:
-  - ecology
+  - ecology-evolution-and-organismal-biology
 tags:
   - data-management
   - software-engineering
