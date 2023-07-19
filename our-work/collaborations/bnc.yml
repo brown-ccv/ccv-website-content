@@ -1,4 +1,4 @@
-title: The Behavioral Neuroimaging Core (BNC)
+title: The Behavioral Neuroimaging Data Core (BNC)
 id: bnc
 description: The BNC provides ongoing support, training, assistance and advice to COBRE project leaders in the practical aspects of data collection, data management and data processing across a wide variety of neuroscience related methodologies. CCV's help has primarily focused on the deployment of the XNAT Neuroimaging Data Management Platform for the community, as well as, software development and documentation to facilitate data management and processing in OSCAR while promoting adoption of the Brain Imaging Standard (BIDS) and containarized BIDS applications.
 active: True
@@ -18,8 +18,8 @@ investigators:
 people:
   - name: Isabel Restrepo
     github_user: mirestrepo
-  - name: Rohit Kakodkar
-    github_user: rkakodkar
+  - name: Ford McDonald
+    github_user: fordmcdonald
 links:
   - category: "docs"
     url: https://bnc.brown.edu
