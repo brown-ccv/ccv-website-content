@@ -10,6 +10,7 @@ groups:
   - openmind
   - frank-lab
   - nassar-lab
+  - brainstorm
 people:
   - name: Robert Gemma
     github_user: RobertGemmaJr
