@@ -11,11 +11,13 @@ tags:
   - ecology
   - web
 people:
-  - name: Tim Divoll 
+  - name: Timothy Divoll
     github_user: tdivoll
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
 links:
   - category: code
-    url: https://github.com/ridatadiscoverycenter/buoy-viewer-nuxt
+    url: https://github.com/ridatadiscoverycenter/buoy-viewer
   - category: code
     url: https://github.com/ridatadiscoverycenter/buoy-api
   - category: website
