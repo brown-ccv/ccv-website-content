@@ -19,7 +19,7 @@ people:
   - name: Jordan Lawson
     github_user: j-stat
 links:
-  - category: "website"
-    url: https://thepolicylab.brown.edu
   - category: "github"
     url: https://github.com/thepolicylab
+  - category: "website"
+    url: https://thepolicylab.brown.edu
