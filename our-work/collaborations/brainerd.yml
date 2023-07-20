@@ -1,0 +1,21 @@
+title: Elizabeth Brainerd
+id: brainerd-lab
+description: Research in the Brainerd lab integrates studies of anatomy, physiology and biomechanics toward a more complete understanding of vertebrate morphology and evolution. Recent work has focused on the development and applications of a new 3D imaging technology, X-ray Reconstruction of Moving Morphology (XROMM).
+active: True
+department:
+  - ecology-evolution-and-organismal-biology
+tags:
+  - computational-biology
+investigators:
+  - name: Elizabeth Brainerd
+    link: https://vivo.brown.edu/display/ebrainer
+people:
+  - name: Robert Gemma
+    github_user: RobertGemmaJr
+  - name: Bradford Roarr
+    github_user: broarr
+  - name: Galen Winsor
+    github_user: galenwinsor
+links:
+  - category: 'website'
+    url: https://elizabeth-brainerd.squarespace.com
