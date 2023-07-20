@@ -11,10 +11,10 @@ groups:
   - frank-lab
   - nassar-lab
 people:
-  - name: Mary McGrath
-    github_user: mcmcgrath13
   - name: Isabel Restrepo
     github_user: mirestrepo
+  - name: Heather Yu
+    github_user: hetd54
 links:
   - category: "code"
     url: https://github.com/brown-ccv/behavioral-task-hub

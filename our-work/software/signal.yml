@@ -1,0 +1,17 @@
+title: SIGNAL
+description: A web app that showcases data visualizations on how COVID-19 has impacted the hardest-hit neighborhoods. This data is made available to support policies that protect the most vulnerable Rhode Islanders.
+languages:
+  - javascript
+  - vuejs
+tags:
+  - public-health
+people:
+  - name: Ellen Duong
+    github_user: eldu
+  - name: Anna Murphy
+    github_user: anna-murphy
+groups:
+  - pphc
+links:
+  - category: website
+    url: https://signal-ri.org/
