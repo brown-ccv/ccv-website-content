@@ -8,7 +8,7 @@ links:
 call-for-action:
   text: Check Our Storage Options
   href: /storage
-  
+
 storage_tool_header: |
   This tool lets you compare the available storage options at Brown.
   Answer some of these questions or select services to compare their features
@@ -124,7 +124,6 @@ services:
           - 1 TB for best performance
       - name: storage_warmth
         class: hot
-
 
   - name: campus_file_storage_replicated
     description: |
@@ -293,15 +292,15 @@ services:
       - name: storage_warmth
         class: hot
 
-  - name: research_data_storage
+  - name: oscar_storage
     description: |
-      RData is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage / Research instead. You could also use RData for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
+      Oscar storage is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage instead. You could also use Oscar storage for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
 
-      - Synonyms: RDATA, GPFS, HPC Storage, Oscar Storage
+      - Synonyms: RData, HPC Storage, GPFS (historically) 
       - Best for: High performance storage of research data, perform computation on your data using Brown’s supercomputer
       - Limitations: Not accessible on all campus networks.
       - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://ccv.brown.edu/services/infrastructure/rdata/) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
+      - More info: [Documentation](https://ccv.brown.edu/services/computing#high-performance-computing-(oscar)) | [Request these services](https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B)
     features:
       - name: relative_speed
         class: fastest
@@ -393,7 +392,7 @@ services:
       [Hibernate](https://docs.ccv.brown.edu/hibernate/) is a secure, reliable, research data archive solution. Hibernate is a Brown OIT archival service for the research community to migrate inactive data off active Network-attached storage (NAS) platforms onto a lower cost, long-term retention environment. 
 
         * Hibernate leverages [StarFish](https://docs.ccv.brown.edu/starfish/) an application that provides a metadata and rules-based management framework for large file systems. StarFish makes storage tiering easy: moving data, reporting, zones. 
-        * A zone is a virtual-volume or collection of branches across different file-systems (GPFS, Isilion, LRS etc.). Each PI group is distributed into an individual zone. A zone provides:
+        * A zone is a virtual-volume or collection of branches across different file-systems (Oscar storage, Isilion, LRS etc.). Each PI group is distributed into an individual zone. A zone provides:
             * Types/sizes of files, access times
             * Hot Spots (Growth, user(s)/Group(s)
             * Action: Archive, Delete, Recover
@@ -434,13 +433,14 @@ services:
 questions:
   - question: What is the risk classification of your data?
     information: |
-      Brown has classified its information assets into one of four risk-based categories
+      **[Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)** is a 
+      system Brown has developed to classify its information assets into one of four risk-based categories
       (No Risk, Level 1, Level 2, or Level 3) for the purpose of determining who is allowed
       to access the information and what security precautions must be taken to protect it
       against unauthorized access. It is the data and service owner’s responsibility to ensure
       appropriate security measures are taken depending on the risk classification. If you
       have any questions or need help, please reach out to the Information Security Group
-      (isg@brown.edu). [Brown Data Risk Classification](https://it.brown.edu/computing-policies/risk-classifications)
+      (isg@brown.edu).
     affected_category: security
     default_answer: No Risk
     answers:
@@ -504,7 +504,7 @@ questions:
   - question: Is integration with Canvas required?
     information: |
       Are you using these data for teaching purposes, and if so, do you need your students
-      to be able to access the data from with the Canvas learning management system? 
+      to be able to access the data from with the Canvas learning management system?
     affected_category: canvas_integration
     default_answer: No
     answers:
@@ -570,8 +570,8 @@ questions:
       and writing. A "cold" data set is effectively never (or only _extremely_ rarely) accessed. 
       Cold storage is often referred to as "archival storage". So, cold storage solutions are most 
       appropriate when the analysis of the data is complete. That is, when you are done with 
-      the data, but you are keeping the around because of either obligations from grants or 
-      funding agencies, or just in case they are needed at some later time. 
+      the data, but you are keeping them around because of either obligations from grants or 
+      funding agencies, or just in case they are needed at some later time.
     affected_category: storage_warmth
     default_answer: Any
     answers:

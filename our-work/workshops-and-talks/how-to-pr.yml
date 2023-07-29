@@ -1,0 +1,19 @@
+title: "Coding and Collaboration using Git, GitHub and Pull Requests"
+description: "A hands-on workshop on version control systems: what they are, why every coder needs them, and how to use git for solo and collaborative coding."
+slug: how-to-pr
+languages:
+  - git
+  - markdown
+tags:
+  - collaboration
+  - oscar
+people:
+  - name: John Gerrard Holland
+    github_user: hollandjg
+groups:
+  - dscov
+links:
+  - category: website
+    url: https://brownccv.notion.site/Coding-Collaboration-using-Git-GitHub-and-Pull-Requests-afdc0e8c48a449f2864f0e3e8b5b4a59?pvs=4
+  - category: code
+    url: https://github.com/brown-ccv/how-to-pr
