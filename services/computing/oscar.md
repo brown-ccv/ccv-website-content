@@ -9,15 +9,16 @@ A large collection of software is available on Oscar, and CCV staff can help acq
 
 ## Some Popular Software Packages Available on Oscar
 
-* MATLAB
-* R
-* Python
-* CUDA
-* Perl
-* Julia
-* TensorFlow
-* Blender
-* Paraview
+- MATLAB
+- R
+- Python
+- CUDA
+- Perl
+- Julia
+- TensorFlow
+- Blender
+- Paraview
 
 <!-- {{< account_form >}} -->
-<a href="https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B">Request an Account</a>
+
+<a href="https://brown.co1.qualtrics.com/jfe/form/SV_0GtBE8kWJpmeG4B" class="button is-link">Request an Account</a>
