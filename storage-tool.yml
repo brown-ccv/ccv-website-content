@@ -27,8 +27,7 @@ services:
       installing Google Drive on your computer (which makes it act like a folder on your
       computer).
       - Best for: Collaboration in native Google files, easy access from anywhere, small amount of total storage, sharing with Google Groups.
-      - Limitations: Data transfer speeds may be limited, Globus can provide high bandwidth data transfers.
-      - Rate: Free
+      - Limitations: Data transfer speeds may be very limited, Globus can provide high bandwidth data transfers.
       - More info: [Service Catalog](https://it.brown.edu/services/type/google-drive) | [Documentation](https://ithelp.brown.edu/kb/48-google-drive) | [Redundancy](https://storage.googleapis.com/gfw-touched-accounts-pdfs/google-cloud-security-and-compliance-whitepaper.pdf)
 
     features:
@@ -60,9 +59,9 @@ services:
           - prevent editors from resharing
           - set expiration date
       - name: storage
-        class: 1 TB + 
-        notes: Not for large storage needs
-          - per user
+        class: 1 TB +
+        notes:
+          - Not for large storage needs
       - name: max_file_size
         class: 1 TB
       - name: storage_warmth
