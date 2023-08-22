@@ -3,9 +3,12 @@ title: Building tools for VR scientific visualization – VR Volume viewer
 author: Camilo Diaz
 date: 2023-08-21
 slug: vr-volume-viewer
-description: 
+description: In the modern world, an image is worth a thousand words, especially when it comes to visualizing scientific data. In most cases, the data can be displayed in a 3D environment where it can be translated, rotated, and scaled, giving researchers a new perspective on how to analyze data. Learn how CCV research implements and builds tools to observe and analyze 3D data in realtime, expanding the horizons of scientific visualization.
 tags:
-  - 
+  - 3D rendering 
+  - VR/AR
+  - Volume rendering
+
 ---
 
 # Building tools for VR scientific visualization – VR Volume viewer
@@ -48,7 +51,7 @@ The first prototype was able to load and render tiff stacks as volumes in graysc
 
 This is a demo of the temperature and salinity of the Rhode Island narragansett bay represented as volume data. Our tool is able to render mesh and volume data at the same time for a full 3D representation of the terrain plus the surrounding ocean. 
 
-![image5](/content/images/blog/vr-volume-viewer/image5.gif)
+<!-- ![image5](/content/images/blog/vr-volume-viewer/image5.gif) -->
 
 ### Conclusion
 It is important to do research on the type of tools that could be used to easily visualize 3D data. However, it is vital to understand the rendering techniques and algorithms that those tools work with. Being able to implement ray marching helped our team to quickly develop a tool that adjusted to our own requirements and we can maintain following software engineer standards.
