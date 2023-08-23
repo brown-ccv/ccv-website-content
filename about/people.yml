@@ -162,7 +162,7 @@ data:
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
-    bio: Ashley received training in Biology and Data Science at the University of Virginia. She works part time developing the CCV website, but her other passion is landscape construction. She loves working outside in all seasons, planting trees, building hardscapes, and creative problem solving. Outside of work, Ashley’s favorite pastimes are always in rotation, but most recently include purchasing gear, riding bikes, lifting heavy, brazilian jiu jitsu, drinking cocktails, and spending time with her rambunctious dog.
+    bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
     image: ashley_main.jpg
   - name: Bradford N. Roarr
     type: Full Time
@@ -203,18 +203,6 @@ data:
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
     bio: ''
     image: joshua_main.jpg
-  - name: Mary McGrath
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Lead Research Software Engineer
-    github_username: mcmcgrath13
-    brown_directory_uuid: fa814738-23c5-42b9-a63c-1ea789f3d1eb
-    bio: Mary is a data scientist/whatever-needs-doing-er at CCV. She enjoys learning
-      new tools and technologies, coffee, bike touring, and cooking excellent food.
-      Prior to coming to Brown, Mary was a consultant at Accenture specializing in
-      health data and analytics.
-    image: mary_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
@@ -242,15 +230,6 @@ data:
     github_username: hadleydalt
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
     image: hadley_main.jpg
-  - name: Minsik Cho
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: High-Performance Computing
-    title: HPC Intern
-    github_username: mscho527
-    brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
-    bio: Minsik is an undergrad student studying chemical physics.
-    image: minsik_main.jpg
   - name: Jiatao Yuan
     type: CCV Interns
     team: Advanced Research Computing
@@ -339,3 +318,56 @@ data:
     brown_directory_uuid: c694e24f-287d-4816-9f96-2753568d085c
     bio: Ford is a software engineer here at CCV, with a background in simulation-based prototyping and user interface development. His favorite weekend ventures include hiking a new trail in the White Mountains, or heading down to Narragansett Beach for a surf.
     image: ford_main.jpg
+  - name: Eric Salomaki
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Senior Genomics Data Scientist
+    github_username: EricSalomaki
+    brown_directory_uuid: 0b047bf7-47f2-4873-8eef-87d4d69aba98
+    bio: Eric is a genomics data scientist at the CCV. Before coming to Brown, he was a postdoc investigating genome evolution, organellar metabolism, and biodiversity of protists at the Czech Academy of Sciences. He earned his PhD from the University of Rhode Island studying the evolution of parasitism in red algae.
+    image: eric_main.jpg
+  - name: Heather Yu
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: hetd54
+    brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
+    bio: Heather is a research software engineer with a background in research applications and database creation. Prior to joining CCV, she was a Research Manager at Brown in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS).
+    image: heather_main.jpg
+  - name: Pratibha Raghunandan
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: High Performance Computing
+    title: Research Software Engineer
+    github_username: rubberduck2023
+    brown_directory_uuid: 0628ae98-dce6-41c4-986d-2c67b95512ec
+    bio: Pratibha is Research Software Engineer at CCV. She earned her PhD in Aerospace Engineering and has a background in code development for complex scientific problems.
+    image: pratibha_main.jpg
+  - name: Anna Murphy
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: anna-murphy
+    brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
+    bio: Anna is a software engineer and researcher with the CCV with a background in full-stack web development. She loves thinking about technology and media, and the different impacts they both have on the world.
+    image: anna_main.jpg
+  - name: Galen Winsor
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Research Software Engineer
+    github_username: galenwinsor
+    brown_directory_uuid: 77e8343c-498a-4bed-bedf-ed0a59d0fa3c
+    bio: Galen is passionate about building usable, flexible, and accessible web applications. Outside of work, he loves playing music, playing tennis and squash, and hiking. 
+    image: galen_main.jpg
+  - name: Rain Fan
+    type: Full Time
+    team: CCV Operations
+    title: Research Computing Consultant
+    github_username: rainxfan
+    brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
+    bio:
+    image: rain_main.jpg

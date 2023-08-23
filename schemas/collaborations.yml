@@ -4,6 +4,7 @@ id: "enum(
           'bnc',
           'borton-lab',
           'braingate',
+          'brainerd-lab',
           'frank-lab',
           'frickel',
           'hurt-lab',
@@ -28,7 +29,9 @@ id: "enum(
           'spade-lab',
           'aer-group',
           'wilhelmus-lab',
-          'the-policy-lab'
+          'the-policy-lab',
+          'acadia',
+          'division-biology-medicine'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -44,7 +47,7 @@ department: "enum(
             'software-engineering',
             'computational-psychiatry',
             'sociology',
-            'ecology',
+            'ecology-evolution-and-organismal-biology',
             'epidemiology',
             'finance',
             'computer-science',
@@ -53,7 +56,8 @@ department: "enum(
             'computational-biology',
             'applied-math',
             'clps',
-            'policy-lab'
+            'policy-lab', 
+            'biomedical'
           )"
 tag: "enum(
             'cloud-computing',
@@ -69,6 +73,7 @@ tag: "enum(
             'system-administration',
             'vr',
             'system-administration',
+            'university-administration',
             'climate-science',
             'government',
             'economics',

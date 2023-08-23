@@ -25,7 +25,9 @@ language: "enum(
                 'typescript',
                 'unix-cli',
                 'vuejs',
-                'bash'
+                'bash',
+                'markdown',
+                'git'
                 )"
 tag: "enum(
            'cloud-computing',
@@ -33,8 +35,9 @@ tag: "enum(
            'oscar',
            'hpc',
            'honeycomb',
-           'behavioral-tasks'
-           
+           'behavioral-tasks',
+           'collaboration',
+           'visualization'
            )"
 #people involved in the project
 person:
