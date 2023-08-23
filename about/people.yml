@@ -162,7 +162,15 @@ data:
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
+<<<<<<< HEAD
     bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
+=======
+<<<<<<< HEAD
+    bio: Ashley received training in Biology and Data Science at the University of Virginia. She works part time developing the CCV website, but her other passion is landscape construction. She loves working outside in all seasons, planting trees, building hardscapes, and creative problem solving. Outside of work, Ashley’s favorite pastimes are always in rotation, but most recently include purchasing gear, riding bikes, lifting heavy, brazilian jiu jitsu, drinking cocktails, and spending time with her rambunctious dog.
+=======
+    bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
+>>>>>>> 815f9fb (feat: update ashleys bio and photo)
+>>>>>>> temp
     image: ashley_main.jpg
   - name: Bradford N. Roarr
     type: Full Time
