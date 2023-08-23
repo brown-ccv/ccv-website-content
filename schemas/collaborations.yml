@@ -30,15 +30,7 @@ id: "enum(
           'aer-group',
           'wilhelmus-lab',
           'the-policy-lab',
-<<<<<<< HEAD
-<<<<<<< HEAD
           'acadia',
-=======
-	        'acadia',
->>>>>>> cfd9b05 (feat: add biomed to collaborations)
-=======
-          'acadia',
->>>>>>> 68a81b5 (Update schemas/collaborations.yml)
           'division-biology-medicine'
           )"
 description: str()
