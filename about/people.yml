@@ -162,15 +162,7 @@ data:
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
-<<<<<<< HEAD
     bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
-=======
-<<<<<<< HEAD
-    bio: Ashley received training in Biology and Data Science at the University of Virginia. She works part time developing the CCV website, but her other passion is landscape construction. She loves working outside in all seasons, planting trees, building hardscapes, and creative problem solving. Outside of work, Ashley’s favorite pastimes are always in rotation, but most recently include purchasing gear, riding bikes, lifting heavy, brazilian jiu jitsu, drinking cocktails, and spending time with her rambunctious dog.
-=======
-    bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
->>>>>>> 815f9fb (feat: update ashleys bio and photo)
->>>>>>> temp
     image: ashley_main.jpg
   - name: Bradford N. Roarr
     type: Full Time
@@ -211,6 +203,18 @@ data:
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
     bio: ''
     image: joshua_main.jpg
+  - name: Mary McGrath
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Lead Research Software Engineer
+    github_username: mcmcgrath13
+    brown_directory_uuid: fa814738-23c5-42b9-a63c-1ea789f3d1eb
+    bio: Mary is a data scientist/whatever-needs-doing-er at CCV. She enjoys learning
+      new tools and technologies, coffee, bike touring, and cooking excellent food.
+      Prior to coming to Brown, Mary was a consultant at Accenture specializing in
+      health data and analytics.
+    image: mary_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
@@ -238,6 +242,15 @@ data:
     github_username: hadleydalt
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
     image: hadley_main.jpg
+  - name: Minsik Cho
+    type: CCV Interns
+    team: Advanced Research Computing
+    subteam: High-Performance Computing
+    title: HPC Intern
+    github_username: mscho527
+    brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
+    bio: Minsik is an undergrad student studying chemical physics.
+    image: minsik_main.jpg
   - name: Jiatao Yuan
     type: CCV Interns
     team: Advanced Research Computing
@@ -305,7 +318,7 @@ data:
     title: Senior Data Scientist
     github_username: aisomar
     brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
-    bio: Aisulu is a data scientist at the CCV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms.
+    bio: Aisulu is a data scientist at the CCV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms. 
     image: aisulu_main.jpg
   - name: George Dang
     type: Full Time
@@ -314,8 +327,8 @@ data:
     title: Senior Data Scientist
     github_username: gtdang
     brown_directory_uuid: d91b1633-1534-41ab-b38d-78a23e99d843
-    bio: George is a data scientist with a background in biology and environmental science.
-      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics.
+    bio: George is a data scientist with a background in biology and environmental science. 
+      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics. 
     image: dang_main.jpg
   - name: Ford McDonald
     type: Full Time
