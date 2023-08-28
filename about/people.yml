@@ -156,7 +156,7 @@ data:
       microbes.
     image: joselynn_main.jpg
   - name: Ashley S. Lee
-    type: Part Time
+    type: Full Time
     team: Advanced Research Computing
     subteam: Data and Visualization
     title: Senior Research Software Engineer
@@ -203,18 +203,6 @@ data:
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
     bio: ''
     image: joshua_main.jpg
-  - name: Mary McGrath
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Lead Research Software Engineer
-    github_username: mcmcgrath13
-    brown_directory_uuid: fa814738-23c5-42b9-a63c-1ea789f3d1eb
-    bio: Mary is a data scientist/whatever-needs-doing-er at CCV. She enjoys learning
-      new tools and technologies, coffee, bike touring, and cooking excellent food.
-      Prior to coming to Brown, Mary was a consultant at Accenture specializing in
-      health data and analytics.
-    image: mary_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
@@ -242,15 +230,6 @@ data:
     github_username: hadleydalt
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
     image: hadley_main.jpg
-  - name: Minsik Cho
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: High-Performance Computing
-    title: HPC Intern
-    github_username: mscho527
-    brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
-    bio: Minsik is an undergrad student studying chemical physics.
-    image: minsik_main.jpg
   - name: Jiatao Yuan
     type: CCV Interns
     team: Advanced Research Computing
