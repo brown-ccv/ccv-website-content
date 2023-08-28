@@ -158,7 +158,7 @@ data:
   - name: Ashley S. Lee
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data and Visualization
+    subteam: Data & Visualization
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
@@ -290,15 +290,6 @@ data:
     brown_directory_uuid: 504c3db1-c3ec-4b15-9350-704e8bbe3036
     bio: Carlos is a data scientist at the CCV. Previously a Mathematics tenure-track faculty member at universities in the US and the Dominican Republic, Carlos likes using his skills working with data for wider social impact.
     image: carlos_main.jpg
-  - name: Aisulu Omar
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Senior Data Scientist
-    github_username: aisomar
-    brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
-    bio: Aisulu is a data scientist at the CCV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms. 
-    image: aisulu_main.jpg
   - name: George Dang
     type: Full Time
     team: Advanced Research Computing

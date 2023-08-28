@@ -72,6 +72,7 @@ group: "enum(
             'aer-group',
             'the-policy-lab',
             'brown-university-library',
+            'brainstorm',
             'lisi-lab',
             'yajima-lab',
             'huber-lab'
