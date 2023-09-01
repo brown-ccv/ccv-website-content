@@ -51,7 +51,7 @@ The first prototype was able to load and render tiff stacks as volumes in graysc
 
 This is a demo of the temperature and salinity of the Rhode Island narragansett bay represented as volume data. Our tool is able to render mesh and volume data at the same time for a full 3D representation of the terrain plus the surrounding ocean. 
 
-<!-- ![image5](/content/images/blog/vr-volume-viewer/image5.gif) -->
+![image5](/content/images/blog/vr-volume-viewer/image5.gif)
 
 ### Conclusion
 It is important to do research on the type of tools that could be used to easily visualize 3D data. However, it is vital to understand the rendering techniques and algorithms that those tools work with. Being able to implement ray marching helped our team to quickly develop a tool that adjusted to our own requirements and we can maintain following software engineer standards.

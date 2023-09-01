@@ -156,9 +156,9 @@ data:
       microbes.
     image: joselynn_main.jpg
   - name: Ashley S. Lee
-    type: Part Time
+    type: Full Time
     team: Advanced Research Computing
-    subteam: Data and Visualization
+    subteam: Data & Visualization
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
@@ -203,18 +203,6 @@ data:
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
     bio: ''
     image: joshua_main.jpg
-  - name: Mary McGrath
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Lead Research Software Engineer
-    github_username: mcmcgrath13
-    brown_directory_uuid: fa814738-23c5-42b9-a63c-1ea789f3d1eb
-    bio: Mary is a data scientist/whatever-needs-doing-er at CCV. She enjoys learning
-      new tools and technologies, coffee, bike touring, and cooking excellent food.
-      Prior to coming to Brown, Mary was a consultant at Accenture specializing in
-      health data and analytics.
-    image: mary_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
@@ -242,15 +230,6 @@ data:
     github_username: hadleydalt
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
     image: hadley_main.jpg
-  - name: Minsik Cho
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: High-Performance Computing
-    title: HPC Intern
-    github_username: mscho527
-    brown_directory_uuid: 883cb383-0b7a-40eb-8e4f-8a8805e7306a
-    bio: Minsik is an undergrad student studying chemical physics.
-    image: minsik_main.jpg
   - name: Jiatao Yuan
     type: CCV Interns
     team: Advanced Research Computing
@@ -311,15 +290,6 @@ data:
     brown_directory_uuid: 504c3db1-c3ec-4b15-9350-704e8bbe3036
     bio: Carlos is a data scientist at the CCV. Previously a Mathematics tenure-track faculty member at universities in the US and the Dominican Republic, Carlos likes using his skills working with data for wider social impact.
     image: carlos_main.jpg
-  - name: Aisulu Omar
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Senior Data Scientist
-    github_username: aisomar
-    brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
-    bio: Aisulu is a data scientist at the CCV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms. 
-    image: aisulu_main.jpg
   - name: George Dang
     type: Full Time
     team: Advanced Research Computing
