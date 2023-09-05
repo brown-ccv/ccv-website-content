@@ -7,7 +7,7 @@ description: In the modern world, an image is worth a thousand words, especially
 tags:
   - 3D rendering 
   - VR/AR
-  - Volume rendering
+  - volume rendering
 
 ---
 

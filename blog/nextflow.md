@@ -5,7 +5,9 @@ date: 2023-09-01
 slug: nextflow
 description: This blog discusses a workflow management tool, called **Nextflow**, its benefits, and how to use the software on Brown University's HPC cluster, OSCAR. 
 tags:
-  - 
+  - pipelines
+  - HPC
+  - software
 
 ---
 <p><center>Creators: Ashok Ragavendran, Paul Cao, and Jordan Lawson</center>
@@ -32,7 +34,7 @@ Center for Computation and Visualization
 
 ## What is Nextflow?  
 
-Nextflow is a workflow management tool that allow users to easily write data-intensive computational **pipelines**. These pipelines, or workflows as they are also called, have the following key features:
+[Nextflow](https://www.nextflow.io) is a workflow management tool that allow users to easily write data-intensive computational **pipelines**. These pipelines, or workflows as they are also called, have the following key features:
 
 - Sequential processing of files
 - Usually requires more than one tool
@@ -47,7 +49,7 @@ Nextflow is a workflow management tool that allow users to easily write data-int
 
 ### Reason 1: Reproducibility 
 
-![image1](/content/images/blog/nextflow/reproduce.png) 
+![reproduce](/content/images/blog/nextflow/reproduce.png) 
 
 The journal Nature published a survey that found that more than 70% of researchers have tried and failed to reproduce another scientist's experiments. This trend is hugely problematic because we then can't trust the findings from many studies enough to use them to make data-driven decisions. In short, we need tools and standards that help address the reproducibility crisis in science! 
 
@@ -72,9 +74,9 @@ An important feature of Snakemake and Nextflow workflow management tools is that
 
 Drawing from the field of computational biology, say we have samples from reduced representation bisulfite sequencing (RRBS data) that we need to process on OSCAR by performing the following set of actions (note: do not focus so much on what the steps are but instead that we are performing a sequence of actions): 
 
-![image2](/content/images/blog/nextflow/workflow.png)
+![workflow](/content/images/blog/nextflow/workflow.png)
 
-<h2><center>What do you do in this situation??</center></h2>
+<h2><center>What do you do in this situation?</center></h2>
 
 ## The Naive Approach: Cobbling Multiple Shell Scripts 
 
@@ -84,7 +86,7 @@ For example, if we need to run fastqc (for raw and trimmed reads steps in diagra
 
 **Script 1: For Fastqc**
 
-```
+```bash
 #!/bin/bash
 #SBATCH -t 48:00:00
 #SBATCH -n 32
@@ -104,7 +106,7 @@ done
 
 **Script 2: For Trimming** 
 
-```
+```bash
 #!/bin/bash
 #SBATCH -t 48:00:00
 #SBATCH -n 32
@@ -126,7 +128,7 @@ done
 
 **Script 3: For Fastqc on trimmed reads**
 
-```
+```bash
 #!/bin/bash
 #SBATCH -t 24:00:00
 #SBATCH -n 8
@@ -146,7 +148,7 @@ done
 
 **Script 4: For Alignment**
 
-```
+```bash
 #!/bin/bash
 #SBATCH -t 24:00:00
 #SBATCH -N 1
@@ -225,7 +227,7 @@ What is your GitHub token (we will keep this secret) - [Hit Enter when Done]?
 ```
 
 #### Step 1c: Create a new GitHub Token and enter it:
-![image3]("https://i.imgur.com/GBGDQhY.png")
+![create github token]("/content/images/blog/nextflow/create github token.png")
 
 #### Step 1d: Complete the Installation 
 
@@ -298,7 +300,7 @@ nextflow run hello_world.nf
 ```
 
 #### 2c. Workflow Output:
-![image4](https://i.imgur.com/8bNSCPv.png)
+![worklow output](/content/images/blog/nextflow/workflow output.png)
 
 #### 2d. Launch the Workflow with Custom Parameter:
 
@@ -308,7 +310,7 @@ nextflow run hello_world.nf --name "Bleuno Bear"
 ```
 
 #### 2e. Workflow Output with Custom Parameter:
-![image5](https://i.imgur.com/YpjvNoe.png)
+![workflow output with custom parameter](/content/images/blog/nextflow/workflow output with custom parameter.png)
 
 #### 2f. Inspect What is Going On Underneath the Hood of the Workflow:
 
@@ -321,7 +323,7 @@ ls -la
 
 ##### Nextflow Generated Commands:
 
-![image6](https://i.imgur.com/JK1Ly1s.png)
+![nextflow generated commands](/content/images/blog/nextflow/nextflow generated commands.png)
 
 
 ##### The Actual Command Run:
@@ -417,7 +419,7 @@ nextflow run count_words.nf --name "Blueno Bear"
 ```
 
 #### 3c. Workflow Output:
-![image7](https://i.imgur.com/649M0u8.png)
+![count words workflow output](/content/images/blog/nextflow/count words workflow output.png)
 
 
 In the next iteration, we want to save the word count to a text file; so we add to the `word_count.nf` so that it looks like the following (just copy and paste this over what was there):
@@ -466,7 +468,7 @@ nextflow run count_words_and_save.nf --name "Blueno Bear" --out_dir words_out
 ```
 
 ##### Workflow Output (Custom Parameter):
-![image8](https://i.imgur.com/nrrpAGV.png)
+![count words workflow output with custom parameter](/content/images/blog/nextflow/count words workflow output with custom parameter.png)
 
 ##### Inspect the output directory `words_out`:
 ```bash
@@ -577,7 +579,7 @@ nextflow run rrbs_sequencing_single.nf --read /gpfs/data/cbc/workflow_workshop/s
 ```
 
 #### 4c. Workflow Output:
-![image9](https://i.imgur.com/hhDbWAP.png)
+![workflow output 2](/content/images/blog/nextflow/workflow output 2.png)
 
 #### 4d. Inspect Workflow Outputs: 
 ```bash
@@ -666,7 +668,7 @@ A huge benefit of running pipelines with Nextflow is that we can create reproduc
 
 
 #### 6a. Find an update-to-containerized version of FastQC
-![image10](https://i.imgur.com/hSb5QAW.png)
+![FastQC](/content/images/blog/nextflow/FastQC.png)
 
 Find the container that fits your analysis needs at Dockerhub (hub.docker.com). For this example, we will use the Docker container found here: 
 
