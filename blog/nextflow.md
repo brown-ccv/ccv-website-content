@@ -1,5 +1,5 @@
 ---
-title: Basic Bioinformatics Workflows on OSCAR: Nextflow
+title: Basic Bioinformatics Workflows on OSCAR - Nextflow
 author: Jordan Lawson
 date: 2023-09-01
 slug: nextflow
