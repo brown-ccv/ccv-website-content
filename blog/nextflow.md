@@ -1,5 +1,5 @@
 ---
-title: Basic Bioinformatics Workflows on OSCAR: Nextflow
+title: Basic Bioinformatics Workflows on OSCAR - Nextflow
 author: Jordan Lawson
 date: 2023-09-01
 slug: nextflow
@@ -10,6 +10,7 @@ tags:
   - software
 
 ---
+
 <p><center>Creators: Ashok Ragavendran, Paul Cao, and Jordan Lawson</center>
  <center>Center for Computation and Visualization</center>
  <center>Center for Computational Biology of Human Disease - Computational Biology Core</center></p>
