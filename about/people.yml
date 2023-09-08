@@ -32,9 +32,9 @@ data:
     type: Full Time
     team: Leadership
     title: Assistant Chief Information Officer, Infrastructure and Research Computing
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: 3ddfe2bd-672a-0f09-03bc-cbb37339a434
-    bio: ''
+    bio: ""
     image: linnea_main.jpg
   - name: Paul Stey
     type: Full Time
@@ -50,9 +50,9 @@ data:
     type: Full Time
     team: Leadership
     title: HPC IT Architect
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: 0d83d4b5-85a5-62fc-44a3-81eaff49e183
-    bio: ''
+    bio: ""
     image: fulcomer_main.jpg
   - name: Thomas Serre
     type: Full Time
@@ -69,18 +69,18 @@ data:
     type: Full Time
     team: CCV Operations
     title: Senior HPC Systems Engineer
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: c14eb6ba-4b51-aabd-bf11-ef4071826060
-    bio: ''
+    bio: ""
     image: dave_main.jpg
   - name: Geoffrey Avila
     type: Full Time
     team: CCV Operations
     title: Senior HPC Systems Engineer
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: f904bb23-202f-48fb-bf93-7b7d326c7043
     image: avila_main.jpg
-  - name:  Nathan Wood
+  - name: Nathan Wood
     type: Full Time
     team: CCV Operations
     title: Senior Research Systems Administrator
@@ -94,7 +94,7 @@ data:
     title: Senior Research Systems Administrator
     github_username: paulobaptista
     brown_directory_uuid: 6e74d82d-bce5-0512-4ba0-f91ff313675a
-    bio: ''
+    bio: ""
     image: paulo_main.jpg
   - name: Singh Saluja
     type: Full Time
@@ -102,7 +102,7 @@ data:
     title: Research Computing Consultant
     github_username: singhsaluja
     brown_directory_uuid: 786ef442-dcc4-4463-aaf3-c5728a2a8d38
-    bio: ''
+    bio: ""
     image: saluja_main.jpg
   - name: Yang Liu
     type: Full Time
@@ -203,7 +203,7 @@ data:
     title: Research Software Engineer
     github_username: jashlu
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
-    bio: ''
+    bio: ""
     image: joshua_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
@@ -212,7 +212,11 @@ data:
     title: Research Software Engineer
     github_username: RobertGemmaJr
     brown_directory_uuid: e78668ed-0e7a-4e5f-a69e-ab4a5015961c
-    bio: ""
+    bio:
+      Robert started his career as a software engineer here at the CCV. He is specially interested
+      in the intersection of XR technologies with science, data, art, and visualization. Robert
+      received his undergraduate degree in Computer Science from the University of Rhode Island
+      where he also minored in music.
     image: gemma_main.jpg
   - name: Paul Hall
     type: Full Time
@@ -266,7 +270,8 @@ data:
     title: Data Scientist
     github_username: tdivoll
     brown_directory_uuid: d98138f4-a49c-4e1b-9bc4-1832b51f6f46
-    bio: Tim has dabbled in several aspects of data science such as computer vision for species detection,
+    bio:
+      Tim has dabbled in several aspects of data science such as computer vision for species detection,
       bioinformatics for metabarcoding, and statistics for ecological inference. He studied the foraging
       ecology of bats at Indiana State University for his PhD. Overall, he enjoys reproducible science
       and making pipelines accessible.
@@ -299,8 +304,8 @@ data:
     title: Senior Data Scientist
     github_username: gtdang
     brown_directory_uuid: d91b1633-1534-41ab-b38d-78a23e99d843
-    bio: George is a data scientist with a background in biology and environmental science. 
-      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics. 
+    bio: George is a data scientist with a background in biology and environmental science.
+      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics.
     image: dang_main.jpg
   - name: Ford McDonald
     type: Full Time
@@ -354,7 +359,7 @@ data:
     title: Research Software Engineer
     github_username: galenwinsor
     brown_directory_uuid: 77e8343c-498a-4bed-bedf-ed0a59d0fa3c
-    bio: Galen is passionate about building usable, flexible, and accessible web applications. Outside of work, he loves playing music, playing tennis and squash, and hiking. 
+    bio: Galen is passionate about building usable, flexible, and accessible web applications. Outside of work, he loves playing music, playing tennis and squash, and hiking.
     image: galen_main.jpg
   - name: Rain Fan
     type: Full Time
