@@ -1,8 +1,12 @@
 ---
 title: Building tools for VR scientific visualization – VR Volume viewer
 author: Camilo Diaz
+people:
+  - Camilo Diaz
 date: 2023-08-21
 slug: vr-volume-viewer
+team: GSDC (Graphics, Software and Data Core)
+project: vr-volume-viewer.yml
 description: In the modern world, an image is worth a thousand words, especially when it comes to visualizing scientific data. In most cases, the data can be displayed in a 3D environment where it can be translated, rotated, and scaled, giving researchers a new perspective on how to analyze data. Learn how CCV research implements and builds tools to observe and analyze 3D data in realtime, expanding the horizons of scientific visualization.
 tags:
   - 3D rendering 
