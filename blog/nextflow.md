@@ -1,5 +1,5 @@
 ---
-title: Basic Bioinformatics Workflows on OSCAR: Nextflow
+title: Basic Bioinformatics Workflows on OSCAR - Nextflow
 author: Jordan Lawson
 people: 
   - Ashok Ragavendran
@@ -17,6 +17,7 @@ tags:
   - software
 
 ---
+
 # Nextflow
 
 <p><center>Creators: Ashok Ragavendran, Paul Cao, and Jordan Lawson</center>
