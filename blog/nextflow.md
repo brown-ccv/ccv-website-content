@@ -7,6 +7,7 @@ people:
   - Jordan Lawson
 date: 2023-09-01
 slug: nextflow
+icon: dna
 team: Computational Biology Core
 project: 
 description: This blog discusses a workflow management tool, called **Nextflow**, its benefits, and how to use the software on Brown University's HPC cluster, OSCAR. 
