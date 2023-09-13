@@ -16,28 +16,15 @@ tags:
   - software
 
 ---
+<<<<<<< HEAD
 
 # Nextflow
+=======
+<center># Nextflow</center>
+>>>>>>> ce3ab8a (fix: center titles, remove extraneous info)
 
 <p><center>Creators: Ashok Ragavendran, Paul Cao, and Jordan Lawson</center>
- <center>Center for Computation and Visualization</center>
  <center>Center for Computational Biology of Human Disease - Computational Biology Core</center></p>
-
-Resources for help @brown <br> 
-
-COBRE CBHD Computational Biology Core
-- Office hours
-- https://cbc.brown.edu
-- slack channel on ccv-share
-- cbc-help@brown.edu <br>
-
-Center for Computation and Visualization
-- Office hours
-- https://ccv.brown.edu
-- ccv-share slack channel
-- https://docs.ccv.brown.edu
-- support@ccv.brown.edu
-
 
 # Overview 
 
