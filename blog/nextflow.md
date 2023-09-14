@@ -16,7 +16,7 @@ tags:
   - software
 
 ---
-<center># Nextflow</center>
+<h1 align="center">Nextflow</h1>
 
 <p><center>Creators: Ashok Ragavendran, Paul Cao, and Jordan Lawson</center>
  <center>Center for Computational Biology of Human Disease - Computational Biology Core</center></p>
