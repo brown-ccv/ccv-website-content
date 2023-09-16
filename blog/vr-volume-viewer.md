@@ -15,7 +15,7 @@ tags:
 
 ---
 
-<h1 align="center">Building tools for VR scientific visualization – VR Volume viewer</h1>
+<h1 text-align="center">Building tools for VR scientific visualization – VR Volume viewer</h1>
 
 ### Mission of the 3D visualization team at CCV
 CCV has worked in scientific visualization since its inception back in 2003, collaborating with multiple departments and faculty members to display 3D datasets on multiple devices such as display monitors,  VR HMD, mobile devices, browsers and multi-display CAVE systems. Examples of our work include terrain visualization of the Mars Galle crater for the department of planetary science, high resolution tiff imagery and VR poetry for the literary arts faculty and 3D representations of human hearts for biomedical engineering classes.
