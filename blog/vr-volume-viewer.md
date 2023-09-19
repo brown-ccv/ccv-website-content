@@ -28,13 +28,13 @@ Historically, we have worked in the OpenGL rendering pipeline to place these dat
 ### Volumetric datasets
 However, some of our collaborators reached out to us looking to display 3D volumetric datasets such as medical images in DICOM format, density of gasses in a volumetric space and temperatures in the ocean. Rendering this type of data in 3D space is a challenge due to the type of algorithms needed to map scalar values to voxels (a voxel is the 3D version of a 2D pixel).
 
-![image2](/content/images/blog/vr-volume-viewer/image2.png)
+<p align="center"><img src="/content/images/blog/vr-volume-viewer/image2.png"/></p>
 <center>3D cube represented as a set of voxels</center>
 
 ### Volumetric Ray Marching
 The most used algorithm is the ray marching technique. It consists of representing the data inside a unitary cube placed in the center of the scene (position x=0,y=0,z=0). After that, a ray is created from the camera to position in the direction of the cube location, and walk on the ray in small steps until it reaches the cube. At the ray-cube intersection point we can query the value from the data and move in the ray another step. If we find a different value, we can interpolate or take the maximum between the previously observed value and the new one. We continue moving in the same direction until we have traversed the cube. The accumulated value is converted into color space and passed to the fragment shader to paint  a colored-voxel on screen. As you can see, no triangles are needed to render this type of dataset. 
 
-![image3](/content/images/blog/vr-volume-viewer/image3.png)
+<p align="center"><img src="/content/images/blog/vr-volume-viewer/image3.png"/></p>
 <center>Graphic representation of ray marching algorithm</center>
 
 ### Challenges and solutions
@@ -53,11 +53,11 @@ After 2 months of research and implementation, we were able to come up with a vo
 ### The results
 The first prototype was able to load and render tiff stacks as volumes in grayscale. Most of our initial tests gave us a decent frame rate performance between 60-70 fps. In VR mode we were getting some jittering in the volume at the moment we rotated the camera, and some z-fighting depending on the point of view. Also, the application did not have enough interactivity with the user, only the camera movement (paneling, zoom). The data was being loaded using the command line arguments. The next iterations of the prototype included new features such as GUI on desktop mode and world space UI on VR mode, user interaction using VR controller (translate and rotate model), camera animation for multiple views and video exporting.
 
-![image4a](/content/images/blog/vr-volume-viewer/image4a.png) ![image4b](/content/images/blog/vr-volume-viewer/img4b.png)
+<p align="center"><img src="/content/images/blog/vr-volume-viewer/image4a.png"/><img src="/content/images/blog/vr-volume-viewer/image4b.png"/></p>
 
 This is a demo of the temperature and salinity of the Rhode Island narragansett bay represented as volume data. Our tool is able to render mesh and volume data at the same time for a full 3D representation of the terrain plus the surrounding ocean. 
 
-![image5](/content/images/blog/vr-volume-viewer/image5.gif)
+<p align="center"><img src="/content/images/blog/vr-volume-viewer/image5.gif"/></p>
 
 ### Conclusion
 It is important to do research on the type of tools that could be used to easily visualize 3D data. However, it is vital to understand the rendering techniques and algorithms that those tools work with. Being able to implement ray marching helped our team to quickly develop a tool that adjusted to our own requirements and we can maintain following software engineer standards.
