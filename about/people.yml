@@ -67,7 +67,8 @@ data:
     image: thomas_main.jpg
   - name: David D Johnson
     type: Full Time
-    team: High-Performance Computing Systems
+    team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior HPC Systems Engineer
     github_username: ""
     brown_directory_uuid: c14eb6ba-4b51-aabd-bf11-ef4071826060
@@ -75,14 +76,16 @@ data:
     image: dave_main.jpg
   - name: Geoffrey Avila
     type: Full Time
-    team: High-Performance Computing Systems
+    team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior HPC Systems Engineer
     github_username: ""
     brown_directory_uuid: f904bb23-202f-48fb-bf93-7b7d326c7043
     image: avila_main.jpg
   - name: Nathan Wood
     type: Full Time
-    team: High-Performance Computing Systems
+    team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior Research Systems Administrator
     github_username: n8wood-brown
     brown_directory_uuid: 857b928c-2ce1-fb2a-cde7-1a4ff21fa2d3
@@ -90,7 +93,8 @@ data:
     image: nate_main.jpg
   - name: Paulo S Baptista
     type: Full Time
-    team: High-Performance Computing Systems
+    team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior Research Systems Administrator
     github_username: paulobaptista
     brown_directory_uuid: 6e74d82d-bce5-0512-4ba0-f91ff313675a
@@ -98,7 +102,8 @@ data:
     image: paulo_main.jpg
   - name: Singh Saluja
     type: Full Time
-    team: High-Performance Computing Systems
+    team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Research Computing Consultant
     github_username: singhsaluja
     brown_directory_uuid: 786ef442-dcc4-4463-aaf3-c5728a2a8d38
@@ -106,7 +111,8 @@ data:
     image: saluja_main.jpg
   - name: Yang Liu
     type: Full Time
-    team: Research Technical Services
+    team: CCV Operations
+    subteam: Research Technical Services
     title: Research Service Center Manager
     github_username: yangliu2009
     brown_directory_uuid: e0e55df3-9f2c-4a12-a1de-742955164e1e
@@ -114,7 +120,8 @@ data:
     image: yang_main.jpg
   - name: Prasad Bandarkar
     type: Full Time
-    team: Research Technical Services
+    team: CCV Operations
+    subteam: Research Technical Services
     title: Research Computing Specialist
     github_username: prasadbandarkar
     brown_directory_uuid: 11533980-c5cd-4969-81ca-537543da9b72
@@ -361,7 +368,8 @@ data:
     image: galen_main.jpg
   - name: Rain Fan
     type: Full Time
-    team: Research Technical Services
+    team: CCV Operations
+    subteam: Research Technical Services
     title: Research Computing Consultant
     github_username: rainxfan
     brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
