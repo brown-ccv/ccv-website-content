@@ -22,7 +22,7 @@ CCV has worked in scientific visualization since its inception back in 2003, col
 It is our objective to do research on the best tools to implement these types of applications, going from open source libraries to free to use 3D visualization tools such as blender, paraview and Unity 3D. We also follow software engineering standards to ensure sustainable maintenance and produce efficient and effective products.
 Historically, we have worked in the OpenGL rendering pipeline to place these datasets into 3D scenes. This library has been fully optimized for triangle mesh indexing and rendering 3D content for interactive real time simulations. Most of the time the programmer only needs to focus on implementing tools to apply transformation to those triangles and facilitate the manipulation of objects by the user.
 
-<img style="align: center" src="/content/images/blog/vr-volume-viewer/image1.png"/>
+<p align="center"><img src="/content/images/blog/vr-volume-viewer/image1.png"/></p>
 <center>3D Bunny mesh represented as a set of triangles</center>
 
 ### Volumetric datasets
