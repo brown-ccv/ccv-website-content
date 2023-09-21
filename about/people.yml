@@ -19,7 +19,7 @@ data:
   - name: Isabel Restrepo
     type: Full Time
     team: Leadership
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Assistant Director of Research Software Engineering and Data Science
     github_username: mirestrepo
     brown_directory_uuid: cb8b0a49-ef4b-66e7-5ccc-6689493e8ace
@@ -32,9 +32,9 @@ data:
     type: Full Time
     team: Leadership
     title: Assistant Chief Information Officer, Infrastructure and Research Computing
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: 3ddfe2bd-672a-0f09-03bc-cbb37339a434
-    bio: ''
+    bio: ""
     image: linnea_main.jpg
   - name: Paul Stey
     type: Full Time
@@ -50,9 +50,9 @@ data:
     type: Full Time
     team: Leadership
     title: HPC IT Architect
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: 0d83d4b5-85a5-62fc-44a3-81eaff49e183
-    bio: ''
+    bio: ""
     image: fulcomer_main.jpg
   - name: Thomas Serre
     type: Full Time
@@ -68,21 +68,24 @@ data:
   - name: David D Johnson
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior HPC Systems Engineer
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: c14eb6ba-4b51-aabd-bf11-ef4071826060
-    bio: ''
+    bio: ""
     image: dave_main.jpg
   - name: Geoffrey Avila
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior HPC Systems Engineer
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: f904bb23-202f-48fb-bf93-7b7d326c7043
     image: avila_main.jpg
-  - name:  Nathan Wood
+  - name: Nathan Wood
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior Research Systems Administrator
     github_username: n8wood-brown
     brown_directory_uuid: 857b928c-2ce1-fb2a-cde7-1a4ff21fa2d3
@@ -91,22 +94,25 @@ data:
   - name: Paulo S Baptista
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior Research Systems Administrator
     github_username: paulobaptista
     brown_directory_uuid: 6e74d82d-bce5-0512-4ba0-f91ff313675a
-    bio: ''
+    bio: ""
     image: paulo_main.jpg
   - name: Singh Saluja
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Research Computing Consultant
     github_username: singhsaluja
     brown_directory_uuid: 786ef442-dcc4-4463-aaf3-c5728a2a8d38
-    bio: ''
+    bio: ""
     image: saluja_main.jpg
   - name: Yang Liu
     type: Full Time
     team: CCV Operations
+    subteam: Research Technical Services
     title: Research Service Center Manager
     github_username: yangliu2009
     brown_directory_uuid: e0e55df3-9f2c-4a12-a1de-742955164e1e
@@ -115,6 +121,7 @@ data:
   - name: Prasad Bandarkar
     type: Full Time
     team: CCV Operations
+    subteam: Research Technical Services
     title: Research Computing Specialist
     github_username: prasadbandarkar
     brown_directory_uuid: 11533980-c5cd-4969-81ca-537543da9b72
@@ -158,7 +165,7 @@ data:
   - name: Ashley S. Lee
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
@@ -168,7 +175,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     title: Lead Research Software Engineer
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     github_username: broarr
     brown_directory_uuid: 0adf6ab4-8d56-410a-8ac6-4b4ca136a534
     bio: Bradford is a software engineer with a broad range of experience including
@@ -179,16 +186,18 @@ data:
   - name: Camilo Diaz
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Graphics/Visualization Software Engineer
     github_username: kmilo9999
     brown_directory_uuid: 448fac67-1dea-42ef-8205-9305ac9b79a6
-    bio: ''
+    bio: Camilo is a software engineer who specializes in realtime simulation engines, 3D modeling and rendering, animations and VR technologies. 
+      He loves learning programing languages and enjoys developing applications in multiple frameworks. Outside of work, he passes his time developing his own video games, 
+      playing soccer and volunteering for multiple events accros Rhode Island. 
     image: camilo_main.jpg
   - name: Ellen Duong
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: eldu
     brown_directory_uuid: 1dee85fb-a5e4-474d-9f5e-ebef7d9d5ab7
@@ -197,20 +206,24 @@ data:
   - name: Joshua Lu
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: jashlu
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
-    bio: ''
+    bio: ""
     image: joshua_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: RobertGemmaJr
     brown_directory_uuid: e78668ed-0e7a-4e5f-a69e-ab4a5015961c
-    bio: ""
+    bio:
+      Robert started his career as a software engineer here at the CCV. He is specially interested
+      in the intersection of XR technologies with science, data, art, and visualization. Robert
+      received his undergraduate degree in Computer Science from the University of Rhode Island
+      where he also minored in music.
     image: gemma_main.jpg
   - name: Paul Hall
     type: Full Time
@@ -225,7 +238,7 @@ data:
   - name: Hadley Dalton
     type: CCV Interns
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Mobile App Development Intern
     github_username: hadleydalt
     brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
@@ -260,11 +273,12 @@ data:
   - name: Timothy Divoll
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Data Scientist
     github_username: tdivoll
     brown_directory_uuid: d98138f4-a49c-4e1b-9bc4-1832b51f6f46
-    bio: Tim has dabbled in several aspects of data science such as computer vision for species detection,
+    bio:
+      Tim has dabbled in several aspects of data science such as computer vision for species detection,
       bioinformatics for metabarcoding, and statistics for ecological inference. He studied the foraging
       ecology of bats at Indiana State University for his PhD. Overall, he enjoys reproducible science
       and making pipelines accessible.
@@ -272,7 +286,7 @@ data:
   - name: John Gerrard Holland
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Data Scientist
     github_username: hollandjg
     brown_directory_uuid: c58cefc3-dc27-408f-ae62-fa098803341d
@@ -284,7 +298,7 @@ data:
   - name: Carlos Paniagua
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Data Scientist
     github_username: cpaniaguam
     brown_directory_uuid: 504c3db1-c3ec-4b15-9350-704e8bbe3036
@@ -293,17 +307,17 @@ data:
   - name: George Dang
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Data Scientist
     github_username: gtdang
     brown_directory_uuid: d91b1633-1534-41ab-b38d-78a23e99d843
-    bio: George is a data scientist with a background in biology and environmental science. 
-      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics. 
+    bio: George is a data scientist with a background in biology and environmental science.
+      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics.
     image: dang_main.jpg
   - name: Ford McDonald
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: fordmcdonald
     brown_directory_uuid: c694e24f-287d-4816-9f96-2753568d085c
@@ -321,7 +335,7 @@ data:
   - name: Heather Yu
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: hetd54
     brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
@@ -330,7 +344,7 @@ data:
   - name: Pratibha Raghunandan
     type: Full Time
     team: Advanced Research Computing
-    subteam: High Performance Computing
+    subteam: High-Performance Computing
     title: Research Software Engineer
     github_username: rubberduck2023
     brown_directory_uuid: 0628ae98-dce6-41c4-986d-2c67b95512ec
@@ -339,7 +353,7 @@ data:
   - name: Anna Murphy
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: anna-murphy
     brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
@@ -348,7 +362,7 @@ data:
   - name: Galen Winsor
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: galenwinsor
     brown_directory_uuid: 77e8343c-498a-4bed-bedf-ed0a59d0fa3c
@@ -357,6 +371,7 @@ data:
   - name: Rain Fan
     type: Full Time
     team: CCV Operations
+    subteam: Research Technical Services
     title: Research Computing Consultant
     github_username: rainxfan
     brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60

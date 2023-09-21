@@ -1,8 +1,14 @@
 ---
 title: Basic Bioinformatics Workflows on OSCAR - Nextflow
 author: Jordan Lawson
+people: 
+  - Ashok Ragavendran
+  - Paul Cao
+  - Jordan Lawson
 date: 2023-09-01
 slug: nextflow
+team: Computational Biology Core
+project: 
 description: This blog discusses a workflow management tool, called **Nextflow**, its benefits, and how to use the software on Brown University's HPC cluster, OSCAR. 
 tags:
   - pipelines
@@ -10,26 +16,10 @@ tags:
   - software
 
 ---
+<h1 style="text-align: center;">Nextflow</h1>
 
 <p><center>Creators: Ashok Ragavendran, Paul Cao, and Jordan Lawson</center>
- <center>Center for Computation and Visualization</center>
  <center>Center for Computational Biology of Human Disease - Computational Biology Core</center></p>
-
-Resources for help @brown <br> 
-
-COBRE CBHD Computational Biology Core
-- Office hours
-- https://cbc.brown.edu
-- slack channel on ccv-share
-- cbc-help@brown.edu <br>
-
-Center for Computation and Visualization
-- Office hours
-- https://ccv.brown.edu
-- ccv-share slack channel
-- https://docs.ccv.brown.edu
-- support@ccv.brown.edu
-
 
 # Overview 
 
@@ -228,7 +218,7 @@ What is your GitHub token (we will keep this secret) - [Hit Enter when Done]?
 ```
 
 #### Step 1c: Create a new GitHub Token and enter it:
-![create github token]("/content/images/blog/nextflow/create github token.png")
+![create github token]("/content/images/blog/nextflow/create_github_token.png")
 
 #### Step 1d: Complete the Installation 
 
@@ -301,7 +291,7 @@ nextflow run hello_world.nf
 ```
 
 #### 2c. Workflow Output:
-![worklow output](/content/images/blog/nextflow/workflow output.png)
+![worklow output](/content/images/blog/nextflow/workflow_output.png)
 
 #### 2d. Launch the Workflow with Custom Parameter:
 
@@ -311,7 +301,7 @@ nextflow run hello_world.nf --name "Bleuno Bear"
 ```
 
 #### 2e. Workflow Output with Custom Parameter:
-![workflow output with custom parameter](/content/images/blog/nextflow/workflow output with custom parameter.png)
+![workflow output with custom parameter](/content/images/blog/nextflow/workflow_output_with_custom_parameter.png)
 
 #### 2f. Inspect What is Going On Underneath the Hood of the Workflow:
 
@@ -324,7 +314,7 @@ ls -la
 
 ##### Nextflow Generated Commands:
 
-![nextflow generated commands](/content/images/blog/nextflow/nextflow generated commands.png)
+![nextflow generated commands](/content/images/blog/nextflow/nextflow_generated_commands.png)
 
 
 ##### The Actual Command Run:
@@ -420,7 +410,7 @@ nextflow run count_words.nf --name "Blueno Bear"
 ```
 
 #### 3c. Workflow Output:
-![count words workflow output](/content/images/blog/nextflow/count words workflow output.png)
+![count words workflow output](/content/images/blog/nextflow/count_words_workflow_output.png)
 
 
 In the next iteration, we want to save the word count to a text file; so we add to the `word_count.nf` so that it looks like the following (just copy and paste this over what was there):
@@ -469,7 +459,7 @@ nextflow run count_words_and_save.nf --name "Blueno Bear" --out_dir words_out
 ```
 
 ##### Workflow Output (Custom Parameter):
-![count words workflow output with custom parameter](/content/images/blog/nextflow/count words workflow output with custom parameter.png)
+![count words workflow output with custom parameter](/content/images/blog/nextflow/count_words_workflow_output_with_custom_parameter.png)
 
 ##### Inspect the output directory `words_out`:
 ```bash
@@ -580,7 +570,7 @@ nextflow run rrbs_sequencing_single.nf --read /gpfs/data/cbc/workflow_workshop/s
 ```
 
 #### 4c. Workflow Output:
-![workflow output 2](/content/images/blog/nextflow/workflow output 2.png)
+![workflow output 2](/content/images/blog/nextflow/workflow_output_2.png)
 
 #### 4d. Inspect Workflow Outputs: 
 ```bash
