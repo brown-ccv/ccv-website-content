@@ -60,5 +60,5 @@ This is a demo of the temperature and salinity of the Rhode Island narragansett 
 <p align="center"><img src="/content/images/blog/vr-volume-viewer/image5.gif"/></p>
 
 ### Conclusion
-It is important to research the types of tools available for easily visualizing 3D data. However, it's equally vital to understand the rendering techniques and algorithms these tools employ. Gaining an understanding of, and being able to implement, ray marching enabled our team to quickly develop a tool that meets our specific needs. This tool can be maintained according to established software engineering standards.
+It is important to research the types of tools available for easily visualizing 3D data. However, it's equally vital to understand the rendering techniques and algorithms these tools employ. Gaining an understanding of, and being able to implement ray marching enabled our team to quickly develop a tool that meets our specific needs. This tool can be maintained according to established software engineering standards.
 
