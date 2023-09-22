@@ -7,7 +7,7 @@ date: 2023-08-21
 slug: vr-volume-viewer
 team: GSDC (Graphics, Software and Data Core)
 project: vr-volume-viewer.yml
-description: In the modern world, an image is worth a thousand words, especially when it comes to visualizing scientific data. In most cases, the data can be displayed in a 3D environment where it can be translated, rotated, and scaled, giving researchers a new perspective on how to analyze data. Learn how CCV research implements and builds tools to observe and analyze 3D data in realtime, expanding the horizons of scientific visualization.
+description: In today's world, an image is often more eloquent than a thousand words, particularly when it comes to visualizing scientific data. Typically, this data can be presented in a 3D environment, where it can be translated, rotated, and scaled, offering researchers new perspectives for data analysis. Learn how CCV researchers implement and build tools for real-time observation and analysis of 3D data, thereby broadening the horizons of scientific visualization.
 tags:
   - 3D rendering 
   - VR/AR
@@ -60,6 +60,5 @@ This is a demo of the temperature and salinity of the Rhode Island narragansett 
 <p align="center"><img src="/content/images/blog/vr-volume-viewer/image5.gif"/></p>
 
 ### Conclusion
-It is important to do research on the type of tools that could be used to easily visualize 3D data. However, it is vital to understand the rendering techniques and algorithms that those tools work with. Being able to implement ray marching helped our team to quickly develop a tool that adjusted to our own requirements and we can maintain following software engineer standards.
-
+It is important to research the types of tools available for easily visualizing 3D data. However, it's equally vital to understand the rendering techniques and algorithms these tools employ. Gaining an understanding of, and being able to implement ray marching enabled our team to quickly develop a tool that meets our specific needs. This tool can be maintained according to established software engineering standards.
 
