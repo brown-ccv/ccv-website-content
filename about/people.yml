@@ -122,7 +122,7 @@ data:
     github_username:  ""
     brown_directory_uuid: c67a6c91-53f3-3502-8fcb-006770f4d76e 
     bio: ''
-    image: paul_k_main.png
+    image: koussa_main.png
   - name: Paulo S Baptista
     type: Full Time
     team: CCV Operations
@@ -180,7 +180,7 @@ data:
     github_username: paulcao-brown 
     brown_directory_uuid: ec11f732-efa0-4fa8-9cd2-030b45cb2929 
     bio: ''
-    image: paul_c_main.png
+    image: cao_main.png
   - name: Jordan Lawson
     type: Full Time
     team: Advanced Research Computing
@@ -252,7 +252,7 @@ data:
     github_username: digicosmos86 
     brown_directory_uuid: 58724daa-f619-4f86-88f0-30635dc5178b 
     bio: ''
-    image: paul_x_main.png
+    image: xu_main.png
   - name: Joshua Lu
     type: Full Time
     team: Advanced Research Computing
