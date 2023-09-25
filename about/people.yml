@@ -89,8 +89,40 @@ data:
     title: Senior Research Systems Administrator
     github_username: n8wood-brown
     brown_directory_uuid: 857b928c-2ce1-fb2a-cde7-1a4ff21fa2d3
-    bio:
+    bio: "" 
     image: nate_main.jpg
+  - name: Jarrod Winsor 
+    type: Full Time
+    team: CCV Operations
+    title: Lead Research Systems Administrator
+    github_username: 
+    brown_directory_uuid: 1b81a653-ade8-4850-97ea-682644b714d0 
+    bio: ''
+    image: jarrod_main.png
+  - name: Timothy Poli 
+    type: Full Time
+    team: CCV Operations
+    title: Senior Research Systems Administrator
+    github_username: "" 
+    brown_directory_uuid: 6ad65e2c-ba76-358a-dd69-9ab5508b3d8b 
+    bio: ''
+    image: timothy_main.png
+  - name: Michael Antonelli 
+    type: Full Time
+    team: CCV Operations
+    title: Research Systems Administrator
+    github_username: ""
+    brown_directory_uuid: ddb582f2-d4fd-4d8a-adf1-4c4e37902ddd 
+    bio: ''
+    image: michael_main.png
+  - name: Paul Koussa
+    type: Full Time
+    team: Leadership 
+    title: Associate Director of Research Systems 
+    github_username:  ""
+    brown_directory_uuid: c67a6c91-53f3-3502-8fcb-006770f4d76e 
+    bio: ''
+    image: koussa_main.png
   - name: Paulo S Baptista
     type: Full Time
     team: CCV Operations
@@ -140,6 +172,15 @@ data:
       that crisis and uncertainty are a gift and that we must be involved in shaping
       how change happens.
     image: august_main.jpg
+  - name: Paul Cao 
+    type: Full Time
+    team: Advanced Research Computing
+    title: Genomics Data Scientist 
+    subteam: Computational Biology Core
+    github_username: paulcao-brown 
+    brown_directory_uuid: ec11f732-efa0-4fa8-9cd2-030b45cb2929 
+    bio: ''
+    image: cao_main.png
   - name: Jordan Lawson
     type: Full Time
     team: Advanced Research Computing
@@ -203,6 +244,15 @@ data:
     brown_directory_uuid: 1dee85fb-a5e4-474d-9f5e-ebef7d9d5ab7
     bio: ""
     image: ellen_main.jpg
+  - name: Paul Xu
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Data & Visualization
+    title: Data Scientist 
+    github_username: digicosmos86 
+    brown_directory_uuid: 58724daa-f619-4f86-88f0-30635dc5178b 
+    bio: ''
+    image: xu_main.png
   - name: Joshua Lu
     type: Full Time
     team: Advanced Research Computing
