@@ -89,7 +89,7 @@ data:
     title: Senior Research Systems Administrator
     github_username: n8wood-brown
     brown_directory_uuid: 857b928c-2ce1-fb2a-cde7-1a4ff21fa2d3
-    bio:
+    bio: "" 
     image: nate_main.jpg
   - name: Jarrod Winsor 
     type: Full Time
@@ -103,7 +103,7 @@ data:
     type: Full Time
     team: CCV Operations
     title: Senior Research Systems Administrator
-    github_username: 
+    github_username: "" 
     brown_directory_uuid: 6ad65e2c-ba76-358a-dd69-9ab5508b3d8b 
     bio: ''
     image: 
@@ -111,7 +111,7 @@ data:
     type: Full Time
     team: CCV Operations
     title: Research Systems Administrator
-    github_username: 
+    github_username: ""
     brown_directory_uuid: ddb582f2-d4fd-4d8a-adf1-4c4e37902ddd 
     bio: ''
     image: 
@@ -119,7 +119,7 @@ data:
     type: Full Time
     team: Leadership 
     title: Associate Director of Research Systems 
-    github_username: 
+    github_username:  ""
     brown_directory_uuid: c67a6c91-53f3-3502-8fcb-006770f4d76e 
     bio: ''
     image: 
