@@ -136,10 +136,10 @@ data:
     type: Full Time
     team: CCV Operations
     subteam: High-Performance Computing Systems
-    title: Research Computing Consultant
+    title: Lead HPC Engineer
     github_username: singhsaluja
     brown_directory_uuid: 786ef442-dcc4-4463-aaf3-c5728a2a8d38
-    bio: ""
+    bio: Singh is a HPC Engineer in the Systems Group at CCV. He did his Masters in Computer Science at Brown, with an emphasis on Machine Learning.
     image: saluja_main.jpg
   - name: Yang Liu
     type: Full Time
