@@ -427,3 +427,11 @@ data:
     brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
     bio:
     image: rain_main.jpg
+  - name: Prithvi Thakur
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: High Performance Computing
+    title: Research Software Engineer
+    github_username: thehalfspace
+    brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3 
+    bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
