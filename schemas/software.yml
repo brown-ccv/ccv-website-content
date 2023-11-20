@@ -45,7 +45,8 @@ tag: "enum(
           'pipelines',
           'government',
           'chemical-physics',
-          'metabolomics'
+          'metabolomics',
+          'volcanology'
           )"
 #people involved in the project
 person:
@@ -71,8 +72,10 @@ group: "enum(
             'aer-group',
             'the-policy-lab',
             'brown-university-library',
+            'brainstorm',
             'lisi-lab',
-            'yajima-lab'
+            'yajima-lab',
+            'huber-lab'
             )"
 # These are links associated with the software
 link:

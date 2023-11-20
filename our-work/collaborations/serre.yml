@@ -14,7 +14,7 @@ people:
   - name: Rohit Kakodkar
     github_user: rkakodkar
 links:
-  - category: "website"
-    url: "https://serre-lab.clps.brown.edu/"
   - category: "github"
     url: https://github.com/serre-lab
+  - category: "website"
+    url: "https://serre-lab.clps.brown.edu/"

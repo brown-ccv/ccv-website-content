@@ -1,0 +1,17 @@
+title: PROFOUND
+description: A web app to support Prevention and Rescue of Fentanyl and Other Opioid Overdoses Using Optimized Naloxone Distribution Strategies (PROFOUND), a five-year study aiming to develop a tool to optimize naloxone distribution strategies.
+languages:
+  - javascript
+  - vuejs
+tags:
+  - public-health
+people:
+  - name: Ellen Duong
+    github_user: eldu
+  - name: Anna Murphy
+    github_user: anna-murphy
+groups:
+  - pphc
+links:
+  - category: website
+    url: https://profoundmodel.org/

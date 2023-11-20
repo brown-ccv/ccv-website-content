@@ -7,7 +7,7 @@ tagDescription: Check rates for advanced research computing that require extra r
 date: 2020-08-05T18:04:51.000+00:00
 lead: We provide services with limited resources at no cost to all
   members affiliated with Brown. For advanced computing that requires extra resources,
-  we charge a quarterly fee. See below the rates for FY22.
+  we charge a quarterly fee. See below the rates for FY24.
 
 ---
 
@@ -105,8 +105,8 @@ lead: We provide services with limited resources at no cost to all
 </div>
 
 * Note, these values are subject to periodic review and changes
-* Each account is assigned 20G Home, 512G Scratch (purged every 30 days).
-* Priority accounts and Exploratory accounts with a PI get a data directory.
+* Each account is assigned 100G Home, 512G Scratch (purged every 30 days).
+* Priority accounts and Exploratory accounts associated with a PI get a data directory.
 * Exploratory accounts without a PI have no data directory provided.
 * Priority accounts have a higher Quality-of-Service (QOS) i.e. priority accounts will have faster job start times.
 * The maximum number of cores and duration may change based on cluster utilization.

@@ -12,6 +12,8 @@ tags:
 people:
   - name: John Gerrard Holland
     github_user: hollandjg
+  - name: George Dang
+    github_user: gtdang
 links:
   - category: code
     url: https://github.com/AutoResearch/autora
