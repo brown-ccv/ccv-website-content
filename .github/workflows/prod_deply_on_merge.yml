@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '16'
       - uses: actions/checkout@v3
         with:
           repository: brown-ccv/ccv-website-nuxt
@@ -27,6 +27,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          firebaseToolsVersion: 9.12.1 # Pin firebase tools versions to same as ccv-website-nuxt
           projectId: ccv-brown-edu
           channelId: live
         env:
