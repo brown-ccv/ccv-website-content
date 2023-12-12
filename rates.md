@@ -32,7 +32,7 @@ lead: We provide services with limited resources at no cost to all
         <th>Memory(GB)</th>
         <th>GPU</th>
         <th>Max Walltime* (Hours)</th>
-        <th>Cost per Quarter</th>
+        <th>Cost per Month</th>
       </tr>
     </thead>
     <tbody>
@@ -52,7 +52,7 @@ lead: We provide services with limited resources at no cost to all
         <td>1,500</td>
         <td>2 Std.</td>
         <td>96</td>
-        <td>$200</td>
+        <td>$67</td>
       </tr>
       <tr>
         <td>HPC Priority+</td>
@@ -61,7 +61,7 @@ lead: We provide services with limited resources at no cost to all
         <td>3,000</td>
         <td>2 Std.</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>Standard GPU Priority</td>
@@ -70,7 +70,7 @@ lead: We provide services with limited resources at no cost to all
         <td>192</td>
         <td>4 Std.</td>
         <td>96</td>
-        <td>$200</td>
+        <td>$67</td>
       </tr>
       <tr>
         <td>Standard GPU Priority+</td>
@@ -79,7 +79,7 @@ lead: We provide services with limited resources at no cost to all
         <td>384</td>
         <td>8 Std.</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>High End GPU Priority</td>
@@ -88,7 +88,7 @@ lead: We provide services with limited resources at no cost to all
         <td>256</td>
         <td>4 high-end</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>Large Memory Priority</td>
@@ -97,7 +97,7 @@ lead: We provide services with limited resources at no cost to all
         <td>2TB</td>
         <td>-</td>
         <td>96</td>
-        <td>$100</td>
+        <td>$33</td>
       </tr>
     </tbody>
   </table>
