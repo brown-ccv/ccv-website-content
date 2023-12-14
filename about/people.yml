@@ -436,3 +436,12 @@ data:
     brown_directory_uuid: 58724daa-f619-4f86-88f0-30635dc5178b
     bio: Paul's diverse responsibilities as a Data Scientist include building deep learning models in computer vision, engineering data science software, and maintaining data science infrastructure. Paul received his Sc.M. in Computer Science with focus on AI/ML from Brown University and Ph.D. in Curriculum and Instruction with focus on CS Education. In his own time, Paul likes to geek out on computer and natural languages. He is also an avid photographer with his work published in an international magazine.
     image: px_main.jpg 
+  - name: Prithvi Thakur
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: High-Performance Computing
+    title: Research Software Engineer
+    github_username: thehalfspace
+    brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3 
+    bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
+    image: prithvi_main.jpg
