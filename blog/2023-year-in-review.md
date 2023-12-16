@@ -16,13 +16,13 @@ tags:
 As we bid farewell to 2023, it's time to take a moment to reflect on the incredible journey of the past year. 
 
 <div style="text-align: center;">
-<img src="/content/images/blog/2023-year-in-review/active-oscar-users-in-2023" alt="Active Oscar Users in 2023"/>
-<img src="/content/images/blog/2023-year-in-review/oscar-jobs" alt="Oscar Jobs"/>
-<img src="/content/images/blog/2023-year-in-review/cpu-core-hours" alt="CPU Core Hours"/>
+<img src="/content/images/blog/2023-year-in-review/active-oscar-users-in-2023.png" alt="Active Oscar Users in 2023"/>
+<img src="/content/images/blog/2023-year-in-review/oscar-jobs.png" alt="Oscar Jobs"/>
+<img src="/content/images/blog/2023-year-in-review/cpu-core-hours.png" alt="CPU Core Hours"/>
 </div>
 
 <div style="text-align: center;">
-<img src="/content/images/blog/2023-year-in-review/active-oscar-users" alt="Active Oscar Users"/>
+<img src="/content/images/blog/2023-year-in-review/active-oscar-users.png" alt="Active Oscar Users"/>
 </div>
 
 - In June, Oscar transitioned from General Parallel File System (GPFS) to an all-flash parallel filesystem (**VAST data**) as its primary storage pool. And furthermore, it was done without any major issues. This is arguably the biggest change Oscar has gone through in the last 10 years!
