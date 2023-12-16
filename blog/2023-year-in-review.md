@@ -4,7 +4,7 @@ author: Ellen Duong
 people:
     - Ellen Duong
 date: 2023-12-14
-slug: 2023-highlights
+slug: 2023-year-in-review
 team: GSDC (Graphics, Software and Data Core)
 project:
 description: Year in review
