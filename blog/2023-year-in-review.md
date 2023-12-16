@@ -1,5 +1,5 @@
 ---
-title: 2023 at CCV: A Year of Progress and Innovation
+title: 2023 at CCV, A Year of Progress and Innovation
 author: Ellen Duong
 people:
     - Ellen Duong
@@ -7,8 +7,9 @@ date: 2023-12-14
 slug: 2023-highlights
 team: GSDC (Graphics, Software and Data Core)
 project:
-description: 
+description: Year in review
 tags:
+    - software
 
 ---
 
