@@ -32,14 +32,14 @@ lead: We provide services with limited resources at no cost to all
         <th>Memory(GB)</th>
         <th>GPU</th>
         <th>Max Walltime* (Hours)</th>
-        <th>Cost per Quarter</th>
+        <th>Cost per Month</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td width="25%"> Exploratory <br> <!-- Make it Single Line. -->
         <td> <br> batch <br> gpu <br> bigmem</td>
-        <td> <br> 32 <br> 4 <br> 32 <br> </td>
+        <td> <br> 32 <br> 12 <br> 32 <br> </td>
         <td> <br> 246 <br> 192 <br> 752 </td>
         <td> <br> None <br> 2 Std. <br> None </td>
         <td> 48</td>
@@ -52,7 +52,7 @@ lead: We provide services with limited resources at no cost to all
         <td>1,500</td>
         <td>2 Std.</td>
         <td>96</td>
-        <td>$200</td>
+        <td>$67</td>
       </tr>
       <tr>
         <td>HPC Priority+</td>
@@ -61,34 +61,34 @@ lead: We provide services with limited resources at no cost to all
         <td>3,000</td>
         <td>2 Std.</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>Standard GPU Priority</td>
         <td>gpu</td>
-        <td>16</td>
+        <td>24</td>
         <td>192</td>
         <td>4 Std.</td>
         <td>96</td>
-        <td>$200</td>
+        <td>$67</td>
       </tr>
       <tr>
         <td>Standard GPU Priority+</td>
         <td>gpu</td>
-        <td>32</td>
+        <td>48</td>
         <td>384</td>
         <td>8 Std.</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>High End GPU Priority</td>
         <td>gpu-he</td>
-        <td>16</td>
+        <td>24</td>
         <td>256</td>
         <td>4 high-end</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>Large Memory Priority</td>
@@ -97,7 +97,7 @@ lead: We provide services with limited resources at no cost to all
         <td>2TB</td>
         <td>-</td>
         <td>96</td>
-        <td>$100</td>
+        <td>$33</td>
       </tr>
     </tbody>
   </table>
