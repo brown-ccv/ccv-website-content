@@ -168,10 +168,10 @@ lead: We provide services with limited resources at no cost to all
 * 1TB per Brown Faculty Member - Free
 * 10TB per awarded Grant at the request of the Brown PI - an active grant account number will be required to provide this allocation and the data will be migrated to archive storage at the end of the grant.
 * Additional Storage Allocation
-  * Rdata: $100 / Terabyte / year
-  * Stronghold Storage: $100 / Terabyte / Year
-  * Campus File Storage (replicated): $100 / Terabyte / Year
-  * Campus File Storage (non-replicated): $50 / Terabyte / Year
+  * Rdata: $8.3 / Terabyte / Month ($100 / Terabyte / Year)
+  * Stronghold Storage: $8.3 / Terabyte / Month ($100 / Terabyte / Year)
+  * Campus File Storage (replicated): $8.3 / Terabyte / Month ($100 / Terabyte / Year)
+  * Campus File Storage (non-replicated): $4.2 / Terabyte / Month ($50 / Terabyte / Year)
 
 ## Pooled Storage Allocations
 
