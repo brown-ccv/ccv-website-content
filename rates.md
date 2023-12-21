@@ -7,7 +7,7 @@ tagDescription: Check rates for advanced research computing that require extra r
 date: 2020-08-05T18:04:51.000+00:00
 lead: We provide services with limited resources at no cost to all
   members affiliated with Brown. For advanced computing that requires extra resources,
-  we charge a quarterly fee. See below the rates for FY24.
+  we charge a monthly fee. See below the rates for FY24.
 
 ---
 
