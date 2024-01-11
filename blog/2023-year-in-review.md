@@ -2,8 +2,48 @@
 title: 2023 at CCV
 author: Ellen Duong
 people:
+    - Ashok Ragavendran
+    - August Guang
+    - Eric Salomaki
+    - Jordan Lawson
+    - Joselynn Wallace
+    - Paul Cao
+    - Paul Xu
+    - Anna Murphy
+    - Ashley S. Lee
+    - Bradford N. Roarr
+    - Camilio Diaz
+    - Carlos Paniagua
     - Ellen Duong
-date: 2023-12-14
+    - Ford McDonald
+    - Galen Winsor
+    - George Dang
+    - Heather Yu
+    - Isabel Restrepo
+    - John Gerrard Holland
+    - Joshua Lu
+    - Robert Gemma, Jr.
+    - Timothy Divoll
+    - Paul Hall
+    - Pratibha Raghunandan
+    - Pritivi Thakur
+    - David D Johnson
+    - Geoffrey Avila
+    - Nathan Wood
+    - Paulo S Baptista
+    - Singh Saluja
+    - Prasad Bandarkar
+    - Rain Fan
+    - Yang Liu
+    - Jarrod Winsor
+    - Linnea Wolfe
+    - Michael Antonelli
+    - Paul Koussa
+    - Paul Stey
+    - Sam Fulcomer
+    - Thomas Serre
+    - Timothy Poli
+date: 2024-01-11
 slug: 2023-year-in-review
 team: GSDC (Graphics, Software and Data Core)
 project:
