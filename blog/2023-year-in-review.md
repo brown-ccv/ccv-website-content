@@ -47,7 +47,7 @@ date: 2024-01-11
 slug: 2023-year-in-review
 team: GSDC (Graphics, Software and Data Core)
 project:
-description: Year in review
+description: 2023 was a year of numerous strides at CCV and in the research community here at Brown. Here are some of the many highlights over the past year!
 tags:
     - software
 
