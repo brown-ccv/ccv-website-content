@@ -1,5 +1,5 @@
 ---
-title: 2023 at CCV, A Year of Progress and Innovation
+title: 2023 at CCV
 author: Ellen Duong
 people:
     - Ellen Duong
@@ -44,4 +44,4 @@ In 2023, we supported 60 projects and collaborations throughout Brown. The follo
 - We released two Julia Packages
 - We developed and released a versatile utility script to streamline data exports to Oscar, led two XNAT Workshops for the neuroimaging community, and contributed to the MNE-BIDS open-source project. Furthermore, we enhanced the xnat2bids pipeline to accommodate EEG and Physiological data, highlighting our collective commitment to optimizing neuroimaging workflows and fostering open-source collaboration.
 
-Thank you to our wonderful team! We held warm welcomes to **Anna Murphy**, **Prithvi Thakur**, **Galen Winsor**, and **Heather Yu**, the latest additions to our growing CCV team. 
+Thank you to our wonderful team! In 2023, **Anna Murphy**, **Prithvi Thakur**, **Galen Winsor**, and **Heather Yu**, joined our growing CCV team. We look forward to the journey ahead in 2024.
