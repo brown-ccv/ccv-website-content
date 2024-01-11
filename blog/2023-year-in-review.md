@@ -18,15 +18,31 @@ tags:
 Here are some quick statistics from our Brown community made in 2023. We had 1557 active Oscar users, which is a 24.66% increase in activity from the year prior. Over 3.6 million jobs were run in Oscar totalling over 57 million CPU core hours! Since 2018, the number of active oscar users has increased and well as demand for resources. Over **470** questions were asked and helped in our weekly office hours.
 
 <div style="text-align: center;">
-    <img src="/content/images/blog/2023-year-in-review/active-oscar-users-in-2023.png" alt="Active Oscar Users in 2023"/>
-    <img src="/content/images/blog/2023-year-in-review/oscar-jobs.png" alt="Oscar Jobs"/>
-    <img src="/content/images/blog/2023-year-in-review/cpu-core-hours.png" alt="CPU Core Hours"/>
+    <img 
+        src="/content/images/blog/2023-year-in-review/active-oscar-users-in-2023.png" 
+        alt="Active Oscar Users in 2023"
+        style="border: 5px solid #555; width: 400px"
+    />
+    <img 
+        src="/content/images/blog/2023-year-in-review/oscar-jobs.png" 
+        alt="Oscar Jobs"
+        style="border: 5px solid #555; width: 400px"
+    />
+    <img 
+        src="/content/images/blog/2023-year-in-review/cpu-core-hours.png" 
+        alt="CPU Core Hours"
+        style="border: 5px solid #555; width: 400px"
+    />
 </div>
 
 
 <div style="text-align: center;">
     <figure>
-        <img src="/content/images/blog/2023-year-in-review/active-oscar-users.png" alt="Active Oscar Users"/>
+        <img 
+            src="/content/images/blog/2023-year-in-review/active-oscar-users.png" 
+            alt="Active Oscar Users"
+            style="border: 5px solid #555; width: 400px"
+        />
         <figcaption>This bar chart displays an increase of active Oscar users since 2018.</figcaption>
     </figure>
 </div>
