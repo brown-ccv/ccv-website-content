@@ -55,7 +55,7 @@ tags:
  
 2023 was a year of numerous strides at CCV and in the research community here at Brown. Thank you for your continued participation and support. 
 
-Here are some quick statistics from our Brown community made in 2023. We had 1557 active Oscar users, which is a 24.66% increase in activity from the year prior. Over 3.6 million jobs were run in Oscar totalling over 57 million CPU core hours! Since 2018, the number of active oscar users has increased and well as demand for resources. Over **470** questions were asked and helped in our weekly office hours.
+Here are some quick statistics from our Brown community made in 2023. We had 1557 active Oscar users, which is a 24.66% increase in activity from the year prior. Over 3.6 million jobs were run in Oscar totalling over 57 million CPU core hours! Since 2018, the number of active oscar users has increased as well as demand for resources. Over **470** questions were asked and helped in our weekly office hours.
 
 <div style="text-align: center;">
     <img 
