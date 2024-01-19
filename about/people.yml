@@ -20,7 +20,7 @@ data:
     type: Full Time
     team: Leadership
     subteam: Graphics, Software, and Data Core
-    title: Assistant Director of Research Software Engineering and Data Science
+    title: Associate Director of Research Software Engineering and Data Science
     github_username: mirestrepo
     brown_directory_uuid: cb8b0a49-ef4b-66e7-5ccc-6689493e8ace
     bio: Isabel grew up in Colombia and received her Ph.D from Brown in 2013 in Electrical
@@ -184,7 +184,7 @@ data:
   - name: Jordan Lawson
     type: Full Time
     team: Advanced Research Computing
-    title: Research Software Engineer
+    title: Senior Research Software Engineer
     subteam: Computational Biology Core
     github_username: j-stat
     brown_directory_uuid: 44dc2e77-eaaf-4884-ace2-e3fbb57e58ea
@@ -228,7 +228,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
-    title: Graphics/Visualization Software Engineer
+    title: Senior Graphics/Visualization Software Engineer
     github_username: kmilo9999
     brown_directory_uuid: 448fac67-1dea-42ef-8205-9305ac9b79a6
     bio: Camilo is a software engineer who specializes in realtime simulation engines, 3D modeling and rendering, animations and VR technologies. 
@@ -239,7 +239,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
-    title: Research Software Engineer
+    title: Lead Research Software Engineer
     github_username: eldu
     brown_directory_uuid: 1dee85fb-a5e4-474d-9f5e-ebef7d9d5ab7
     bio: ""
@@ -337,7 +337,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
-    title: Senior Data Scientist
+    title: Lead Data Scientist
     github_username: hollandjg
     brown_directory_uuid: c58cefc3-dc27-408f-ae62-fa098803341d
     bio: John is a data scientist at the CCV, who is passionate about climate,
