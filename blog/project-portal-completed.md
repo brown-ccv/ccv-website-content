@@ -30,11 +30,14 @@ After two full years of work on the **Project Portal** – websites which share 
 [![Screenshot of the San Antonio Research Partnerships Portal](/content/images/blog/project-portal-completed/satx.png)](https://researchpartnerships.sanantonio.gov)
 [![Screenshot of the North Carolina Project Portal](/content/images/blog/project-portal-completed/nc.png)](https://projectportal.nc.gov)
 
-## Timeline
+
+## Prototype at the Policy Lab
 
 In 2019, [David Yokum](https://thepolicylab.brown.edu/about/team/david-yokum) started The Policy Lab at Brown University with the goal of bringing together “experts from government, universities, and community organizations to collaborate on research tailored to inform decisions about how to improve policies and programs across the state.”
 
 In August 2021, The Policy Lab started work on “Research Partnerships Portal” for the City of San Antonio in Texas. From the very beginning the designer [Aidan Hudson-Lapore](https://thepolicylab.brown.edu/about/team/aidan-hudson-lapore) with developers [Kevin Wilson](https://thepolicylab.brown.edu/about/team/kevin-wilson) and [Paul Xu](https://thepolicylab.brown.edu/about/team/paul-xu) envisioned an accessible, clean, and modern design, which would be compatible with stringent governmental requirements. They chose the React-based web framework [Gatsby](https://www.gatsbyjs.com) for the site, hosted on [Netlify](https://www.netlify.com), using [Airtable](https://www.airtable.com/) as a lightweight database, and by December 2021 had a working prototype.
+
+## CCV – from Prototype to Production
 
 CCV started work on the Project Portals in January 2022. [Mary McGrath](https://github.com/mcmcgrath13), [Joshua Lu](https://ccv.brown.edu/people/Joshua%20Lu), [John Holland](https://ccv.brown.edu/people/John%20Gerrard%20Holland), [Aisulu Omar](https://github.com/AisOmar), [Heather Yu](https://ccv.brown.edu/people/Heather%20Yu), [Jordan Lawson](https://ccv.brown.edu/people/Jordan%20Lawson) and [Joselynn Wallace](https://ccv.brown.edu/people/Joselynn%20Wallace) were involved over the course of our two-year engagement. 
 
@@ -54,11 +57,7 @@ Over the course of 2022 we rebuilt the sites from the ground up, using much of t
 
 At the end of 2022, after testing our new implementation, we redeployed the websites in a [“Big Bang”](https://en.wikipedia.org/wiki/Big_bang_adoption), switching from the old Airtable setup to the new Netlify CMS setup with only a few minutes of downtime.
 
-We met with the government users – all subject matter experts but not web developers – who would be updating projects on the sites to give them an introduction to the CMS. We gave each of them around an hour’s training, which turned out to be ample, and we only heard from them later if there were bugs in the CMS itself, or if they wanted changes to features. 
-
-Over the course of 2023 we continued to maintain and the portals – adding full text search, the ability to add a mailing-list signup, expanding the coverage of the CMS to manage every part of the site, and adding better image support.
-
-## Challenges
+During the course of the development, we encountered some challenges, and learned some lessons.
 
 ### Data layer model
   
@@ -82,7 +81,13 @@ This was extremely hard and frustrating to debug, and we resorted to building th
 
 We found that Gatsby hides a lot of complexity from the designer, but that means also that a lot of things happen implicitly, or by convention, and often these things aren’t clearly documented. This makes debugging problems extremely difficult when they arise.
 
+## Ongoing Development and Support during 2023
 
-## The Project Portal's Future at the University of North Carolina
+We met with the government users – all subject matter experts but not web developers – who would be updating projects on the sites to give them an introduction to the CMS. We gave each of them around an hour’s training, which turned out to be ample, and we only heard from them later if there were bugs in the CMS itself, or if they wanted changes to features. 
+
+Over the course of 2023 we continued to maintain and the portals – adding full text search, the ability to add a mailing-list signup, expanding the coverage of the CMS to manage every part of the site, and adding better image support.
+
+## Future at University of North Carolina
 
 In the Fall of 2023, David Yokum informed us that he was moving to the University of North Carolina. The next keepers of the Project Portal are the fine folks of the University of North Carolina’s [Renaissance Computing Institute (RENCI)](https://renci.org). The portals are in excellent hands.
+
