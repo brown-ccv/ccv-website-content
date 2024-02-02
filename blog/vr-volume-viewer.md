@@ -6,8 +6,8 @@ people:
 date: 2023-08-21
 slug: vr-volume-viewer
 team: GSDC (Graphics, Software and Data Core)
-project: project-portal.yml
-description: 
+project: vr-volume-viewer.yml
+description: In today's world, an image is often more eloquent than a thousand words, particularly when it comes to visualizing scientific data. Typically, this data can be presented in a 3D environment, where it can be translated, rotated, and scaled, offering researchers new perspectives for data analysis. Learn how CCV researchers implement and build tools for real-time observation and analysis of 3D data, thereby broadening the horizons of scientific visualization.
 tags:
   - 3D rendering 
   - VR/AR
