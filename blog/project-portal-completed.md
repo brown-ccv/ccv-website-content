@@ -51,6 +51,7 @@ Over the course of 2022 we rebuilt the sites from the ground up, using much of t
 
 ![Data Flow diagram of the portal, showing how data stored in the GitHub repository are loaded by the CMS plugin into the GatsbyJS Data Layer, from where the theme plugin builds the deployed site. This all happens using GatsbyJS, running on Netlify.](/content/images/blog/project-portal-completed/data-flow.png)
 ￼
+
 At the end of 2022, after testing our new implementation, we redeployed the websites in a [“Big Bang”](https://en.wikipedia.org/wiki/Big_bang_adoption), switching from the old Airtable setup to the new Netlify CMS setup with only a few minutes of downtime.
 
 We met with the government users – all subject matter experts but not web developers – who would be updating projects on the sites to give them an introduction to the CMS. We gave each of them around an hour’s training, which turned out to be ample, and we only heard from them later if there were bugs in the CMS itself, or if they wanted changes to features. 
@@ -59,34 +60,27 @@ Over the course of 2023 we continued to maintain and the portals – adding full
 
 ## Challenges
 
-We learned some things along the way.
-
-- **Data layer model**:
+### Data layer model
   
-  Gatsby’s data layer model makes data retrieval and building a page easy if you’re writing a blog with a few front-matter fields. But if you’re building pages with many fields (like the project detail pages on the Project Portals) it can become cumbersome to manage the types and queries required for them. 
+Gatsby’s data layer model makes data retrieval and building a page easy if you’re writing a blog with a few front-matter fields. But if you’re building pages with many fields (like the project detail pages on the Project Portals) it can become cumbersome to manage the types and queries required for them. 
 
-
-- **Plugins – non-standard use-cases**
+### Plugins – non-standard use-cases
   
-  Gatsby has a lot of plugins, but there were no ready plugins we could use to handle loading the JSON files we used for the pages without specifying their metadata in three different places. 
+Gatsby has a lot of plugins, but there were no ready plugins we could use to handle loading the JSON files we used for the pages without specifying their metadata in three different places. 
 
-
-- **`@link` didn’t work for us**
+### `@link` didn’t work for us
   
-  We weren’t able to leverage the [`@link` directive](https://www.gatsbyjs.com/docs/reference/graphql-data-layer/schema-customization/#foreign-key-fields) which Gatsby offers in order to build relationships between entries in different collections – like between team members and projects pages. We had to recode these connections by hand.
+We weren’t able to leverage the [`@link` directive](https://www.gatsbyjs.com/docs/reference/graphql-data-layer/schema-customization/#foreign-key-fields) which Gatsby offers in order to build relationships between entries in different collections – like between team members and projects pages. We had to recode these connections by hand.
 
-
-- **The `createPages` bug**
+### The `createPages` bug
   
-  The major challenge of 2022 was what we now refer to as “The `createPages` Bug”, where we could build the site fine in development mode, but as soon as we packaged the theme and tried to rebuild from a fresh node project with the theme installed as a dependency, the [`createPages`-API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#createPages) would fail to find the components we needed. 
+The major challenge of 2022 was what we now refer to as “The `createPages` Bug”, where we could build the site fine in development mode, but as soon as we packaged the theme and tried to rebuild from a fresh node project with the theme installed as a dependency, the [`createPages`-API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#createPages) would fail to find the components we needed. 
   
-  This was extremely hard and frustrating to debug, and we resorted to building the theme entirely from scratch, interposing a `.js` file between the `.tsx` file containing each Component and the `gatsby-node.js` file which specifies which pages are made.
+This was extremely hard and frustrating to debug, and we resorted to building the theme entirely from scratch, interposing a `.js` file between the `.tsx` file containing each Component and the `gatsby-node.js` file which specifies which pages are made.
 
+### Gatsby is pretty hard to debug
 
-- **Gatsby is pretty hard to debug** 
-
-  We found that Gatsby hides a lot of complexity from the designer, but that means also that a lot of things happen implicitly, or by convention, and often these things aren’t clearly documented. This makes debugging problems extremely difficult when they arise.
-
+We found that Gatsby hides a lot of complexity from the designer, but that means also that a lot of things happen implicitly, or by convention, and often these things aren’t clearly documented. This makes debugging problems extremely difficult when they arise.
 
 
 ## The Project Portal's Future at the University of North Carolina
