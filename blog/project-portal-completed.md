@@ -52,8 +52,10 @@ Over the course of 2022 we rebuilt the sites from the ground up, using much of t
 * A plugin to handle loading data from Airtable, and
 * A plugin to handle saving and loading data using [Netlify CMS](https://www.netlifycms.org/).
 
+<figure>
 ![Data Flow diagram of the portal, showing how data stored in the GitHub repository are loaded by the CMS plugin into the GatsbyJS Data Layer, from where the theme plugin builds the deployed site. This all happens using GatsbyJS, running on Netlify.](/content/images/blog/project-portal-completed/data-flow.png)
-￼
+<figcaption>Data flow of the portal from storage on GitHub to the deployed site.</figcaption>
+￼</figure>
 
 At the end of 2022, after testing our new implementation, we redeployed the websites in a [“Big Bang”](https://en.wikipedia.org/wiki/Big_bang_adoption), switching from the old Airtable setup to the new Netlify CMS setup with only a few minutes of downtime.
 
