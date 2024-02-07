@@ -30,7 +30,6 @@ After two full years of work on the **Project Portal** – websites which share 
 [![Screenshot of the San Antonio Research Partnerships Portal](/content/images/blog/project-portal-completed/satx.png)](https://researchpartnerships.sanantonio.gov)
 [![Screenshot of the North Carolina Project Portal](/content/images/blog/project-portal-completed/nc.png)](https://projectportal.nc.gov)
 
-
 ## Prototype at the Policy Lab
 
 In 2019, [David Yokum](https://thepolicylab.brown.edu/about/team/david-yokum) started The Policy Lab at Brown University with the goal of bringing together “experts from government, universities, and community organizations to collaborate on research tailored to inform decisions about how to improve policies and programs across the state.”
@@ -52,10 +51,8 @@ Over the course of 2022 we rebuilt the sites from the ground up, using much of t
 * A plugin to handle loading data from Airtable, and
 * A plugin to handle saving and loading data using [Netlify CMS](https://www.netlifycms.org/).
 
-<figure>
 ![Data Flow diagram of the portal, showing how data stored in the GitHub repository are loaded by the CMS plugin into the GatsbyJS Data Layer, from where the theme plugin builds the deployed site. This all happens using GatsbyJS, running on Netlify.](/content/images/blog/project-portal-completed/data-flow.png)
-<figcaption>Data flow of the portal from storage on GitHub to the deployed site.</figcaption>
-￼</figure>
+*Data flow of the portal from storage on GitHub to the deployed site.*
 
 At the end of 2022, after testing our new implementation, we redeployed the websites in a [“Big Bang”](https://en.wikipedia.org/wiki/Big_bang_adoption), switching from the old Airtable setup to the new Netlify CMS setup with only a few minutes of downtime.
 
