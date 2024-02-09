@@ -69,7 +69,7 @@ The prototype was set up as a single repository containing the data for both the
 
 The benefits were compelling:
 * **All the code in one place**: A single repository makes it trivial to download and install the code for any and all of the sites. Deploying all the sites needed only a single interaction – triggering the GitHub Actions deployment script on the single repo.
-* **Low-effort changes** Any changes made on one site would automatically be reflected on all the others.
+* **Low-effort changes**: Any changes made on one site would automatically be reflected on all the others.
 
 The drawbacks were major:
 * **Tight coupling**: By having all the code in a single repository and having all the sites deploy immediately whenever we merged code into the [main branch](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development), we risked outages if, inevitably, a faulty bit of code made it through our pull request review process.
