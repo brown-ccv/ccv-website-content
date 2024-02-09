@@ -32,16 +32,16 @@ After two full years of work on the **Project Portal** – websites which share 
       <img 
         src="/content/images/blog/project-portal-completed/satx.png" 
         alt="Screenshot of the San Antonio Research Partnerships Portal" 
-        width=500 
-        height=495 
+        width=400 
+        height=396 
       />
     </a
     <a href="https://projectportal.nc.gov">
       <img 
         src="/content/images/blog/project-portal-completed/nc.png" 
         alt="Screenshot of the North Carolina Project Portal" 
-        width=500 
-        height=495 
+        width=400 
+        height=396 
       />
     </a>
   <figcaption>
