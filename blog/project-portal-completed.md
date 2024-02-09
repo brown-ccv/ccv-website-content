@@ -53,14 +53,14 @@ After two full years of work on the **Project Portal** – websites which share 
 
 In 2019, [David Yokum](https://thepolicylab.brown.edu/about/team/david-yokum) started The Policy Lab at Brown University with the goal of bringing together “experts from government, universities, and community organizations to collaborate on research tailored to inform decisions about how to improve policies and programs across the state.”
 
-In August 2021, The Policy Lab started work on “Research Partnerships Portal” for the City of San Antonio in Texas. From the very beginning the designer [Aidan Hudson-Lapore](https://thepolicylab.brown.edu/about/team/aidan-hudson-lapore) with developers [Kevin Wilson](https://thepolicylab.brown.edu/about/team/kevin-wilson) and [Paul Xu](https://thepolicylab.brown.edu/about/team/paul-xu) envisioned an accessible, clean, and modern design, which would be compatible with stringent governmental requirements. They chose the React-based web framework [Gatsby](https://www.gatsbyjs.com) for the site, hosted on [Netlify](https://www.netlify.com), using [Airtable](https://www.airtable.com/) as a lightweight database, and by December 2021 had a working prototype.
+In August 2021, The Policy Lab started work on [“Research Partnerships Portal” for the City of San Antonio in Texas](https://researchpartnerships.sanantonio.gov). From the very beginning the designer [Aidan Hudson-Lapore](https://thepolicylab.brown.edu/about/team/aidan-hudson-lapore) with developers [Kevin Wilson](https://thepolicylab.brown.edu/about/team/kevin-wilson) and [Paul Xu](https://thepolicylab.brown.edu/about/team/paul-xu) envisioned an accessible, clean, and modern design, which would be compatible with stringent governmental requirements. They chose the React-based web framework [Gatsby](https://www.gatsbyjs.com) for the site, hosted on [Netlify](https://www.netlify.com), using [Airtable](https://www.airtable.com/) as a lightweight database, and by December 2021 had a working prototype.
 
 ## CCV – from Prototype to Production
 
 CCV started work on the Project Portals in January 2022. [Mary McGrath](https://github.com/mcmcgrath13), [Joshua Lu](https://ccv.brown.edu/people/Joshua%20Lu), [John Holland](https://ccv.brown.edu/people/John%20Gerrard%20Holland), [Aisulu Omar](https://github.com/AisOmar), [Heather Yu](https://ccv.brown.edu/people/Heather%20Yu), [Jordan Lawson](https://ccv.brown.edu/people/Jordan%20Lawson) and [Joselynn Wallace](https://ccv.brown.edu/people/Joselynn%20Wallace) were involved over the course of our two-year engagement. 
 
 Our role was to help develop the website further:
-* Build a Project Portal for the Government of North Carolina,
+* Build a [Project Portal for the Government of North Carolina](https://projectportal.nc.gov),
 * Convert the prototype into a JavaScript package which could easily scale to ten sites for different local governments, with support for their individual requirements, 
 * Add a Content Management System (CMS) so the site could be updated directly by governmental staff, and not just the staff of The Policy Lab, and
 * Add new features, like search, images and web analytics.
