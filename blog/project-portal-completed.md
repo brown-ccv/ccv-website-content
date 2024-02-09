@@ -35,7 +35,7 @@ After two full years of work on the **Project Portal** – websites which share 
         width=400 
         height=396 
       />
-    </a
+    </a>
     <a href="https://projectportal.nc.gov">
       <img 
         src="/content/images/blog/project-portal-completed/nc.png" 
