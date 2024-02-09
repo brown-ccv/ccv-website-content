@@ -73,7 +73,7 @@ The benefits were compelling:
 
 The drawbacks were major:
 * **Tight coupling**: By having all the code in a single repository and having all the sites deploy immediately whenever we merged code into the [main branch](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development), we risked outages if, inevitably, a faulty bit of code made it through our pull request review process.
-* **Separation of concerns**: The single repository would get more and more unwieldy as new jurisdictions were added, and if one of them had totally different requirements (like having to be hosted on a different service) then we would have to fork the repository and maintain duplicate codebases. 
+* **Limited scalability**: The single repository would get more and more unwieldy as new jurisdictions were added, and if one of them had totally different requirements (like having to be hosted on a different service) then we would have to fork the repository and maintain duplicate codebases. 
 * **Too coarse permissions**: The content management system would give the government staff managing each site permissions to modify the common git repository. If the single repository approach was kept, there was a chance that a modification by staff for one site might inadvertently break something for _all_ the sites in that same repository.
 
 Instead, we decided to split the code across several repositories:
