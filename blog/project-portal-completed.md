@@ -28,17 +28,22 @@ tags:
 After two full years of work on the **Project Portal** – websites which share local and national governments’ policy projects and help find collaborators – we’re today handing the project off to its new home.
 
 <figure>
-  <img 
-    src="/content/images/blog/project-portal-completed/satx.png" 
-    alt="Screenshot of the San Antonio Research Partnerships Portal" 
-    width=500 
-    height=495 
-  /><img 
-    src="/content/images/blog/project-portal-completed/nc.png" 
-    alt="Screenshot of the North Carolina Project Portal" 
-    width=500 
-    height=495 
-  />
+    <a href="https://researchpartnerships.sanantonio.gov">
+      <img 
+        src="/content/images/blog/project-portal-completed/satx.png" 
+        alt="Screenshot of the San Antonio Research Partnerships Portal" 
+        width=500 
+        height=495 
+      />
+    </a
+    <a href="https://projectportal.nc.gov">
+      <img 
+        src="/content/images/blog/project-portal-completed/nc.png" 
+        alt="Screenshot of the North Carolina Project Portal" 
+        width=500 
+        height=495 
+      />
+    </a>
   <figcaption>
     Screenshots of the Project Portals in February 2024
   </figcaption>
