@@ -132,7 +132,7 @@ We found that Gatsby hides a lot of complexity from the designer, but that means
 
 We met with the government users – all subject matter experts but not web developers – who would be updating projects on the sites to give them an introduction to the CMS. We gave each of them around an hour’s training, which turned out to be ample, and we only heard from them later if there were bugs in the CMS itself, or if they wanted changes to features. 
 
-Over the course of 2023 we continued to maintain and the portals – adding full text search, the ability to add a mailing-list signup, expanding the coverage of the CMS to manage every part of the site, and adding better image support.
+Over the course of 2023 we continued to maintain the portals – adding full text search, the ability to add a mailing-list signup, expanding the coverage of the CMS to manage every part of the site, and adding better image support.
 
 ## Future at University of North Carolina
 
