@@ -1,3 +1,18 @@
+---
+title: Writing Reusable Code in Julia
+author: Carlos Paniagua
+people:
+  - Carlos Paniagua
+date: 2024-03-25
+slug: Julia
+team: GSDC (Graphics, Software and Data Core)
+description: Best practices on writing reusable software in the Julia ecosystem.
+tags:
+  - Julia
+  - reusability
+
+---
+
 # Writing Reusable Code in Julia - Carlos Paniagua
 
 ### Use case
