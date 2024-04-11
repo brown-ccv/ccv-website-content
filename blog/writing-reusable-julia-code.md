@@ -37,8 +37,10 @@ This is a very common problem in the scientific research community. Here we pres
 
 [Reusable code](https://en.wikipedia.org/wiki/Reusability) is code that is easy to distribute and use (correctly and consistently).
 
-> [!NOTE]
-> If you'd like to follow along with the rest of the discussion, you'll need Git, a text editor or IDE (VS Code recommended with the Julia extension) and Julia (naturally).
+:::note
+If you'd like to follow along with the rest of the discussion, you'll need Git, a text editor or IDE (VS Code recommended with the Julia extension) and Julia (naturally).
+:::
+
 
 To write reusable Julia code we need to understand how to *manage dependencies* in Julia.
 
@@ -50,7 +52,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 1.  Add a few deps with the `add` command
 
-    ``` julia
+    ```
     $ julia
     julia> # get to pkg mode with `]`
     (@v1.9) pkg> add Example StaticArrays # add the `Example` and `StaticArrays` packages
@@ -58,7 +60,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 2.  Look at the deps in your base Julia with the `status` or `st` command
 
-    ``` julia
+    ```
     (@v1.9) pkg> status
     Status `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
@@ -67,13 +69,13 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 3.  Remove a dep with `rm`
 
-    ``` julia
+    ```
     (@v1.9) pkg> rm StaticArrays
     ```
 
 4.  Seeing is believing: look at your deps again
 
-    ``` julia
+    ```
     (@v1.9) pkg> st # and be lazy
     Status `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
@@ -95,7 +97,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 2.  From Julia's package manager issue `generate MyPackage`
 
-    ``` julia
+    ```
      (@v1.9) pkg> generate MyPackage
     ```
 
@@ -112,7 +114,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 3.  Let's add some deps and code to our package by editing `src/MyPackage.jl`
 
-    ``` julia
+    ```
     module MyPackage
 
     using Example: domath # added this dep
@@ -126,7 +128,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 4.  Let's test our new features! 🤞
 
-    ``` julia
+    ```
     (@v1.9) pkg> activate .
       Activating project at `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage`
     julia> using MyPackage
