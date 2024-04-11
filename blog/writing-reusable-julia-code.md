@@ -84,7 +84,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 A package is code with structure that leverages available tooling for efficient distribution and use. We could add this structure to our code manually but there is tooling for this already! 🛠️
 
-Some options
+Some options:
 
 -   Use `Pkg.generate` for a bare-bones package structure
 -   Use [PkgTemplates.jl](https://github.com/JuliaCI/PkgTemplates.jl) for more features (Readme, License, Documentation, test suite, CI and more)
@@ -207,7 +207,7 @@ Here is a suggested configuration for VS Code with the Julia extension.
     ```
     .JuliaFormatter.toml
     ```
-The `.gitignore` file will prevent the configuration file just created from getting *pushed* to our remote repository.
+The `.gitignore` file will prevent the configuration file just created from getting *pushed* to our remote repository. Here we have added the `.JuliaFormatter.toml` configuration file we created earlier.  
 
  
 ## Publish your package!
@@ -223,15 +223,15 @@ Make the project a git repository, commit changes, and push your project to a re
   ```
 
 Now others can use your package!
-```julia
-(@v1.9) pkg> add https://github.com/cpaniaguam/MyPackage.git
-     Cloning git-repo `https://github.com/cpaniaguam/MyPackage.git`
-    Updating git-repo `https://github.com/cpaniaguam/MyPackage.git`
+```
+(@v1.9) pkg> add https://github.com/MyUserName/MyPackage.git
+     Cloning git-repo `https://github.com/MyUserName/MyPackage.git`
+    Updating git-repo `https://github.com/MyUserName/MyPackage.git`
    Resolving package versions...
     Updating `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
-  [e06b4af7] + MyPackage v0.1.0 `https://github.com/cpaniaguam/MyPackage.git#main`
+  [e06b4af7] + MyPackage v0.1.0 `https://github.com/MyUserName/MyPackage.git#main`
     Updating `C:\Users\cpaniagu\.julia\environments\v1.9\Manifest.toml`
-  [e06b4af7] + MyPackage v0.1.0 `https://github.com/cpaniaguam/MyPackage.git#main`
+  [e06b4af7] + MyPackage v0.1.0 `https://github.com/MyUserName/MyPackage.git#main`
 Precompiling project...
   1 dependency successfully precompiled in 5 seconds. 231 already precompiled. 1 skipped during auto due to previous errors.
 
