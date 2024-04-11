@@ -37,10 +37,9 @@ This is a very common problem in the scientific research community. Here we pres
 
 [Reusable code](https://en.wikipedia.org/wiki/Reusability) is code that is easy to distribute and use (correctly and consistently).
 
-:::note
-If you'd like to follow along with the rest of the discussion, you'll need Git, a text editor or IDE (VS Code recommended with the Julia extension) and Julia (naturally).
-:::
-
+<div style="background-color: #f7f7f7; border-left: 6px solid #007bff; padding: 10px; margin-bottom: 10px;">
+  <strong>Note:</strong> If you'd like to follow along with the rest of the discussion, you'll need Git, a text editor or IDE (VS Code recommended with the Julia extension) and Julia (naturally).
+</div>
 
 To write reusable Julia code we need to understand how to *manage dependencies* in Julia.
 
