@@ -4,7 +4,7 @@ author: Carlos Paniagua
 people:
   - Carlos Paniagua
 date: 2024-03-25
-slug: Julia
+slug: writing-reusable-julia-code
 team: GSDC (Graphics, Software and Data Core)
 description: Best practices on writing reusable software in the Julia ecosystem.
 tags:
