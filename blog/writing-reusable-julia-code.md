@@ -51,7 +51,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 1.  Add a few deps with the `add` command
 
-    ```
+    ```shell
     $ julia
     julia> # get to pkg mode with `]`
     (@v1.9) pkg> add Example StaticArrays # add the `Example` and `StaticArrays` packages
@@ -59,7 +59,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 2.  Look at the deps in your base Julia with the `status` or `st` command
 
-    ```
+    ```shell
     (@v1.9) pkg> status
     Status `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
@@ -68,13 +68,13 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 3.  Remove a dep with `rm`
 
-    ```
+    ```shell
     (@v1.9) pkg> rm StaticArrays
     ```
 
 4.  Seeing is believing: look at your deps again
 
-    ```
+    ```shell
     (@v1.9) pkg> st # and be lazy
     Status `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
@@ -96,13 +96,13 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 2.  From Julia's package manager issue `generate MyPackage`
 
-    ```
+    ```shell
      (@v1.9) pkg> generate MyPackage
     ```
 
     You will see a new folder `MyPackage` was created.
 
-    ```         
+    ```shell
     $ cd MyPackage
     $ tree
     .
@@ -113,7 +113,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 3.  Let's add some deps and code to our package by editing `src/MyPackage.jl`
 
-    ```
+    ```julia
     module MyPackage
 
     using Example: domath # added this dep
@@ -127,7 +127,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 4.  Let's test our new features! 🤞
 
-    ```
+    ```shell
     (@v1.9) pkg> activate .
       Activating project at `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage`
     julia> using MyPackage
@@ -144,7 +144,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
     Although we added the `Example` package to our base Julia environment, we are under a new independent environment `MyPackage` that does not know about `Example`.
     
-    ```
+    ```shell
     (MyPackage) pkg> st
     Project MyPackage v0.1.0
     Status `C:\Users\cpaniagu\Documents\DSCoV-Reusable-Julia\MyPackage\Project.toml` (empty project)
@@ -153,7 +153,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```
 
     In the error message above Julia is suggesting that we have an undocumented/uninstalled/broken dependency. Here we just need to add it to our project. Let's do it! 
-    ```
+    ```shell
     (MyPackage) pkg> add Example
        Resolving package versions...
         Updating `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Project.toml`
@@ -163,7 +163,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     Precompiling project...
       1 dependency successfully precompiled in 1 seconds. 1 already precompiled.
     ```
-    ```
+    ```shell
     (MyPackage) pkg> st # again seeing is believing
     Project MyPackage v0.1.0
     Status `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Project.toml`
@@ -171,7 +171,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```
 
     Now that the `Example` dep is documented and compiled let's try testing our package again! 
-    ```
+    ```shell
     julia> using MyPackage
 
     julia> fact()
