@@ -144,7 +144,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
     Although we added the `Example` package to our base Julia environment, we are under a new independent environment `MyPackage` that does not know about `Example`.
     
-    ```julia
+    ```
     (MyPackage) pkg> st
     Project MyPackage v0.1.0
     Status `C:\Users\cpaniagu\Documents\DSCoV-Reusable-Julia\MyPackage\Project.toml` (empty project)
@@ -153,7 +153,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```
 
     In the error message above Julia is suggesting that we have an undocumented/uninstalled/broken dependency. Here we just need to add it to our project. Let's do it! 
-    ```julia
+    ```
     (MyPackage) pkg> add Example
        Resolving package versions...
         Updating `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Project.toml`
@@ -163,7 +163,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     Precompiling project...
       1 dependency successfully precompiled in 1 seconds. 1 already precompiled.
     ```
-    ```julia
+    ```
     (MyPackage) pkg> st # again seeing is believing
     Project MyPackage v0.1.0
     Status `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Project.toml`
@@ -171,7 +171,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```
 
     Now that the `Example` dep is documented and compiled let's try testing our package again! 
-    ```julia
+    ```
     julia> using MyPackage
 
     julia> fact()
