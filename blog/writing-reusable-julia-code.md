@@ -61,7 +61,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
     ```shell
     (@v1.9) pkg> status
-    Status `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
+    Status `C:\Users\MyUserName\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
     [90137ffa] StaticArrays v1.6.3
     ```
@@ -76,7 +76,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
     ```shell
     (@v1.9) pkg> st # and be lazy
-    Status `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
+    Status `C:\Users\MyUserName\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
     ```
 
@@ -129,7 +129,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
     ```shell
     (@v1.9) pkg> activate .
-      Activating project at `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage`
+      Activating project at `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage`
     julia> using MyPackage
     [ Info: Precompiling MyPackage [934d1629-71ee-47e4-906a-ddb3ea0dd61f]
     ERROR: LoadError: ArgumentError: Package MyPackage does not have Example in its dependencies:
@@ -147,7 +147,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```shell
     (MyPackage) pkg> st
     Project MyPackage v0.1.0
-    Status `C:\Users\cpaniagu\Documents\DSCoV-Reusable-Julia\MyPackage\Project.toml` (empty project)
+    Status `C:\Users\MyUserName\Documents\DSCoV-Reusable-Julia\MyPackage\Project.toml` (empty project)
 
     (MyPackage) pkg> 
     ```
@@ -156,9 +156,9 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```shell
     (MyPackage) pkg> add Example
        Resolving package versions...
-        Updating `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Project.toml`
+        Updating `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage\Project.toml`
       [7876af07] + Example v0.5.3
-        Updating `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Manifest.toml`
+        Updating `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage\Manifest.toml`
       [7876af07] + Example v0.5.3
     Precompiling project...
       1 dependency successfully precompiled in 1 seconds. 1 already precompiled.
@@ -166,7 +166,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```shell
     (MyPackage) pkg> st # again seeing is believing
     Project MyPackage v0.1.0
-    Status `C:\Users\cpaniagu\Documents\Reusable-code-Julia\MyPackage\Project.toml`
+    Status `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage\Project.toml`
     [7876af07] Example v0.5.3
     ```
 
@@ -228,9 +228,9 @@ Now others can use your package!
      Cloning git-repo `https://github.com/MyUserName/MyPackage.git`
     Updating git-repo `https://github.com/MyUserName/MyPackage.git`
    Resolving package versions...
-    Updating `C:\Users\cpaniagu\.julia\environments\v1.9\Project.toml`
+    Updating `C:\Users\MyUserName\.julia\environments\v1.9\Project.toml`
   [e06b4af7] + MyPackage v0.1.0 `https://github.com/MyUserName/MyPackage.git#main`
-    Updating `C:\Users\cpaniagu\.julia\environments\v1.9\Manifest.toml`
+    Updating `C:\Users\MyUserName\.julia\environments\v1.9\Manifest.toml`
   [e06b4af7] + MyPackage v0.1.0 `https://github.com/MyUserName/MyPackage.git#main`
 Precompiling project...
   1 dependency successfully precompiled in 5 seconds. 231 already precompiled. 1 skipped during auto due to previous errors.
