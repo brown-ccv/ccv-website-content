@@ -51,7 +51,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 1.  Add a few deps with the `add` command
 
-    ```
+    ```bash
     $ julia
     julia> # get to pkg mode with `]`
     (@v1.9) pkg> add Example StaticArrays # add the `Example` and `StaticArrays` packages
@@ -59,7 +59,7 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 2.  Look at the deps in your base Julia with the `status` or `st` command
 
-    ```
+    ```bash
     (@v1.9) pkg> status
     Status `C:\Users\MyUserName\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
@@ -68,13 +68,13 @@ Let's add some deps to our base Julia installation using Julia's Package Manager
 
 3.  Remove a dep with `rm`
 
-    ```
+    ```bash
     (@v1.9) pkg> rm StaticArrays
     ```
 
 4.  Seeing is believing: look at your deps again
 
-    ```
+    ```bash
     (@v1.9) pkg> st # and be lazy
     Status `C:\Users\MyUserName\.julia\environments\v1.9\Project.toml`
     [7876af07] Example v0.5.3
@@ -96,13 +96,13 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 2.  From Julia's package manager issue `generate MyPackage`
 
-    ```
+    ```bash
      (@v1.9) pkg> generate MyPackage
     ```
 
     You will see a new folder `MyPackage` was created.
 
-    ```
+    ```shell
     $ cd MyPackage
     $ tree
     .
@@ -127,7 +127,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
 4.  Let's test our new features! 🤞
 
-    ```
+    ```bash
     (@v1.9) pkg> activate .
       Activating project at `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage`
     julia> using MyPackage
@@ -144,7 +144,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
 
     Although we added the `Example` package to our base Julia environment, we are under a new independent environment `MyPackage` that does not know about `Example`.
     
-    ```
+    ```bash
     (MyPackage) pkg> st
     Project MyPackage v0.1.0
     Status `C:\Users\MyUserName\Documents\DSCoV-Reusable-Julia\MyPackage\Project.toml` (empty project)
@@ -153,7 +153,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```
 
     In the error message above Julia is suggesting that we have an undocumented/uninstalled/broken dependency. Here we just need to add it to our project. Let's do it! 
-    ```
+    ```bash
     (MyPackage) pkg> add Example
        Resolving package versions...
         Updating `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage\Project.toml`
@@ -163,7 +163,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     Precompiling project...
       1 dependency successfully precompiled in 1 seconds. 1 already precompiled.
     ```
-    ```
+    ```bash
     (MyPackage) pkg> st # again seeing is believing
     Project MyPackage v0.1.0
     Status `C:\Users\MyUserName\Documents\Reusable-code-Julia\MyPackage\Project.toml`
@@ -171,7 +171,7 @@ For the rest of the discussion we'll use `generate` from the Julia package manag
     ```
 
     Now that the `Example` dep is documented and compiled let's try testing our package again! 
-    ```
+    ```bash
     julia> using MyPackage
 
     julia> fact()
@@ -214,7 +214,7 @@ The `.gitignore` file will prevent the configuration file just created from gett
 Use tooling within VS Code (Source Control panel) for the following or Git to place your project/package in a remote repository.
 
 Make the project a git repository, commit changes, and push your project to a remote repo to share with the world!
-  ```shell
+  ```bash
   $ git init
   $ git add .
   $ git commit -m 'My commit message'
@@ -223,7 +223,7 @@ Make the project a git repository, commit changes, and push your project to a re
   ```
 
 Now others can use your package!
-```
+```bash
 (@v1.9) pkg> add https://github.com/MyUserName/MyPackage.git
      Cloning git-repo `https://github.com/MyUserName/MyPackage.git`
     Updating git-repo `https://github.com/MyUserName/MyPackage.git`
@@ -239,3 +239,4 @@ julia> using MyPackage
 
 julia> fact()
 FYI, 2 + 5 = 7
+```
