@@ -41,7 +41,12 @@ This is a very common problem in the scientific research community. Here we pres
   <strong>Note:</strong> If you'd like to follow along with the rest of the discussion, you'll need Git, a text editor or IDE (VS Code recommended with the Julia extension) and Julia (naturally).
 </div>
 
-To write reusable Julia code we need to understand how to *manage dependencies* in Julia.
+To write reusable Julia code we need to understand how to *manage dependencies* in Julia. Dependency management facilitates code maintainability, promotes collaboration by simplifying environment setup for other developers, and mitigates security risks by allowing for timely updates and vulnerability monitoring.
+
+<div style="background-color: #f7f7f7; border-left: 6px solid #007bff; padding: 10px; margin-bottom: 10px;">
+  <strong>Note:</strong> Read more about the advantages of dependency management <a href="https://www.codiga.io/blog/maintain-software-dependencies/">here</a>.
+</div>
+
 
 ## Managing Dependencies
 
@@ -240,3 +245,4 @@ julia> using MyPackage
 julia> fact()
 FYI, 2 + 5 = 7
 ```
+By following these simple practices, our code becomes more reliable, user-friendly, and easier to maintain, ensuring smoother workflows for other members of the scientific community. 🎉
