@@ -1,25 +1,21 @@
 ---
-title: Rates
+title: Accounts
 
-tagTitle: Rates - Center for Computation and Visualization
-tagDescription: Check rates for advanced research computing that require extra resources.
+tagTitle: Accounts - Center for Computation and Visualization
+tagDescription: Check account types for advanced research computing that require extra resources.
 
 date: 2020-08-05T18:04:51.000+00:00
 lead: We provide services with limited resources at no cost to all
-  members affiliated with Brown. For advanced computing that requires extra resources,
-  we charge a monthly fee. See below the rates for FY24.
-
+  members affiliated with Brown. See below the account tiers and limits for FY24.
 ---
 
 # High Performance Computing Cluster (Oscar)
 
 > The number and size of jobs allowed on Oscar vary with both partition and type of user account. The following partitions are available to all Oscar users:
 
-* Batch   - General Purpose Computing
-* GPU     - GPU Nodes
-* BigMem  - Large Memory Nodes
-
-
+- Batch - General Purpose Computing
+- GPU - GPU Nodes
+- BigMem - Large Memory Nodes
 
 <div>
 
@@ -86,22 +82,21 @@ lead: We provide services with limited resources at no cost to all
 
 </div>
 
-* All Priority accounts require PI approval
+- All Priority accounts require PI approval
 
-* If you need resoucrses beyond this, please send a project proposal (fillout this google form). Its subject to approval from RCAC
+- If you need resoucrses beyond this, please send a project proposal (fillout this google form). Its subject to approval from RCAC
 
-* Note, these values are subject to periodic review and changes
-* Each account is assigned 100G Home, 512G Scratch (purged every 30 days).
-* Priority accounts and Exploratory accounts associated with a PI get a data directory.
-* Exploratory accounts without a PI have no data directory provided.
-* Priority accounts have a higher Quality-of-Service (QOS) i.e. priority accounts will have faster job start times.
-* The maximum number of cores and duration may change based on cluster utilization.
-  * HPC Priority account has a Quality-of-Service (QOS) allowing up to 208 cores, 1TB memory, and a total per-job limit of 1,198,080 core-minutes. This allows a 208-core job to run for 96 hours, a 104-core job to run for 192 hours, or 208 1-core jobs to run for 96 hours.
-  * Exploratory account has a Quality-of-Service (QOS) allowing up to 2 GPUs and a total of 5760 GPU-minutes. This allows a 2 GPU job to run for 48 hours or 1 GPU job to run for 96 hours.
-* GPU Definitions:
-  * Std - QuadroRTX or lower
-  * High End - Tesla V100
-* For more technical details, please see this [link.](https://docs.ccv.brown.edu/oscar/system-overview)
+- Note, these values are subject to periodic review and changes
+- Each account is assigned 100G Home, 512G Scratch (purged every 30 days).
+- Basic accounts without a PI have no data directory provided.
+- The various priority accounts have a higher Quality-of-Service (QOS); thus, priority accounts will faster job start times than basic accounts.
+- The maximum number of cores and duration may change based on cluster utilization.
+  - Priority CPU account has a Quality-of-Service (QOS) allowing up to 208 cores, 1TB memory, and a total per-job limit of 1,198,080 core-minutes. This allows a 208-core job to run for 96 hours, a 104-core job to run for 192 hours, or 208 1-core jobs to run for 96 hours.
+  - Basic account has a Quality-of-Service (QOS) allowing up to 2 GPUs and a total of 5760 GPU-minutes. This allows a 2 GPU job to run for 48 hours or 1 GPU job to run for 96 hours.
+- GPU Definitions:
+  - Std: QuadroRTX or lower
+  - High End: Tesla V100
+- For more technical details, please see this [link.](https://docs.ccv.brown.edu/oscar/system-overview)
 
 # Condo Purchase
 
@@ -109,14 +104,14 @@ lead: We provide services with limited resources at no cost to all
 
 ## Benefits of condo ownership
 
-* **5 year lifecycle** - condo resources will be available for a duration of 5 years.
-* **Access to more cpu cores than purchased** - condo will have access to 1.25 times the number of cpu cores purchased for the first 3 years of its lifecycle. For the remaining 2 years, condo will have access to the same number of cpu cores purchased.
-* **Support** - CCV staff will install, upgrade and maintain condo hardware throughout its lifecycle.
-* **High job priority** - Jobs submitted to a condo have the highest priority to schedule.
+- **5 year lifecycle** - condo resources will be available for a duration of 5 years.
+- **Access to more cpu cores than purchased** - condo will have access to 1.25 times the number of cpu cores purchased for the first 3 years of its lifecycle. For the remaining 2 years, condo will have access to the same number of cpu cores purchased.
+- **Support** - CCV staff will install, upgrade and maintain condo hardware throughout its lifecycle.
+- **High job priority** - Jobs submitted to a condo have the highest priority to schedule.
 
 ## How to get started
 
-* Contact [support@ccv.brown.edu](mailto:support@ccv.brown.edu) to discuss your needs and review purchase options
+- Contact [support@ccv.brown.edu](mailto:support@ccv.brown.edu) to discuss your needs and review purchase options
 
 # Staff Services
 
@@ -149,15 +144,13 @@ lead: We provide services with limited resources at no cost to all
   </table>
 </div>
     
-# Research Data Storage
+# Research Data Storage Allocations
 
-* 1TB per Brown Faculty Member - Free
-* 10TB per awarded Grant at the request of the Brown PI - an active grant account number will be required to provide this allocation and the data will be migrated to archive storage at the end of the grant.
-* Additional Storage Allocation
-  * Rdata: $8.3 / Terabyte / Month ($100 / Terabyte / Year)
-  * Stronghold Storage: $8.3 / Terabyte / Month ($100 / Terabyte / Year)
-  * Campus File Storage (replicated): $8.3 / Terabyte / Month ($100 / Terabyte / Year)
-  * Campus File Storage (non-replicated): $4.2 / Terabyte / Month ($50 / Terabyte / Year)
+- 5 TB per Brown Faculty Member
+- 10 TB per awarded Grant at the request of the Brown PI
+  - An active grant account number will be required to provide this allocation and the data will be migrated to archive storage at the end of the grant.
+- Additional Storage Allocation
+  - If faculty require additional storage beyond the 5 TB per PI, and 10 TB per active grant, this request should be submitted to the Research Computing Adviosry Committee (RCAC) sub-committee for allocations and exceptions.
 
 ## Pooled Storage Allocations
 
