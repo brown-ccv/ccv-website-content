@@ -32,77 +32,63 @@ lead: We provide services with limited resources at no cost to all
         <th>Memory(GB)</th>
         <th>GPU</th>
         <th>Max Walltime* (Hours)</th>
-        <th>Cost per Month</th>
+        <th>GPU Type</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td width="25%"> Exploratory <br> <!-- Make it Single Line. -->
+        <td width="25%"> Basic <br> <!-- Make it Single Line. -->
         <td> <br> batch <br> gpu <br> bigmem</td>
-        <td> <br> 32 <br> 12 <br> 32 <br> </td>
-        <td> <br> 246 <br> 192 <br> 752 </td>
+        <td> <br> 64 <br> 12 <br> 32 <br> </td>
+        <td> <br> 492 <br> 192 <br> 752 </td>
         <td> <br> None <br> 2 Std. <br> None </td>
         <td> 48</td>
-        <td> $0</td>
+        <td> A2, Titan RTX, QuadroRTX, RTX3090,A5000, A5500 </td>
       </tr>
       <tr>
-        <td>HPC Priority</td>
-        <td>batch</td>
-        <td>208</td>
-        <td>1,500</td>
-        <td>2 Std.</td>
-        <td>96</td>
-        <td>$67</td>
-      </tr>
-      <tr>
-        <td>HPC Priority+</td>
+        <td>Priority CPU </td>
         <td>batch</td>
         <td>416</td>
         <td>3,000</td>
-        <td>2 Std.</td>
+        <td>N/A</td>
         <td>96</td>
-        <td>$133</td>
+        <td>N/A</td>
       </tr>
       <tr>
-        <td>Standard GPU Priority</td>
-        <td>gpu</td>
+        <td>Priority GPU </td>
+        <td>batch</td>
         <td>24</td>
         <td>192</td>
         <td>4 Std.</td>
         <td>96</td>
-        <td>$67</td>
+        <td>A2, Titan RTX, QuadroRTX, RTX3090,A5000, A5500</td>
       </tr>
       <tr>
-        <td>Standard GPU Priority+</td>
-        <td>gpu</td>
-        <td>48</td>
-        <td>384</td>
-        <td>8 Std.</td>
-        <td>96</td>
-        <td>$133</td>
-      </tr>
-      <tr>
-        <td>High End GPU Priority</td>
+        <td>Priority High-End GPU</td>
         <td>gpu-he</td>
         <td>24</td>
         <td>256</td>
         <td>4 high-end</td>
         <td>96</td>
-        <td>$133</td>
+        <td>V100,A40,A6000</td>
       </tr>
       <tr>
-        <td>Large Memory Priority</td>
+        <td>Priority Bigmem </td>
         <td>bigmem</td>
         <td>32</td>
         <td>2TB</td>
         <td>-</td>
         <td>96</td>
-        <td>$33</td>
+        <td>N/A</td>
       </tr>
     </tbody>
   </table>
 
 </div>
+
+* All Priority accounts require PI approval
+
+* If you need resoucrses beyond this, please send a project proposal (fillout this google form). Its subject to approval from RCAC
 
 * Note, these values are subject to periodic review and changes
 * Each account is assigned 100G Home, 512G Scratch (purged every 30 days).
