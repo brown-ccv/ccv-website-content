@@ -255,12 +255,13 @@ data:
   - name: Paul Xu
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Data Scientist
+    subteam: Graphics, Software, and Data Core
+    title: Lead Data Scientist
     github_username: digicosmos86
     brown_directory_uuid: 58724daa-f619-4f86-88f0-30635dc5178b
-    bio: ""
-    image: xu_main.png
+    bio: 
+      Paul's diverse interests as a Lead Data Scientist include building generative AI applications in computer vision and natural language processing, engineering data science software, and maintaining cloud compute infrastructure for data science. Paul received his Sc.M. in Computer Science with focus on AI/ML from Brown University and Ph.D. in Curriculum and Instruction with focus on CS Education from Boston College. In his own time, Paul likes to geek out on computer and natural languages. He is also an avid photographer with his work published in an international magazine.
+    image: px_main.jpg
   - name: Joshua Lu
     type: Full Time
     team: Advanced Research Computing
