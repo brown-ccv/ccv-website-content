@@ -8,7 +8,8 @@ data:
     title: Assistant Director of Computational Biology and Data Science
     github_username: ashokrags
     brown_directory_uuid: 60802d0b-8f18-499a-a1f3-5f9b24c390e4
-    bio: Ashok is a computational biologist/data scientist with a varied background
+    bio:
+      Ashok is a computational biologist/data scientist with a varied background
       in genetics, genomics, statistics and computation. He has a PhD in Fisheries and
       Wildlife from MSU and has worked in areas of quantitative genetics, biomedical genetics,
       ecology and bioinformatics. Above all he has a keen interest in data analysis,
@@ -19,11 +20,12 @@ data:
   - name: Isabel Restrepo
     type: Full Time
     team: Leadership
-    subteam: Data & Visualization
-    title: Assistant Director of Research Software Engineering and Data Science
+    subteam: Graphics, Software, and Data Core
+    title: Associate Director of Research Software Engineering and Data Science
     github_username: mirestrepo
     brown_directory_uuid: cb8b0a49-ef4b-66e7-5ccc-6689493e8ace
-    bio: Isabel grew up in Colombia and received her Ph.D from Brown in 2013 in Electrical
+    bio:
+      Isabel grew up in Colombia and received her Ph.D from Brown in 2013 in Electrical
       Engineering with a focus in Computer Vision. She enjoys machine learning, reproducible
       science, reverse engineering, playing squash, the sea, and dancing with her wild
       children.
@@ -32,9 +34,9 @@ data:
     type: Full Time
     team: Leadership
     title: Assistant Chief Information Officer, Infrastructure and Research Computing
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: 3ddfe2bd-672a-0f09-03bc-cbb37339a434
-    bio: ''
+    bio: ""
     image: linnea_main.jpg
   - name: Paul Stey
     type: Full Time
@@ -42,7 +44,8 @@ data:
     title: Assistant CIO Research Software Engineering and Data Science
     github_username: paulstey
     brown_directory_uuid: 0525f19f-d156-4c47-a2e1-8b4e904a2e84
-    bio: Paul is a data scientist interested in using data and machine learning to solve
+    bio:
+      Paul is a data scientist interested in using data and machine learning to solve
       challenging problems. Before coming to Brown he was a statistician at the EPA.
       He has a PhD in Developmental Psychology.
     image: stey_main.jpg
@@ -50,9 +53,9 @@ data:
     type: Full Time
     team: Leadership
     title: HPC IT Architect
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: 0d83d4b5-85a5-62fc-44a3-81eaff49e183
-    bio: ''
+    bio: ""
     image: fulcomer_main.jpg
   - name: Thomas Serre
     type: Full Time
@@ -68,45 +71,83 @@ data:
   - name: David D Johnson
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior HPC Systems Engineer
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: c14eb6ba-4b51-aabd-bf11-ef4071826060
-    bio: ''
+    bio: ""
     image: dave_main.jpg
   - name: Geoffrey Avila
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior HPC Systems Engineer
-    github_username: ''
+    github_username: ""
     brown_directory_uuid: f904bb23-202f-48fb-bf93-7b7d326c7043
     image: avila_main.jpg
-  - name:  Nathan Wood
+  - name: Nathan Wood
     type: Full Time
     team: CCV Operations
+    subteam: High-Performance Computing Systems
     title: Senior Research Systems Administrator
     github_username: n8wood-brown
     brown_directory_uuid: 857b928c-2ce1-fb2a-cde7-1a4ff21fa2d3
-    bio:
+    bio: ""
     image: nate_main.jpg
-  - name: Paulo S Baptista
+  - name: Jarrod Winsor
+    type: Full Time
+    team: CCV Operations
+    title: Lead Research Systems Administrator
+    github_username:
+    brown_directory_uuid: 1b81a653-ade8-4850-97ea-682644b714d0
+    bio: ""
+    image: jarrod_main.png
+  - name: Timothy Poli
     type: Full Time
     team: CCV Operations
     title: Senior Research Systems Administrator
+    github_username: ""
+    brown_directory_uuid: 6ad65e2c-ba76-358a-dd69-9ab5508b3d8b
+    bio: ""
+    image: timothy_main.png
+  - name: Michael Antonelli
+    type: Full Time
+    team: CCV Operations
+    title: Research Systems Administrator
+    github_username: ""
+    brown_directory_uuid: ddb582f2-d4fd-4d8a-adf1-4c4e37902ddd
+    bio: ""
+    image: michael_main.png
+  - name: Paul Koussa
+    type: Full Time
+    team: Leadership
+    title: Associate Director of Research Systems
+    github_username: ""
+    brown_directory_uuid: c67a6c91-53f3-3502-8fcb-006770f4d76e
+    bio: ""
+    image: koussa_main.png
+  - name: Paulo S Baptista
+    type: Full Time
+    team: CCV Operations
+    subteam: High-Performance Computing Systems
+    title: Senior Research Systems Administrator
     github_username: paulobaptista
     brown_directory_uuid: 6e74d82d-bce5-0512-4ba0-f91ff313675a
-    bio: ''
+    bio: ""
     image: paulo_main.jpg
   - name: Singh Saluja
     type: Full Time
     team: CCV Operations
-    title: Research Computing Consultant
+    subteam: High-Performance Computing Systems
+    title: Lead HPC Engineer
     github_username: singhsaluja
     brown_directory_uuid: 786ef442-dcc4-4463-aaf3-c5728a2a8d38
-    bio: ''
+    bio: Singh is a HPC Engineer in the Systems Group at CCV. He did his Masters in Computer Science at Brown, with an emphasis on Machine Learning.
     image: saluja_main.jpg
   - name: Yang Liu
     type: Full Time
     team: CCV Operations
+    subteam: Research Technical Services
     title: Research Service Center Manager
     github_username: yangliu2009
     brown_directory_uuid: e0e55df3-9f2c-4a12-a1de-742955164e1e
@@ -115,6 +156,7 @@ data:
   - name: Prasad Bandarkar
     type: Full Time
     team: CCV Operations
+    subteam: Research Technical Services
     title: Research Computing Specialist
     github_username: prasadbandarkar
     brown_directory_uuid: 11533980-c5cd-4969-81ca-537543da9b72
@@ -127,20 +169,31 @@ data:
     title: Lead Genomics Data Scientist
     github_username: aguang
     brown_directory_uuid: b3f2991e-b618-190f-881f-25fc21f82d02
-    bio: August obtained their PhD from Brown in 2017 in Applied Mathematics and Computational
+    bio:
+      August obtained their PhD from Brown in 2017 in Applied Mathematics and Computational
       Biology. Outside of work they organize against criminalization and the police
       state. Both their research practices and organizing work are guided by the belief
       that crisis and uncertainty are a gift and that we must be involved in shaping
       how change happens.
     image: august_main.jpg
+  - name: Paul Cao
+    type: Full Time
+    team: Advanced Research Computing
+    title: Genomics Data Scientist
+    subteam: Computational Biology Core
+    github_username: paulcao-brown
+    brown_directory_uuid: ec11f732-efa0-4fa8-9cd2-030b45cb2929
+    bio: ""
+    image: cao_main.png
   - name: Jordan Lawson
     type: Full Time
     team: Advanced Research Computing
-    title: Research Software Engineer
+    title: Senior Research Software Engineer
     subteam: Computational Biology Core
     github_username: j-stat
     brown_directory_uuid: 44dc2e77-eaaf-4884-ace2-e3fbb57e58ea
-    bio: Jordan is a Research Software Engineer in the Computational Biology Core at CCV.
+    bio:
+      Jordan is a Research Software Engineer in the Computational Biology Core at CCV.
       He did his Ph.D. in Applied Statistics at Boston College, with an emphasis on causal inference. He
       loves learning about natural and formal languages, superhero movies, boxing, and basketball.
     image: jordan_main.jpg
@@ -151,30 +204,29 @@ data:
     subteam: Computational Biology Core
     github_username: jrwallace
     brown_directory_uuid: 1eb864be-02d2-4880-a43f-62076e2d7366
-    bio: Joselynn is a genomics data scientist. Before coming to Brown, she got her
+    bio:
+      Joselynn is a genomics data scientist. Before coming to Brown, she got her
       PhD from the University of Rhode Island. Her background is primarily in studying
       microbes.
     image: joselynn_main.jpg
   - name: Ashley S. Lee
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data and Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Research Software Engineer
-    github_username: alee35
+    github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
-    bio: Ashley received training in Biology and Data Science at the University of Virginia
-      and dabbled in a variety of careers including Bike Salesman, Bus Driver, Bagel Slinger, and Chief
-      Fiduciary at Smoothie King. She enjoys food and beverage, bodies of water, jokes, and
-      caring for her beloved dog and plants.
+    bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
     image: ashley_main.jpg
   - name: Bradford N. Roarr
     type: Full Time
     team: Advanced Research Computing
     title: Lead Research Software Engineer
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     github_username: broarr
     brown_directory_uuid: 0adf6ab4-8d56-410a-8ac6-4b4ca136a534
-    bio: Bradford is a software engineer with a broad range of experience including
+    bio:
+      Bradford is a software engineer with a broad range of experience including
       firmware engineering, devops, full-stack programming, and more. His professional
       interests include systems programming, infrastructure-as-code, and automation.
       Before Brown, Bradford worked for various startups in the Silicon Valley.
@@ -182,38 +234,54 @@ data:
   - name: Camilo Diaz
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Graphics/Visualization Software Engineer
+    subteam: Graphics, Software, and Data Core
+    title: Senior Graphics/Visualization Software Engineer
     github_username: kmilo9999
     brown_directory_uuid: 448fac67-1dea-42ef-8205-9305ac9b79a6
-    bio: ''
+    bio:
+      Camilo is a software engineer who specializes in realtime simulation engines, 3D modeling and rendering, animations and VR technologies.
+      He loves learning programing languages and enjoys developing applications in multiple frameworks. Outside of work, he passes his time developing his own video games,
+      playing soccer and volunteering for multiple events accros Rhode Island.
     image: camilo_main.jpg
   - name: Ellen Duong
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Research Software Engineer
+    subteam: Graphics, Software, and Data Core
+    title: Lead Research Software Engineer
     github_username: eldu
     brown_directory_uuid: 1dee85fb-a5e4-474d-9f5e-ebef7d9d5ab7
     bio: ""
     image: ellen_main.jpg
-  - name: Joshua Lu
+  - name: Paul Xu
     type: Full Time
     team: Advanced Research Computing
     subteam: Data & Visualization
+    title: Data Scientist
+    github_username: digicosmos86
+    brown_directory_uuid: 58724daa-f619-4f86-88f0-30635dc5178b
+    bio: ""
+    image: xu_main.png
+  - name: Joshua Lu
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: jashlu
     brown_directory_uuid: 534e9bc2-bf24-444f-a568-710c0193c2ec
-    bio: ''
+    bio: ""
     image: joshua_main.jpg
   - name: Robert Gemma, Jr.
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: RobertGemmaJr
     brown_directory_uuid: e78668ed-0e7a-4e5f-a69e-ab4a5015961c
-    bio: ""
+    bio:
+      Robert started his career as a software engineer here at the CCV. He is specially interested
+      in the intersection of XR technologies with science, data, art, and visualization. Robert
+      received his undergraduate degree in Computer Science from the University of Rhode Island
+      where he also minored in music.
     image: gemma_main.jpg
   - name: Paul Hall
     type: Full Time
@@ -222,52 +290,19 @@ data:
     title: Senior Research Software Engineer
     github_username: phall-brown
     brown_directory_uuid: da1c3aed-d801-56a8-0536-0701f6c5c830
-    bio: Paul has a background in computational fluid dynamics and geophysics. He received
+    bio:
+      Paul has a background in computational fluid dynamics and geophysics. He received
       his Ph.D. in Oceanography from the URI.
     image: hall_main.jpg
-  - name: Hadley Dalton
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Mobile App Development Intern
-    github_username: hadleydalt
-    brown_directory_uuid: 791e5317-8b12-4fca-8612-7d2f8521f1b6
-    image: hadley_main.jpg
-  - name: Jiatao Yuan
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Computational Biology Core
-    title: Data Science Intern
-    github_username: Francis958
-    brown_directory_uuid: 1fb9b19e-3269-459d-8e2e-92f0cae6ce1b
-    bio: Jiatao is a graduate student studying data science.
-    image: jiatao_main.jpg
-  - name: Zhuoran Han
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Computational Biology Core
-    title: Data Science Intern
-    github_username: zhuoran-han
-    brown_directory_uuid: a813faaa-55d3-4a15-8960-6cb5e71b9425
-    bio: Zhuoran is a graduate student studying data science.
-    image: zhuoran_main.jpg
-  - name: Yuan Pu
-    type: CCV Interns
-    team: Advanced Research Computing
-    subteam: Computational Biology Core
-    title: Data Science Intern
-    github_username: yuan-pu
-    brown_directory_uuid: f9b90aaf-a7f2-4ce9-b51e-b9b5b484c4dd
-    bio: Yuan is an undergrad student studying computational biology.
-    image: yuan_main.jpg
   - name: Timothy Divoll
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Data Scientist
     github_username: tdivoll
     brown_directory_uuid: d98138f4-a49c-4e1b-9bc4-1832b51f6f46
-    bio: Tim has dabbled in several aspects of data science such as computer vision for species detection,
+    bio:
+      Tim has dabbled in several aspects of data science such as computer vision for species detection,
       bioinformatics for metabarcoding, and statistics for ecological inference. He studied the foraging
       ecology of bats at Indiana State University for his PhD. Overall, he enjoys reproducible science
       and making pipelines accessible.
@@ -275,8 +310,8 @@ data:
   - name: John Gerrard Holland
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Senior Data Scientist
+    subteam: Graphics, Software, and Data Core
+    title: Lead Data Scientist
     github_username: hollandjg
     brown_directory_uuid: c58cefc3-dc27-408f-ae62-fa098803341d
     bio: John is a data scientist at the CCV, who is passionate about climate,
@@ -287,35 +322,27 @@ data:
   - name: Carlos Paniagua
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Data Scientist
     github_username: cpaniaguam
     brown_directory_uuid: 504c3db1-c3ec-4b15-9350-704e8bbe3036
     bio: Carlos is a data scientist at the CCV. Previously a Mathematics tenure-track faculty member at universities in the US and the Dominican Republic, Carlos likes using his skills working with data for wider social impact.
     image: carlos_main.jpg
-  - name: Aisulu Omar
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Data & Visualization
-    title: Senior Data Scientist
-    github_username: aisomar
-    brown_directory_uuid: 7380e4e4-b32e-422b-af91-d8605bedd496
-    bio: Aisulu is a data scientist at the CCV, who is passionate about behavioral data science. She enjoys writing about social problems and things happening around her. Before coming to Brown, Aisulu was a data scientist at Toast working on food and restaurants related algorithms. 
-    image: aisulu_main.jpg
   - name: George Dang
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Senior Data Scientist
     github_username: gtdang
     brown_directory_uuid: d91b1633-1534-41ab-b38d-78a23e99d843
-    bio: George is a data scientist with a background in biology and environmental science. 
-      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics. 
+    bio:
+      George is a data scientist with a background in biology and environmental science.
+      Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics.
     image: dang_main.jpg
   - name: Ford McDonald
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: fordmcdonald
     brown_directory_uuid: c694e24f-287d-4816-9f96-2753568d085c
@@ -333,7 +360,7 @@ data:
   - name: Heather Yu
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: hetd54
     brown_directory_uuid: 347df47c-4a2d-4c43-b6f9-3e88c8a5c146
@@ -342,7 +369,7 @@ data:
   - name: Pratibha Raghunandan
     type: Full Time
     team: Advanced Research Computing
-    subteam: High Performance Computing
+    subteam: High-Performance Computing
     title: Research Software Engineer
     github_username: rubberduck2023
     brown_directory_uuid: 0628ae98-dce6-41c4-986d-2c67b95512ec
@@ -351,9 +378,36 @@ data:
   - name: Anna Murphy
     type: Full Time
     team: Advanced Research Computing
-    subteam: Data & Visualization
+    subteam: Graphics, Software, and Data Core
     title: Research Software Engineer
     github_username: anna-murphy
     brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
     bio: Anna is a software engineer and researcher with the CCV with a background in full-stack web development. She loves thinking about technology and media, and the different impacts they both have on the world.
     image: anna_main.jpg
+  - name: Galen Winsor
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Research Software Engineer
+    github_username: galenwinsor
+    brown_directory_uuid: 77e8343c-498a-4bed-bedf-ed0a59d0fa3c
+    bio: Galen earned his Bachelor's degree from Brown in 2022 in Computer Science and Environmental Studies. His professional interests include web software architecture, UI/UX, and data visualization. Outside of work, he loves playing music, playing tennis and squash, and hiking.
+    image: galen_main.jpg
+  - name: Rain Fan
+    type: Full Time
+    team: CCV Operations
+    subteam: Research Technical Services
+    title: Research Computing Consultant
+    github_username: rainxfan
+    brown_directory_uuid: D5bc11b8-b031-4402-8f40-d08ccee18b60
+    bio:
+    image: rain_main.jpg
+  - name: Prithvi Thakur
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: High-Performance Computing
+    title: Research Software Engineer
+    github_username: thehalfspace
+    brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
+    bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
+    image: prithvi_main.jpg

@@ -5,6 +5,8 @@
     - single.yml/single.md
 - **banners**
     - single.yml/single.md
+- **blog**
+    - single.yml
 - **help** - yml files handled consistently within a category
     - single.yml
 - **images** - jpg files within a category
@@ -15,7 +17,7 @@
     - *category* - provides content to overview cards
         - single.yml
 - **our-work** - yml files handled consistently within a category
-    - *category* - provide content to 
+    - *category* - provide content to
         - single.yml
 - **schemas** - schemas for yml validation via Yamale
     - meta*.yml - validation for meta/* folders
@@ -29,7 +31,7 @@
 
 We use [Yamale]() together with GitHub Actions to make sure that the content of files adheres to a specific schema.
 
-All schemas are defined in the `schemas` folder. When you open a Pull Request, the necessary validations are run. 
+All schemas are defined in the `schemas` folder. When you open a Pull Request, the necessary validations are run.
 However, if you would like to validate the yml file locally you can install Yamale
 
 To install Yamale, you can use pipx (or pip)

@@ -10,12 +10,14 @@ tags:
   - government
   - web
 people:
-  - name: Mary McGrath
-    github_user: mcmcgrath13
   - name: Joshua Lu
     github_user: jashlu
   - name: John Gerrard Holland
     github_user: hollandjg
+  - name: Heather Yu
+    github_user: hetd54
+  - name: Jordan Lawson
+    github_user: j-stat
 links:
   - category: website
     url: https://projectportal.nc.gov

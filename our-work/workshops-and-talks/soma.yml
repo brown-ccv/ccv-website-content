@@ -1,0 +1,19 @@
+title: "SOMA, A Pain and Recovery Symptom Tracking App - Considerations in Creating Our Mobile Application for Research"
+description:
+  In this talk, we'll discuss the research, design, and technical considerations in developing SOMA Pain Manager. SOMA pain manager is a pain and recovery symptom tracking mobile app. SOMA allows you to monitor your symptoms and activities and gain insights into your pain and recovery patterns that you can use for yourself or share with your healthcare provider. Researchers will use collected data to further research on pain. It was created in collaboration with the Psychiatry, Embodiment and Computation (PEAC) lab and the Center for Computation and Visualization (CCV) at Brown University.
+slug: soma-dscov
+languages:
+  - react-native
+  - typescript
+tags:
+  - collaboration
+people:
+  - name: Ellen Duong
+    github_user: eldu
+groups:
+  - dscov
+links:
+  - category: slides
+    url: https://docs.google.com/presentation/d/1i1Ww2UO53ooRTpDlkMvCshydmdOB4cUoV8UBjb3gh8g/edit?usp=sharing
+  - category: website
+    url: https://somatheapp.com/
