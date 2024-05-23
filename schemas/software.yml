@@ -26,6 +26,7 @@ language: "enum(
 tag: "enum(
           'behavioral-tasks',
           'cognitive-science',
+          'computational-biology',
           'computational-psychiatry',
           'machine-learning',
           'database',

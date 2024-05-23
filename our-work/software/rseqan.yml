@@ -1,7 +1,7 @@
 # Schema for all yml files in our-work/software and our-work/workshops-and-talks
 title: RSeqAn
 description: Wrappers for the SeqAn library for use in R with Rcpp.
-groups: list(include('group'), required=False)
+groups:
 languages:
   - c++
   - R
