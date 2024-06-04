@@ -412,3 +412,12 @@ data:
     brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
     bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
     image: prithvi_main.jpg
+  - name: Michael Tu
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: High-Performance Computing
+    title: Data Science Intern
+    github_username: michaeltu01
+    brown_directory_uuid: 78e02962-a8af-46ec-8636-61237d83cb41
+    bio: Michael is a data science intern in the High Performance Computing division at CCV. He is in the Class of 2026 at Brown University studying Computer Science. His academic interests include software development, deep learning, and East Asian studies. Outside of work, you can find him playing basketball at the OMAC, or listening to music through his pink Beats earbuds.
+    image: michael1_main.jpg
