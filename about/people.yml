@@ -412,3 +412,12 @@ data:
     brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
     bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
     image: prithvi_main.jpg
+    name: Kyle Wisialowski
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Intern
+    github_username: kylewisialowski
+    brown_directory_uuid: b84c487b-c0d2-4f69-8b4f-226c4a983584
+    bio: Kyle is a summer intern working with the Computational Biology Core at CCV. He is an undergraduate student studying applied math and biology. He loves spending time with his friends, playing pickleball, and going to the beach.
+    image: kyle_main.jpg
