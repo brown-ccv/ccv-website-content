@@ -8,7 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - uses: actions/checkout@v3
         with:
           repository: brown-ccv/ccv-website-nuxt
           submodules: recursive
@@ -16,6 +19,7 @@ jobs:
         run: npm ci 
       - name: Generate Static Content
         run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
           git submodule set-branch -b main content
           git submodule update --remote
           npm run generate
@@ -23,6 +27,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CCV_BROWN_EDU }}'
+          firebaseToolsVersion: 9.12.1 # Pin firebase tools versions to same as ccv-website-nuxt
           projectId: ccv-brown-edu
           channelId: live
         env:

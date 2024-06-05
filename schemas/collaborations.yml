@@ -1,12 +1,21 @@
 # Schema for all yml files in our-work/collaborations
 title: str()
 id: "enum(
+          'acadia',
           'bnc',
+          'beura-lab',
           'borton-lab',
           'braingate',
+          'brainerd-lab',
+          'brodsky-lab',
+          'covid19',
+          'degraffenried-lab',
           'frank-lab',
           'frickel',
+          'fussell-lab',
           'hurt-lab',
+          'koren-lab',
+          'lee-lab',
           'nassar-lab',
           'oh-lab',
           'peac-lab',
@@ -26,9 +35,14 @@ id: "enum(
           'mchugh-lab',
           'rothman-lab',
           'spade-lab',
+          'trikalinos-lab',
           'aer-group',
+          'ventutulo',
           'wilhelmus-lab',
-          'the-policy-lab'
+          'wong-lab',
+          'the-policy-lab',
+          'yajima-lab',
+          'division-biology-medicine'
           )"
 description: str()
 investigators: list(include('investigator'))
@@ -44,7 +58,7 @@ department: "enum(
             'software-engineering',
             'computational-psychiatry',
             'sociology',
-            'ecology',
+            'ecology-evolution-and-organismal-biology',
             'epidemiology',
             'finance',
             'computer-science',
@@ -53,7 +67,8 @@ department: "enum(
             'computational-biology',
             'applied-math',
             'clps',
-            'policy-lab'
+            'policy-lab', 
+            'biomedical'
           )"
 tag: "enum(
             'cloud-computing',
@@ -69,6 +84,7 @@ tag: "enum(
             'system-administration',
             'vr',
             'system-administration',
+            'university-administration',
             'climate-science',
             'government',
             'economics',
@@ -84,5 +100,5 @@ person:
 # These are links associated with the software
 link:
   # Must match one of the values in the regex
-  category: "enum('website', 'github', 'docs')"
+  category: "enum('website', 'github', 'docs', 'publications')"
   url: str()

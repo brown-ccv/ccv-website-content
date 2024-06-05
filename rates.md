@@ -7,7 +7,7 @@ tagDescription: Check rates for advanced research computing that require extra r
 date: 2020-08-05T18:04:51.000+00:00
 lead: We provide services with limited resources at no cost to all
   members affiliated with Brown. For advanced computing that requires extra resources,
-  we charge a quarterly fee. See below the rates for FY22.
+  we charge a monthly fee. See below the rates for FY24.
 
 ---
 
@@ -32,14 +32,14 @@ lead: We provide services with limited resources at no cost to all
         <th>Memory(GB)</th>
         <th>GPU</th>
         <th>Max Walltime* (Hours)</th>
-        <th>Cost per Quarter</th>
+        <th>Cost per Month</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td width="25%"> Exploratory <br> <!-- Make it Single Line. -->
         <td> <br> batch <br> gpu <br> bigmem</td>
-        <td> <br> 32 <br> 4 <br> 32 <br> </td>
+        <td> <br> 32 <br> 12 <br> 32 <br> </td>
         <td> <br> 246 <br> 192 <br> 752 </td>
         <td> <br> None <br> 2 Std. <br> None </td>
         <td> 48</td>
@@ -52,7 +52,7 @@ lead: We provide services with limited resources at no cost to all
         <td>1,500</td>
         <td>2 Std.</td>
         <td>96</td>
-        <td>$200</td>
+        <td>$67</td>
       </tr>
       <tr>
         <td>HPC Priority+</td>
@@ -61,34 +61,34 @@ lead: We provide services with limited resources at no cost to all
         <td>3,000</td>
         <td>2 Std.</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>Standard GPU Priority</td>
         <td>gpu</td>
-        <td>16</td>
+        <td>24</td>
         <td>192</td>
         <td>4 Std.</td>
         <td>96</td>
-        <td>$200</td>
+        <td>$67</td>
       </tr>
       <tr>
         <td>Standard GPU Priority+</td>
         <td>gpu</td>
-        <td>32</td>
+        <td>48</td>
         <td>384</td>
         <td>8 Std.</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>High End GPU Priority</td>
         <td>gpu-he</td>
-        <td>16</td>
+        <td>24</td>
         <td>256</td>
         <td>4 high-end</td>
         <td>96</td>
-        <td>$400</td>
+        <td>$133</td>
       </tr>
       <tr>
         <td>Large Memory Priority</td>
@@ -97,7 +97,7 @@ lead: We provide services with limited resources at no cost to all
         <td>2TB</td>
         <td>-</td>
         <td>96</td>
-        <td>$100</td>
+        <td>$33</td>
       </tr>
     </tbody>
   </table>
@@ -105,8 +105,8 @@ lead: We provide services with limited resources at no cost to all
 </div>
 
 * Note, these values are subject to periodic review and changes
-* Each account is assigned 20G Home, 512G Scratch (purged every 30 days).
-* Priority accounts and Exploratory accounts with a PI get a data directory.
+* Each account is assigned 100G Home, 512G Scratch (purged every 30 days).
+* Priority accounts and Exploratory accounts associated with a PI get a data directory.
 * Exploratory accounts without a PI have no data directory provided.
 * Priority accounts have a higher Quality-of-Service (QOS) i.e. priority accounts will have faster job start times.
 * The maximum number of cores and duration may change based on cluster utilization.
@@ -168,10 +168,10 @@ lead: We provide services with limited resources at no cost to all
 * 1TB per Brown Faculty Member - Free
 * 10TB per awarded Grant at the request of the Brown PI - an active grant account number will be required to provide this allocation and the data will be migrated to archive storage at the end of the grant.
 * Additional Storage Allocation
-  * Rdata: $100 / Terabyte / year
-  * Stronghold Storage: $100 / Terabyte / Year
-  * Campus File Storage (replicated): $100 / Terabyte / Year
-  * Campus File Storage (non-replicated): $50 / Terabyte / Year
+  * Rdata: $8.3 / Terabyte / Month ($100 / Terabyte / Year)
+  * Stronghold Storage: $8.3 / Terabyte / Month ($100 / Terabyte / Year)
+  * Campus File Storage (replicated): $8.3 / Terabyte / Month ($100 / Terabyte / Year)
+  * Campus File Storage (non-replicated): $4.2 / Terabyte / Month ($50 / Terabyte / Year)
 
 ## Pooled Storage Allocations
 
