@@ -448,3 +448,13 @@ data:
     brown_directory_uuid: 57e3600a-ba7c-4123-ba91-5feac926c379
     bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books. 
     image: daniela_main.png
+  - name: Sanjana Hiremath
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Data Science Intern
+    github_username: sanjana-hiremath
+    brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
+    bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
+    image: sanjana_main.jpg
+
