@@ -447,6 +447,15 @@ data:
     brown_directory_uuid: 542a2511-9c28-4f0d-a20b-107e002929fb
     bio: Melinda is a summer research intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown concentrating in Computational Biology. She loves matcha lattes and long walks in Providence.
     image: melinda_main.jpg
+  - name: Daniela Ponce Cartagena
+    type: Intern
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Data Science Intern
+    github_username: DanielaP0nce
+    brown_directory_uuid: 57e3600a-ba7c-4123-ba91-5feac926c379
+    bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books. 
+    image: daniela_main.png
   - name: Sanjana Hiremath
     type: Part Time
     team: Advanced Research Computing
