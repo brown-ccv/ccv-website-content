@@ -457,4 +457,13 @@ data:
     brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
     bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
     image: sanjana_main.jpg
+  - name: Marwan Ali
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Intern
+    github_username: marwanali55
+    brown_directory_uuid: 80e72ea3-bce9-4685-bc2c-3041b55facfc
+    bio: Marwan is a summer intern working with the Computational Biology Core at CCV. He is an undergraduate student studying Applied Mathematics. He loves reading, playing piano, and writing stand-up comedy.
+    image: marwan_main.PNG
 
