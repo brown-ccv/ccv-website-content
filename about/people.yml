@@ -439,7 +439,7 @@ data:
     brown_directory_uuid: 542a2511-9c28-4f0d-a20b-107e002929fb
     bio: Melinda is a summer research intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown concentrating in Computational Biology. She loves matcha lattes and long walks in Providence.
     image: melinda_main.jpg
-    name: Jose Harvey
+  - name: Jose Harvey
     type: Part Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
@@ -447,4 +447,4 @@ data:
     github_username: pneumatick
     brown_directory_uuid: aceb7ec3-763c-4179-83b2-96417dbacf9f 
     bio: Jose is a data science intern in the Advanced Reseach Computing division at CCV. He is an undergraduate student at the University of Rhode Island studying Computer Science. In his spare time, he enjoys reading, playing his guitar, drawing, and exploring new places. 
-    image: jose_main.jpeg
+    image: jose_main.jpg
