@@ -1,0 +1,21 @@
+# Schema for all yml files in our-work/software and our-work/workshops-and-talks
+title: RSeqAn
+description: Wrappers for the SeqAn library for use in R with Rcpp.
+groups:
+languages:
+  - c++
+  - R
+tags:
+  - computational-biology
+people:
+  - name: August Guang
+    github_user: aguang
+links:
+  - category: website
+    url: https://www.bioconductor.org/packages/release/bioc/html/RSeqAn.html
+  - category: publication
+    url: https://joss.theoj.org/papers/10.21105/joss.01160
+  - category: code
+    url: https://github.com/compbiocore/RSeqAn
+  - category: docs
+    url: https://compbiocore.github.io/RSeqAn/
