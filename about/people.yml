@@ -430,8 +430,7 @@ data:
     brown_directory_uuid: 78e02962-a8af-46ec-8636-61237d83cb41
     bio: Michael is a data science intern in the High Performance Computing division at CCV. He is in the Class of 2026 at Brown University studying Computer Science. His academic interests include software development, deep learning, and East Asian studies. Outside of work, you can find him playing basketball or listening to music.
     image: michael1_main.jpg
-<<<<<<< HEAD
-    name: Sima Raha
+  - name: Sima Raha
     type: Part Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
@@ -440,7 +439,6 @@ data:
     brown_directory_uuid: cf68285e-47c5-4a65-897e-187c94e4f36b
     bio: Sima Raha is a Software Sustainability Intern at CCV. She is Class of 2025, studying Economics and Data Fluency at Brown University. Her career interests include quantitative analysis, business intelligence (BI) development, and statistical programming. She enjoys hiking, nature photography, playing frisbee, and billiards.
     image: sima_main.jpg
-=======
   - name: Melinda Zhang
     type: Part Time
     team: Advanced Research Computing
@@ -468,5 +466,3 @@ data:
     brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
     bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
     image: sanjana_main.jpg
-
->>>>>>> main
