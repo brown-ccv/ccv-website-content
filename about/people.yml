@@ -465,4 +465,16 @@ data:
     brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
     bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
     image: sanjana_main.jpg
+  - name: Michelange Senat
+    type: Intern
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    tile: Software Sustainability Intern
+    github_username: mickey0116
+    brown_directory_uuid: 39f28676-e6ec-4ced-afc3-1b3e5d70683c
+    bio: Michelange is a summer intern wotking with the Graphics, Software, and Data Core at CCV. She is an undergraduate student at Brown Univeristy interested in studying Applied Mathematics, Computer Science, and Econommics. Outside of academics, Michelange loves matcha, hair braiding, and exploring different neighborhoods in Rhode Island. 
+    image: michelange_main.jpg
+
+
+
 
