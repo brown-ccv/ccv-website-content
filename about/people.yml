@@ -483,3 +483,12 @@ data:
     brown_directory_uuid: 39f28676-e6ec-4ced-afc3-1b3e5d70683c
     bio: Michelange is a summer intern working with the Graphics, Software, and Data Core at CCV. She is an undergraduate student at Brown University interested in studying Applied Mathematics, Computer Science, and Economics. Outside of academics, Michelange loves matcha, hair braiding, and exploring different neighborhoods in Rhode Island.
     image: michelange_main.jpg 
+  - name: Austin Dossantos
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: dossantos-am
+    brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
+    bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
+    image: austin_main.jpg
