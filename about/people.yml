@@ -483,3 +483,14 @@ data:
     brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
     bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
     image: austin_main.jpg
+  - name: Elizabeth Lokoyi
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Web Development Intern
+    github_username: elokoyi1989
+    brown_directory_uuid: 00cdb94d-c25e-4df2-8128-95ef4c135721
+    bio: Elizabeth is a rising senior at Brown University studying Computer Science and English working as a web deelopment intern. Her interests include web development, design, game development, and film making. On her free time, you can find her trying out new cafes!
+    image: elizabeth_main.jpg
+
+    
