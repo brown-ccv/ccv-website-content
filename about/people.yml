@@ -483,3 +483,21 @@ data:
     brown_directory_uuid: 19a4d1b8-c529-4b23-b289-a630ca7e59e6
     bio: Thomas is an undergraduate at Brown University studying Computer Engineering, and works to decrease the cost and climate impact of CCV's software. In his free time, he creates puzzlehunts, writes fiction, and explores Rhode Island.
     image: thomasg_main.jpg
+  - name: Jose Harvey
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: pneumatick
+    brown_directory_uuid: aceb7ec3-763c-4179-83b2-96417dbacf9f 
+    bio: Jose is a data science intern in the Advanced Research Computing division at CCV. He is an undergraduate student at the University of Rhode Island studying Computer Science. In his spare time, he enjoys reading, playing his guitar, drawing, and exploring new places. 
+    image: jose_main.jpg
+  - name: Austin Dossantos
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: dossantos-am
+    brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
+    bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
+    image: austin_main.jpg
