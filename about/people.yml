@@ -487,6 +487,15 @@ data:
     brown_directory_uuid: 6be48c4b-0881-457b-b3f8-b0376b589fdb
     bio: Jesus is a data science intern working with the High Performance Computing division at CCV. He is a rising junior at Brown University studying Computer Science. His academic interests include software development, machine learning, and mathematics. Outside of work, you can find him playing guitar, learning Vietnamese, or listening to music.
     image: jesus_main.jpg
+  - name: Thomas Gordon
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Software Sustainability Intern
+    github_username: metaterminal
+    brown_directory_uuid: 19a4d1b8-c529-4b23-b289-a630ca7e59e6
+    bio: Thomas is an undergraduate at Brown University studying Computer Engineering, and works to decrease the cost and climate impact of CCV's software. In his free time, he creates puzzlehunts, writes fiction, and explores Rhode Island.
+    image: thomasg_main.jpg
   - name: Jose Harvey
     type: Part Time
     team: Advanced Research Computing
