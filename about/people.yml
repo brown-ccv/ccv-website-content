@@ -411,6 +411,19 @@ data:
     brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
     bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
     image: prithvi_main.jpg
+  - name: Sam Bessey
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Research Software Engineer
+    github_username: s-bessey
+    brown_directory_uuid: 9788c813-f3f4-4b64-b8ac-2221a92886c2
+    bio: 
+      Sam has a background in environmental science and mathematical modeling 
+      for epidemiology. Before coming to CCV, Sam worked at Brown's People, Place,
+      and Health Collective in the school of public health, where they developed
+      software to study the spread of HIV through sexual and needle-sharing networks.
+    image: sam_main.jpeg
   - name: Kyle Wisialowski
     type: Part Time
     team: Advanced Research Computing
