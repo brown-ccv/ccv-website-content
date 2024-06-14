@@ -516,6 +516,7 @@ data:
     image: austin_main.jpg
   - name: Connor Holliday
     type: Part Time
+    team: Advanced Research Computing
     subteam: Graphics,Software and Data Core
     title: Data Science Intern
     github_username: connorholliday5
