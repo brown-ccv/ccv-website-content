@@ -497,6 +497,10 @@ data:
     bio: Michelange is a summer intern working with the Graphics, Software, and Data Core at CCV. She is an undergraduate student at Brown University interested in studying Applied Mathematics, Computer Science, and Economics. Outside of academics, Michelange loves matcha, hair braiding, and exploring different neighborhoods in Rhode Island.
     image: michelange_main.jpg 
   - name: Thomas Gordon
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Software Sustainability Intern
     github_username: metaterminal
     brown_directory_uuid: 19a4d1b8-c529-4b23-b289-a630ca7e59e6
     bio: Thomas is an undergraduate at Brown University studying Computer Engineering, and works to decrease the cost and climate impact of CCV's software. In his free time, he creates puzzlehunts, writes fiction, and explores Rhode Island.
