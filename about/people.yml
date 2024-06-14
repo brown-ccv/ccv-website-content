@@ -465,13 +465,11 @@ data:
     brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
     bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
     image: sanjana_main.jpg
-     - name: Connor Holliday
+    -name: Connor Holliday
     type: Intern
-    team: Data Science
-    subteam: Graphics, Software, and Data Core
+    subteam: Graphics,Software and Data Core
     title: Data Science Intern
     github_username: connorholliday5
-    brown_directory_uuid: 5ed99d55-cb88-4c46-aa54-64c1d1f3e71d
+    brown_director_uuid: 5ed99d55-cb88-4c46-aa54-64c1d1f3e71d
     bio: Connor is a summer data intern working on the ice shelf stability project at CCV. He is a undergraduate student at Rhode Island College majoring in Computer Science.Outside of CCV you can find Connor,upgrading his gaming PC, working out or playing with his new puppy Penny.
-    image: Connor_Holliday.jpg
-
+    image: Connor_Holliday.jpg 
