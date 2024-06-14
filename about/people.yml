@@ -411,6 +411,19 @@ data:
     brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
     bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
     image: prithvi_main.jpg
+  - name: Sam Bessey
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Research Software Engineer
+    github_username: s-bessey
+    brown_directory_uuid: 9788c813-f3f4-4b64-b8ac-2221a92886c2
+    bio: 
+      Sam has a background in environmental science and mathematical modeling 
+      for epidemiology. Before coming to CCV, Sam worked at Brown's People, Place,
+      and Health Collective in the school of public health, where they developed
+      software to study the spread of HIV through sexual and needle-sharing networks.
+    image: sam_main.jpeg
   - name: Kyle Wisialowski
     type: Part Time
     team: Advanced Research Computing
@@ -473,3 +486,40 @@ data:
     brown_director_uuid: 5ed99d55-cb88-4c46-aa54-64c1d1f3e71d
     bio: Connor is a summer data intern working on the ice shelf stability project at CCV. He is a undergraduate student at Rhode Island College majoring in Computer Science.Outside of CCV you can find Connor,upgrading his gaming PC, working out or playing with his new puppy Penny.
     image: Connor_Holliday.jpg 
+  - name: Jesus Rodriguez
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: High-Performance Computing
+    title: Data Science Intern
+    github_username: monoguitari
+    brown_directory_uuid: 6be48c4b-0881-457b-b3f8-b0376b589fdb
+    bio: Jesus is a data science intern working with the High Performance Computing division at CCV. He is a rising junior at Brown University studying Computer Science. His academic interests include software development, machine learning, and mathematics. Outside of work, you can find him playing guitar, learning Vietnamese, or listening to music.
+    image: jesus_main.jpg
+  - name: Thomas Gordon
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Software Sustainability Intern
+    github_username: metaterminal
+    brown_directory_uuid: 19a4d1b8-c529-4b23-b289-a630ca7e59e6
+    bio: Thomas is an undergraduate at Brown University studying Computer Engineering, and works to decrease the cost and climate impact of CCV's software. In his free time, he creates puzzlehunts, writes fiction, and explores Rhode Island.
+    image: thomasg_main.jpg
+  - name: Jose Harvey
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: pneumatick
+    brown_directory_uuid: aceb7ec3-763c-4179-83b2-96417dbacf9f 
+    bio: Jose is a data science intern in the Advanced Research Computing division at CCV. He is an undergraduate student at the University of Rhode Island studying Computer Science. In his spare time, he enjoys reading, playing his guitar, drawing, and exploring new places. 
+    image: jose_main.jpg
+  - name: Austin Dossantos
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: dossantos-am
+    brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
+    bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
+    image: austin_main.jpg
+
