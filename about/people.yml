@@ -259,8 +259,7 @@ data:
     title: Lead Data Scientist
     github_username: digicosmos86
     brown_directory_uuid: 58724daa-f619-4f86-88f0-30635dc5178b
-    bio: 
-      Paul's diverse interests as a Lead Data Scientist include building generative AI applications in computer vision and natural language processing, engineering data science software, and maintaining cloud compute infrastructure for data science. Paul received his Sc.M. in Computer Science with focus on AI/ML from Brown University and Ph.D. in Curriculum and Instruction with focus on CS Education from Boston College. In his own time, Paul likes to geek out on computer and natural languages. He is also an avid photographer with his work published in an international magazine.
+    bio: Paul's diverse interests as a Lead Data Scientist include building generative AI applications in computer vision and natural language processing, engineering data science software, and maintaining cloud compute infrastructure for data science. Paul received his Sc.M. in Computer Science with focus on AI/ML from Brown University and Ph.D. in Curriculum and Instruction with focus on CS Education from Boston College. In his own time, Paul likes to geek out on computer and natural languages. He is also an avid photographer with his work published in an international magazine.
     image: px_main.jpg
   - name: Joshua Lu
     type: Full Time
@@ -412,6 +411,19 @@ data:
     brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
     bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
     image: prithvi_main.jpg
+  - name: Sam Bessey
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Research Software Engineer
+    github_username: s-bessey
+    brown_directory_uuid: 9788c813-f3f4-4b64-b8ac-2221a92886c2
+    bio: 
+      Sam has a background in environmental science and mathematical modeling 
+      for epidemiology. Before coming to CCV, Sam worked at Brown's People, Place,
+      and Health Collective in the school of public health, where they developed
+      software to study the spread of HIV through sexual and needle-sharing networks.
+    image: sam_main.jpeg
   - name: Kyle Wisialowski
     type: Part Time
     team: Advanced Research Computing
@@ -439,6 +451,15 @@ data:
     brown_directory_uuid: cf68285e-47c5-4a65-897e-187c94e4f36b
     bio: Sima Raha is a Software Sustainability Intern at CCV. She is Class of 2025, studying Economics and Data Fluency at Brown University. Her career interests include quantitative analysis, business intelligence (BI) development, and statistical programming. She enjoys hiking, nature photography, playing frisbee, and billiards.
     image: sima_main.jpg
+  - name: Gurpartap Singh
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Web Developer Intern
+    github_username: gpsss246
+    brown_directory_uuid: bed03629-ed04-429d-af97-64fa7415d182
+    bio: Gurpartap Singh studies Computer Science and Political Science at Brown University as a member of the Class of 2026. You can find Gurpartap listening to music or learning how to create it (ask me about the Alan Turing Album). I make a good cup of Masala Cha so feel free to ask for a cup!
+    image: gurpartap_main.png
   - name: Melinda Zhang
     type: Part Time
     team: Advanced Research Computing
@@ -455,7 +476,7 @@ data:
     title: Data Science Intern
     github_username: DanielaP0nce
     brown_directory_uuid: 57e3600a-ba7c-4123-ba91-5feac926c379
-    bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books. 
+    bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books.
     image: daniela_main.png
   - name: Sanjana Hiremath
     type: Part Time
@@ -466,3 +487,57 @@ data:
     brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
     bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
     image: sanjana_main.jpg
+  - name: Megan Zheng
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Web Development Intern
+    github_username: YUUU23
+    brown_directory_uuid: b544160a-4802-49ca-8343-9d54547e2f90
+    bio: Megan is a summer intern working with the Graphics, Software, and Data Core at CCV. She is concentrating in Computer Science and is interested in systems and software development. Outside of work, you can find her reading mystery novels, learning Japanese and Cantonese, and sharing yummy food with family and friends!
+    image: megan_main.jpg
+  - name: Jesus Rodriguez
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: High-Performance Computing
+    title: Data Science Intern
+    github_username: monoguitari
+    brown_directory_uuid: 6be48c4b-0881-457b-b3f8-b0376b589fdb
+    bio: Jesus is a data science intern working with the High Performance Computing division at CCV. He is a rising junior at Brown University studying Computer Science. His academic interests include software development, machine learning, and mathematics. Outside of work, you can find him playing guitar, learning Vietnamese, or listening to music.
+    image: jesus_main.jpg
+  - name: Thomas Gordon
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Software Sustainability Intern
+    github_username: metaterminal
+    brown_directory_uuid: 19a4d1b8-c529-4b23-b289-a630ca7e59e6
+    bio: Thomas is an undergraduate at Brown University studying Computer Engineering, and works to decrease the cost and climate impact of CCV's software. In his free time, he creates puzzlehunts, writes fiction, and explores Rhode Island.
+    image: thomasg_main.jpg
+  - name: Jose Harvey
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: pneumatick
+    brown_directory_uuid: aceb7ec3-763c-4179-83b2-96417dbacf9f 
+    bio: Jose is a data science intern in the Advanced Research Computing division at CCV. He is an undergraduate student at the University of Rhode Island studying Computer Science. In his spare time, he enjoys reading, playing his guitar, drawing, and exploring new places. 
+    image: jose_main.jpg
+  - name: Austin Dossantos
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Data Science Intern
+    github_username: dossantos-am
+    brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
+    bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
+    image: austin_main.jpg
+  - name: Ryan Lee
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: High Performance Computing
+    title: Data Science Intern
+    github_username: ryanleexr
+    brown_directory_uuid: b95aae5c-9882-414e-bf37-bef53e9fa5f4
+    bio: Ryan is a rising junior at Brown University working in CCV's High Performance Computing division. Academically, he loves all things related to computer systems and music theory. In his free time, he likes to make milk tea, create piano covers, and play board games, especially Ticket to Ride.
+    image: ryan_main.jpg
