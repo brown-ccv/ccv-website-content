@@ -442,6 +442,15 @@ data:
     brown_directory_uuid: 78e02962-a8af-46ec-8636-61237d83cb41
     bio: Michael is a data science intern in the High Performance Computing division at CCV. He is in the Class of 2026 at Brown University studying Computer Science. His academic interests include software development, deep learning, and East Asian studies. Outside of work, you can find him playing basketball or listening to music.
     image: michael1_main.jpg
+  - name: Sima Raha
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Software Sustainability Intern 
+    github_username: SimaRaha
+    brown_directory_uuid: cf68285e-47c5-4a65-897e-187c94e4f36b
+    bio: Sima Raha is a Software Sustainability Intern at CCV. She is Class of 2025, studying Economics and Data Fluency at Brown University. Her career interests include quantitative analysis, business intelligence (BI) development, and statistical programming. She enjoys hiking, nature photography, playing frisbee, and billiards.
+    image: sima_main.jpg
   - name: Gurpartap Singh
     type: Part Time
     team: Advanced Research Computing
@@ -532,4 +541,12 @@ data:
     brown_directory_uuid: 80e72ea3-bce9-4685-bc2c-3041b55facfc
     bio: Marwan is a summer intern working with the Computational Biology Core at CCV. He is an undergraduate student studying Applied Mathematics. He loves reading, playing piano, and writing stand-up comedy.
     image: marwan_main.jpg
-
+- name: Ryan Lee
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: High Performance Computing
+    title: Data Science Intern
+    github_username: ryanleexr
+    brown_directory_uuid: b95aae5c-9882-414e-bf37-bef53e9fa5f4
+    bio: Ryan is a rising junior at Brown University working in CCV's High Performance Computing division. Academically, he loves all things related to computer systems and music theory. In his free time, he likes to make milk tea, create piano covers, and play board games, especially Ticket to Ride.
+    image: ryan_main.jpg
