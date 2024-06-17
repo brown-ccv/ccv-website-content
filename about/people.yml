@@ -523,3 +523,12 @@ data:
     brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
     bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
     image: austin_main.jpg
+  - name: Ryan Lee
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: High Performance Computing
+    title: Data Science Intern
+    github_username: ryanleexr
+    brown_directory_uuid: b95aae5c-9882-414e-bf37-bef53e9fa5f4
+    bio: Ryan is a rising junior at Brown University working in CCV's High Performance Computing division. Academically, he loves all things related to computer systems and music theory. In his free time, he likes to make milk tea, create piano covers, and play board games, especially Ticket to Ride.
+    image: ryan_main.jpg
