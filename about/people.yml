@@ -411,6 +411,19 @@ data:
     brown_directory_uuid: cb6e1744-8240-430c-89b5-0bd1cf78d0a3
     bio: Prithvi is a research software engineer in the High Performance Computing division at CCV. He did his PhD in computational seismology from UMich, and later spent a year modeling extreme events and natural catastrophes at Karen Clark and Company. His professional interests include high performance computing, statistical modeling, software development, and earthquake source processes. Outside of work, you can find him hiking in the woods or playing music.
     image: prithvi_main.jpg
+  - name: Sam Bessey
+    type: Full Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Research Software Engineer
+    github_username: s-bessey
+    brown_directory_uuid: 9788c813-f3f4-4b64-b8ac-2221a92886c2
+    bio: 
+      Sam has a background in environmental science and mathematical modeling 
+      for epidemiology. Before coming to CCV, Sam worked at Brown's People, Place,
+      and Health Collective in the school of public health, where they developed
+      software to study the spread of HIV through sexual and needle-sharing networks.
+    image: sam_main.jpeg
   - name: Kyle Wisialowski
     type: Part Time
     team: Advanced Research Computing
@@ -454,7 +467,7 @@ data:
     title: Data Science Intern
     github_username: DanielaP0nce
     brown_directory_uuid: 57e3600a-ba7c-4123-ba91-5feac926c379
-    bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books. 
+    bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books.
     image: daniela_main.png
   - name: Sanjana Hiremath
     type: Part Time
@@ -465,6 +478,15 @@ data:
     brown_directory_uuid: 294d8182-b793-46ad-a6a8-6548b7378c2e
     bio: Sanjana is a data science intern working with the Computational Biology Core at CCV. She is concentrating in Computational Biology ('26) and is interested in genetics and public health. She also loves to read sci-fi, run, and spend time with friends!
     image: sanjana_main.jpg
+  - name: Megan Zheng
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Web Development Intern
+    github_username: YUUU23
+    brown_directory_uuid: b544160a-4802-49ca-8343-9d54547e2f90
+    bio: Megan is a summer intern working with the Graphics, Software, and Data Core at CCV. She is concentrating in Computer Science and is interested in systems and software development. Outside of work, you can find her reading mystery novels, learning Japanese and Cantonese, and sharing yummy food with family and friends!
+    image: megan_main.jpg
   - name: Jesus Rodriguez
     type: Part Time
     team: Advanced Research Computing
