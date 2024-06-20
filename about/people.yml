@@ -505,6 +505,15 @@ data:
     brown_directory_uuid: 6be48c4b-0881-457b-b3f8-b0376b589fdb
     bio: Jesus is a data science intern working with the High Performance Computing division at CCV. He is a rising junior at Brown University studying Computer Science. His academic interests include software development, machine learning, and mathematics. Outside of work, you can find him playing guitar, learning Vietnamese, or listening to music.
     image: jesus_main.jpg
+  - name: Michelange Senat
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Graphics, Software, and Data Core
+    title: Software Sustainability Intern
+    github_username: mickey0116
+    brown_directory_uuid: 39f28676-e6ec-4ced-afc3-1b3e5d70683c
+    bio: Michelange is a summer intern working with the Graphics, Software, and Data Core at CCV. She is an undergraduate student at Brown University interested in studying Applied Mathematics, Computer Science, and Economics. Outside of academics, Michelange loves matcha, hair braiding, and exploring different neighborhoods in Rhode Island.
+    image: michelange_main.jpg 
   - name: Thomas Gordon
     type: Part Time
     team: Advanced Research Computing
@@ -541,7 +550,6 @@ data:
     brown_directory_uuid: 5ed99d55-cb88-4c46-aa54-64c1d1f3e71d
     bio: Connor is a summer data intern working on the ice shelf stability project at CCV. He is a undergraduate student at Rhode Island College majoring in Computer Science.Outside of CCV you can find Connor,upgrading his gaming PC, working out or playing with his new puppy Penny.
     image: Connor_Holliday_main.jpg 
-
   - name: Marwan Ali
     type: Part Time
     team: Advanced Research Computing
@@ -560,4 +568,3 @@ data:
     brown_directory_uuid: b95aae5c-9882-414e-bf37-bef53e9fa5f4
     bio: Ryan is a rising junior at Brown University working in CCV's High Performance Computing division. Academically, he loves all things related to computer systems and music theory. In his free time, he likes to make milk tea, create piano covers, and play board games, especially Ticket to Ride.
     image: ryan_main.jpg
-
