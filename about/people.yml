@@ -418,8 +418,7 @@ data:
     title: Research Software Engineer
     github_username: s-bessey
     brown_directory_uuid: 9788c813-f3f4-4b64-b8ac-2221a92886c2
-    bio: 
-      Sam has a background in environmental science and mathematical modeling 
+    bio: Sam has a background in environmental science and mathematical modeling
       for epidemiology. Before coming to CCV, Sam worked at Brown's People, Place,
       and Health Collective in the school of public health, where they developed
       software to study the spread of HIV through sexual and needle-sharing networks.
@@ -446,7 +445,7 @@ data:
     type: Part Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
-    title: Software Sustainability Intern 
+    title: Software Sustainability Intern
     github_username: SimaRaha
     brown_directory_uuid: cf68285e-47c5-4a65-897e-187c94e4f36b
     bio: Sima Raha is a Software Sustainability Intern at CCV. She is Class of 2025, studying Economics and Data Fluency at Brown University. Her career interests include quantitative analysis, business intelligence (BI) development, and statistical programming. She enjoys hiking, nature photography, playing frisbee, and billiards.
@@ -513,7 +512,7 @@ data:
     github_username: mickey0116
     brown_directory_uuid: 39f28676-e6ec-4ced-afc3-1b3e5d70683c
     bio: Michelange is a summer intern working with the Graphics, Software, and Data Core at CCV. She is an undergraduate student at Brown University interested in studying Applied Mathematics, Computer Science, and Economics. Outside of academics, Michelange loves matcha, hair braiding, and exploring different neighborhoods in Rhode Island.
-    image: michelange_main.jpg 
+    image: michelange_main.jpg
   - name: Thomas Gordon
     type: Part Time
     team: Advanced Research Computing
@@ -529,8 +528,8 @@ data:
     subteam: Graphics, Software, and Data Core
     title: Data Science Intern
     github_username: pneumatick
-    brown_directory_uuid: aceb7ec3-763c-4179-83b2-96417dbacf9f 
-    bio: Jose is a data science intern in the Advanced Research Computing division at CCV. He is an undergraduate student at the University of Rhode Island studying Computer Science. In his spare time, he enjoys reading, playing his guitar, drawing, and exploring new places. 
+    brown_directory_uuid: aceb7ec3-763c-4179-83b2-96417dbacf9f
+    bio: Jose is a data science intern in the Advanced Research Computing division at CCV. He is an undergraduate student at the University of Rhode Island studying Computer Science. In his spare time, he enjoys reading, playing his guitar, drawing, and exploring new places.
     image: jose_main.jpg
   - name: Austin Dossantos
     type: Part Time
@@ -549,7 +548,7 @@ data:
     github_username: connorholliday5
     brown_directory_uuid: 5ed99d55-cb88-4c46-aa54-64c1d1f3e71d
     bio: Connor is a summer data intern working on the ice shelf stability project at CCV. He is a undergraduate student at Rhode Island College majoring in Computer Science.Outside of CCV you can find Connor,upgrading his gaming PC, working out or playing with his new puppy Penny.
-    image: Connor_Holliday_main.jpg 
+    image: Connor_Holliday_main.jpg
   - name: Marwan Ali
     type: Part Time
     team: Advanced Research Computing
@@ -568,3 +567,12 @@ data:
     brown_directory_uuid: b95aae5c-9882-414e-bf37-bef53e9fa5f4
     bio: Ryan is a rising junior at Brown University working in CCV's High Performance Computing division. Academically, he loves all things related to computer systems and music theory. In his free time, he likes to make milk tea, create piano covers, and play board games, especially Ticket to Ride.
     image: ryan_main.jpg
+  - name: Elizabeth Lokoyi
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Computational Biology Core
+    title: Web Development Intern
+    github_username: elokoyi1989
+    brown_directory_uuid: 00cdb94d-c25e-4df2-8128-95ef4c135721
+    bio: Elizabeth is a rising senior at Brown University studying Computer Science and English working as a web deelopment intern. Her interests include web development, design, game development, and film making. On her free time, you can find her trying out new cafes!
+    image: elizabeth_main.jpg
