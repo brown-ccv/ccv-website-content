@@ -1,0 +1,21 @@
+title: CCV Bootcamp 2024
+description: A series of interactive online tutorials designed to introduce members of the Brown community to some of the research computing resources available to them. The tutorials will provide participants with the practical knowledge necessary to make effective use of Oscar, Brown's research computing cluster, in their own research, while introducing users to the range of research computing resources available at Brown.
+slug: bootcamp_2024
+languages:
+  - unix-cli
+  - bash
+  - python
+  - julia
+  - r
+  - matlab
+  - sql
+tags:
+  - oscar
+  - hpc
+  - visualization
+groups:
+  - bootcamp
+links:
+  - category: website
+    url: https://docs.ccv.brown.edu/bootcamp-2024
+
