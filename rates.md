@@ -39,8 +39,8 @@ lead: We provide services with limited resources at no cost to all
       <tr>
         <td width="25%"> Exploratory <br> <!-- Make it Single Line. -->
         <td> <br> batch <br> gpu <br> bigmem</td>
-        <td> <br> 32 <br> 12 <br> 32 <br> </td>
-        <td> <br> 246 <br> 192 <br> 752 </td>
+        <td> <br> 64 <br> 12 <br> 32 <br> </td>
+        <td> <br> 492 <br> 192 <br> 752 </td>
         <td> <br> None <br> 2 Std. <br> None </td>
         <td> 48</td>
         <td> $0</td>
