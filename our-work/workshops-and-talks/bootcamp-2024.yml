@@ -16,7 +16,38 @@ tags:
 people:
   - name: Paul Hall
     github_user: phall-brown
-
+  - name: Rain Fan
+    github_user: rainxfan
+  - name: Prithvi Thakur
+    github_user: thehalfspace
+  - name: Ashok Ragavendran
+    github_user: ashokrags
+  - name: Prasad Bandarkar
+    github_user: prasadbandarkar
+  - name: John Gerrard Holland
+    github_user: hollandjg
+  - name: Carlos Paniagua
+    github_user: cpaniaguam
+  - name: Ford McDonald
+    github_user: fordmcdonald
+  - name: Robert Gemma, Jr.
+    github_user: robertgemmajr
+  - name: Paul Cao
+    github_user: paulcao-brown
+  - name: Paul Stey
+    github_user: paulstey
+  - name: Ellen Duong
+    github_user: eldu
+  - name: George Dang
+    github_user: gtdang
+  - name: Eric Salomaki
+    github_user: ericsalomaki
+  - name: August Guang
+    github_user: aguang
+  - name: Jordan Lawson
+    github_user: j-stat
+  - name: Joselynn Wallace
+    github_user: jrwallace
 groups:
   - bootcamp
 links:
