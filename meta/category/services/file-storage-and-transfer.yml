@@ -5,6 +5,3 @@ icon: database
 links:
   - text: check our storage options
     target: /services/file-storage-and-transfer
-call-for-action:
-  text: Compare Storage Options
-  href: /storage
