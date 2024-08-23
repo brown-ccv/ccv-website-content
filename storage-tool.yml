@@ -45,8 +45,6 @@ services:
           - up to 30 days
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: False
       - name: brown_network_required
         class: False
       - name: access_from_oscar
@@ -96,8 +94,6 @@ services:
         notes:
           - up to 6 months
       - name: canvas_integration
-        class: False
-      - name: secondary_site_backup
         class: False
       - name: brown_network_required
         class: True
@@ -155,8 +151,6 @@ services:
           - up to 6 months
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -216,8 +210,6 @@ services:
           - up to 60 days
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -266,8 +258,6 @@ services:
           - up to 60 days
       - name: canvas_integration
         class: True
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -315,8 +305,6 @@ services:
           - up to 30 days
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -361,8 +349,6 @@ services:
           - up to 6 weeks
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -408,8 +394,6 @@ services:
         class: False
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
       - name: access_from_oscar
