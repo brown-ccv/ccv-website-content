@@ -43,6 +43,8 @@ services:
         class: True
         notes:
           - up to 30 days
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: False
       - name: brown_network_required
@@ -93,6 +95,8 @@ services:
         class: True
         notes:
           - up to 6 months
+      - name: data_protection_replication
+        class: False
       - name: canvas_integration
         class: False
       - name: brown_network_required
@@ -149,6 +153,8 @@ services:
         class: True
         notes:
           - up to 6 months
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: False
       - name: brown_network_required
@@ -208,6 +214,8 @@ services:
         class: True
         notes:
           - up to 60 days
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: False
       - name: brown_network_required
@@ -256,6 +264,8 @@ services:
         class: True
         notes:
           - up to 60 days
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: True
       - name: brown_network_required
@@ -303,6 +313,8 @@ services:
         class: True
         notes:
           - up to 30 days
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: False
       - name: brown_network_required
@@ -347,6 +359,8 @@ services:
         class: True
         notes:
           - up to 6 weeks
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: False
       - name: brown_network_required
@@ -392,6 +406,8 @@ services:
         class: False
       - name: data_protection_snapshots
         class: False
+      - name: data_protection_replication
+        class: True
       - name: canvas_integration
         class: False
       - name: brown_network_required
