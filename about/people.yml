@@ -423,15 +423,6 @@ data:
       and Health Collective in the school of public health, where they developed
       software to study the spread of HIV through sexual and needle-sharing networks.
     image: sam_main.jpeg
-  - name: Kyle Wisialowski
-    type: Part Time
-    team: Advanced Research Computing
-    subteam: Computational Biology Core
-    title: Intern
-    github_username: kylewisialowski
-    brown_directory_uuid: b84c487b-c0d2-4f69-8b4f-226c4a983584
-    bio: Kyle is a summer intern working with the Computational Biology Core at CCV. He is an undergraduate student studying applied math and biology. He loves spending time with his friends, playing pickleball, and going to the beach.
-    image: kyle_main.jpeg
   - name: Michael Tu
     type: Part Time
     team: Advanced Research Computing
