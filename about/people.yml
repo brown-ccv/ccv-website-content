@@ -432,15 +432,6 @@ data:
     brown_directory_uuid: bed03629-ed04-429d-af97-64fa7415d182
     bio: Gurpartap Singh studies Computer Science and Political Science at Brown University as a member of the Class of 2026. You can find Gurpartap listening to music or learning how to create it (ask me about the Alan Turing Album). I make a good cup of Masala Cha so feel free to ask for a cup!
     image: gurpartap_main.png
-  - name: Daniela Ponce Cartagena
-    type: Intern
-    team: Advanced Research Computing
-    subteam: Computational Biology Core
-    title: Data Science Intern
-    github_username: DanielaP0nce
-    brown_directory_uuid: 57e3600a-ba7c-4123-ba91-5feac926c379
-    bio: Daniela is a summer data science intern working with the Computational Biology Core at CCV. She is an undergraduate student at Brown majoring in Computer Science. Outside of work you can find her practicing Taekwondo, learning Russian, listening to music, or reading romance books.
-    image: daniela_main.png
   - name: Sanjana Hiremath
     type: Part Time
     team: Advanced Research Computing
