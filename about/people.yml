@@ -432,15 +432,6 @@ data:
     brown_directory_uuid: bed03629-ed04-429d-af97-64fa7415d182
     bio: Gurpartap Singh studies Computer Science and Political Science at Brown University as a member of the Class of 2026. You can find Gurpartap listening to music or learning how to create it (ask me about the Alan Turing Album). I make a good cup of Masala Cha so feel free to ask for a cup!
     image: gurpartap_main.png
-  - name: Austin Dossantos
-    type: Part Time
-    team: Advanced Research Computing
-    subteam: Graphics, Software, and Data Core
-    title: Data Science Intern
-    github_username: dossantos-am
-    brown_directory_uuid: 7088e674-6065-4b58-a334-ac7b62af42ae
-    bio: Austin is a data science intern working with the Advanced Research Computing Core at CCV. He is an undergraduate student majoring in computer science with an interest in software development. Outside of work he enjoys engaging with the culture found in Providence County and spending time with family and friends.
-    image: austin_main.jpg
   - name: Connor Holliday
     type: Part Time
     team: Advanced Research Computing
