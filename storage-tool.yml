@@ -66,18 +66,6 @@ services:
         class: 1 TB
       - name: storage_warmth
         class: warm
-  - name: "Department File Services"
-    description: |
-      Departmental File Services provides University departments with a location in which files can be stored, 
-      backed up, and shared across the department. The service can be accessed by mapping the drive on your computer 
-      (Windows Explorer on PC or Finder on a Mac), or by visiting webfiles.brown.edu in a web browser. 
-      (For researchers, please check  "Campus File Storage replicated/non-replicated / Research services" section below)
-
-      - Best for: Backing up and sharing official department documents, ensuring longevity of documents after file authors leave Brown.
-      - Limitations: Can only be accessed on the Brown network or with VPN. Not as easy to access as consumer 
-      services (no app, web access is a bit clunky). Sharing is not easy: no sharing with people outside of Brown, 
-      no sharing with people who don't have access to the department folders.
-      - More info: [Documentation](https://ithelp.brown.edu/kb/campus-file-storage)
 
   - name: campus_file_storage_non-replicated
     description: |
