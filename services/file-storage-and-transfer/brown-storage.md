@@ -7,4 +7,4 @@ Several services at Brown allow you to share and store files. These different st
 
 <a href="/storage" class="button is-link">Compare Storage Options</a>
 <a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/218" class="button is-link">Request Storage</a>
-<a href="https://brown.atlassian.net/servicedesk/customer/portal/16" class="button is-link">Request Quota Increase</a>
+<a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/219" class="button is-link">Request Quota Increase</a>
