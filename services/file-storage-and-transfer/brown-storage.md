@@ -66,6 +66,36 @@ explore the differences with our comparison tool using the link below.
 </details>
 
 <details>
+    <summary>Campus File Storage / Department File Services</summary>
+    <p>
+        Departmental File Services provides University departments with a location in which 
+        files can be stored, backed up, and shared across the department. The service can be 
+        accessed by mapping the drive on your computer (
+        <a href="https://ithelp.brown.edu/kb/articles/38-connect-to-departmental-file-services-on-windows">Windows Explorer</a>
+        on PC or <a href="https://ithelp.brown.edu/kb/articles/3-connect-to-department-file-services-with-mac-osx">Finder</a> 
+        on a Mac), or by visiting <a href="http://webfiles.brown.edu/">webfiles.brown.edu</a> 
+        in a web browser. (For researchers, please check out "Campus File Storage 
+        replicated/non-replicated / Research services " section)
+    </p>
+    <ul>
+        <li>
+            Best for: Backing up and sharing official department documents, ensuring longevity
+            of documents after file authors leave Brown.
+        </li>
+        <li>
+            Limitations: Can only be accessed on the Brown network or with VPN. Not as easy to 
+            access as consumer services (no app, web access is a bit clunky). Sharing is not 
+            easy: no sharing with people outside of Brown, no sharing with people who don't
+            have access to the department folders. 
+        </li>
+        <li>
+            More info: <a href="https://ithelp.brown.edu/kb/37-department-file-services">Documentation</a>
+        </li>
+    </ul>
+    
+</details>
+
+<details>
     <summary>Oscar Storage</summary>
     <p>
         Oscar storage also known as Computational Data Storage is a high-performance 
