@@ -8,7 +8,7 @@ storage services each have their own relative benefits and features. You can
 explore the differences with our comparison tool using the link below.
 
 <details>
-    <summary>Campus File Storage non-replicated / Research Services</summary>
+    <summary>Campus File Storage Non-replicated / Research Services</summary>
     <p>
         File Services for Research provides Brown University research departments 
         with a location in which files can be stored, backed up, and shared with members 
