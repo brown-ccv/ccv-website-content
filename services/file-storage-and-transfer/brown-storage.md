@@ -13,7 +13,7 @@ explore the differences with our comparison tool using the link below.
         File Services for Research provides Brown University research departments 
         with a location in which files can be stored, backed up, and shared with members 
         of the Brown community using Brown ID’s and groups. Space is allocated to each 
-        research lab or PI with an ITHelp request , security groups are required to define 
+        research lab or PI with an ITHelp request, and security groups are required to define 
         access to the data. The data is protected locally via snapshots but doesn’t have 
         geo-redundancy (secondary copy).
     </p>
@@ -42,7 +42,7 @@ explore the differences with our comparison tool using the link below.
         File Services for Research provides Brown University research departments 
         with a location in which files can be stored, backed up, and shared with 
         members of the Brown community using Brown ID’s and groups. Space is allocated 
-        to each research lab or PI with an ITHelp request , security groups are 
+        to each research lab or PI with an ITHelp request, and security groups are 
         required to define access to the data. The data is replicated daily to our 
         disaster recovery site for True geo-redundant data protection. The data is
         accessible on Brown's campus networks (including VPN and wireless).
@@ -54,7 +54,7 @@ explore the differences with our comparison tool using the link below.
         </li>
         <li>
             Accessibility: The data is accessible on Brown's campus networks (including 
-            VPN and wireless). Also accessible directly from High Performance Computing 
+            VPN and wireless). Also accessible directly from the High Performance Computing 
             Cluster (Oscar).
         </li>
         <li>
@@ -98,7 +98,7 @@ explore the differences with our comparison tool using the link below.
 <details>
     <summary>Oscar Storage</summary>
     <p>
-        Oscar storage also known as Computational Data Storage is a high-performance 
+        Oscar storage, also known as Computational Data Storage, is a high-performance 
         data storage system which is accessible from any computer connected to Brown's 
         campus network, or from outside the network via ssh. What sets this option apart 
         from the others is that it is directly connected to Brown’s primary supercomputer, 
