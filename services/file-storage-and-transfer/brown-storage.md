@@ -177,7 +177,7 @@ explore the differences with our comparison tool using the link below.
 </details>
 
 <details>
-    <summary>Brown Digital Library</summary>
+    <summary>Brown Digital Repository</summary>
     <p>
         The Brown Digital Repository (BDR) is a place to gather, index, store, preserve, and make 
         available digital assets produced via the scholarly, instructional, research, and administrative 
