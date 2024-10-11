@@ -1,4 +1,4 @@
-title: File storage and transfer
+title: Campus file storage and transfer
 description: |
   Several services at Brown allow you to share and store files. This guide will let you compare the options and decide which one(s) are right for you.
 icon: database
@@ -17,7 +17,7 @@ storage_tool_header: |
 services:
   - name: "Google Drive"
     description: |
-      Google Drive gives you unlimited space to store and share documents.
+      Google Drive gives you space to store and share documents.
       The native Google document formats allow for real-time collaboration and file history.
       You can also store unconverted files of various types in your Google Drive.
       It's easy to share files with members of the Brown community (including Google Groups)
@@ -28,7 +28,7 @@ services:
       computer).
       - Best for: Collaboration in native Google files, easy access from anywhere, small amount of total storage, sharing with Google Groups.
       - Limitations: Data transfer speeds may be very limited, Globus can provide high bandwidth data transfers.
-      - More info: [Service Catalog](https://it.brown.edu/services/type/google-drive) | [Documentation](https://ithelp.brown.edu/kb/48-google-drive) | [Redundancy](https://storage.googleapis.com/gfw-touched-accounts-pdfs/google-cloud-security-and-compliance-whitepaper.pdf)
+      - More info: [Documentation](https://ithelp.brown.edu/kb/48-google-drive) | [Security](https://storage.googleapis.com/gfw-touched-accounts-pdfs/google-cloud-security-and-compliance-whitepaper.pdf)
 
     features:
       - name: relative_speed
@@ -46,8 +46,6 @@ services:
       - name: data_protection_replication
         class: True
       - name: canvas_integration
-        class: False
-      - name: secondary_site_backup
         class: False
       - name: brown_network_required
         class: False
@@ -71,17 +69,15 @@ services:
 
   - name: campus_file_storage_non-replicated
     description: |
-      File Services for Research provides Brown University research departments with a
-      location in which files can be stored, backed up, and shared with members of the
-      Brown community using Brown ID’s and groups.  Space is allocated to each research
-      lab or PI with an ITHelp request , security groups are required to define access
-      to the data.   The data is accessible on Brown's campus networks (including VPN and
-      wireless).
-      - Synonyms: LRS.Brown.EDU, LRSFiles, Qumulo
+      File Services for Research provides Brown University research departments with a location in which 
+      files can be stored, backed up, and shared with members of the Brown community using Brown ID’s and groups. 
+      Space is allocated to each research lab or PI with an ITHelp request , security groups are required to 
+      define access to the data. The data is protected locally via snapshots but doesn’t have 
+      geo-redundancy (secondary copy).
       - Best for:  Brown faculty and staff researchers looking to store, share and protect research data.
-      - Limitations: Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
+      - Accessibility: The data is accessible on Brown's campus networks (including VPN and wireless). Also accessible directly from High Performance Computing Cluster (Oscar).
+      - Limitations: No geo-redundancy (secondary copy)
       - Rate: $50/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://docs.google.com/document/d/1IUBLNqXDnCZk1d4A3RlG823IxKTKiWlVc618vTjI170/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service ](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
     features:
       - name: relative_speed
         class: faster
@@ -101,16 +97,14 @@ services:
         class: False
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: False
       - name: brown_network_required
         class: True
         notes:
           - except with Globus
       - name: access_from_oscar
-        class: partial
+        class: True
         notes:
-          - accessible on transfer nodes
+          - Multi-Protocol Share
       - name: security
         class: 2
         notes:
@@ -137,11 +131,10 @@ services:
       the data.  The data is replicated daily to our disaster recovery site for True
       geo-redundant data protection.  The data is accessible on Brown's campus networks
       (including VPN and wireless).
-      - Synonyms: Files.Brown.EDU, Files, Isilon
       - Best for:  Brown faculty and staff researchers looking to store, share and protect research data.
-      - Limitations:  Not intended for high throughput research computing, you can access this storage on the transfer nodes and utilize HPC scratch for accelerated computing.
+      - Accessibility: The data is accessible on Brown's campus networks (including VPN and wireless). Also accessible directly from High Performance Computing Cluster (Oscar).
+      - Sharing:  The data can be shared with both Brown and non-Brown collaborators via Globus.
       - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Documentation](https://docs.google.com/document/d/1GiUyKqo6sk9c00tOAkR3Q_GBlBhGs2Ob8EO6pYneNDc/edit?usp=sharing) | [Replication](https://ithelp.brown.edu/kb/articles/decide-how-to-store-and-share-files-for-researchers#replication) | [Request this service](https://brown.co1.qualtrics.com/jfe/form/SV_a5DbCjYNMb5iU0B)
     features:
       - name: relative_speed
         class: faster
@@ -161,16 +154,14 @@ services:
         class: True
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
           - except with Globus
       - name: access_from_oscar
-        class: partial
+        class: True
         notes:
-          - accessible on transfer nodes
+          - Multi-Protocol Share
       - name: security
         class: 2
         notes:
@@ -182,7 +173,7 @@ services:
           - 10 TB per grant
           - Paid after that @ $100/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
-        class: 4 TB
+        class: 128 TB
         notes:
           - 1 TB for best performance
       - name: storage_warmth
@@ -224,8 +215,6 @@ services:
         class: True
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -276,16 +265,10 @@ services:
         class: True
       - name: canvas_integration
         class: True
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
-        notes:
-          - except with Globus
       - name: access_from_oscar
         class: False
-        notes:
-          - accessible on transfer nodes
       - name: security
         class: 2
         notes:
@@ -301,9 +284,14 @@ services:
 
   - name: oscar_storage
     description: |
-      Oscar storage is a high-performance data storage system which is accessible from any computer connected from Brown's campus network, or from outside the network via ssh.  It is backed up nightly on an incremental basis. What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you may consider using Campus File Storage instead. You could also use Oscar storage for computing and then move your results to Campus File Storage for greater accessibility, reliability, and protection.
+      Oscar storage, also known as Computational Data Storage, is a high-performance data storage system which is 
+      accessible from any computer connected from Brown's campus network, or from outside the network via ssh. 
+      What sets this option apart from the others is that it is directly connected to Brown’s primary supercomputer, 
+      “Oscar”, making computation easier. If you don’t intend to compute your data with Brown’s supercomputer, you 
+      may consider using Campus File Storage instead. You could also use Oscar storage for computing and then move 
+      your results to Campus File Storage for greater accessibility, reliability, and protection.
 
-      - Synonyms: RData, HPC Storage, GPFS (historically) 
+      - Synonyms: Oscar Data, HPC Storage, GPFS (historically) 
       - Best for: High performance storage of research data, perform computation on your data using Brown’s supercomputer
       - Limitations: Not accessible on all campus networks.
       - Rate: $100/TB/Year when storing above free/grant allocations
@@ -327,8 +315,6 @@ services:
         class: True
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -347,17 +333,19 @@ services:
           - Paid after that @ $100/TB/Yr. (Summed across all paid storage types)
       - name: max_file_size
         class: 128 TB
+        notes:
+          - 1 TB for best performance
       - name: storage_warmth
         class: hot
 
   - name: stronghold
     description: |
-      Stronghold is a secure computing and storage environment that enables
+      [Stronghold](https://it.brown.edu/services/stronghold-research-environment-data-compliance) is a secure computing and storage environment that enables
       Brown researchers to analyze sensitive data while complying with regulatory
       or contractual requirements.
       - Best for: Storing data with data usage agreements, FISMA, etc.
       - Rate: $100/TB/Year when storing above free/grant allocations
-      - More info: [Service Catalog](https://it.brown.edu/services/type/stronghold-research-environment-data-compliance) | [Request this service](https://www.brown.edu/cis/forms/Stronghold/shold.php)
+      - More info: [Request this service](https://www.brown.edu/cis/forms/Stronghold/shold.php)
     features:
       - name: relative_speed
         class: faster
@@ -375,8 +363,6 @@ services:
         class: True
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
         notes:
@@ -404,7 +390,7 @@ services:
     description: |
       [Hibernate](https://docs.ccv.brown.edu/hibernate/) is a secure, reliable, research data archive solution. Hibernate is a Brown OIT archival service for the research community to migrate inactive data off active Network-attached storage (NAS) platforms onto a lower cost, long-term retention environment. 
 
-        * Hibernate leverages [StarFish](https://docs.ccv.brown.edu/starfish/) an application that provides a metadata and rules-based management framework for large file systems. StarFish makes storage tiering easy: moving data, reporting, zones. 
+        * Hibernate leverages [StarFish](https://docs.ccv.brown.edu/starfish/), an application that provides a metadata and rules-based management framework for large file systems. StarFish makes storage tiering easy: moving data, reporting, zones. 
         * A zone is a virtual-volume or collection of branches across different file-systems (Oscar storage, Isilion, LRS etc.). Each PI group is distributed into an individual zone. A zone provides:
             * Types/sizes of files, access times
             * Hot Spots (Growth, user(s)/Group(s)
@@ -424,8 +410,6 @@ services:
         class: True
       - name: canvas_integration
         class: False
-      - name: secondary_site_backup
-        class: True
       - name: brown_network_required
         class: True
       - name: access_from_oscar
