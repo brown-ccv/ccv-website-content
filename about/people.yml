@@ -8,7 +8,8 @@ data:
     title: Assistant Director of Computational Biology and Data Science
     github_username: ashokrags
     brown_directory_uuid: 60802d0b-8f18-499a-a1f3-5f9b24c390e4
-    bio: Ashok is a computational biologist/data scientist with a varied background
+    bio:
+      Ashok is a computational biologist/data scientist with a varied background
       in genetics, genomics, statistics and computation. He has a PhD in Fisheries and
       Wildlife from MSU and has worked in areas of quantitative genetics, biomedical genetics,
       ecology and bioinformatics. Above all he has a keen interest in data analysis,
@@ -23,7 +24,8 @@ data:
     title: Associate Director of Research Software Engineering and Data Science
     github_username: mirestrepo
     brown_directory_uuid: cb8b0a49-ef4b-66e7-5ccc-6689493e8ace
-    bio: Isabel grew up in Colombia and received her Ph.D from Brown in 2013 in Electrical
+    bio:
+      Isabel grew up in Colombia and received her Ph.D from Brown in 2013 in Electrical
       Engineering with a focus in Computer Vision. She enjoys machine learning, reproducible
       science, reverse engineering, playing squash, the sea, and dancing with her wild
       children.
@@ -42,7 +44,8 @@ data:
     title: Assistant CIO Research Software Engineering and Data Science
     github_username: paulstey
     brown_directory_uuid: 0525f19f-d156-4c47-a2e1-8b4e904a2e84
-    bio: Paul is a data scientist interested in using data and machine learning to solve
+    bio:
+      Paul is a data scientist interested in using data and machine learning to solve
       challenging problems. Before coming to Brown he was a statistician at the EPA.
       He has a PhD in Developmental Psychology.
     image: stey_main.jpg
@@ -166,7 +169,8 @@ data:
     title: Lead Genomics Data Scientist
     github_username: aguang
     brown_directory_uuid: b3f2991e-b618-190f-881f-25fc21f82d02
-    bio: August obtained their PhD from Brown in 2017 in Applied Mathematics and Computational
+    bio:
+      August obtained their PhD from Brown in 2017 in Applied Mathematics and Computational
       Biology. Outside of work they organize against criminalization and the police
       state. Both their research practices and organizing work are guided by the belief
       that crisis and uncertainty are a gift and that we must be involved in shaping
@@ -188,7 +192,8 @@ data:
     subteam: Computational Biology Core
     github_username: j-stat
     brown_directory_uuid: 44dc2e77-eaaf-4884-ace2-e3fbb57e58ea
-    bio: Jordan is a Research Software Engineer in the Computational Biology Core at CCV.
+    bio:
+      Jordan is a Research Software Engineer in the Computational Biology Core at CCV.
       He did his Ph.D. in Applied Statistics at Boston College, with an emphasis on causal inference. He
       loves learning about natural and formal languages, superhero movies, boxing, and basketball.
     image: jordan_main.jpg
@@ -199,7 +204,8 @@ data:
     subteam: Computational Biology Core
     github_username: jrwallace
     brown_directory_uuid: 1eb864be-02d2-4880-a43f-62076e2d7366
-    bio: Joselynn is a genomics data scientist. Before coming to Brown, she got her
+    bio:
+      Joselynn is a genomics data scientist. Before coming to Brown, she got her
       PhD from the University of Rhode Island. Her background is primarily in studying
       microbes.
     image: joselynn_main.jpg
@@ -219,7 +225,8 @@ data:
     subteam: Graphics, Software, and Data Core
     github_username: broarr
     brown_directory_uuid: 0adf6ab4-8d56-410a-8ac6-4b4ca136a534
-    bio: Bradford is a software engineer with a broad range of experience including
+    bio:
+      Bradford is a software engineer with a broad range of experience including
       firmware engineering, devops, full-stack programming, and more. His professional
       interests include systems programming, infrastructure-as-code, and automation.
       Before Brown, Bradford worked for various startups in the Silicon Valley.
@@ -283,7 +290,8 @@ data:
     title: Senior Research Software Engineer
     github_username: phall-brown
     brown_directory_uuid: da1c3aed-d801-56a8-0536-0701f6c5c830
-    bio: Paul has a background in computational fluid dynamics and geophysics. He received
+    bio:
+      Paul has a background in computational fluid dynamics and geophysics. He received
       his Ph.D. in Oceanography from the URI.
     image: hall_main.jpg
   - name: Timothy Divoll
@@ -327,7 +335,8 @@ data:
     title: Senior Data Scientist
     github_username: gtdang
     brown_directory_uuid: d91b1633-1534-41ab-b38d-78a23e99d843
-    bio: George is a data scientist with a background in biology and environmental science.
+    bio:
+      George is a data scientist with a background in biology and environmental science.
       Prior to joining CCV, worked in environmental consulting specializing in water quality and geospatial analytics.
     image: dang_main.jpg
   - name: Ford McDonald
