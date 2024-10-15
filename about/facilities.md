@@ -22,7 +22,7 @@ CCV provides high-performance computing (HPC) resources and scientific computing
 - xCAT (IBM’s cluster administration toolkit) for provisioning all nodes
 - An all-flash parallel filesystem (VAST Data) that provides roughly 4 Petabytes of disk storage and is replicated to Brown University Disaster Recovery (DR) site
 - A storage system which is integrated with the Hibernate backup/archival system
-- 100 Gb/s EDR Infiniband connectivity
+- 400 Gb/s NDR & 200Gb/s HDR Infiniband connectivity
 
 For more technical details, please see [Oscar's system overview](https://docs.ccv.brown.edu/oscar/system-overview).
 
