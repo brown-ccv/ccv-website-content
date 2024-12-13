@@ -148,7 +148,7 @@ data:
     type: Full Time
     team: CCV Operations
     subteam: Research Technical Services
-    title: Research Service Center Manager
+    title: Assistant Director Research Computing Services 
     github_username: yangliu2009
     brown_directory_uuid: e0e55df3-9f2c-4a12-a1de-742955164e1e
     bio:
@@ -157,7 +157,7 @@ data:
     type: Full Time
     team: CCV Operations
     subteam: Research Technical Services
-    title: Research Computing Specialist
+    title: Senior Research Computing Consultant 
     github_username: prasadbandarkar
     brown_directory_uuid: 11533980-c5cd-4969-81ca-537543da9b72
     bio:
@@ -282,7 +282,7 @@ data:
       in the intersection of XR technologies with science, data, art, and visualization. Robert
       received his undergraduate degree in Computer Science from the University of Rhode Island
       where he also minored in music.
-    image: gemma_main.jpg
+    image: robert_main.jpg
   - name: Paul Hall
     type: Full Time
     team: Advanced Research Computing
@@ -298,7 +298,7 @@ data:
     type: Full Time
     team: Advanced Research Computing
     subteam: Graphics, Software, and Data Core
-    title: Data Scientist
+    title: Senior Data Scientist
     github_username: tdivoll
     brown_directory_uuid: d98138f4-a49c-4e1b-9bc4-1832b51f6f46
     bio:
@@ -384,15 +384,6 @@ data:
     brown_directory_uuid: 0b37438d-b5c2-41d6-9d87-14c446698a07
     bio: Anna is a software engineer and researcher with the CCV with a background in full-stack web development. She loves thinking about technology and media, and the different impacts they both have on the world.
     image: anna_main.jpg
-  - name: Galen Winsor
-    type: Full Time
-    team: Advanced Research Computing
-    subteam: Graphics, Software, and Data Core
-    title: Research Software Engineer
-    github_username: galenwinsor
-    brown_directory_uuid: 77e8343c-498a-4bed-bedf-ed0a59d0fa3c
-    bio: Galen earned his Bachelor's degree from Brown in 2022 in Computer Science and Environmental Studies. His professional interests include web software architecture, UI/UX, and data visualization. Outside of work, he loves playing music, playing tennis and squash, and hiking.
-    image: galen_main.jpg
   - name: Rain Fan
     type: Full Time
     team: CCV Operations
