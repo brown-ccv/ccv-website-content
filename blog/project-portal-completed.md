@@ -132,9 +132,4 @@ We found that Gatsby hides a lot of complexity from the designer, but that means
 
 We met with the government users – all subject matter experts but not web developers – who would be updating projects on the sites to give them an introduction to the CMS. We gave each of them around an hour’s training, which turned out to be ample, and we only heard from them later if there were bugs in the CMS itself, or if they wanted changes to features. 
 
-Over the course of 2023 we continued to maintain the portals – adding full text search, the ability to add a mailing-list signup, expanding the coverage of the CMS to manage every part of the site, and adding better image support.
-
-## Future at University of North Carolina
-
-In the Fall of 2023, David Yokum informed us that he was moving to the University of North Carolina. The next keepers of the Project Portal are the fine folks of the University of North Carolina’s [Renaissance Computing Institute (RENCI)](https://renci.org). The portals are in excellent hands.
-
+Over the course of 2023 we continued to maintain the portals – adding full text search, the ability to add a mailing-list signup, expanding the coverage of the CMS to manage every part of the site, and adding better image support. We finished our work in January 2024 and wish the next maintainers of the Project Portals all the best!
