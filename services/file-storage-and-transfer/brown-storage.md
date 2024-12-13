@@ -229,7 +229,7 @@ explore the differences with our comparison tool using the link below.
 <br/>
 <p>
     <a href="/storage" class="button is-link">Compare Storage Options</a>
-    <a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/218" class="button is-link">Request Storage</a>
-    <a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/219" class="button is-link">Request Quota Increase</a>
+    <a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/263" class="button is-link">Request Storage</a>
+    <a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/262" class="button is-link">Request Quota Change</a>
     <a href="https://brown.atlassian.net/servicedesk/customer/portal/16/group/55/create/217" class="button is-link">Storage Help</a>
 </p>
