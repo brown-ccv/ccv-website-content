@@ -133,7 +133,7 @@ explore the differences with our comparison tool using the link below.
     <ul>
         <li>Best for: Storing data with data usage agreements, FISMA, etc.</li>
         <li>Rate: $100/TB/Year when storing above free/grant allocations</li>
-        <li>More info: <a href="https://www.brown.edu/cis/forms/Stronghold/shold.php">Request this service</a></li>
+        <li>More info: <a href="https://brown.atlassian.net/servicedesk/customer/portal/22">Request this service</a></li>
     </ul>
 </details>
 
