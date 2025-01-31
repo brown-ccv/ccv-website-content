@@ -1,4 +1,4 @@
-title: 2023 at CCV
+title: Exploring Generative Artificial Intelligence Resources at Brown University
 author: Ellen Duong, Paul Xu
 people:
     - Paul Xu
