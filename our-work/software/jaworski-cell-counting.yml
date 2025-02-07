@@ -1,0 +1,15 @@
+title: Automated cell detection in 3D image datasets
+description: Application that uses deep learning models for detecting and annotating fluorescently labeled objects in 3D microscopy image volumes
+languages:
+  - python
+tags:
+  - deep-learning
+  - desktop
+people:
+  - name: Camilo Diaz Rodriguez
+    github_user: kmilo9999
+  - name: Paul Xu
+    github_user: digicosmos86
+links:
+  - category: code
+    url: https://github.com/brown-ccv/jaworski-cellseg
