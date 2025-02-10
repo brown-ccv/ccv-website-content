@@ -28,10 +28,10 @@ Below is a list of projects we have developed to enhance research, education, an
 
 | Project Name      | Preview                                        | Description                                                                                  |
 |------------------|------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **Draw on Air** | ![VR Simulation](/content/images/3d-vr-projects/draw-on-air.gif) | Collaboration with Daniel Keef, David Laidlaw (Brown CS) to port this application to HMD. |
-| **VR-Hearts** | ![3D Medical Viewer](/content/images/3d-vr-projects/vr-hearts.gif) | Interactive 3D visualization tool for viewing and analyzing 3D models of hearts.            |
-| **Narragansett bay 3D viewer** | ![Smart City](/content/images/3d-vr-projects/narragensett-2.gif) | A digital 3D version of the Narragansett bay in Rhode Island  |
-| **Egyptology 3D** | ![Astronomical Explorer](/content/images/3d-vr-projects/egyptology.gif) | A small 3D visualization of the inscriptions found in the Pipi Pyramid in Egypt |
+| **Draw on Air** | ![DrawOnAir](/content/images/3d-vr-projects/draw-on-air.gif) | Collaboration with Daniel Keef, David Laidlaw (Brown CS) to port this application to HMD. |
+| **VR-Hearts** | ![3D Hearts Viewer](/content/images/3d-vr-projects/vr-hearts.gif) | Interactive 3D visualization tool for viewing and analyzing 3D models of hearts.            |
+| **Narragansett bay 3D viewer** | ![RIDDC](/content/images/3d-vr-projects/narragensett-2.gif) | A digital 3D version of the Narragansett bay in Rhode Island  |
+| **Egyptology 3D** | ![Egyptology](/content/images/3d-vr-projects/egyptology.gif) | A small 3D visualization of the inscriptions found in the Pipi Pyramid in Egypt |
 
 
 ## Contact Us
