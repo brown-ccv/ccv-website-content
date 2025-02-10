@@ -26,12 +26,13 @@ Below is a list of projects we have developed to enhance research, education, an
 4. **[Project Name 3]** - *Short description or link to more details*  
 
 
-| Project Name      | Preview                                        | Description                                                                                  |
-|------------------|------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **Draw on Air** | ![DrawOnAir](/content/images/3d-vr-projects/draw-on-air.gif) | Collaboration with Daniel Keef, David Laidlaw (Brown CS) to port this application to HMD. |
-| **VR-Hearts** | ![3D Hearts Viewer](/content/images/3d-vr-projects/vr-hearts.gif) | Interactive 3D visualization tool for viewing and analyzing 3D models of hearts.            |
-| **Narragansett bay 3D viewer** | ![RIDDC](/content/images/3d-vr-projects/narragensett-2.gif) | A digital 3D version of the Narragansett bay in Rhode Island  |
-| **Egyptology 3D** | ![Egyptology](/content/images/3d-vr-projects/egyptology.gif) | A small 3D visualization of the inscriptions found in the Pipi Pyramid in Egypt |
+| Project Name               | Preview                                                                                  | Description                                                                                  |
+|---------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| **Draw on Air**            | <img src="/content/images/3d-vr-projects/draw-on-air.gif" alt="Draw on Air" width="990" height="290">  | Collaboration with Daniel Keef and David Laidlaw (Brown CS) to port this application to HMD. |
+| **VR-Hearts**              | <img src="/content/images/3d-vr-projects/vr-hearts.gif" alt="VR Hearts" width="990" height="290">      | Interactive 3D visualization tool for viewing and analyzing 3D models of hearts.            |
+| **Narragansett Bay 3D Viewer** | <img src="/content/images/3d-vr-projects/narragensett-2.gif" alt="Narragansett Bay" width="990" height="290"> | A digital 3D version of the Narragansett Bay in Rhode Island.                                |
+| **Egyptology 3D**          | <img src="/content/images/3d-vr-projects/egyptology.gif" alt="Egyptology" width="990" height="290">    | A small 3D visualization of the inscriptions found in the Pipi Pyramid in Egypt.             |
+
 
 
 ## Contact Us
