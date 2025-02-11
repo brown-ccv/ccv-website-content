@@ -1,3 +1,4 @@
+---
 title: Exploring Generative Artificial Intelligence Resources at Brown University
 author: Ellen Duong
 people:
@@ -11,7 +12,6 @@ project:
 description: Generative Artificial Intelligence (Gen AI) is a rapidly evolving field, Brown University offers a dynamic environment for students and researchers interested in Gen AI
 tags:
     - software
-
 ---
 # Exploring Generative Artificial Intelligence Resources at Brown
 by Ellen Duong and Paul Xu
