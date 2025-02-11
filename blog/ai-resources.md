@@ -1,9 +1,9 @@
 title: Exploring Generative Artificial Intelligence Resources at Brown University
-author: Ellen Duong, Paul Xu
+author: Ellen Duong
 people:
-    - Paul Xu
-    - Ellen Duong
-    - Paul Stey
+  - Ellen Duong
+  - Paul Xu
+  - Paul Stey
 date: 2025-01-31
 slug: ai-resources
 team: GSDC (Graphics, Software and Data Core)
@@ -13,6 +13,8 @@ tags:
     - software
 
 ---
+# Exploring Generative Artificial Intelligence Resources at Brown
+by Ellen Duong and Paul Xu
 
 Generative Artificial Intelligence (Gen AI) is a rapidly evolving field, and Brown University offers a dynamic environment for students and researchers interested in Gen AI.
 
