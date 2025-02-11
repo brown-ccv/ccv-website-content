@@ -13,7 +13,8 @@ tags:
 
 ---
 
-# Writing Reusable Code in Julia - Carlos Paniagua
+# Writing Reusable Code in Julia
+by Carlos Paniagua
 
 ### Use case
 
