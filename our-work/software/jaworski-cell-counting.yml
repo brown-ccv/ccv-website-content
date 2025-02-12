@@ -1,4 +1,4 @@
-title: Automated cell detection in 3D image datasets
+title: Unsupervised cell segmentation in 3D image datasets
 description: Application that uses deep learning models for detecting and annotating fluorescently labeled objects in 3D microscopy image volumes
 languages:
   - python
