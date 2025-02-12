@@ -1,5 +1,5 @@
 title: Unsupervised cell segmentation in 3D image datasets
-description: Application that uses deep learning models for detecting and annotating fluorescently labeled objects in 3D microscopy image volumes
+description: An application leveraging the SwinUNetR deep learning model to detect and annotate neuronal cells in 3D confocal microscopy images. It processes spinal cord sections stained through immunohistochemistry, using four excitation channels (405nm, 488nm, 594nm, and 647nm) to identify and quantify specific neuronal populations, including DAPI-labeled total neurons, Neurod2-expressing neurons, Robo3-expressing cells, and Zfhx3-marked subsets. A preprocessing pipeline applies contrast adjustment, Gaussian filtering, and intensity-based thresholding to generate a binary mask, isolating relevant structures while filtering out background noise. Post-processing compares segmented cells with the binary mask to ensure accurate quantification and identifies co-labeled neurons across multiple stains. With GPU acceleration, the system significantly improves inference speed, enabling efficient analysis of large-scale 3D microscopy datasets.
 languages:
   - python
 tags:
