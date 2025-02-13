@@ -47,7 +47,8 @@ tag: "enum(
           'government',
           'chemical-physics',
           'metabolomics',
-          'volcanology'
+          'volcanology',
+          'deep-learning'
           )"
 #people involved in the project
 person:
