@@ -60,7 +60,7 @@ LLMs require extensive computing power and therefore are often run with GPUs wit
 CCV hosts several dozen public, open-weight LLMs on Oscar including Llama 3.3, Deepseek-r1, Phi 4, Mistral, and Gemma 2. See our [documentation on Ollama](https://docs.ccv.brown.edu/oscar/large-language-models/ollama) to learn more about how to run LLMs on Oscar.
 
 #### Running AI workflows on Oscar
-The Open Ondemand Service that CCV provides allows users to write code and interact with Oscar’s computing infrastructure with Jupyter Notebooks. Please refer to the [Open Ondemand](https://docs.ccv.brown.edu/oscar/connecting-to-oscar/open-ondemand) section of the Oscar documentation to get started with Jupyter on Open Ondemand.
+The Open OnDemand Service that CCV provides allows users to write code and interact with Oscar’s computing infrastructure with Jupyter Notebooks. Please refer to the [Open OnDemand](https://docs.ccv.brown.edu/oscar/connecting-to-oscar/open-ondemand) section of the Oscar documentation to get started with Jupyter on Open OnDemand.
 
 ### Adobe Firefly
 *Available to Creative Cloud Users. Adobe Creative Cloud is available for faculty, staff, and students. See [Brown’s Software Catalog](https://softwarecatalog.brown.edu/) for more details. Users have limited free monthly generative credits.*
