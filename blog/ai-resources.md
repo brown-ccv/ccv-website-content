@@ -20,15 +20,15 @@ Generative Artificial Intelligence (Gen AI) is a rapidly evolving field, and Bro
 
 AI usage is becoming increasingly common, and managing its use presents challenges. Students often use AI for their assignments, and faculty members are empowered to design their own AI policies for their course syllabi. While there isn't an official university-wide AI policy, students and faculty should be aware of the resources available at Brown.
 
-**Disclaimer**: The Center for Computation and Visualization does not endorse any specific AI technologies. Users should be cautious about sharing important or sensitive data with AI tools which can store, learn from, or re-share the data. Users should also be careful about sharing any information on the internet since large scale data scraping could use it as training data. See the [Protecting Information When Using AI Tools](https://ithelp.brown.edu/kb/articles/protecting-information-when-using-ai-tools) article from the Office of Information Technology (OIT) for more information.
+**Important**: Users should be cautious about sharing important or sensitive data with AI tools which can store, learn from, or re-share the data. Users should also be careful about sharing any information on the internet since large scale data scraping could use it as training data. See the [Protecting Information When Using AI Tools](https://ithelp.brown.edu/kb/articles/protecting-information-when-using-ai-tools) article from the Office of Information Technology (OIT) for more information.
 
-Before using AI, there are a few considerations to keep in mind:
+When using AI, there are a few considerations to keep in mind:
 * **Bias in AI**: AI models are trained on large scale datasets, which can inherently embed bias against certain groups of people. Users need to be cautious with these biases when using AI to assist decision making or using the content generated with AI.
 * **AI’s carbon footprint**: AI models are trained with substantial computational power, which is now a significant contributor to the global carbon emission. Users should be aware of the carbon footprint of the AI tools that they use. This [carbon footprint calculator](https://www.deloitte.com/uk/en/services/consulting/content/ai-carbon-footprint-calculator.html) can help understand the environmental impact of certain AI tools.
 * **[Brown University Library Guide to Generative Artificial Intelligence](https://libguides.brown.edu/AI)**: The Brown University Library has created a guide and events for the learning community to assist library users in understanding the basics of AI and making informed decisions about using AI tools for their academic work. This guide also includes guidance on citations, copyright policies, and using generative AI for scholarly communication.
 
 ## AI Tools Available to the Brown Community
-The following are tools made available to the Brown Community. There are other available commercial resources for the general public such as OpenAI.
+The following are tools made available to the Brown Community.
 
 ### Zoom Meeting AI Features
 *Available to faculty, staff, and students*
