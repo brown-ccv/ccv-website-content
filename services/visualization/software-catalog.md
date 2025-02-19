@@ -22,7 +22,7 @@ Below we show a few of projects we have developed to enhance research, education
 
 #### **[Draw On Air](https://ccv.brown.edu/our-work/software/cave-painting)** 
 <p align="justify">
-DrawOnAir is a haptic-aided input technique for drawing controlled 3D curves through space. It's implementation was later called Cave-Painitng and used as an artistic medium that uses a 3D analog of 2D brush strokes to create 3D works of art in a fully immersive Cave environment. It is used for scientific research in the virtual reality thearther YURT at Brown University. The Center for Computation and Visualization (CCV).CCV collaborated to implemet a modified version of the software that extends its capabilites to HMD(VR) devices such as Oculus Quest and Samsung Odessy on Windows platforms
+DrawOnAir is a haptic-aided input technique for drawing controlled 3D curves through space. Its implementation was later called Cave-Painting and used as an artistic medium that uses a 3D analog of 2D brush strokes to create 3D works of art in a fully immersive Cave environment. It is used for scientific research in the virtual reality theater YURT at Brown University. The Center for Computation and Visualization (CCV). CCV collaborated to implement a modified version of the software that extends its capabilities to HMD(VR) devices such as Oculus Quest and Samsung Odyssey on Windows platforms
 </p>
 <div>
       <img src="/content/images/3d-vr-projects/draw-on-air.gif" alt="Narragansett Bay" width="445" height="145" style="display: block; margin: auto;">
@@ -32,7 +32,7 @@ DrawOnAir is a haptic-aided input technique for drawing controlled 3D curves thr
 
 #### **VR-Hearts**
 <p align="justify">
-A collaboration with the Biomedical Engineering Department at Brown University, this project enables students to visualize and analyze 3D models of hearts with various anomalies in real-time using VR.
+A collaboration with the Biomedical Engineering Department at Brown University. This project enables students to visualize and analyze 3D models of hearts with various anomalies in real-time using VR.
 </p>
 <div>
       <img src="/content/images/3d-vr-projects/vr-hearts.gif" alt="VR Hearts" width="445" height="145" style="display: block; margin: auto;">
@@ -40,13 +40,13 @@ A collaboration with the Biomedical Engineering Department at Brown University, 
 
 #### **[Narragansett bay 3D viewer](https://ccv.brown.edu/our-work/software/vr-volume-viewer)**
 The 3D volume of Narragansett Bay and Rhode Island Sound below displays predictions from the Ocean State Oceanographic Model for salinity levels on July 15, 2018, at low tide.
-This visualization supports transfer functions and animations, allowing users to explore salinity concentration at a specific date dynamically.
+This visualization supports transfer functions and animations which allow users to explore salinity concentration at a specific date dynamically.
  <div>
       <img src="/content/images/3d-vr-projects/narragensett-2.gif" alt="Narragansett Bay" width="445" height="145" style="display: block; margin: auto;">
     </div>
 
 #### **Egyptology 3D*** 
-A small VR visualization of the inscriptions found in the Pipi Pyramid in Egypt.
+A VR visualization of the inscriptions found in the Pipi Pyramid in Egypt.
 This project is a collaboration with the Egyptology Department to enhance classroom activities, allowing students to explore and analyze the inscriptions in an immersive way.
  <div >
       <img src="/content/images/3d-vr-projects/egyptology.gif" alt="Egyptology" width="445" height="145" style="display: block; margin: auto;">
