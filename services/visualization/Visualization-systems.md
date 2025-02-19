@@ -10,7 +10,10 @@ We have experience developing 3D visualization software for large-scale mixed re
 One of our projects involved VR Cave systems, which consist of an 8-foot cubic room where 3D images are projected onto three walls and the floor. The system utilizes [Volfoni](http://volfoni.com/en/edge-rf/) stereo depth-perception glasses, an [OptiTrack](https://optitrack.com) motion capture system, and positional audio delivered through a 5.1 surround sound system. These components work in sync to create the illusion of virtual reality in an open space—without the need for head-mounted displays.
 Software packages available through CCV include volume visualization, molecular visualization, and interactive 3D model manipulation, supporting research and education in various fields.
 
-![Studio 4](/content/images/spaces/cave.jpg)
+<div >
+      <img src="/content/images/spaces/cave.jpg" alt="Egyptology" width="445" height="285" style="display: block; margin: auto;">
+    </div>
+
 
 Learn More about CAVE Systems:
 
