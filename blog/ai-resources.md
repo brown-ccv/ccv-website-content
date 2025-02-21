@@ -5,7 +5,7 @@ people:
   - Ellen Duong
   - Paul Xu
   - Paul Stey
-date: 2025-02-12
+date: 2025-02-21
 slug: ai-resources
 team: GSDC (Graphics, Software and Data Core)
 project:
