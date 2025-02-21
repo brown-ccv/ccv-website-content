@@ -14,7 +14,6 @@ CCV's team of graphics software engineers provides a wide range of services to a
 - Monitors  
 - VR headsets  
 - Holographic displays  
-- CAVE systems (Cave Automatic Virtual Environment)  
 
 ## Software We Use
 To deliver high-quality solutions, we leverage the following technologies:
@@ -61,4 +60,25 @@ This project is a collaboration with the Egyptology Department to enhance classr
       <img src="/content/images/3d-vr-projects/egyptology.gif" alt="Egyptology" width="445" height="145" style="display: block; margin: auto;">
     </div>
 
+## Legacy Visualization Systems
+Previously, CCV was responsible for maintaining and developing software for large-scale mixed reality devices. One of our projects involved the CAVE (Cave Automatic Virtual Environment) VR system, which consists of multiple large projection screens or walls that surround the user with high-resolution 3D visuals.
+
+Unlike traditional VR headsets, a CAVE provides a fully immersive experience without requiring bulky hardware. Users can explore 3D visualizations naturally, making it ideal for scientific research, data analysis, and virtual prototyping.
+
+Examples of such systems included the CAVE located in the Granoff Building and the large-scale virtual reality theater [YURT](https://news.brown.edu/articles/2015/12/yurt). 
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+    <img src="/content/images/spaces/YURT4.jpg" alt="YURT" width="545" height="345">
+    <img src="/content/images/spaces/cave.jpg" alt="Egyptology" width="445" height="285">
+</div>
+
+
+### 🚨 Disclaimer
+While we have experience working with CAVE (Cave Automatic Virtual Environment) systems and have developed software for them, we no longer support these installations, and they are no longer available for use. The previous CAVE systems have been dismantled and are out of service.
+
+For alternative 3D visualization solutions, please feel free to reach out to us.
+
+      
+
+## Contact
 If you would like more information on CCV's visualization services, please contact [support@ccv.brown.edu](mailto:support@ccv.brown.edu).
