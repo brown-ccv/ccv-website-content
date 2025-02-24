@@ -24,6 +24,7 @@ tags:
 ---
 
 # Project Portal Completed
+by John Gerrard Holland
 
 After two full years of work on the **Project Portal** – websites which share local and national governments’ policy projects and help find collaborators – we’re today handing the project off to its new home.
 
