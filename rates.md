@@ -64,6 +64,15 @@ lead: We provide services with limited resources at no cost to all
         <td>$133</td>
       </tr>
       <tr>
+        <td>HPC Priority++</td>
+        <td>batch</td>
+        <td>832</td>
+        <td>3,000</td>
+        <td>2 Std.</td>
+        <td>96</td>
+        <td>$266</td>
+      </tr>
+      <tr>
         <td>Standard GPU Priority</td>
         <td>gpu</td>
         <td>24</td>
