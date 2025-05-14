@@ -67,7 +67,7 @@ lead: We provide services with limited resources at no cost to all
         <td>HPC Priority++</td>
         <td>batch</td>
         <td>832</td>
-        <td>3,000</td>
+        <td>6,000</td>
         <td>2 Std.</td>
         <td>96</td>
         <td>$266</td>
