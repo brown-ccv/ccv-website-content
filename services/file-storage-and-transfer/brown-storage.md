@@ -4,8 +4,9 @@ icon: database
 ---
 
 Several services at Brown allow you to share and store files. These different 
-storage services each have their own relative benefits and features. You can 
-explore the differences with our comparison tool using the link below.
+storage services each have their own relative benefits and features (Click on 
+'Arrow Bullets' for more information). You can explore the differences with 
+our comparison tool using the link below.
 
 <details>
     <summary>Campus File Storage Non-replicated / Research Services</summary>
