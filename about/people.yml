@@ -5,7 +5,7 @@ data:
     type: Full Time
     team: Leadership
     subteam: Computational Biology Core
-    title: Assistant Director of Computational Biology and Data Science
+    title: Associate Director of Computational Biology and Data Science
     github_username: ashokrags
     brown_directory_uuid: 60802d0b-8f18-499a-a1f3-5f9b24c390e4
     bio:
@@ -207,7 +207,12 @@ data:
     title: Senior Research Software Engineer
     github_username: ashleysyg
     brown_directory_uuid: 380094e2-6f9d-47cf-91ce-e636876a58cf
-    bio: Ashley is a data scientist and software engineer. She got her MS in Data Science from the University of Virginia, with an emphasis on statistical analysis, data visualization, and machine learning. She currently works on web development in Javascript frameworks at CCV. Her interests include brazilian jiu jitsu, pilates, and going to the beach.
+    bio: 
+      Ashley is a data scientist and software engineer. She studied at the 
+      University of Virginia Data Science Institute, with an emphasis on 
+      statistical analysis, data visualization, and machine learning. 
+      She also has experience with web development in Vue and React. 
+      Her personal interests include muay thai, running, reading, thrifting, and dogs.
     image: ashley_main.jpg
   - name: Bradford N. Roarr
     type: Full Time
