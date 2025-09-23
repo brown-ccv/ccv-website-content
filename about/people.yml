@@ -94,14 +94,6 @@ data:
     brown_directory_uuid: 857b928c-2ce1-fb2a-cde7-1a4ff21fa2d3
     bio: ""
     image: nate_main.jpg
-  - name: Jarrod Winsor
-    type: Full Time
-    team: CCV Operations
-    title: Lead Research Systems Administrator
-    github_username:
-    brown_directory_uuid: 1b81a653-ade8-4850-97ea-682644b714d0
-    bio: ""
-    image: jarrod_main.png
   - name: Timothy Poli
     type: Full Time
     team: CCV Operations
@@ -130,7 +122,7 @@ data:
     type: Full Time
     team: CCV Operations
     subteam: High-Performance Computing Systems
-    title: Senior Research Systems Administrator
+    title: Manager - Research Systems
     github_username: paulobaptista
     brown_directory_uuid: 6e74d82d-bce5-0512-4ba0-f91ff313675a
     bio: ""
