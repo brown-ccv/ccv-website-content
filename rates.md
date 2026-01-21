@@ -17,7 +17,6 @@ lead: We provide services with limited resources at no cost to all
 
 * Batch   - General Purpose Computing
 * GPU     - GPU Nodes
-* BigMem  - Large Memory Nodes
 
 
 
@@ -38,10 +37,10 @@ lead: We provide services with limited resources at no cost to all
     <tbody>
       <tr>
         <td width="25%"> Exploratory <br> <!-- Make it Single Line. -->
-        <td> <br> batch <br> gpu <br> bigmem</td>
-        <td> <br> 64 <br> 12 <br> 32 <br> </td>
-        <td> <br> 492 <br> 192 <br> 752 </td>
-        <td> <br> None <br> 2 Std. <br> None </td>
+        <td> <br> batch <br> gpu </td>
+        <td> <br> 64 <br> 12 </td>
+        <td> <br> 492 <br> 192 </td>
+        <td> <br> None <br> 2 Std. </td>
         <td> 48</td>
         <td> $0</td>
       </tr>
@@ -89,15 +88,6 @@ lead: We provide services with limited resources at no cost to all
         <td>4 high-end</td>
         <td>96</td>
         <td>$133</td>
-      </tr>
-      <tr>
-        <td>Large Memory Priority</td>
-        <td>bigmem</td>
-        <td>32</td>
-        <td>2TB</td>
-        <td>-</td>
-        <td>96</td>
-        <td>$33</td>
       </tr>
     </tbody>
   </table>
