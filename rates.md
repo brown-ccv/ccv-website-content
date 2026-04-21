@@ -142,7 +142,7 @@ lead: We provide services with limited resources at no cost to all
       <tr>
         <td>General Support</td>
         <td>Any staff services requiring more than 1 week's effort per year</td>
-        <td>$85/hour</td>
+        <td>To be discussed</td>
       </tr>
       <tr>
         <td>Project Collaboration</td>
