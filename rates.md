@@ -83,9 +83,18 @@ lead: We provide services with limited resources at no cost to all
       <tr>
         <td>High End GPU Priority</td>
         <td>gpu-he</td>
-        <td>24</td>
-        <td>256</td>
+        <td>56</td>
+        <td>784</td>
         <td>4 high-end</td>
+        <td>96</td>
+        <td>$133</td>
+      </tr>
+      <tr>
+        <td>High End GPU Priority+</td>
+        <td>gpu-he</td>
+        <td>112</td>
+        <td>1568</td>
+        <td>8 high-end</td>
         <td>96</td>
         <td>$133</td>
       </tr>
