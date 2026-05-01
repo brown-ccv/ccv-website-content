@@ -66,7 +66,7 @@ lead: We provide services with limited resources at no cost to all
         <td>Standard GPU Priority</td>
         <td>gpu</td>
         <td>36</td>
-        <td>192</td>
+        <td>288</td>
         <td>6 Std.</td>
         <td>96</td>
         <td>$67</td>
