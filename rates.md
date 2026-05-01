@@ -47,8 +47,8 @@ lead: We provide services with limited resources at no cost to all
       <tr>
         <td>HPC Priority</td>
         <td>batch</td>
-        <td>208</td>
-        <td>1,500</td>
+        <td>312</td>
+        <td>2,250</td>
         <td>2 Std.</td>
         <td>96</td>
         <td>$67</td>
@@ -56,8 +56,8 @@ lead: We provide services with limited resources at no cost to all
       <tr>
         <td>HPC Priority+</td>
         <td>batch</td>
-        <td>416</td>
-        <td>3,000</td>
+        <td>624</td>
+        <td>4,500</td>
         <td>2 Std.</td>
         <td>96</td>
         <td>$133</td>
@@ -65,36 +65,36 @@ lead: We provide services with limited resources at no cost to all
       <tr>
         <td>Standard GPU Priority</td>
         <td>gpu</td>
-        <td>24</td>
-        <td>192</td>
-        <td>4 Std.</td>
+        <td>36</td>
+        <td>288</td>
+        <td>6 Std.</td>
         <td>96</td>
         <td>$67</td>
       </tr>
       <tr>
         <td>Standard GPU Priority+</td>
         <td>gpu</td>
-        <td>48</td>
-        <td>384</td>
-        <td>8 Std.</td>
+        <td>72</td>
+        <td>576</td>
+        <td>12 Std.</td>
         <td>96</td>
         <td>$133</td>
       </tr>
       <tr>
         <td>High End GPU Priority</td>
         <td>gpu-he</td>
-        <td>56</td>
-        <td>784</td>
-        <td>4 high-end</td>
+        <td>84</td>
+        <td>1176</td>
+        <td>6 high-end</td>
         <td>96</td>
         <td>$133</td>
       </tr>
       <tr>
         <td>High End GPU Priority+</td>
         <td>gpu-he</td>
-        <td>112</td>
-        <td>1568</td>
-        <td>8 high-end</td>
+        <td>168</td>
+        <td>2352</td>
+        <td>12 high-end</td>
         <td>96</td>
         <td>$133</td>
       </tr>
