@@ -393,6 +393,15 @@ data:
       and Health Collective in the school of public health, where they developed
       software to study the spread of HIV through sexual and needle-sharing networks.
     image: sam_main.jpeg
+  - name: Thomas Gordon
+    type: Part Time
+    team: Advanced Research Computing
+    subteam: Sustainability and Performance
+    title: Research Assistant
+    github_username: metaterminal
+    brown_directory_uuid: 19a4d1b8-c529-4b23-b289-a630ca7e59e6
+    bio: Thomas studies Computer Engineering at Brown University. In his spare time he solves puzzles, writes fiction, and plans to take over the world.
+    image: thomasg_main.png
   - name: Gurpartap Singh
     type: Part Time
     team: Advanced Research Computing
